@@ -1,0 +1,10 @@
+
+http://anaer.github.io/archive.html
+http://anaer.github.io/atom.xml
+http://anaer.github.io/categories.html
+http://anaer.github.io/index.html
+http://anaer.github.io/pages.html
+http://anaer.github.io/sitemap.txt
+http://anaer.github.io/tags.html
+
+http://anaer.github.io/2014/08/01/cygwin-jekyll-bootstrap
