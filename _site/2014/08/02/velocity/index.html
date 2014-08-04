@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Velocity的使用及问题分析</title>
+    <meta name="description" content="">
+    <meta name="author" content="anaer">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="/assets/themes/twitter/js/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter/css/syntax.css" rel="stylesheet" type="text/css">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">My Blog :)</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Velocity的使用及问题分析 </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <h3>Velocity在Java中的使用</h3>
+
+<pre><code class="lua">// 初始化模板引擎
+ve = new VelocityEngine();
+
+// 设置配置信息 可以将配置信息写到配置文件中
+Properties properties = new Properties();
+String basePath = "src\\main\\resources\\velocity\\work";// 这里需要这样写路径！！！
+// 设置模板的路径
+properties.setProperty(Velocity.FILE_RESOURCE_LOADER_PATH, basePath);
+
+// 设置模板文件编码
+properties.setProperty(Velocity.INPUT_ENCODING, "utf-8");
+// 设置输出流编码
+properties.setProperty(Velocity.OUTPUT_ENCODING, "utf-8");
+
+// Log4j 插件可能会冲突， 详情 见velocity.wiki
+ve.setProperty(VelocityEngine.RUNTIME_LOG_LOGSYSTEM_CLASS, "org.apache.velocity.runtime.log.NullLogChute");
+// 初始化velocity 让配置生效
+ve.init(properties);
+
+//ve.init(System.getProperty("user.dir") + "\\src\\main\\resources\\" + "velocity.properties");
+</code></pre>
+
+<h3>Velocity模板文件定义*.vm</h3>
+
+<ol>
+<li>简单宏</li>
+</ol>
+
+
+<p>定义:</p>
+
+<pre><code>#macro( d )
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;tr&gt;
+#end
+</code></pre>
+
+<p>使用:</p>
+
+<pre><code>#d()
+</code></pre>
+
+<ol>
+<li>宏参数</li>
+</ol>
+
+
+<p>定义:</p>
+
+<pre><code>#macro( d $name)
+    &lt;tr&gt;&lt;td&gt;$name&lt;/td&gt;&lt;/tr&gt;
+#end
+</code></pre>
+
+<p>使用:</p>
+
+<pre><code>#d("name1")
+</code></pre>
+
+<h3>velocity遇到的问题及分析</h3>
+
+<p>使用情况：</p>
+
+<pre><code>    使用了webmvc框架，框架里集成了velocity模板引擎，但是在使用时没有配置velocity.properties日志配置文件。
+</code></pre>
+
+<p>现象：</p>
+
+<pre><code>    使用jenkins发布后应用一直不能正常启动（tomcat端口已经监听），具体错误信息如下：
+</code></pre>
+
+<p>错误信息：</p>
+
+<pre><code>    jenkins发布后的错误信息：
+
+    java.lang.NoClassDefFoundError: Could not initialize class 
+    xx.webmvc.views.Render
+    xx.webmvc.servlet.DispatcherServlet.process(DispatcherServlet.java:120)
+    xx.webmvc.servlet.FrameworkServlet.doGet(FrameworkServlet.java:68)
+    javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+    javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+
+
+    通过人工启动的错误信息：
+
+    java.io.FileNotFoundException: velocity.log (Permission denied)
+    java.io.FileOutputStream.openAppend(Native Method)
+    java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:177)
+    java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:102)
+    org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+    org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+    org.apache.log4j.FileAppender.&lt;init&gt;(FileAppender.java:110)
+    org.apache.log4j.RollingFileAppender.&lt;init&gt;(RollingFileAppender.java:79)
+    org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:118)
+    org.apache.velocity.runtime.log.Log4JLogChute.init(Log4JLogChute.java:85)
+    org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:157)
+    org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:269)
+    org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:871)
+    org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:262)
+    org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:646)
+    org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:116)
+    javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+    javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+</code></pre>
+
+<p>问题原因:</p>
+
+<pre><code>    velocity的日志框架导致（velocity是使用自己封装的日志框架记录日志的），velocity在初始化Logger时，如果没有读取到配置文件，则会使用默认的velocity.log做为文件输出路径，源代码里使用了 File file = new File("velocity.log") 代码片段,这样创建的文件目录是在启动jvm进程的用户目录下（也就是user.dir属性）。
+</code></pre>
+
+<p>解决办法：</p>
+
+<pre><code>    1、添加一个velocity.properties日志配置文件
+    2、修改velocity的代码，把日志转接到应用里使用的日志框架上来。
+    解决的方式是直接关闭Velocity日志。
+    3/在调用 Velocity.init(); 之前
+    设置：
+    Velocity.setProperty(VelocityEngine.RUNTIME_LOG_LOGSYSTEM_CLASS, "org.apache.velocity.runtime.log.NullLogChute");
+</code></pre>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/2014/08/02/linux-shell-find,xargs,exec" title="Linux Shell find,xargs,exec-查找技巧">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/2014/08/04/Eclipse" title="Eclipse配置优化">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'anaer'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>02 August 2014</span></div>
+
+  
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    
+    
+
+
+  
+     
+    	<li><a href="/tags.html#Java-ref">Java <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#Velocity-ref">Velocity <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; anaer 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+

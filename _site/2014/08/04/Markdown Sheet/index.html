@@ -3,8 +3,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>在Cygwin下配置 jekyll bootstrap</title>
-    <meta name="description" content="本站部署教程">
+    <title>Markdown语法速查表</title>
+    <meta name="description" content="">
     <meta name="author" content="anaer">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -96,103 +96,42 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>在Cygwin下配置 jekyll bootstrap </h1>
+  <h1>Markdown语法速查表 </h1>
 </div>
 
 <div class="row">
   <div class="span8">
-    <h3>Step by step 教你安装jekyll</h3>
+    <p>Markdown语法速查表</p>
 
-<hr />
-
-<h3>解决依赖</h3>
-
-<ul>
-<li>安装Cygwin, 并且下载apt-cyg工具</li>
-<li>安装Ruby
-      执行apt-cyg install Ruby安装Ruby，并且会自动添加到PATH目录下</li>
-<li><p>安装<a href="http://rubygems.org/pages/download">gem</a></p>
-
-<pre><code>  $ wget http://production.cf.rubygems.org/rubygems/rubygems-1.8.24.tgz
-  $ tar xf rubygems-1.8.24.tgz
-  $ cd rubygems-1.8.24
-  $ ruby setup.rb
-</code></pre></li>
-<li><p>安装jekyll以及一些而外依赖</p>
-
-<pre><code>  $ gem instal -V jekyll RedCloth rdiscount
-</code></pre></li>
-<li><p>修复jekyll 启动错误</p>
-
-<pre><code>  出现错误``invalid byte sequence in UTF-8 (ArgumentError)`` 
-  本机测试的情况是只要保证文件格式为Unix UTF-8即可
-</code></pre></li>
-</ul>
-
-
-<hr />
-
-<h3>配置blog</h3>
-
-<ul>
-<li><p>克隆<a href="https://github.com/plusjade/jekyll-bootstrap">jekyll-bootstrap</a>并开启测试</p>
-
-<pre><code>  $ git clone git://github.com/plusjade/jekyll-bootstrap.git ~/anaer.github.com
-  $ cd anaer.github.com
-  $ jekyll server
-  访问 http://127.0.0.1:4000/
-</code></pre></li>
-<li><p>修改配置文件<code>_config.yml</code> 大致如下:</p>
-
-<pre><code>  title : My Blog :)
-  tagline: Go...
-  author :
-      name : anaer
-      email : anaer@email.test
-      github : anaer
-  production_url : http://anaer.github.io
-</code></pre></li>
-<li><p>使用自己的域名, github默认提供的是二级域名(anaer.github.com)</p>
-
-<pre><code>  $ cd anaer.github.com
-  $ echo "hostname.com" &gt; CNAME
-</code></pre></li>
-<li><p>注册 <a href="http://disqus.com/">disqus</a> 帐号,然后再修改<code>_config.yml</code>:</p>
-
-<pre><code>    comments :
-      provider : disqus
-      disqus :
-        short_name : anaer
-</code></pre></li>
-</ul>
-
-
-<hr />
-
-<h3>参考过的文章</h3>
-
-<pre><code>0. http://xialuxing.com/2012/05/11/cygwin-jekyll-bootstrap/
-1. http://www.worldhello.net/2011/11/29/jekyll-based-blog-setup.html
-2. http://yishanhe.net/
-3. http://www.oschina.net/question/129471_37163
-4. http://wowubuntu.com/markdown/
-5. http://wiki.github.com/mojombo/jekyll/liquid-extensions
+<pre><code>标签                    说明  
+#                       标题,1到6个#表示1-6阶  
+= 或者 -                置于标题下一行,任意数量的=或者-都起作用,=为一级标题,-为二级标题  
+&gt;                       区块引用,在每一行前添加或者只在段落前添加.多个&gt;代表嵌套关系.  
+*或者+或者-             无序列表  
+1.                      有序列表,格式为数字+点+空格  
+四个空格或者一个tab     代码区块,保留原有的格式.  
+***或者---或者___       分割线,至少三个符号.  
+*包围字符               斜体  
+_包围字符               斜体  
+**包围字符              粗体  
+\                       使符号作为文本而不是标签来显示.  
+&lt;http://baidu.com&gt;      链接,尖括号里以http://或者ftp://为前缀的地址才会被识别.  
+[title](url.com)        链接,方括号内是显示的文字,括号内的是url地址,不需要前缀也能识别.  
+空行                    表示段落分割.  
+换行                    markdown文件的换行表示为一个空格.  
+行尾两个空格            表示端内换行  
+![]()                   图片,方括号内是替代文字,源括号内图片地址  
 </code></pre>
-
-<!--
- vim: expandtab tabstop=4 shiftwidth=4 softtabstop=4
--->
-
 
     <hr>
     <div class="pagination">
       <ul>
       
-        <li class="prev disabled"><a>&larr; Previous</a></li>
+        <li class="prev"><a href="/2014/08/04/Eclipse" title="Eclipse配置优化">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/2014/08/02/linux-shell-find,xargs,exec" title="Linux Shell find,xargs,exec-查找技巧">Next &rarr;</a></li>
+        <li class="next"><a href="/2014/08/04/jekyll" title="Jekyll部署问题处理">Next &rarr;</a></li>
       
       </ul>
     </div>
@@ -222,7 +161,7 @@
   
   <div class="span4">
     <h4>Published</h4>
-    <div class="date"><span>01 August 2014</span></div>
+    <div class="date"><span>04 August 2014</span></div>
 
   
     <h4>Tags</h4>
@@ -233,9 +172,9 @@
 
   
      
-    	<li><a href="/tags.html#Cygwin-ref">Cygwin <span>1</span></a></li>
+    	<li><a href="/tags.html#Github-ref">Github <span>2</span></a></li>
      
-    	<li><a href="/tags.html#jekyll bootstrap-ref">jekyll bootstrap <span>1</span></a></li>
+    	<li><a href="/tags.html#Markdown-ref">Markdown <span>1</span></a></li>
     
   
 
