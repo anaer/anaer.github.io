@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Jekyll部署问题处理</title>
+    <title>Mybatis调用Oracle的存储过程</title>
     <meta name="description" content="">
     <meta name="author" content="anaer">
 
@@ -96,38 +96,77 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>Jekyll部署问题处理 </h1>
+  <h1>Mybatis调用Oracle的存储过程 </h1>
 </div>
 
 <div class="row">
   <div class="span8">
-    <ol>
-<li></li>
-</ol>
+    <pre><code class="java">package com.dao;
 
+import java.util.HashMap;
 
-<p>Q: jekyll 2.2.0 | Error:  incompatible character encodings: UTF-8 and GBK</p>
+public interface CounterMapper {
+    void getSerialNo(HashMap&lt;String, Object&gt; map);
 
-<p>A: 设置编码</p>
+    String getOraDateStamp();
 
-<pre><code>    export LANG="en_US.UTF-8"
-    export LC_ALL="en_US.UTF-8"
+    String getCurDate();
+
+    String getCurrentSerialNo(Long counterNo);
+
+    void reSetSerialNo(HashMap&lt;String, Object&gt; map);
+}
 </code></pre>
 
-<ol>
-<li><p>Q: jekyll 2.2.0 | Error:  Included file '_includes/JB/setup' not found</p></li>
-</ol>
+<pre><code class="xml">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" &gt;
+&lt;mapper namespace="com.dao.CounterMapper" &gt;
+    &lt;parameterMap id="paramMap"  type="java.util.Map"&gt;
+       &lt;parameter property="result" javaType="java.lang.Long" jdbcType="NUMERIC" mode="OUT"/&gt;
+       &lt;parameter property="initDate" javaType="java.lang.Long" jdbcType="NUMERIC" mode="IN"/&gt;
+       &lt;parameter property="counterNo" javaType="java.lang.Long" jdbcType="NUMERIC" mode="IN"/&gt;
+       &lt;parameter property="serialNo" javaType="java.lang.String" jdbcType="VARCHAR" mode="OUT" /&gt;
+       &lt;parameter property="serialNumber" javaType="java.lang.Long" jdbcType="NUMERIC" mode="OUT"/&gt;
+       &lt;parameter property="errorNo" javaType="java.lang.Long" jdbcType="NUMERIC" mode="OUT"/&gt;
+       &lt;parameter property="errorInfo" javaType="java.lang.String" jdbcType="VARCHAR" mode="OUT"/&gt;
+       &lt;parameter property="errorId" javaType="java.lang.Long" jdbcType="NUMERIC" mode="OUT"/&gt;
+       &lt;parameter property="errorSysInfo" javaType="java.lang.String" jdbcType="VARCHAR" mode="OUT"/&gt;
+    &lt;/parameterMap&gt;
+    &lt;update  id="getSerialNo" parameterMap="paramMap" statementType="CALLABLE"  &gt;
+       {? = call f_sn_get(?,?,?,?,?,?,?,?) }
+    &lt;/update &gt; 
 
+    &lt;select id="getOraDateStamp" resultType="String"&gt;
+            select to_char(current_timestamp,'yyyy-mm-dd hh24:mi:ss.ff3') from dual
+    &lt;/select&gt;
+
+    &lt;select id="getCurDate" resultType="String"&gt;
+            select to_char(current_timestamp,'yyyymmdd') from dual
+    &lt;/select&gt;
+
+    &lt;select id="getCurrentSerialNo" resultType="String"&gt;
+        SELECT COUNTER_VALUE
+          FROM SN_COUNTER
+         WHERE COUNTER_NO = #counterNo#
+    &lt;/select&gt;
+
+    &lt;update id="reSetSerialNo" parameterMap="paramMap"&gt;
+        UPDATE SN_COUNTER
+           SET COUNTER_VALUE = 0
+         WHERE COUNTER_NO = #counterNo#
+    &lt;/update&gt;
+&lt;/mapper&gt;
+</code></pre>
 
     <hr>
     <div class="pagination">
       <ul>
       
-        <li class="prev"><a href="/2014/08/04/Markdown%20Sheet" title="Markdown语法速查表">&larr; Previous</a></li>
+        <li class="prev"><a href="/2014/08/04/jekyll" title="Jekyll部署问题处理">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/2014/08/05/Mybatis%20Call%20Oracle%20Procedure" title="Mybatis调用Oracle的存储过程">Next &rarr;</a></li>
+        <li class="next disabled"><a>Next &rarr;</a>
       
       </ul>
     </div>
@@ -157,7 +196,7 @@
   
   <div class="span4">
     <h4>Published</h4>
-    <div class="date"><span>04 August 2014</span></div>
+    <div class="date"><span>05 August 2014</span></div>
 
   
     <h4>Tags</h4>
@@ -168,9 +207,9 @@
 
   
      
-    	<li><a href="/tags.html#Github-ref">Github <span>2</span></a></li>
+    	<li><a href="/tags.html#Mybatis-ref">Mybatis <span>1</span></a></li>
      
-    	<li><a href="/tags.html#Jekyll-ref">Jekyll <span>1</span></a></li>
+    	<li><a href="/tags.html#Oracle-ref">Oracle <span>1</span></a></li>
     
   
 

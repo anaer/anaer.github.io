@@ -4,13 +4,77 @@
  <title>My Blog :)</title>
  <link href="http://anaer.github.io/atom.xml" rel="self"/>
  <link href="http://anaer.github.io"/>
- <updated>2014-08-04T11:12:40+08:00</updated>
+ <updated>2014-08-06T13:49:40+08:00</updated>
  <id>http://anaer.github.io</id>
  <author>
    <name>anaer</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Mybatis调用Oracle的存储过程</title>
+   <link href="http://anaer.github.io/2014/08/05/Mybatis%20Call%20Oracle%20Procedure"/>
+   <updated>2014-08-05T00:00:00+08:00</updated>
+   <id>http://anaer.github.io/2014/08/05/Mybatis Call Oracle Procedure</id>
+   <content type="html">&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;package com.dao;
+
+import java.util.HashMap;
+
+public interface CounterMapper {
+    void getSerialNo(HashMap&amp;lt;String, Object&amp;gt; map);
+
+    String getOraDateStamp();
+
+    String getCurDate();
+
+    String getCurrentSerialNo(Long counterNo);
+
+    void reSetSerialNo(HashMap&amp;lt;String, Object&amp;gt; map);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;xml&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&amp;gt;
+&amp;lt;!DOCTYPE mapper PUBLIC &quot;-//mybatis.org//DTD Mapper 3.0//EN&quot; &quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot; &amp;gt;
+&amp;lt;mapper namespace=&quot;com.dao.CounterMapper&quot; &amp;gt;
+    &amp;lt;parameterMap id=&quot;paramMap&quot;  type=&quot;java.util.Map&quot;&amp;gt;
+       &amp;lt;parameter property=&quot;result&quot; javaType=&quot;java.lang.Long&quot; jdbcType=&quot;NUMERIC&quot; mode=&quot;OUT&quot;/&amp;gt;
+       &amp;lt;parameter property=&quot;initDate&quot; javaType=&quot;java.lang.Long&quot; jdbcType=&quot;NUMERIC&quot; mode=&quot;IN&quot;/&amp;gt;
+       &amp;lt;parameter property=&quot;counterNo&quot; javaType=&quot;java.lang.Long&quot; jdbcType=&quot;NUMERIC&quot; mode=&quot;IN&quot;/&amp;gt;
+       &amp;lt;parameter property=&quot;serialNo&quot; javaType=&quot;java.lang.String&quot; jdbcType=&quot;VARCHAR&quot; mode=&quot;OUT&quot; /&amp;gt;
+       &amp;lt;parameter property=&quot;serialNumber&quot; javaType=&quot;java.lang.Long&quot; jdbcType=&quot;NUMERIC&quot; mode=&quot;OUT&quot;/&amp;gt;
+       &amp;lt;parameter property=&quot;errorNo&quot; javaType=&quot;java.lang.Long&quot; jdbcType=&quot;NUMERIC&quot; mode=&quot;OUT&quot;/&amp;gt;
+       &amp;lt;parameter property=&quot;errorInfo&quot; javaType=&quot;java.lang.String&quot; jdbcType=&quot;VARCHAR&quot; mode=&quot;OUT&quot;/&amp;gt;
+       &amp;lt;parameter property=&quot;errorId&quot; javaType=&quot;java.lang.Long&quot; jdbcType=&quot;NUMERIC&quot; mode=&quot;OUT&quot;/&amp;gt;
+       &amp;lt;parameter property=&quot;errorSysInfo&quot; javaType=&quot;java.lang.String&quot; jdbcType=&quot;VARCHAR&quot; mode=&quot;OUT&quot;/&amp;gt;
+    &amp;lt;/parameterMap&amp;gt;
+    &amp;lt;update  id=&quot;getSerialNo&quot; parameterMap=&quot;paramMap&quot; statementType=&quot;CALLABLE&quot;  &amp;gt;
+       {? = call f_sn_get(?,?,?,?,?,?,?,?) }
+    &amp;lt;/update &amp;gt; 
+
+    &amp;lt;select id=&quot;getOraDateStamp&quot; resultType=&quot;String&quot;&amp;gt;
+            select to_char(current_timestamp,'yyyy-mm-dd hh24:mi:ss.ff3') from dual
+    &amp;lt;/select&amp;gt;
+
+    &amp;lt;select id=&quot;getCurDate&quot; resultType=&quot;String&quot;&amp;gt;
+            select to_char(current_timestamp,'yyyymmdd') from dual
+    &amp;lt;/select&amp;gt;
+
+    &amp;lt;select id=&quot;getCurrentSerialNo&quot; resultType=&quot;String&quot;&amp;gt;
+        SELECT COUNTER_VALUE
+          FROM SN_COUNTER
+         WHERE COUNTER_NO = #counterNo#
+    &amp;lt;/select&amp;gt;
+
+    &amp;lt;update id=&quot;reSetSerialNo&quot; parameterMap=&quot;paramMap&quot;&amp;gt;
+        UPDATE SN_COUNTER
+           SET COUNTER_VALUE = 0
+         WHERE COUNTER_NO = #counterNo#
+    &amp;lt;/update&amp;gt;
+&amp;lt;/mapper&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Jekyll部署问题处理</title>
@@ -238,7 +302,7 @@ ctrl+shift+y   转为小写
    <id>http://anaer.github.io/2014/08/02/velocity</id>
    <content type="html">&lt;h3&gt;Velocity在Java中的使用&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code class=&quot;lua&quot;&gt;// 初始化模板引擎
+&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;// 初始化模板引擎
 ve = new VelocityEngine();
 
 // 设置配置信息 可以将配置信息写到配置文件中

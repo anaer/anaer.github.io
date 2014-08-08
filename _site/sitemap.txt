@@ -7,6 +7,7 @@ http://anaer.github.io/pages.html
 http://anaer.github.io/sitemap.txt
 http://anaer.github.io/tags.html
 
+http://anaer.github.io/2014/08/05/Mybatis%20Call%20Oracle%20Procedure
 http://anaer.github.io/2014/08/04/jekyll
 http://anaer.github.io/2014/08/04/Markdown%20Sheet
 http://anaer.github.io/2014/08/04/Eclipse
