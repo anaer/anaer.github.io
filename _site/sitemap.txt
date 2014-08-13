@@ -7,6 +7,8 @@ http://anaer.github.io/pages.html
 http://anaer.github.io/sitemap.txt
 http://anaer.github.io/tags.html
 
+http://anaer.github.io/2014/08/13/SpringAOPGetSession
+http://anaer.github.io/2014/08/13/CodeSninippets
 http://anaer.github.io/2014/08/11/MybatisDemo
 http://anaer.github.io/2014/08/08/Oracle
 http://anaer.github.io/2014/08/05/Mybatis

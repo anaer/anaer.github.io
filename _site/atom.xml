@@ -4,13 +4,135 @@
  <title>My Blog :)</title>
  <link href="http://anaer.github.io/atom.xml" rel="self"/>
  <link href="http://anaer.github.io"/>
- <updated>2014-08-12T09:51:56+08:00</updated>
+ <updated>2014-08-13T15:13:16+08:00</updated>
  <id>http://anaer.github.io</id>
  <author>
    <name>anaer</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>spring AOP取得session </title>
+   <link href="http://anaer.github.io/2014/08/13/SpringAOPGetSession"/>
+   <updated>2014-08-13T00:00:00+08:00</updated>
+   <id>http://anaer.github.io/2014/08/13/SpringAOPGetSession</id>
+   <content type="html">&lt;p&gt;由于Spring 的AOP面向切面编程，与Servlet容器没有任何关联，所以想要获得Session会话比较麻烦。
+当然Struts2同样不依赖Servlet容器，可以在Spring AOP中可以使用com.opensymphony.xwork2.ActionContext，就可以获得Session。
+但是在Servlet中或struts1中，可以通过ThreadLocal方式将session保存，Spring AOP中获得Session对象。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;//这个是保存request和session的类
+public class SysContent {
+    private static ThreadLocal&amp;lt;HttpServletRequest&amp;gt; requestLocal = new ThreadLocal&amp;lt;!-- &amp;lt;HttpServletRequest&amp;gt; --&amp;gt;();
+    private static ThreadLocal&amp;lt;!-- &amp;lt;HttpServletResponse&amp;gt; --&amp;gt; responseLocal = new ThreadLocal&amp;lt;!-- &amp;lt;HttpServletResponse&amp;gt; --&amp;gt;();
+
+    public static HttpServletRequest getRequest() {
+        return (HttpServletRequest) requestLocal.get();
+    }
+
+    public static void setRequest(HttpServletRequest request) {
+        requestLocal.set(request);
+    }
+
+    public static HttpServletResponse getResponse() {
+        return (HttpServletResponse) responseLocal.get();
+    }
+
+    public static void setResponse(HttpServletResponse response) {
+        responseLocal.set(response);
+    }
+
+    public static HttpSession getSession() {
+        return (HttpSession) ((HttpServletRequest) requestLocal.get())
+                .getSession();
+    }
+}
+
+//这个是配置的过滤器
+public class GetContent implements Filter {
+    @Override
+    public void destroy() {
+        // TODO Auto-generated method stub
+    }
+
+    @Override
+    public void doFilter(ServletRequest arg0, ServletResponse arg1,
+            FilterChain arg2) throws IOException, ServletException {
+        SysContent.setRequest((HttpServletRequest) arg0);
+        SysContent.setResponse((HttpServletResponse) arg1);
+        arg2.doFilter(arg0, arg1);
+    }
+
+    @Override
+    public void init(FilterConfig arg0) throws ServletException {
+        // TODO Auto-generated method stub
+    }
+}
+
+//使用AOP进行环绕通知切入所有com.aptech.service包下的所有类的方法
+@Aspect
+public Class AopTest{
+    @Around(value=&quot;execution(* com.aptech.service.*.*(..))&quot;)
+    public void aroundTest(ProceedingJoinPoint pj) throws Exception {  
+        HttpServletRequest request = SysContent.getRequest();  
+        HttpServletResponse response = SysContent.getResponse();  
+        HttpSession session = SysContent.getSession();  
+        //其他操作
+        if(true){
+            pj.proceed();
+        }
+        throw new Exception(&quot;您没有该权限&quot;);
+    } 
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;xml&quot;&gt;    &amp;lt;!-- web.xml --&amp;gt;
+    &amp;lt;filter&amp;gt;
+        &amp;lt;filter-name&amp;gt;GetContent&amp;lt;/filter-name&amp;gt;
+        &amp;lt;filter-class&amp;gt;com.xxx.GetContent&amp;lt;/filter-class&amp;gt;
+    &amp;lt;/filter&amp;gt;
+    &amp;lt;filter-mapping&amp;gt;
+        &amp;lt;filter-name&amp;gt;GetContent&amp;lt;/filter-name&amp;gt;
+        &amp;lt;url-pattern&amp;gt;/*&amp;lt;/url-pattern&amp;gt;
+    &amp;lt;/filter-mapping&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>代码片断</title>
+   <link href="http://anaer.github.io/2014/08/13/CodeSninippets"/>
+   <updated>2014-08-13T00:00:00+08:00</updated>
+   <id>http://anaer.github.io/2014/08/13/CodeSninippets</id>
+   <content type="html">&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;        Method m = invocation.getMethod();
+        Service meta = m.getAnnotation(Service.class);
+        if (meta != null) {
+                System.out.println(&quot;功能号:&quot; + meta.functionId());
+        }
+
+        //获取被调用方法所属的对象
+        Object target = invocation.getThis();
+        //获取被调用方法的参数
+        Object[] args = invocation.getArguments();
+
+        System.out.println(&quot;所执行的方法: &quot; + m.getName());
+        System.out.println(&quot;对象的类型: &quot; + target.getClass().getName());
+
+        System.out.println(&quot;方法的参数:&quot;);
+        for (Object arg : args) {
+        System.out.print(&quot;    &amp;gt; &quot; + arg);
+        }
+        System.out.print(&quot;\n&quot;);
+
+        //  Object[] args = invocation.getArguments();
+        if (args == null || args.length == 0) { // 如果输出参数为null，则放过去
+        return procService(invocation);
+        }
+        Object request = args[0];
+        System.out.println(&quot;111111111111111111111111111111111111111111111111&quot; + request);
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Mybatis Demo</title>
@@ -315,13 +437,13 @@ ps. 一般结合2,3两种方式
   答: Window -- Preferences -- Tomcat-- Source Path 然后选择当前运行的项目就可以&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Q: Eclipse 取消Javascript校验 (测试可用)
 A:
-  Right click your project  (右单击工程属性)
-  Select Properties -&gt; JavaScript -&gt; Include(选择JavaScript下的include菜单)
-  Select Source tab (It looks similar to the Java Build Path Source tab)(选择SOURCE标签)
-  Expand source folder(展开菜单)
-  Highlight Excluded pattern(选择Excluded)
-  Click Edit button(点击edit按钮)
-  Click Add button next to Exclusion patterns box.在新对话框中点击add按钮
+  Right click your project  (右单击工程属性)&lt;br/&gt;
+  Select Properties -&gt; JavaScript -&gt; Include(选择JavaScript下的include菜单)&lt;br/&gt;
+  Select Source tab (It looks similar to the Java Build Path Source tab)(选择SOURCE标签)&lt;br/&gt;
+  Expand source folder(展开菜单)&lt;br/&gt;
+  Highlight Excluded pattern(选择Excluded)&lt;br/&gt;
+  Click Edit button(点击edit按钮)&lt;br/&gt;
+  Click Add button next to Exclusion patterns box.在新对话框中点击add按钮&lt;br/&gt;
   Click Browse button and select the JavaScript source by name.(找到需要排除的javascript文件)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

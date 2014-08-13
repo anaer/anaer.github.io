@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Mybatis Demo</title>
+    <title>代码片断</title>
     <meta name="description" content="">
     <meta name="author" content="anaer">
 
@@ -96,52 +96,48 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>Mybatis Demo </h1>
+  <h1>代码片断 </h1>
 </div>
 
 <div class="row">
   <div class="span8">
-    <h3>Mybatis 中特殊字符的处理</h3>
+    <pre><code class="java">        Method m = invocation.getMethod();
+        Service meta = m.getAnnotation(Service.class);
+        if (meta != null) {
+                System.out.println("功能号:" + meta.functionId());
+        }
 
-<ul>
-<li>使用转义实体
-<code>
-下面是五个在XML 文档中预定义好的转义实体:
-&amp;lt; 􀃆 &lt; 小于号
-&amp;gt; 􀃆 &gt; 大于号
-&amp;amp; 􀃆 &amp; 和
-&amp;apos; 􀃆 ' 单引号
-&amp;quot; 􀃆 " 双引号
-如果是小于等于“&lt;=”，其转义实体为：&amp;lt;=
-同理，大小等于“&gt;=”，其转义实体为：&amp;gt;=
-</code></li>
-<li>使用CDATA 部件
-<code>
-一个CDATA 部件以"&lt;![CDATA[" 标记开始，以"]]&gt;"标记结束。在"&lt;![CDATA["和"]]&gt;"之间
-的特殊字符的意义都不起作用，而转变为普通字符串内容。
-</code></li>
-</ul>
+        //获取被调用方法所属的对象
+        Object target = invocation.getThis();
+        //获取被调用方法的参数
+        Object[] args = invocation.getArguments();
 
+        System.out.println("所执行的方法: " + m.getName());
+        System.out.println("对象的类型: " + target.getClass().getName());
 
-<h3>错误解决</h3>
+        System.out.println("方法的参数:");
+        for (Object arg : args) {
+        System.out.print("    &gt; " + arg);
+        }
+        System.out.print("\n");
 
-<ol>
-<li><p>Q:The processing instruction must begin with the name of the target. <br/>
-A: 错误原因&lt;? xml version="1.0" encoding="UTF-8" ?>这里面有空格</p></li>
-<li><p>Q:Cannot find class: org.apache.derby.jdbc.EmbeddedDriver<br/>
-A: 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib</p></li>
-</ol>
-
+        //  Object[] args = invocation.getArguments();
+        if (args == null || args.length == 0) { // 如果输出参数为null，则放过去
+        return procService(invocation);
+        }
+        Object request = args[0];
+        System.out.println("111111111111111111111111111111111111111111111111" + request);
+</code></pre>
 
     <hr>
     <div class="pagination">
       <ul>
       
-        <li class="prev"><a href="/2014/08/08/Oracle" title="Oracle错误处理">&larr; Previous</a></li>
+        <li class="prev"><a href="/2014/08/11/MybatisDemo" title="Mybatis Demo">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/2014/08/13/CodeSninippets" title="代码片断">Next &rarr;</a></li>
+        <li class="next"><a href="/2014/08/13/SpringAOPGetSession" title="spring AOP取得session ">Next &rarr;</a></li>
       
       </ul>
     </div>
@@ -171,7 +167,7 @@ A: 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib</p></li>
   
   <div class="span4">
     <h4>Published</h4>
-    <div class="date"><span>11 August 2014</span></div>
+    <div class="date"><span>13 August 2014</span></div>
 
   
     <h4>Tags</h4>
@@ -182,9 +178,7 @@ A: 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib</p></li>
 
   
      
-    	<li><a href="/tags.html#Mybatis-ref">Mybatis <span>2</span></a></li>
-     
-    	<li><a href="/tags.html#Derby-ref">Derby <span>1</span></a></li>
+    	<li><a href="/tags.html#Java-ref">Java <span>4</span></a></li>
     
   
 

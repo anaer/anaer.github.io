@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Mybatis Demo</title>
+    <title>spring AOP取得session </title>
     <meta name="description" content="">
     <meta name="author" content="anaer">
 
@@ -96,52 +96,100 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>Mybatis Demo </h1>
+  <h1>spring AOP取得session  </h1>
 </div>
 
 <div class="row">
   <div class="span8">
-    <h3>Mybatis 中特殊字符的处理</h3>
+    <p>由于Spring 的AOP面向切面编程，与Servlet容器没有任何关联，所以想要获得Session会话比较麻烦。
+当然Struts2同样不依赖Servlet容器，可以在Spring AOP中可以使用com.opensymphony.xwork2.ActionContext，就可以获得Session。
+但是在Servlet中或struts1中，可以通过ThreadLocal方式将session保存，Spring AOP中获得Session对象。</p>
 
-<ul>
-<li>使用转义实体
-<code>
-下面是五个在XML 文档中预定义好的转义实体:
-&amp;lt; 􀃆 &lt; 小于号
-&amp;gt; 􀃆 &gt; 大于号
-&amp;amp; 􀃆 &amp; 和
-&amp;apos; 􀃆 ' 单引号
-&amp;quot; 􀃆 " 双引号
-如果是小于等于“&lt;=”，其转义实体为：&amp;lt;=
-同理，大小等于“&gt;=”，其转义实体为：&amp;gt;=
-</code></li>
-<li>使用CDATA 部件
-<code>
-一个CDATA 部件以"&lt;![CDATA[" 标记开始，以"]]&gt;"标记结束。在"&lt;![CDATA["和"]]&gt;"之间
-的特殊字符的意义都不起作用，而转变为普通字符串内容。
-</code></li>
-</ul>
+<pre><code class="java">//这个是保存request和session的类
+public class SysContent {
+    private static ThreadLocal&lt;HttpServletRequest&gt; requestLocal = new ThreadLocal&lt;!-- &lt;HttpServletRequest&gt; --&gt;();
+    private static ThreadLocal&lt;!-- &lt;HttpServletResponse&gt; --&gt; responseLocal = new ThreadLocal&lt;!-- &lt;HttpServletResponse&gt; --&gt;();
 
+    public static HttpServletRequest getRequest() {
+        return (HttpServletRequest) requestLocal.get();
+    }
 
-<h3>错误解决</h3>
+    public static void setRequest(HttpServletRequest request) {
+        requestLocal.set(request);
+    }
 
-<ol>
-<li><p>Q:The processing instruction must begin with the name of the target. <br/>
-A: 错误原因&lt;? xml version="1.0" encoding="UTF-8" ?>这里面有空格</p></li>
-<li><p>Q:Cannot find class: org.apache.derby.jdbc.EmbeddedDriver<br/>
-A: 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib</p></li>
-</ol>
+    public static HttpServletResponse getResponse() {
+        return (HttpServletResponse) responseLocal.get();
+    }
 
+    public static void setResponse(HttpServletResponse response) {
+        responseLocal.set(response);
+    }
+
+    public static HttpSession getSession() {
+        return (HttpSession) ((HttpServletRequest) requestLocal.get())
+                .getSession();
+    }
+}
+
+//这个是配置的过滤器
+public class GetContent implements Filter {
+    @Override
+    public void destroy() {
+        // TODO Auto-generated method stub
+    }
+
+    @Override
+    public void doFilter(ServletRequest arg0, ServletResponse arg1,
+            FilterChain arg2) throws IOException, ServletException {
+        SysContent.setRequest((HttpServletRequest) arg0);
+        SysContent.setResponse((HttpServletResponse) arg1);
+        arg2.doFilter(arg0, arg1);
+    }
+
+    @Override
+    public void init(FilterConfig arg0) throws ServletException {
+        // TODO Auto-generated method stub
+    }
+}
+
+//使用AOP进行环绕通知切入所有com.aptech.service包下的所有类的方法
+@Aspect
+public Class AopTest{
+    @Around(value="execution(* com.aptech.service.*.*(..))")
+    public void aroundTest(ProceedingJoinPoint pj) throws Exception {  
+        HttpServletRequest request = SysContent.getRequest();  
+        HttpServletResponse response = SysContent.getResponse();  
+        HttpSession session = SysContent.getSession();  
+        //其他操作
+        if(true){
+            pj.proceed();
+        }
+        throw new Exception("您没有该权限");
+    } 
+}
+</code></pre>
+
+<pre><code class="xml">    &lt;!-- web.xml --&gt;
+    &lt;filter&gt;
+        &lt;filter-name&gt;GetContent&lt;/filter-name&gt;
+        &lt;filter-class&gt;com.xxx.GetContent&lt;/filter-class&gt;
+    &lt;/filter&gt;
+    &lt;filter-mapping&gt;
+        &lt;filter-name&gt;GetContent&lt;/filter-name&gt;
+        &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+    &lt;/filter-mapping&gt;
+</code></pre>
 
     <hr>
     <div class="pagination">
       <ul>
       
-        <li class="prev"><a href="/2014/08/08/Oracle" title="Oracle错误处理">&larr; Previous</a></li>
+        <li class="prev"><a href="/2014/08/13/CodeSninippets" title="代码片断">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/2014/08/13/CodeSninippets" title="代码片断">Next &rarr;</a></li>
+        <li class="next disabled"><a>Next &rarr;</a>
       
       </ul>
     </div>
@@ -171,7 +219,7 @@ A: 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib</p></li>
   
   <div class="span4">
     <h4>Published</h4>
-    <div class="date"><span>11 August 2014</span></div>
+    <div class="date"><span>13 August 2014</span></div>
 
   
     <h4>Tags</h4>
@@ -182,9 +230,9 @@ A: 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib</p></li>
 
   
      
-    	<li><a href="/tags.html#Mybatis-ref">Mybatis <span>2</span></a></li>
+    	<li><a href="/tags.html#Java-ref">Java <span>4</span></a></li>
      
-    	<li><a href="/tags.html#Derby-ref">Derby <span>1</span></a></li>
+    	<li><a href="/tags.html#Spring-ref">Spring <span>1</span></a></li>
     
   
 
