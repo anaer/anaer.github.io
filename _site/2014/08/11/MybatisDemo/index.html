@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Mybatis调用Oracle的存储过程</title>
+    <title>Mybatis Demo</title>
     <meta name="description" content="">
     <meta name="author" content="anaer">
 
@@ -96,73 +96,48 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>Mybatis调用Oracle的存储过程 </h1>
+  <h1>Mybatis Demo </h1>
 </div>
 
 <div class="row">
   <div class="span8">
-    <pre><code class="java">package com.dao;
+    <h3>Mybatis 中特殊字符的处理</h3>
 
-import java.util.HashMap;
+<ul>
+<li>使用转义实体
+<code>
+下面是五个在XML 文档中预定义好的转义实体:
+&amp;lt; 􀃆 &lt; 小于号
+&amp;gt; 􀃆 &gt; 大于号
+&amp;amp; 􀃆 &amp; 和
+&amp;apos; 􀃆 ' 单引号
+&amp;quot; 􀃆 " 双引号
+如果是小于等于“&lt;=”，其转义实体为：&amp;lt;=
+同理，大小等于“&gt;=”，其转义实体为：&amp;gt;=
+</code></li>
+<li>使用CDATA 部件
+<code>
+一个CDATA 部件以"&lt;![CDATA[" 标记开始，以"]]&gt;"标记结束。在"&lt;![CDATA["和"]]&gt;"之间
+的特殊字符的意义都不起作用，而转变为普通字符串内容。
+</code></li>
+</ul>
 
-public interface CounterMapper {
-    void getSerialNo(HashMap&lt;String, Object&gt; map);
 
-    String getOraDateStamp();
+<h3>错误解决</h3>
 
-    String getCurDate();
+<ol>
+<li><p>Q:The processing instruction must begin with the name of the target. <br/>
+A: 错误原因&lt;? xml version="1.0" encoding="UTF-8" ?>这里面有空格</p></li>
+<li><p>Q:Cannot find class: org.apache.derby.jdbc.EmbeddedDriver<br/>
+A: 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib</p></li>
+</ol>
 
-    String getCurrentSerialNo(Long counterNo);
-
-    void reSetSerialNo(HashMap&lt;String, Object&gt; map);
-}
-</code></pre>
-
-<pre><code class="xml">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
-&lt;!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" &gt;
-&lt;mapper namespace="com.dao.CounterMapper" &gt;
-    &lt;parameterMap id="paramMap"  type="java.util.Map"&gt;
-       &lt;parameter property="result" javaType="java.lang.Long" jdbcType="NUMERIC" mode="OUT"/&gt;
-       &lt;parameter property="initDate" javaType="java.lang.Long" jdbcType="NUMERIC" mode="IN"/&gt;
-       &lt;parameter property="counterNo" javaType="java.lang.Long" jdbcType="NUMERIC" mode="IN"/&gt;
-       &lt;parameter property="serialNo" javaType="java.lang.String" jdbcType="VARCHAR" mode="OUT" /&gt;
-       &lt;parameter property="serialNumber" javaType="java.lang.Long" jdbcType="NUMERIC" mode="OUT"/&gt;
-       &lt;parameter property="errorNo" javaType="java.lang.Long" jdbcType="NUMERIC" mode="OUT"/&gt;
-       &lt;parameter property="errorInfo" javaType="java.lang.String" jdbcType="VARCHAR" mode="OUT"/&gt;
-       &lt;parameter property="errorId" javaType="java.lang.Long" jdbcType="NUMERIC" mode="OUT"/&gt;
-       &lt;parameter property="errorSysInfo" javaType="java.lang.String" jdbcType="VARCHAR" mode="OUT"/&gt;
-    &lt;/parameterMap&gt;
-    &lt;update  id="getSerialNo" parameterMap="paramMap" statementType="CALLABLE"  &gt;
-       {? = call f_sn_get(?,?,?,?,?,?,?,?) }
-    &lt;/update &gt; 
-
-    &lt;select id="getOraDateStamp" resultType="String"&gt;
-            select to_char(current_timestamp,'yyyy-mm-dd hh24:mi:ss.ff3') from dual
-    &lt;/select&gt;
-
-    &lt;select id="getCurDate" resultType="String"&gt;
-            select to_char(current_timestamp,'yyyymmdd') from dual
-    &lt;/select&gt;
-
-    &lt;select id="getCurrentSerialNo" resultType="String"&gt;
-        SELECT COUNTER_VALUE
-          FROM SN_COUNTER
-         WHERE COUNTER_NO = #counterNo#
-    &lt;/select&gt;
-
-    &lt;update id="reSetSerialNo" parameterMap="paramMap"&gt;
-        UPDATE SN_COUNTER
-           SET COUNTER_VALUE = 0
-         WHERE COUNTER_NO = #counterNo#
-    &lt;/update&gt;
-&lt;/mapper&gt;
-</code></pre>
 
     <hr>
     <div class="pagination">
       <ul>
       
-        <li class="prev"><a href="/2014/08/04/jekyll" title="Jekyll部署问题处理">&larr; Previous</a></li>
+        <li class="prev"><a href="/2014/08/08/Oracle" title="Oracle错误处理">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
@@ -196,7 +171,7 @@ public interface CounterMapper {
   
   <div class="span4">
     <h4>Published</h4>
-    <div class="date"><span>05 August 2014</span></div>
+    <div class="date"><span>11 August 2014</span></div>
 
   
     <h4>Tags</h4>
@@ -207,9 +182,9 @@ public interface CounterMapper {
 
   
      
-    	<li><a href="/tags.html#Mybatis-ref">Mybatis <span>1</span></a></li>
+    	<li><a href="/tags.html#Mybatis-ref">Mybatis <span>2</span></a></li>
      
-    	<li><a href="/tags.html#Oracle-ref">Oracle <span>1</span></a></li>
+    	<li><a href="/tags.html#Derby-ref">Derby <span>1</span></a></li>
     
   
 
