@@ -6,7 +6,13 @@ category: Java
 tags: [Java]
 ---
 
-{% highlight java linenos %}
+{% highlight xml %}
+mvn install:install-file -DgroupId=com.autonavi -DartifactId=libamapv3 -Dversion=v3 -Dfile=/Users/keepcleargas/Downloads/AMapSDKV2Demo/libs/armeabi/libamapv3.so -Dpackaging=so -DgeneratePom=true -Dclassifier=armeabi
+
+mvn install:install-file -DgroupId=com.autonavi -DartifactId=location -Dversion=2.0.0 -Dfile=/Users/keepcleargas/Downloads/AMapSDKV2Demo/libs/MapApiLocation.jar -Dpackaging=jar -DgeneratePom=true
+{% endhighlight %}
+
+``` java
 	    Method m = invocation.getMethod();
 	    Service meta = m.getAnnotation(Service.class);
 	    if (meta != null) {
@@ -33,4 +39,4 @@ tags: [Java]
 	    }
 	    Object request = args[0];
 	    System.out.println("111111111111111111111111111111111111111111111111" + request);
-{% endhighlight %}
+```
