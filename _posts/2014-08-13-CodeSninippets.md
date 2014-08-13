@@ -6,7 +6,7 @@ category: Java
 tags: [Java]
 ---
 
-``` java
+{% highlight java linenos %}
 	    Method m = invocation.getMethod();
 	    Service meta = m.getAnnotation(Service.class);
 	    if (meta != null) {
@@ -33,4 +33,4 @@ tags: [Java]
 	    }
 	    Object request = args[0];
 	    System.out.println("111111111111111111111111111111111111111111111111" + request);
-```
+{% endhighlight %}
