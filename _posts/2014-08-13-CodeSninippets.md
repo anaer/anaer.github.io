@@ -6,7 +6,7 @@ category: Java
 tags: [Java]
 ---
 
-{% highlight java %}
+{% highlight java linenos %}
 public class HelloWorld {
     public static void main(String args[]) {
       System.out.println("Hello World!");
@@ -14,7 +14,7 @@ public class HelloWorld {
 }
 {% endhighlight %}
 
-```java
+{% highlight java linenos %}
 	    Method m = invocation.getMethod();
 	    Service meta = m.getAnnotation(Service.class);
 	    if (meta != null) {
@@ -41,4 +41,4 @@ public class HelloWorld {
 	    }
 	    Object request = args[0];
 	    System.out.println("111111111111111111111111111111111111111111111111" + request);
-```
+{% endhighlight %}
