@@ -6,13 +6,15 @@ category: Java
 tags: [Java]
 ---
 
-{% highlight xml %}
-mvn install:install-file -DgroupId=com.autonavi -DartifactId=libamapv3 -Dversion=v3 -Dfile=/Users/keepcleargas/Downloads/AMapSDKV2Demo/libs/armeabi/libamapv3.so -Dpackaging=so -DgeneratePom=true -Dclassifier=armeabi
-
-mvn install:install-file -DgroupId=com.autonavi -DartifactId=location -Dversion=2.0.0 -Dfile=/Users/keepcleargas/Downloads/AMapSDKV2Demo/libs/MapApiLocation.jar -Dpackaging=jar -DgeneratePom=true
+{% highlight java %}
+public class HelloWorld {
+    public static void main(String args[]) {
+      System.out.println("Hello World!");
+    }
+}
 {% endhighlight %}
 
-``` java
+```java
 	    Method m = invocation.getMethod();
 	    Service meta = m.getAnnotation(Service.class);
 	    if (meta != null) {
