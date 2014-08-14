@@ -72,7 +72,7 @@ public Class AopTest{
         	pj.proceed();
         }
         throw new Exception("您没有该权限");
-    } 
+    }
 }
 
 ```
