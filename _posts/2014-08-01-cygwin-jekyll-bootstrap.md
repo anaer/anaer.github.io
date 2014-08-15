@@ -123,3 +123,4 @@ tags: [Cygwin, jekyll bootstrap]
     4. http://wowubuntu.com/markdown/
     5. http://wiki.github.com/mojombo/jekyll/liquid-extensions
     6. https://zyzhang.github.io/blog/2012/08/31/highlight-with-Jekyll-and-Pygments/
+    7. [官方文档](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
