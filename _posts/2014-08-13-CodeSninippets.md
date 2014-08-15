@@ -6,15 +6,15 @@ category: Java
 tags: [Java]
 ---
 
-{% highlight java linenos %}
+``` java
 	public class HelloWorld {
 		public static void main(String args[]) {
 		  System.out.println("Hello World!");
 		}
 	}
-{% endhighlight %}
+```
 
-{% highlight java %}
+``` java
 	Method m = invocation.getMethod();
 	Service meta = m.getAnnotation(Service.class);
 	if (meta != null) {
@@ -25,29 +25,29 @@ tags: [Java]
 	Object target = invocation.getThis();
 	//获取被调用方法的参数
 	Object[] args = invocation.getArguments();
-	
+
 	System.out.println("所执行的方法: " + m.getName());
 	System.out.println("对象的类型: " + target.getClass().getName());
-	
+
 	System.out.println("方法的参数:");
 	for (Object arg : args) {
 	System.out.print("    > " + arg);
 	}
 	System.out.print("\n");
-	
+
 	//	Object[] args = invocation.getArguments();
 	if (args == null || args.length == 0) { // 如果输出参数为null，则放过去
 	return procService(invocation);
 	}
 	Object request = args[0];
-	System.out.println("111111111111111111111111111111111111111111111111" + request);
-{% endhighlight %}
+	System.out.println( request);
+```
 
-{% highlight java %}
+``` java
 	//implements MethodInterceptor, InitializingBean
 	//public Object invoke(MethodInvocation invocation)
 	Object[] args = invocation.getArguments();
 	if (args == null || args.length == 0) { // 如果输出参数为null，则放过去
 	    return procService(invocation);
 	}
-{% endhighlight %}
+```
