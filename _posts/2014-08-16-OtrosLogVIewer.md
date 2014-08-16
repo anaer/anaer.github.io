@@ -19,4 +19,5 @@ tags: [Java, Log]
   可以自定义日志模式文件  
 
 ### 参考
-  * 推荐一个查看日志文件的工具OtrosLogVIewer: http://blog.sina.com.cn/s/blog_53b3dc830101a62t.html
+  * 推荐一个查看日志文件的工具OtrosLogVIewer:  
+    http://blog.sina.com.cn/s/blog_53b3dc830101a62t.html
