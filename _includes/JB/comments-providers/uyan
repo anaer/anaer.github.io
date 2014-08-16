@@ -1,4 +1,10 @@
-<!-- UY BEGIN -->
 <div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1958077"></script>
-<!-- UY END -->
+<script type="text/javascript">
+    var uyan_uid = '{{ site.JB.comments.uyan.uid }}';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var uyan = document.createElement('script'); uyan.type = 'text/javascript'; uyan.async = true;
+        uyan.src = 'http://v2.uyan.cc/code/uyan.js?uid='+uyan_uid;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(uyan);
+    })();
+</script>

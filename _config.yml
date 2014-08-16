@@ -79,6 +79,8 @@ JB :
   #
   comments :
     provider : uyan
+    uyan:
+      uid : 1958077
     disqus :
       short_name : anaer
     livefyre :
