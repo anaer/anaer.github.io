@@ -1,10 +1,10 @@
 <div class="page-header">
   <h1>{{ page.title }} </h1>
   <hr/>
-  <h4>发布: {{ page.date | date:"%Y-%m-%d" }}</h4>
+  <h4>Published: {{ page.date | date:"%Y-%m-%d" }}</h4>
 {% unless page.tags == empty %}
   <ul class="tag_box inline">
-  <li>标签: </li>
+  <li>Tags: </li>
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
