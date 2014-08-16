@@ -92,36 +92,37 @@ tags: [Cygwin, jekyll bootstrap]
     }
     {% endhighlight %}
     ```
+### Rake工具  
+  ```  
+  $ rake post title="Hello World"
+  Creating new post: ./_posts/2014-08-15-hello-world.md
+
+  $ rake page name="about.md"
+  mkdir -p .
+  Creating new page: ./about.md
+
+  $ rake page name="pages/about.md"
+  mkdir -p ./pages
+  Creating new page: ./pages/about.md
+
+  $ rake page name="pages/about"
+  mkdir -p ./pages/about
+  Creating new page: ./pages/about/index.html
+  ```
+  ```
+  // 切换主题
+  rake theme:switch name="twitter"
+  ```
+
+    默认post扩展名为textile, 可以编辑Rakefile文件修改post_ext为md
 ---
-###
-
-``` sh
-    $ rake post title="Hello World"
-      Creating new post: ./_posts/2014-08-15-hello-world.md
-
-    $ rake page name="about.md"
-      mkdir -p .
-      Creating new page: ./about.md
-
-    $ rake page name="pages/about.md"
-      mkdir -p ./pages
-      Creating new page: ./pages/about.md
-
-    $ rake page name="pages/about"
-      mkdir -p ./pages/about
-      Creating new page: ./pages/about/index.html
-```
-
-  默认post扩展名为textile, 可以编辑Rakefile文件修改post_ext为md
-
-### 参考过的文章
-
-    0. http://xialuxing.com/2012/05/11/cygwin-jekyll-bootstrap/
-    1. http://www.worldhello.net/2011/11/29/jekyll-based-blog-setup.html
-    2. http://yishanhe.net/
-    3. http://www.oschina.net/question/129471_37163
-    4. http://wowubuntu.com/markdown/
-    5. http://wiki.github.com/mojombo/jekyll/liquid-extensions
-    6. https://zyzhang.github.io/blog/2012/08/31/highlight-with-Jekyll-and-Pygments/
-    7. http://jekyllbootstrap.com/usage/jekyll-quick-start.html
-    8. http://jekyllrb.com/docs/home/
+### 参考
+  * http://xialuxing.com/2012/05/11/cygwin-jekyll-bootstrap/
+  * http://www.worldhello.net/2011/11/29/jekyll-based-blog-setup.html
+  * http://yishanhe.net/
+  * http://www.oschina.net/question/129471_37163
+  * http://wowubuntu.com/markdown/
+  * http://wiki.github.com/mojombo/jekyll/liquid-extensions
+  * https://zyzhang.github.io/blog/2012/08/31/highlight-with-Jekyll-and-Pygments/
+  * http://jekyllbootstrap.com/usage/jekyll-quick-start.html
+  * http://jekyllrb.com/docs/home/
