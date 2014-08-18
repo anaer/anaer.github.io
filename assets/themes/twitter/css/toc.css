@@ -53,12 +53,9 @@
 	margin-left: 20px;
 	margin-bottom: 10px;
   */
-  width:180px; 
-  height:250px;
-  margin:10px;
-  border:2px solid #ccc;
-  background:#eee;
-  padding:10px;
-  position:relative;
-  margin-top:-290px;
+  position: relative;
+  width: 180px;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #42CBDC;
 }
