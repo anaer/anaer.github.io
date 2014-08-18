@@ -19,7 +19,7 @@
     <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet" type="text/css">
     <script src="{{ ASSET_PATH }}/js/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/jquery.toc.js"></script>
-    <script src="{{ ASSET_PATH }}/js/ui.core.js"></script>
+    <script src="{{ ASSET_PATH }}/js/"></script>
     <script src="{{ ASSET_PATH }}/js/jquery.scrollfollow.js"></script>
 
     <!-- Le fav and touch icons -->
@@ -40,7 +40,32 @@
         showText:'显示'
       });
 
-       $( '#toc-container' ).scrollFollow();
+       //$( '#toc-container' ).scrollFollow();
+        var timer;
+    $(function(){
+        $(window).scroll(function(){
+            clearInterval(timer);
+            var topScroll=getScroll();
+            var topDiv="300px";
+            var top=topScroll+parseInt(topDiv);
+            timer=setInterval(function(){
+                    //$(".test").css("top", top+"px");
+                     $("#toc-container").animate({"top":top},500);
+            },500)
+        })
+    })
+    function getScroll(){
+             var bodyTop = 0;
+             if (typeof window.pageYOffset != 'undefined') {
+                     bodyTop = window.pageYOffset;
+             } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+                     bodyTop = document.documentElement.scrollTop;
+             }
+             else if (typeof document.body != 'undefined') {
+                     bodyTop = document.body.scrollTop;
+             }
+             return bodyTop
+    }
       });
     </script>
   </head>
