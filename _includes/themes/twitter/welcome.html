@@ -20,7 +20,7 @@
 
 <!-- inline -->
 <ul class="tag_box">
-  {% assign categories_list = site.categories %}
+  {% assign categories_list = {{ site.categories | sort }} %}
   {% include JB/categories_list %}
 </ul>
 
