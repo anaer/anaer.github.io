@@ -30,7 +30,12 @@
     <script type="text/javascript">
     $(function(){
       $('.content').toc({
-        showAlways:true
+        anchorPrefix:'tocAnchor-',
+        showAlways:false,
+        saveShowStatus:true,
+        contentsText:'目录',
+        hideText:'隐藏',
+        showText:'显示'
       });
       });
     </script>
