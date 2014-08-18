@@ -11,9 +11,12 @@
 {% endunless %}
 </div>
 
+<script>
+$('#content').toc();
+</script>
 <div class="row">
   <div class="span12">
-    {{ content | toc_generate}}
+    {{ content }}
     <hr>
     <div class="pagination">
       <ul>
