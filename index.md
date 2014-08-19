@@ -7,7 +7,7 @@ title: anaer
 代码地址:https://github.com/anaer/anaer.github.io/
 
 <hr>
-####  最近的日志 [{{paginator.total_posts}}]
+####  最近的日志
 
 <ul class="posts">
   {% for post in site.posts %}
