@@ -6,6 +6,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: rdiscount
 auto: true
 highlighter: pygments
+# 每一页显示的文章数
+paginate: 5
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -126,6 +128,3 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
   #excerpt_separator: ""
-  
-# 每一页显示的文章数
- paginate: 5
