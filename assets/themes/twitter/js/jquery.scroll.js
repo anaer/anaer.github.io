@@ -7,6 +7,9 @@
         //插件名字
         scrollShow: function() {
             alert('插件进来了1');
+            $(window).scroll(function(){
+              alert('滚动事件');
+            });
             //遍历匹配元素的集合
             return this.each(function() {
               alert('插件进来了2');
