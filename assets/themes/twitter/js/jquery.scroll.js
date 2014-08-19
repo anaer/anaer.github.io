@@ -1,24 +1,20 @@
 //为避免冲突，将我们的方法用一个匿名方法包裹起来
 (function($) {
 
-    function getScroll(){
-             var bodyTop = 0;
-             if (typeof window.pageYOffset != 'undefined') {
-                     bodyTop = window.pageYOffset;
-             } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
-                     bodyTop = document.documentElement.scrollTop;
-             }
-             else if (typeof document.body != 'undefined') {
-                     bodyTop = document.body.scrollTop;
-             }
-             return bodyTop
-    }
-
-    //扩展这个方法到jquery
-    $.fn.extend({
-
+  function getScroll(){
+           var bodyTop = 0;
+           if (typeof window.pageYOffset != 'undefined') {
+                   bodyTop = window.pageYOffset;
+           } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+                   bodyTop = document.documentElement.scrollTop;
+           }
+           else if (typeof document.body != 'undefined') {
+                   bodyTop = document.body.scrollTop;
+           }
+           return bodyTop
+  }
         //插件名字
-        scrollShow: function(options) {
+        $.scrollShow: function(options) {
 
             //设置默认值并用逗号隔开
             var defaults = {
@@ -26,7 +22,7 @@
             }
 
             var o =  $.extend(defaults, options);
-
+            alert(o.topdiv);
             //遍历匹配元素的集合
                 //在这里编写相应代码进行处理
               $(window).scroll(function(){
@@ -41,7 +37,5 @@
               })
               return this;
         }
-    });
-
  //传递jQuery到方法中，这样我们可以使用任何javascript中的变量来代替"$"
 })(jQuery);
