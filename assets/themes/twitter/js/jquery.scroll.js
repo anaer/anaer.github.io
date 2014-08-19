@@ -25,12 +25,10 @@
                 topdiv: '50px';
             }
 
-            var options =  $.extend(defaults, options);
+            var o =  $.extend(defaults, options);
 
             //遍历匹配元素的集合
-            return this.each(function() {
                 //在这里编写相应代码进行处理
-              var o = options;
               $(window).scroll(function(){
                   clearInterval(timer);
                   var topScroll=getScroll();
@@ -40,7 +38,7 @@
                            $(this).animate({"top":top},500);
                   },500)
               })
-            });
+              return this;
         }
     });
 
