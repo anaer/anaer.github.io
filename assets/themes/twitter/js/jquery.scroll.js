@@ -22,7 +22,7 @@
 
             //设置默认值并用逗号隔开
             var defaults = {
-                topdiv: 50px;
+                topdiv: '50px';
             }
 
             var options =  $.extend(defaults, options);
@@ -31,7 +31,6 @@
             return this.each(function() {
                 //在这里编写相应代码进行处理
               var o = options;
-              var obj = $(this);
               $(window).scroll(function(){
                   clearInterval(timer);
                   var topScroll=getScroll();
