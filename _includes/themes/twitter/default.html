@@ -19,6 +19,7 @@
     <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet" type="text/css">
     <script src="{{ ASSET_PATH }}/js/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/jquery.toc.js"></script>
+    <script src="{{ ASSET_PATH }}/js/jquery.scroll.js"></script>
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -72,6 +73,8 @@
         hideText:'隐藏',
         showText:'显示'
       });
+
+      $('#toc-container').scrollShow();
 
         var timer;
     $(function(){
