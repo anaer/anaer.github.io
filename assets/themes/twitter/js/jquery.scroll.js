@@ -30,6 +30,7 @@
             //遍历匹配元素的集合
                 //在这里编写相应代码进行处理
               $(window).scroll(function(){
+                  alert('触发了');
                   clearInterval(timer);
                   var topScroll=getScroll();
                   var topDiv=o.topdiv;
