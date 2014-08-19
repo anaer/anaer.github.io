@@ -6,10 +6,10 @@
 
         //插件名字
         scrollShow: function() {
-
+            alert('插件进来了1');
             //遍历匹配元素的集合
             return this.each(function() {
-              alert('插件进来了');
+              alert('插件进来了2');
                 //在这里编写相应代码进行处理
 
             });
