@@ -126,3 +126,6 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
   #excerpt_separator: ""
+  
+# 每一页显示的文章数
+ paginate: 5
