@@ -9,7 +9,7 @@ tags: [SpringMVC, Mysql]
 ---
 # 代码地址  
   * [SpringMVC_Mysql_Demo](https://github.com/anaer/SpringMVC_Mysql_Demo)  
-
+    tag v1.0
 ---
 
 # 环境搭建  
