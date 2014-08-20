@@ -10,8 +10,12 @@ tags: [SpringMVC, Mysql]
 # 代码地址  
   * [SpringMVC_Mysql_Demo](https://github.com/anaer/SpringMVC_Mysql_Demo)  
 
+---
+
 # 环境搭建  
   * 参考[Java Web 开发](/2014/08/15/JavaWeb/)  
+
+---
 
 # 配置web.xml  
   * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/web.xml  
@@ -63,6 +67,8 @@ tags: [SpringMVC, Mysql]
     </web-app>
     ```
 
+---
+
 # 数据库配置db-config.properties  
   * 路径: /SpringMVC_Mysql_Demo/src/main/resources/db-config.properties  
   * 配置:  
@@ -74,6 +80,8 @@ tags: [SpringMVC, Mysql]
     db.password=password
     db.dirverClass= com.mysql.jdbc.Driver
     ```
+
+---
 
 # applicationContext.xml  
   * 路径: /SpringMVC_Mysql_Demo/src/main/resources/applicationContext.xml  
@@ -160,6 +168,8 @@ tags: [SpringMVC, Mysql]
     </beans>  
     ```
 
+---
+
 # UserDao.java  
   * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserDao.java  
   * 代码:  
@@ -204,6 +214,8 @@ tags: [SpringMVC, Mysql]
         }  
     }
     ```
+
+---
 
 # UserController.java  
   * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserController.java  
@@ -268,6 +280,8 @@ tags: [SpringMVC, Mysql]
     }  
     ```
 
+---
+
 # UserPO.java  
   * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserPO.java  
   * 代码:  
@@ -306,6 +320,8 @@ tags: [SpringMVC, Mysql]
     }  
     ```
 
+---
+
 # index.jsp  
   * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/jsp/index.jsp  
   * 代码:
@@ -341,6 +357,8 @@ tags: [SpringMVC, Mysql]
     </html>
 
     ```
+
+---
 
 # userInfo.jsp  
   * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/jsp/userInfo.jsp  
@@ -396,6 +414,8 @@ tags: [SpringMVC, Mysql]
 
 
     ```
+
+---
 
 # pom.xml  
   * 路径: /SpringMVC_Mysql_Demo/pom.xml  
@@ -462,12 +482,17 @@ tags: [SpringMVC, Mysql]
   	</build>
   </project>
     ```
+
+---
+
 # 学习  
   * web.xml及其他配置中/代表了webapp目录  
   * 配置中classpath:指/WEB-INF/classes/  
   * src/main/resources下的配置文件编译后在/WEB-INF/classes  
   * mysql的url配置，如果是本机而且使用默认端口可以不用配置ip及端口  
     直接jdbc:mysql:///springmvcdb
+
+---
 
 # 参考  
   * [SpringMVC+Mysql实例详解 ](http://blog.csdn.net/tjcyjd/article/details/7492805)  
