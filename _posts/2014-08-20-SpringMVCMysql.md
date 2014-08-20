@@ -462,6 +462,12 @@ tags: [SpringMVC, Mysql]
   	</build>
   </project>
     ```
+# 学习  
+  * web.xml及其他配置中/代表了webapp目录  
+  * 配置中classpath:指/WEB-INF/classes/  
+  * src/main/resources下的配置文件编译后在/WEB-INF/classes  
+  * mysql的url配置，如果是本机而且使用默认端口可以不用配置ip及端口  
+    直接jdbc:mysql:///springmvcdb
 
 # 参考  
   * [SpringMVC+Mysql实例详解 ](http://blog.csdn.net/tjcyjd/article/details/7492805)  
