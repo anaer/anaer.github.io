@@ -3,6 +3,12 @@
   <p class="lead">{{page.tagline}}</p>
 </header>
 
+<script>
+$(function() {
+$( "#datepicker" ).datepicker();
+});
+</script>
+
 <div class="row">
   <div class="span8">
     {{ content }}
@@ -18,20 +24,14 @@
 	  <hr>
 	  <h4> 文章分类 </h4>
 
+Date: <div id="datepicker" class="tag_box"></div>
+
 <!-- inline -->
 <ul class="tag_box">
   {% assign categories_list = site.categories %}
   {% include JB/categories_list %}
 </ul>
 
-
- <script>
-$(function() {
-$( "#datepicker" ).datepicker();
-});
-</script>
-
-Date: <div id="datepicker" class="tag_box"></div>
 
   </div>
 </div>
