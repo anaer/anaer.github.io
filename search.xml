@@ -1,4 +1,3 @@
-//jekyll 语法前反斜杆是为了转义输出，请去掉
 <?xml version="1.0" encoding="UTF-8" ?>
 <articles>
 {% for post in site.posts %}
