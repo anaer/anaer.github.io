@@ -20,18 +20,20 @@ $( "#datepicker" ).datepicker();
         <li><a href="/tags.html">Tag</a> <span class="divider">/</span></li>
   </ul>
   </div>
+  
+  <div class="span4">
+    <hr>
+    <h4>日历</h4>
+    <div id="datepicker" class="tag_box"></div>
+  </div>
+
+  <!-- inline -->
   <div class="span4">
 	  <hr>
 	  <h4> 文章分类 </h4>
-
-Date: <div id="datepicker" class="tag_box"></div>
-
-<!-- inline -->
-<ul class="tag_box">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
-</ul>
-
-
+    <ul class="tag_box">
+      {% assign categories_list = site.categories %}
+      {% include JB/categories_list %}
+    </ul>
   </div>
 </div>
