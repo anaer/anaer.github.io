@@ -5,7 +5,7 @@ title: anaer
 {% include JB/setup %}
 
 代码地址:https://github.com/anaer/anaer.github.io/
-Version: 5
+Version: 6
 <hr>
 <h4>最近的日志 [{{paginator.total_posts}}]</h4>
 
@@ -15,7 +15,9 @@ Version: 5
     {% unless post.tags == empty %}
       {% assign tags_list = post.tags %}
       {% for tag in tags_list %}
-    	<a class="tag_box inline" href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a>
+      <span class="tag_box inline">
+    	<a  href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a>
+      </span>
       {% endfor %}
     {% endunless %}
     </li>
