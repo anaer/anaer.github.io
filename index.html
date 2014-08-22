@@ -13,7 +13,10 @@ Version: 3
   {% for post in site.posts %}
     <li><span>{{ post.date | date:"%Y-%m-%d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}/">{{ post.title }}</a>
     {% unless post.tags == empty %}
-      {{ post.tags }}
+      {% assign tags_list = post.tags %}
+      {% for tag in tags_list %}
+    	<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a>
+      {% endfor %}
     {% endunless %}
     </li>
   {% endfor %}
