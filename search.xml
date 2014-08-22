@@ -1,15 +1,14 @@
 ---
-# Remember to set production_url in your _config.yml file!
-title : search
+layout: nil
+title : Search
 ---
-
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <articles>
-{% for post in site.posts %}
-<article>
-    <title>{{ post.title }}</title>
-    <url>{{ site.url }}{{ post.url }}</url>
-    <date>{{ post.date | date_to_utc | date: '%Y-%m-%d'}}</date>
-</article>
-{% endfor %}
+ {% for post in site.posts %}
+ <article>
+   <title>{{ post.title }}</title>
+   <url>{{ site.production_url }}{{ post.url }}</url>
+   <date>{{ post.date | date_to_utc | date:'%Y-%m-%d' }}</date>
+ </article>
+ {% endfor %}
 </articles>
