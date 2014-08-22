@@ -12,10 +12,10 @@ title: anaer
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date:"%Y-%m-%d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}/">{{ post.title }}</a></li>
-    {% unless page.tags == empty %}
+    {% unless post.tags == empty %}
       <ul class="tag_box inline">
       <li>Tags: </li>
-      {% assign tags_list = page.tags %}
+      {% assign tags_list = post.tags %}
       {% include JB/tags_list %}
       </ul>
     {% endunless %}
