@@ -1,3 +1,8 @@
+---
+# Remember to set production_url in your _config.yml file!
+title : search
+---
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <articles>
 {% for post in site.posts %}
