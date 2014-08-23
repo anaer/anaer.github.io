@@ -7,7 +7,7 @@ markdown: rdiscount
 auto: true
 highlighter: pygments
 # 每一页显示的文章数
-#paginate: 5
+paginate: 5
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
