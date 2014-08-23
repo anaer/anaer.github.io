@@ -7,14 +7,10 @@ tags: [SpringMVC, Mysql]
 ---
 {% include JB/setup %}
 ---
-# 代码地址  
-  * [SpringMVC_Mysql_Demo](https://github.com/anaer/SpringMVC_Mysql_Demo)  
-    tag v1.0
----
 
 # 环境搭建  
   * 参考[Java Web 开发](/2014/08/15/JavaWeb/)  
-
+    搭建开发环境
 ---
 
 # 配置web.xml  
@@ -521,6 +517,12 @@ tags: [SpringMVC, Mysql]
   * src/main/resources下的配置文件编译后在/WEB-INF/classes  
   * mysql的url配置，如果是本机而且使用默认端口可以不用配置ip及端口  
     直接jdbc:mysql:///springmvcdb
+
+---
+
+# 代码地址  
+  * [SpringMVC_Mysql_Demo](https://github.com/anaer/SpringMVC_Mysql_Demo)  
+    标签tag v1.0
 
 ---
 
