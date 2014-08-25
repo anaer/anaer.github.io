@@ -6,5 +6,5 @@ category: Windows
 tags: [Windows]
 ---
 
-# 装机必备
-	* [foobar2000](http://www.foobar2000.org/)
+# 装机必备  
+	* [foobar2000](http://www.foobar2000.org/)  
