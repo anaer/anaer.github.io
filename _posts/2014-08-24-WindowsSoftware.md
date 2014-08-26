@@ -10,9 +10,16 @@ tags: [Windows]
   * [foobar2000](http://www.foobar2000.org/)   
   * [CCleaner]()  
   * [Mozilla Firefox]()  
-  * [SublimeText]()  
+  * [Cygwin](http://www.cygwin.com/)  
 
-* 开发工具  
+
+# 编辑器    
+  * [SublimeText]()  
+  * [Vim](http://www.vim.org/)  
+
+---  
+
+# 开发工具  
   * [Tomcat]()  
   * [Eclipse]()  
   * [TortoiseGit]()  
