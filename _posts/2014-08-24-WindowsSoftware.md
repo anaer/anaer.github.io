@@ -28,3 +28,4 @@ tags: [Windows]
   * [jd-gui]()  
   * [Poderosa]()  
   * [PLSQL Developer]()  
+  * [JetBrains IntelliJ IDEA](http://www.jetbrains.com/idea/)[注册](http://www.oschina.net/news/54738/jetbrains-half-off)
