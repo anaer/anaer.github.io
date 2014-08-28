@@ -3,9 +3,9 @@ layout: post
 title: "Linux Shell find,xargs,exec-查找技巧"
 description: ""
 category: Linux
-tags: [Linux, Shell, find, xargs, exec]
+tags: [Linux, Shell]
 ---
-### 命令格式: find pathname -options [-print -exec -ok]
+# 命令格式: find pathname -options [-print -exec -ok]
 
     参数
         pathname: find命令所查找的目录路径。例如用.来表示当前目录，用/来表示系统根目录。
@@ -13,7 +13,7 @@ tags: [Linux, Shell, find, xargs, exec]
         -exec：     find命令对匹配的文件执行该参数所给出的shell命令。相应命令的形式为'command' {} /;，注意{ }和/；之间的空格。
         -ok：       和-exec的作用相同，只不过以一种更为安全的模式来执行该参数所给出的shell命令，在执行每一个命令之前，都会给出提示，让用户来确定是否执行。
 
-### find命令选项
+# find命令选项
 
         -name：按照文件名查找文件。
         -perm：按照文件权限来查找文件。
@@ -42,7 +42,7 @@ tags: [Linux, Shell, find, xargs, exec]
                 -cpio：对匹配的文件使用cpio命令，将这些文件备份到磁带设备中
 
 
-### find
+# find
 
     当前目录及子目录中查找文件名以一个大写字母开头的文件
             find . -name "[A-Z]*" -print
@@ -51,7 +51,7 @@ tags: [Linux, Shell, find, xargs, exec]
             find /etc -name "host*" -print
 
 
-### exec
+# exec
 
     find命令将所有匹配到的文件一起传递给exec执行
     有些系统对能够传递给exec的命令长度有限制，这样在find命令运行几分钟之后，就会出现溢出错误
@@ -86,7 +86,7 @@ tags: [Linux, Shell, find, xargs, exec]
             find . -type d |sort
 
 
-### xargs
+# xargs
 
     前面的输出转换为后方指令的参数输入
     使用exec和xargs可以使用户对所匹配到的文件执行几乎所有的命令。
@@ -108,7 +108,7 @@ tags: [Linux, Shell, find, xargs, exec]
 
  
 
-### 案例：
+# 案例：
 
 * 将当前目录下1小时内修改过的文件 移到/tmp下
 
