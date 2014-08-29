@@ -11,7 +11,7 @@ title: 32
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date:"%Y-%m-%d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}/">{{ post.title }}</a>
+    <li><span>{{ post.date | date:"%Y-%m-%d" }}</span> &raquo; <a style="width:250px;text-align:left;display:inline-block;" href="{{ BASE_PATH }}{{ post.url }}/">{{ post.title }}</a>
     {% unless post.tags == empty %}
       {% assign tags_list = post.tags %}
       {% for tag in tags_list %}
@@ -23,3 +23,8 @@ title: 32
     </li>
   {% endfor %}
 </ul>
+
+<!--
+2014-08-29
+	1. 固定链接宽度
+-->
