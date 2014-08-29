@@ -6,6 +6,9 @@ group: navigation
 ---
 {% include JB/setup %}
 
+# 2014-08-29
+  * ~~修改cygwin的默认shell为zsh~~
+
 # 2014-08-25  
   * ~~C盘没空间了, 删除多余的Oracle实例~~
 
