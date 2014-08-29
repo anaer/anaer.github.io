@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "CygwinInstallNodeJs"
+title: "Cygwin下安装nodejs"
 description: ""
 category: 
-tags: []
+tags: [Cygwin, nodejs]
 ---
 {% include JB/setup %}
  
