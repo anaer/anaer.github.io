@@ -75,11 +75,13 @@
     {% include JB/analytics %}
 
     <script type="text/javascript">
+		// 语法高亮
 		$(function() {
 			$('pre').addClass('prettyprint linenums').css('overflow-x', 'auto');
 			window.prettyPrint && prettyPrint();
 		});
 
+		// TOC目录
     $(function(){
       $('.row').toc({
         anchorPrefix:'tocAnchor-',
