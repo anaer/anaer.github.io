@@ -115,11 +115,44 @@ tags: [Javascript]
 
 # Javascript内置事件
 
+# JS技巧
+
+  javascript清空数组元素时，容易犯的错误：
+
+  var myArray=[]；
+
+  myArray = null；是错误的，个人感觉这样赋值后，myArray会从数组类型，变成字符串变量
+
+  清空数组元素，应该myArray = [];
+
+  或者myArray = new Array();
+
+  javascript中数组声明：
+
+  var myArray=new Array();
+
+  或者var myArray=[]；
+
+  javascript中数组常用函数：
+
+  toString()：把数组转换成一个字符串
+  toLocaleString()：把数组转换成一个字符串
+  join()：把数组转换成一个用符号连接的字符串
+  shift()：将数组头部的一个元素移出
+  unshift()：在数组的头部插入一个元素
+  pop()：从数组尾部删除一个元素
+  push()：把一个元素添加到数组的尾部
+  concat()：给数组添加元素
+  slice()：返回数组的部分
+  reverse()：将数组反向排序
+  sort()：对数组进行排序操作
+  splice()：插入、删除或者替换一个数组元素
+
+  javascript的数组不需要设定长度，会自己进行扩展，数组名.length返回元素个数
 	
 
 ---
 
 # 参考
-
   * [辛星解读Javascript](http://blog.csdn.net/column/details/xinxingjs.html)  
   * [Javascript教程](http://www.w3school.com.cn/js/index.asp)
