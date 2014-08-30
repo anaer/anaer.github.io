@@ -153,6 +153,79 @@ tags: [Javascript]
 
 ---
 
+# JavaScript--事件对象 
+
+  ```
+  事件源对象 event.srcElement.tagName event.srcElement.type
+  捕获释放 event.srcElement.setCapture(); event.srcElement.releaseCapture();
+  事件按键 event.keyCode event.shiftKey event.altKey event.ctrlKey
+  事件返回值 event.returnValue
+  鼠标位置 event.x event.y
+  窗体活动元素 document.activeElement
+  绑定事件 document.captureEvents(Event.KEYDOWN);
+  访问窗体元素 document.all("txt").focus(); document.all("txt").select();
+  窗体命令 document.execCommand
+  窗体COOKIE document.cookie
+  菜单事件 document.oncontextmenu
+  创建元素 document.createElement("SPAN");
+  根据鼠标获得元素： document.elementFromPoint(event.x,event.y).tagName=="TD document.elementFromPoint(event.x,event.y).appendChild(ms)
+  窗体图片 document.images[索引]
+  窗体事件绑定 document.onmousedown=scrollwindow;
+  元素 document.窗体.elements[索引]
+  对象绑定事件 document.all.xxx.detachEvent('onclick',a);
+  插件数目 navigator.plugins
+  取变量类型 typeof($js_libpath) == "undefined"
+  下拉框 下拉框.options[索引] 下拉框.options.length
+  查找对象 document.getElementsByName("r1"); document.getElementById(id);
+  定时 timer=setInterval('scrollwindow()',delay); clearInterval(timer);
+  UNCODE编码 escape() ,unescape
+  父对象 obj.parentElement(dhtml) obj.parentNode(dom)
+  交换表的行 TableID.moveRow(2,1)
+  替换CSS document.all.csss.href = "a.css";
+  并排显示 display:inline
+  隐藏焦点 hidefocus=true
+  根据宽度换行 style="word-break:break-all"
+  自动刷新 <meta HTTP-EQUIV="refresh" CONTENT="8;URL=http://c98.yeah.net">
+  简单邮件 <a href="mailto:aaa@bbb.com?subject=ccc&body=xxxyyy">
+  快速转到位置 obj.scrollIntoView(true)
+  锚 <a name="first"> < a href="#first">anchors</a>
+  网页传递参数 location.search();
+  可编辑 obj.contenteditable=true
+  执行菜单命令 obj.execCommand
+  双字节字符 /[^"x00-"xff]/ 汉字 /["u4e00-"u9fa5]/
+  让英文字符串超出表格宽度自动换行 word-wrap: break-word; word-break: break-all;
+  透明背景 <IFRAME src="1.htm" width=300 height=180 allowtransparency></iframe>
+  获得style内容 obj.style.cssText
+  HTML标签 document.documentElement.innerHTML
+  第一个style标签 document.styleSheets[0]
+  style标签里的第一个样式 document.styleSheets[0].rules[0]
+  防止点击空链接时，页面往往重置到页首端。 <a href="javascript:function()">word</a>
+  上一网页源 asp: request.servervariables("HTTP_REFERER") javascript: document.referrer
+  释放内存 CollectGarbage();
+  禁止右键 document.oncontextmenu = function() { return false;}
+  禁止保存 <noscript><iframe src="*.htm"></iframe></noscript>
+  禁止选取<body oncontextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false"onmouseup="document.selection.empty()>
+  禁止粘贴 <input type=text onpaste="return false">
+  地址栏图标 <link rel="Shortcut Icon" href="favicon.ico"> favicon.ico 名字最好不变16*16的16色,放虚拟目录根目录下
+  收藏栏图标 <link rel="Bookmark" href="favicon.ico">
+  查看源码 <input type=button value=查看网页源代码 onclick="window.location = 'view-source:'+ 'http://www.csdn.net/'">
+  关闭输入法 <input style="ime-mode:disabled">
+  自动全选 <input type=text name=text1 value="123" onfocus="this.select()">
+  ENTER键可以让光标移到下一个输入框 <input onkeydown="if(event.keyCode==13)event.keyCode=9">
+  文本框的默认值 <input type=text value="123" onfocus="alert(this.defaultValue)">
+  title换行 obj.title = "123 sdfs "
+  获得时间所代表的微秒 var n1 = new Date("2004-10-10".replace(/-/g, ""/")).getTime()
+  窗口是否关闭 win.closed
+  checkbox扁平 <input type=checkbox style="position: absolute; clip:rect(5px 15px 15px 5px)"><br>
+  获取选中内容 document.selection.createRange().duplicate().text
+  自动完成功能 <input type=text autocomplete=on>打开该功能 <input type=text autocomplete=off>关闭该功能   
+  窗口最大化 <body onload="window.resizeTo(window.screen.width - 4,window.screen.height-50);window.moveTo(-4,-4)">
+  无关闭按钮IE window.open("aa.htm", "meizz", "fullscreen=7");
+  统一编码/解码 alert(decodeURIComponent(encodeURIComponent("http://你好.com?as= hehe"))) encodeURIComponent对":"、"/"、";" 和 "?"也编码
+  表格行指示 <tr onmouseover="this.bgColor='#f0f0f0'" onmouseout="this.bgColor='#ffffff'">
+  ```
+
+
 # 参考
   * [辛星解读Javascript](http://blog.csdn.net/column/details/xinxingjs.html)  
   * [Javascript教程](http://www.w3school.com.cn/js/index.asp)
