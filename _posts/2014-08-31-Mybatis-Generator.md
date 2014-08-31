@@ -67,6 +67,120 @@ tags: [Maven, Mybatis]
   </project>
   ```
 
+  修改版:
+  mvn install 生成
+  mvn clean   清理生成
+
+  ```xml
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	  <modelVersion>4.0.0</modelVersion>
+	  <groupId>Mybatis_Generator</groupId>
+	  <artifactId>Mybatis_Generator</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+
+	  <dependencies>
+		  <dependency>
+			  <groupId>org.mybatis</groupId>
+			  <artifactId>mybatis</artifactId>
+			  <version>3.2.7</version>
+		  </dependency>
+		  <!-- 使用java代码生成 -->
+		  <dependency>
+			  <groupId>org.mybatis.generator</groupId>
+			  <artifactId>mybatis-generator-core</artifactId>
+			  <version>1.3.2</version>
+		  </dependency>
+	  </dependencies>
+	  <build>
+		  <plugins>
+			  <plugin>
+				  <artifactId>maven-compiler-plugin</artifactId>
+				  <version>3.1</version>
+				  <configuration>
+					  <source>1.6</source>
+					  <target>1.6</target>
+				  </configuration>
+			  </plugin>
+
+			  <plugin>
+				  <groupId>org.mybatis.generator</groupId>
+				  <artifactId>mybatis-generator-maven-plugin</artifactId>
+				  <version>1.3.2</version>
+				  <dependencies>
+					  <!-- 这里配置了依赖 generatorConfig.xml可以不用再配置, 不过为了方便java代码调用执行，所以留着 -->
+					  <dependency>
+						  <groupId>mysql</groupId>
+						  <artifactId>mysql-connector-java</artifactId>
+						  <version>5.1.32</version>
+					  </dependency>
+				  </dependencies>
+				  <configuration>
+					  <configurationFile>${basedir}/src/main/resources/generatorConfig.xml</configurationFile>
+					  <verbose>true</verbose>
+					  <overwrite>true</overwrite>
+				  </configuration>
+				  <executions>
+					  <execution>
+						  <id>Generate MyBatis Artifacts</id>
+						  <goals>
+							  <goal>generate</goal>
+						  </goals>
+					  </execution>
+				  </executions>
+			  </plugin>
+			  <plugin>
+				  <groupId>org.apache.maven.plugins</groupId>
+				  <artifactId>maven-clean-plugin</artifactId>
+				  <version>2.5</version>
+				  <configuration>
+					  <filesets>
+						  <fileset>
+							  <directory>src/main/java/com</directory>
+							  <followSymlinks>false</followSymlinks>
+							  <useDefaultExcludes>true</useDefaultExcludes>
+						  </fileset>
+						  <fileset>
+							  <directory>src/main/resources/com</directory>
+							  <followSymlinks>false</followSymlinks>
+							  <useDefaultExcludes>true</useDefaultExcludes>
+						  </fileset>
+					  </filesets>
+				  </configuration>
+			  </plugin>
+		  </plugins>
+		  <pluginManagement>
+			  <plugins>
+				  <plugin>
+					  <groupId>org.eclipse.m2e</groupId>
+					  <artifactId>lifecycle-mapping</artifactId>
+					  <version>1.0.0</version>
+					  <configuration>
+						  <lifecycleMappingMetadata>
+							  <pluginExecutions>
+								  <pluginExecution>
+									  <pluginExecutionFilter>
+										  <groupId>org.mybatis.generator</groupId>
+										  <artifactId>mybatis-generator-maven-plugin</artifactId>
+										  <versionRange>[1.3.2,)</versionRange>
+										  <goals>
+											  <goal>generate</goal>
+										  </goals>
+									  </pluginExecutionFilter>
+									  <action>
+										  <ignore></ignore>
+									  </action>
+								  </pluginExecution>
+							  </pluginExecutions>
+						  </lifecycleMappingMetadata>
+					  </configuration>
+				  </plugin>
+			  </plugins>
+		  </pluginManagement>
+	  </build>
+  </project>
+  ```
+
 # 添加generatorConfig.xml
   `/Mybatis_Generator/src/main/resources/generatorConfig.xml`
 
@@ -200,3 +314,5 @@ tags: [Maven, Mybatis]
 
 # 参考  
   * [用Maven插件生成Mybatis代码](http://blog.csdn.net/gufeng672/article/details/27196347)
+  * [一步步学Mybatis-告别繁琐的配置之Mybatis配置文件生成工具](http://www.blogjava.net/davidjefiny/archive/2013/12/31/408289.html)
+  * [mybatis代码生成的几种方式](http://ljhzzyx.blog.163.com/blog/static/38380312201311133927394/)
