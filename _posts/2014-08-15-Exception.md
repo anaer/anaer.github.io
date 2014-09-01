@@ -37,6 +37,10 @@ tags: [Java, Spring]
 	[unsupported major.minor version 解决方法](http://www.blogjava.net/Jay2009/archive/2009/04/23/267108.html)
 	[错误：Unsupported major.minor version 51.0（jdk版本错误） ](http://blog.csdn.net/witsmakemen/article/details/7832617)
 
+  * WARN UUIDHexGenerator:59 - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+	[Using org.hibernate.id.UUIDHexGenerator的解决方案](http://lvjava.com/?p=370)
+	
+
 # Eclipse警告信息
 * cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'mvc:interceptors'.
   1. Preferences->XML->XML Catalog 添加
