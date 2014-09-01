@@ -32,6 +32,11 @@ tags: [Java, Spring]
   1. java 代码里使用了注解
     又在配置文件配置了bean
 
+  * Unsupported major.minor version 52.0 (unable to load class com.hqhop.framework.common.bind.annotation.Repository)
+	Eclipse配置Tomcat的JDK版本与项目的JDK版本不一致, 属性设置Tomcat的JDK版本 
+	[unsupported major.minor version 解决方法](http://www.blogjava.net/Jay2009/archive/2009/04/23/267108.html)
+	[错误：Unsupported major.minor version 51.0（jdk版本错误） ](http://blog.csdn.net/witsmakemen/article/details/7832617)
+
 # Eclipse警告信息
 * cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'mvc:interceptors'.
   1. Preferences->XML->XML Catalog 添加
