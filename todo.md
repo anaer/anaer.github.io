@@ -6,6 +6,9 @@ group: navigation
 ---
 {% include JB/setup %}
 
+# 2014-08-31
+  * rime配置
+
 # 2014-08-29
   * ~~修改cygwin的默认shell为zsh~~
 
