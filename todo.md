@@ -6,8 +6,11 @@ group: navigation
 ---
 {% include JB/setup %}
 
+# 2014-09-02
+  * 拆分学习[框架](http://anaer.github.io/2014/09/01/j2eeframework/)
+
 # 2014-08-31
-  * rime配置
+  * ~~rime配置~~
 
 # 2014-08-29
   * ~~修改cygwin的默认shell为zsh~~
