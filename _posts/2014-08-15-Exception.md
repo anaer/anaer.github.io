@@ -42,9 +42,29 @@ tags: [Java, Spring]
 	
 
 # Eclipse警告信息
-* cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'mvc:interceptors'.
-  1. Preferences->XML->XML Catalog 添加
-  http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
-  http://www.springframework.org/schema/mvc/spring-mvc.xsd
-  xsd文件下载保存本地
+  * cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'mvc:interceptors'.
+	1. Preferences->XML->XML Catalog 添加
+	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+	http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	xsd文件下载保存本地
 
+# Mybatis 报错
+  * Type interface com.souvi.ibatis.xxxMapper is  not known to the MapperRegistry
+	1. 代码未注册
+
+	  ```java
+	  factory.getConfiguration().addMapper(UserInfoMapper.class);
+	  ```
+	2. 配置文件没配置或者没配对 如namespace等
+
+  * org.apache.ibatis.binding.BindingException: Type interface com.mybatis3.mappers.StudentMapper is already known to the MapperRegistry.
+	上面那个问题产生的，重复注册
+
+  * Invalid bound statement (not found) 
+	1. namespace不对
+	2. xml中未定义方法
+	3. 返回List,未配置ResultMap
+
+# Log4j报错 
+  * java.lang.NoSuchMethodError: org.slf4j.helpers.MessageFormatter.format(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+	log4j jar包冲突
