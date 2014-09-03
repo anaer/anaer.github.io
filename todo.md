@@ -8,7 +8,7 @@ group: navigation
 
 # 2014-09-02
   * 拆分学习[框架](http://anaer.github.io/2014/09/01/j2eeframework/)
-  * java.sql.date与java.util.date区别
+  * ~~java.sql.date与java.util.date区别~~
   * Guice框架?
   * mybatis支持第三方缓存类库 EHCache, OSCache, Hazelcast
 
