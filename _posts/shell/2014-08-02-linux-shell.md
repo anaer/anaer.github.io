@@ -172,5 +172,68 @@ tags: [Linux, Shell]
   ${var/.../...}
   ```
 
+
+# Sed常见用法总结
+编辑文本 
+sed -i '1i xyz' test.txt 在第一行之前
+sed -i '1a xyz' test.txt  在第一行之后插入
+sed -i '1c xyz' test.txt  把第一行数据替换成xyz
+
+
+sed '/^bb/i\kjdlfkjdslkf' temp.txt  //在匹配的行之前加入新一行
+sed '/^bb/a\kjdlfkjdslkf' temp.txt  //在匹配的行之后加入新行
+ sed -n '/xxx/w temp.txt' temp1.txt //temp1.txt中匹配xxx的行插入到temp.txt
+sed '/xx/c\sdfdsf' temp.txt //用新的一行数据替换匹配xx的行
+
+
+sed '1d' t.txt  /删除文件第一行
+sed '/bro/d' t.txt  //删除带bro的行  (实际修改,删除等加-i)
+sed '/^$/d' t.txt //删除空行
+
+
+sed 's/^.*uid//' t.txt  //将uid前这段字符替换成空,^第一个字符不能为*,要加.，另外在sed里字符与*连接要加. 
+sed 's/night/NIGHT/' 1.TXT //将night替换  (加 -i 直接修改源文件1.txt,而不是将替换后的数据输出到屏幕)
+sed 's/night/NIGHT/g' 1.TXT  替换所有,不加g一行只替换一次
+sed 's/.html//' b.txt >b0.txt
+
+
+sed 'y/bo/BO/' test.txt  //将b替换成B,o替换成O
+sed 'y/bb ll/BB LL/' test.txt  //将bb替换成BB，ll替换成LL
+
+
+查询文本
+
+
+sed '/he/w test1.txt' test.txt   //读取test.txt内容匹配he的行写入test1.txt
+sed '1,2w test1.txt' test.txt    //读取test.txt内容，第一二行写入test1.txt
+sed '/he/r test1.txt' test.txt //读取test.txt内容匹配he的行与test1.txt所有内容合并后输出
+ 
+sed -n '1,3p' getrow.sh   //显示一行到三行的肉容
+sed -n '1,/hello/'p  orig.txt //从第一行开始打印，打印到第一个含有hello行
+//n的作用是取消默认输出 只打印包含模板的行,缺省为打印所有行(编辑和未编辑)
+
+
+sed -n '$p' getrow.sh   //最后一行
+sed -n '/echo/'p while.sh  //打印包括echo字符的行 /pattern/模式
+sed -e '/echo/=' while.sh  //并且打印行号(并且整个文件都打印) -n 只打印实际行号  打印行号使用=
+sed -n -e '/dfs.support.append/=' hdfs-default.xml
+sed -n  -e '/we/p' -e '/we/=' 2.txt  //只打印匹配的行,并行显示行号 
+sed -n  '/aa/='  aa.txt  //只显示匹配上的行号
+
+
+sed -n '/^h/'p test.txt //显示h为开头的行
+sed '/^hello/d' test.txt  //查询非某某开头的写法
+
+
+sed -n '/s\{2,\}/'p test.txt //s字符至少匹配两次
+sed -n '/[0-9]\{1,\}/'p test.txt //包含数字的行，用[0-9]+不支持
+
+
+sed '2q' test.txt  //打印到第二行退出
+
+
+需要注意的是，sed并不直接操作初始数据，它操作的是一份原始数据的拷贝。sed处理时，把当前处理的行存储在临时缓冲区中，然后处理缓冲区中的内容，处理完成后，如果没有重定向到文件， 将把缓冲区中的内容送往屏幕，接着处理下一行直到处理完毕
+
 # 参考 
+
   * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
