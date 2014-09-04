@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "crontab命令详解"
+title: "Linux crontab命令详解"
 description: ""
-category: 
-tags: []
+category: Linux
+tags: [Linux, Crontab]
 ---
 
 # 概述
