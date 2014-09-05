@@ -1,3 +1,11 @@
+//测试用
 a{
   color:red;
+}
+
+//首页 导航栏 靠右显示
+.navbar {
+    margin-bottom: 20px;
+    right: 140px;
+    position: fixed;
 }
