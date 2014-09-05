@@ -82,3 +82,6 @@ Java 反射机制主要提供了以下功能：
 	System.out.println("str2:" + str2 + str2.length());
     }
 ```
+
+# 参考
+  * [Java反射](http://www.cnblogs.com/yydcdut/p/3845430.html)
