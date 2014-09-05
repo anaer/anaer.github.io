@@ -5,5 +5,5 @@ a{
 .navbar {
     margin-bottom: 20px;
     right: 140px;
-    position: fixed;
+    position: absolute;
 }
