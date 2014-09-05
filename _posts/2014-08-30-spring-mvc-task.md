@@ -5,7 +5,7 @@ description: ""
 category: Java
 tags: [SpringMVC]
 file: 2014-08-30-spring-mvc-task.md
-date: 2014-09-05 13:38
+update: 2014-09-05 13:56
 ---
 
 # 环境搭建  
