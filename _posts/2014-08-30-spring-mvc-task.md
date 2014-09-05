@@ -4,6 +4,8 @@ title: "Spring使用注解执行定时任务"
 description: ""
 category: Java
 tags: [SpringMVC]
+file: 2014-08-30-spring-mvc-task.md
+date: 2014-09-05 13:38
 ---
 
 # 环境搭建  
@@ -34,44 +36,54 @@ tags: [SpringMVC]
 # 配置applicationContext.xml
 
   ```xml
-  <!-- /SpringMVC_Task_Demo/src/main/webapp/WEB-INF/applicationContext.xml -->
-  <?xml version="1.0" encoding="GB2312"?>
-  <beans xmlns="http://www.springframework.org/schema/beans"
-	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
-	  xmlns:task="http://www.springframework.org/schema/task"
-	  xsi:schemaLocation="
-		  http://www.springframework.org/schema/beans
-		  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
-		  http://www.springframework.org/schema/context
-		  http://www.springframework.org/schema/context/spring-context-3.0.xsd
-			  http://www.springframework.org/schema/task
-	  http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+<!-- /SpringMVC_Task_Demo/src/main/webapp/WEB-INF/applicationContext.xml -->
+<?xml version="1.0" encoding="GB2312"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+            http://www.springframework.org/schema/task
+    http://www.springframework.org/schema/task/spring-task-3.0.xsd">
 
-	  <task:annotation-driven />
-	  <bean
-		  class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
-	  <context:component-scan base-package="com.task.springTask" />  
-  </beans>
-  ```
+	<context:component-scan base-package="com.task.springTask" />  
+    
+    <!-- 注解驱动 -->
+    <task:annotation-driven />
+    
+    <!-- 配置文件 -->
+    <task:scheduled-tasks>
+        <task:scheduled ref="springTask" method="myTask2" cron="0/2 * * * * ?" />
+    </task:scheduled-tasks>
+</beans>
+```
 
 # 编写任务类SpringTask.java
 
-  ```java
-  // /SpringMVC_Task_Demo/src/main/java/com/task/springTask/SpringTask.java
-  package com.task.springTask;
+```java
+// /SpringMVC_Task_Demo/src/main/java/com/task/springTask/SpringTask.java
+package com.task.springTask;
 
-  import org.springframework.scheduling.annotation.Scheduled;
-  import org.springframework.stereotype.Component;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
 
-  @Component("springTask")
-  public class SpringTask {
-	  @Scheduled(cron = "0/2 * * * * ?")
-	  public void myTask() {
-	  System.out.println("这个任务两秒执行一次！");
-	  }
+@Component("springTask")
+public class SpringTask {
+	// 注解驱动
+	@Scheduled(cron = "0/2 * * * * ?")
+	public void myTask() {
+	System.out.println("注解调用！");
+	}
 
-  }
-  ```
+	//配置文件驱动
+	public void myTask2() {
+	System.out.println("配置文件调用！");
+	}
+}
+```
 
 # 配置Maven依赖pom.xml
 
