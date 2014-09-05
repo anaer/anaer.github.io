@@ -1,9 +1,8 @@
 ---
-layout: post
-title: "代码片断"
-description: ""
-category: Java
-tags: [Java]
+layout: page
+title : "代码片段"
+header : "代码片段"
+group: navigation
 ---
 
 ``` java
