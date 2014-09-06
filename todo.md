@@ -3,12 +3,10 @@ layout: page
 title : ToDo
 header : todo list
 group: navigation
-file: todo.md
-file: todo.md
-update: 2014-09-06 16:15
 ---
 
-|| *Year* || *Temperature (low)* || *Temperature (high)* ||
+file: todo.md
+update: 2014-09-06 16:23
 || 1900 || -10 || 25 ||
 || 1910 || -15 || 30 ||
 || 1920 || -10 || 32 ||
