@@ -2,16 +2,11 @@
 layout: page
 title : ToDo
 file: todo.md
-update: 2014-09-06 16:38
+update: 2014-09-06 16:41
 header : todo list
 group: navigation
 
 ---
-
-日期|影视|标签|链接
----|---|---|---
-2014-09-06|使徒行者|10|[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)
-
 
 # 2014-09-06
   * 搭建BUI测试环境
