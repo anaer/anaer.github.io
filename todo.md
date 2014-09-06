@@ -4,7 +4,12 @@ title : ToDo
 header : todo list
 group: navigation
 ---
-{% include JB/setup %}
+file: todo.md
+update: 2014-09-06 04:29
+# 2014-09-06
+  * 搭建BUI测试环境
+  * firefox 扩展
+  * Rime配置
 
 # 2014-09-02
   * 拆分学习[框架](http://anaer.github.io/2014/09/01/j2eeframework/)
