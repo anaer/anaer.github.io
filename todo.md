@@ -3,19 +3,20 @@ layout: page
 title : ToDo
 header : todo list
 group: navigation
----
 file: todo.md
 update: 2014-09-06 04:29
+---
+
 # 2014-09-06
   * 搭建BUI测试环境
-  * firefox 扩展
-  * Rime配置
+  * ~~firefox 扩展~~
+  * ~~Rime配置~~
 
 # 2014-09-02
-  * 拆分学习[框架](http://anaer.github.io/2014/09/01/j2eeframework/)
+  * ~~拆分学习[框架](http://anaer.github.io/2014/09/01/j2eeframework/)~~
   * ~~java.sql.date与java.util.date区别~~
-  * Guice框架?
-  * mybatis支持第三方缓存类库 EHCache, OSCache, Hazelcast
+  * ~~Guice框架?~~
+  * ~~mybatis支持第三方缓存类库 EHCache, OSCache, Hazelcast~~
 
 # 2014-08-31
   * ~~rime配置~~
