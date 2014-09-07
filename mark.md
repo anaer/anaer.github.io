@@ -16,3 +16,4 @@ group: navigation
 2014-09-07|金田一少年事件簿N|7|[bilibili](http://www.bilibili.com/sp/%E9%87%91%E7%94%B0%E4%B8%80%E5%B0%91%E5%B9%B4%E4%BA%8B%E4%BB%B6%E7%B0%BFN)
 2014-09-07|区区有鬼故|6|[bilibili](http://www.bilibili.com/video/av1505236/)
 2014-09-07|海贼王|660|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)
+2014-09-07|刀剑神域2|10|[看看](http://data.movie.kankan.com/movie/84969)
