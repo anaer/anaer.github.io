@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-07 12:07
+update: 2014-09-07 12:48
 header : Mark
 group: navigation
 
@@ -15,3 +15,4 @@ group: navigation
 2014-09-07|疑情别恋|8|[小二](http://xiaoer.tv/teleplay/hongkong/?Love-Exchange.html)[QVOD](http://www.qvodsou.com/html/75/2012/06/417541.html)
 2014-09-07|金田一少年事件簿N|7|[bilibili](http://www.bilibili.com/sp/%E9%87%91%E7%94%B0%E4%B8%80%E5%B0%91%E5%B9%B4%E4%BA%8B%E4%BB%B6%E7%B0%BFN)
 2014-09-07|区区有鬼故|6|[bilibili](http://www.bilibili.com/video/av1505236/)
+2014-09-07|海贼王|660|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)
