@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-07 12:48
+update: 2014-09-07 17:45
 header : Mark
 group: navigation
 
@@ -17,3 +17,4 @@ group: navigation
 2014-09-07|区区有鬼故|6|[bilibili](http://www.bilibili.com/video/av1505236/)
 2014-09-07|海贼王|660|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)
 2014-09-07|刀剑神域2|10|[看看](http://data.movie.kankan.com/movie/84969)
+2014-09-07|魔法科高校的劣等生|第23集|[看看](http://data.movie.kankan.com/movie/75967)
