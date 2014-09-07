@@ -32,3 +32,4 @@ group: navigation
   * ~~修改CSDN的邮箱为139别名邮箱, 因原邮箱运营商已停止邮箱服务。~~
   * ~~工具程序之类上传到CSDN资源, 毕竟Dropbox，GDrive等面临双重封锁。~~
 
+  [X] sdfsdfsfd
