@@ -448,6 +448,5 @@ code[221] = "apt-cache show k3b";
 
 
 //index = Math.floor(Math.random() * tips.length);
-//document.getElementById("skilltip").innerHTML="&nbsp;"+tips[index]+':&nbsp;&nbsp;<code>'+code[index]+'</code>';
 //document.write("&nbsp;"+tips[index]+':&nbsp;&nbsp;<code>'+code[index]+'</code>');
 
