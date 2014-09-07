@@ -2,7 +2,7 @@
 layout: page
 title : 待办
 file: todo.md
-update: 2014-09-06 16:41
+update: 2014-09-07 22:43
 header : todo list
 group: navigation
 
@@ -31,5 +31,3 @@ group: navigation
 # 2014-08-20  
   * ~~修改CSDN的邮箱为139别名邮箱, 因原邮箱运营商已停止邮箱服务。~~
   * ~~工具程序之类上传到CSDN资源, 毕竟Dropbox，GDrive等面临双重封锁。~~
-
-  [X] sdfsdfsfd
