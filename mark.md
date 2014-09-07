@@ -19,3 +19,4 @@ group: navigation
 2014-09-07|刀剑神域2|10|[看看](http://data.movie.kankan.com/movie/84969)
 2014-09-07|魔法科高校的劣等生|第23集|[看看](http://data.movie.kankan.com/movie/75967)
 2014-09-07|排球少年|23|[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)
+2014-09-08|布袋和尚（林家栋版）|6|[优酷](http://www.youku.com/playlist_show/id_19572223.html)
