@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "装机必备"
-description: ""
-category: Windows
+file: 2014-08-24-system-software.md
+update: 2014-09-07 22:10
 tags: [Windows]
 ---
 
@@ -11,6 +11,7 @@ tags: [Windows]
   * [CCleaner]()  
   * [Mozilla Firefox]()  
   * [Cygwin](http://www.cygwin.com/)  
+  * [PStart](http://www.pegtop.net/download.php?file=start)
 
 
 # 编辑器    
