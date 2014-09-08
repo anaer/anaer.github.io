@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-07 19:59
+update: 2014-09-08 08:23
 header : Mark
 group: navigation
 
@@ -20,3 +20,5 @@ group: navigation
 2014-09-07|魔法科高校的劣等生|第23集|[看看](http://data.movie.kankan.com/movie/75967)
 2014-09-07|排球少年|23|[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)
 2014-09-08|布袋和尚（林家栋版）|6|[优酷](http://www.youku.com/playlist_show/id_19572223.html)
+2014-09-08|BABY STEPS 网球优等生|23|[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)
+2014-09-08|區區有鬼故|07|[bilibili](http://www.bilibili.com/video/av1508801/)

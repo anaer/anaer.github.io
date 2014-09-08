@@ -11,7 +11,7 @@ title: 每天进步一点点
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date:"%Y-%m-%d" }}</span> &raquo; <a style="width:250px;text-align:left;display:inline-block;" href="{{ BASE_PATH }}{{ post.url }}/">{{ post.title }}</a>
+    <li class="Item"><span>{{ post.date | date:"%Y-%m-%d" }}</span> &raquo; <a style="width:250px;text-align:left;display:inline-block;" href="{{ BASE_PATH }}{{ post.url }}/">{{ post.title }}</a>
     {% unless post.tags == empty %}
       {% assign tags_list = post.tags %}
       {% for tag in tags_list %}

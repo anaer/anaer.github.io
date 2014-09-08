@@ -17,3 +17,12 @@ p.skills {
 .page-header {
     padding: 20px 20px 25px !important;
 }
+
+.Item{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
