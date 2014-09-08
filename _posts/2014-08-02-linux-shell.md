@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux Shell find,xargs,exec-查找技巧"
+title: "Linux Shell命令"
 description: ""
 category: Linux
 tags: [Linux, Shell]
