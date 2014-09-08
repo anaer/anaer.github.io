@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-08 08:23
+update: 2014-09-08 09:30
 header : Mark
 group: navigation
 
@@ -22,3 +22,4 @@ group: navigation
 2014-09-08|布袋和尚（林家栋版）|6|[优酷](http://www.youku.com/playlist_show/id_19572223.html)
 2014-09-08|BABY STEPS 网球优等生|23|[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)
 2014-09-08|區區有鬼故|07|[bilibili](http://www.bilibili.com/video/av1508801/)
+2014-09-08|龙珠改 魔人布欧篇|22|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)

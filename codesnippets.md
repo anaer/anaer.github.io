@@ -1,6 +1,6 @@
 ---
 layout: page
-title : "代码片段"
+title : "代码"
 header : "代码片段"
 group: navigation
 ---
