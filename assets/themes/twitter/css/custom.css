@@ -1,17 +1,7 @@
 a {
     color: #F90;
-    text-decoration: none;
 }
 
-.tag_box a {
-    display: inline-block;
-    padding: 4px 10px;
-    line-height: 100%;
-    margin-right: 10px;
-    border: 1px solid #EEE;
-    background-color: #EEE;
-    border-radius: 10px;
-}
 
 .navbar {
     margin-bottom: 20px;
