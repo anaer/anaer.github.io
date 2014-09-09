@@ -316,3 +316,4 @@ tags: [Maven, Mybatis]
   * [用Maven插件生成Mybatis代码](http://blog.csdn.net/gufeng672/article/details/27196347)
   * [一步步学Mybatis-告别繁琐的配置之Mybatis配置文件生成工具](http://www.blogjava.net/davidjefiny/archive/2013/12/31/408289.html)
   * [mybatis代码生成的几种方式](http://ljhzzyx.blog.163.com/blog/static/38380312201311133927394/)
+  * [Mybatis 自动生成代码工具](http://www.blogjava.net/stevenjohn/archive/2012/06/21/381280.html)
