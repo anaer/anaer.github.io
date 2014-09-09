@@ -26,3 +26,7 @@ p.skills {
     background-color: #FFF;
     border: 1px solid #DDD;
 }
+
+ul.posts{
+    margin: 0px 0px 0px 0px;
+}
