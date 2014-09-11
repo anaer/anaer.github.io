@@ -5,6 +5,10 @@ header : "代码片段"
 group: navigation
 ---
 
+```
+利息金额算至分位，分以下尾数四舍五入
+```
+
 ``` java
 	public class HelloWorld {
 		public static void main(String args[]) {
