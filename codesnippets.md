@@ -4,6 +4,55 @@ title : "代码"
 header : "代码片段"
 group: navigation
 ---
+```java
+String s="125.671";
+BigDecimal b = new BigDecimal(s); 
+b=b.setScale(2, BigDecimal.ROUND_DOWN); //小数位 直接舍去
+//b=b.setScale(2, BigDecimal.ROUND_HALF_UP); //四舍五入
+
+//BigDecimal add(BigDecimal augend) 
+//BigDecimal subtract(BigDecimal subtrahend)
+//BigDecimal multiply(BigDecimal multiplicand) 
+//BigDecimal divide(BigDecimal divisor)
+
+BigDecimal c = b.add(nwe BigDecimat("763.21"));
+```
+
+```java
+ /**
+     * 获取两个日期的间隔天数
+     * @param beginStr
+     * @param endStr
+     * @return
+     */
+    public int countDays(String beginStr, String endStr) {
+	return DateUtil.countDays(beginStr, endStr, "yyyyMMdd");
+    }
+
+    /**
+     * 8位数字转日期
+     * @param iDate
+     * @return
+     */
+    public Date IntegerToDate(Integer iDate) {
+	return StrToDate(iDate.toString());
+    }
+
+    /**
+     * 8位字符串转日期
+     * @param datestr
+     * @return
+     */
+    public Date StrToDate(String datestr) {
+	Date result = null;
+	try {
+	    result = DateUtil.convertStringToDate("yyyyMMdd", datestr);
+	} catch (ParseException e) {
+	    e.printStackTrace();
+	}
+	return result;
+    }
+```
 
 ```
 利息金额算至分位，分以下尾数四舍五入
