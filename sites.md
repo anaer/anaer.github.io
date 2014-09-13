@@ -11,5 +11,10 @@ update: 2014-09-11 19:54
 
 # Java
   * [IBM Java 开发](http://www.ibm.com/developerworks/cn/java/)
-# 充电
+# 学习
   * [CodeSchool](http://www.codeschool.com/)
+	
+# 社区
+  * [Campo](http://codecampo.com/)
+  * [segmentfault](http://segmentfault.com/)
+  * [dewen](http://www.dewen.io/questions/unanswered)
