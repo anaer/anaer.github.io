@@ -24,3 +24,4 @@ group: navigation
 2014-09-14|刀剑神域2|12|[看看](http://data.movie.kankan.com/movie/84969)
 2014-09-14|使徒行者|15|[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)
 2014-09-14|妖精的尾巴|199|[sohu](http://tv.sohu.com/s2011/yjdwb/)
+2014-09-14|大药坊|5|[[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
