@@ -11,3 +11,4 @@ update: 2014-09-06 11:11
 # 参考
 ## 油猴脚本
   * [Greasy Fork](https://greasyfork.org/)
+  * [Userscripts](http://userscripts-mirror.org/)
