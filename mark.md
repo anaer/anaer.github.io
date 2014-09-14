@@ -20,8 +20,8 @@ group: navigation
 2014-09-08|龙珠改 魔人布欧篇|22|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)
 2014-09-08|区区有鬼故|07/07|[bilibili](http://www.bilibili.com/video/av1508801/)
 2014-09-08|血族/嗜血菌株|9|[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)
-2014-09-08|疑情别恋|18|[小二](http://xiaoer.tv/teleplay/hongkong/?Love-Exchange.html)[QVOD](http://www.qvodsou.com/html/75/2012/06/417541.html)
+2014-09-08|疑情别恋|18|[[小二](http://xiaoer.tv/teleplay/hongkong/?Love-Exchange.html)][[QVOD](http://www.qvodsou.com/html/75/2012/06/417541.html)]
 2014-09-14|刀剑神域2|12|[看看](http://data.movie.kankan.com/movie/84969)
 2014-09-14|使徒行者|15|[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)
-2014-09-14|妖精的尾巴|199|[sohu](http://tv.sohu.com/s2011/yjdwb/)
+2014-09-14|妖精的尾巴|199|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-09-14|大药坊|5|[[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
