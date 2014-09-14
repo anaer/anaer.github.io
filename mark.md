@@ -27,3 +27,4 @@ group: navigation
 2014-09-14|妖精的尾巴|199|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-09-14|钻石王牌|47|[[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-09-14|金田一少年事件簿R|23|[[]()]
+2014-09-15|传世第1季|2|[[sohu](http://tv.sohu.com/s2014/extant/)]
