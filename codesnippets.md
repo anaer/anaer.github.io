@@ -4,6 +4,37 @@ title : "代码"
 header : "代码片段"
 group: navigation
 ---
+
+```java
+ /**
+     * 日期相加
+     *
+     * @param date
+     *            日期
+     * @param day
+     *            天数
+     * @return 返回相加后的日期
+     */
+    public static Date addDate(Date date, int day) {
+	Calendar c = Calendar.getInstance();
+	c.setTimeInMillis(getMillis(date) + (long) day * 24 * 3600 * 1000);
+	return c.getTime();
+    }
+
+    /**
+     * 返回毫秒
+     *
+     * @param date
+     *            日期
+     * @return 返回毫秒
+     */
+    public static long getMillis(Date date) {
+	Calendar c = Calendar.getInstance();
+	c.setTime(date);
+	return c.getTimeInMillis();
+    }
+```
+
 ```java
 String s="125.671";
 BigDecimal b = new BigDecimal(s); 
