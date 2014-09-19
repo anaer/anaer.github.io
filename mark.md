@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-19 21:31
+update: 2014-09-19 21:33
 header : Mark
 group: navigation
 
@@ -15,7 +15,7 @@ group: navigation
 2014-09-19|大药坊|5|[[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
 2014-09-19|BABY STEPS 网球优等生|24|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
 2014-09-15|传世第1季|2|[[sohu](http://tv.sohu.com/s2014/extant/)]
-2014-09-15|-----------------------||
+2014-09-15|--------------------------|-----|-----------
 2014-09-14|钻石王牌|47|[[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-09-14|妖精的尾巴|199|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-09-14|排球少年|24|[[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)]
