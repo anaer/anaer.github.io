@@ -18,7 +18,7 @@ group: navigation
 2014-09-19|传世第1季|3|[[sohu](http://tv.sohu.com/s2014/extant/)]
 2014-09-19|BABY STEPS 网球优等生|24|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
 2014-09-15|--------------------------|-----|-----------
-2014-09-14|钻石王牌|47|[[yydm](http://www.yydm.com/dongman/zswp/)]
+2014-09-19|钻石王牌|48|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-09-14|妖精的尾巴|199|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-09-14|排球少年|24|[[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)]
 2014-09-14|魔法科高校的劣等生|24|[[看看](http://data.movie.kankan.com/movie/75967)]
