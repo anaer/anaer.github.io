@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "异常处理 "
-description: ""
-category: Java
+file: 2014-08-15-exception.md
+update: 2014-09-17 14:16
 tags: [Java, Spring]
 ---
 # Tomcat启动报错
@@ -68,3 +68,7 @@ tags: [Java, Spring]
 # Log4j报错 
   * java.lang.NoSuchMethodError: org.slf4j.helpers.MessageFormatter.format(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 	log4j jar包冲突
+
+# cxf
+  * Cannot find any registered HttpDestinationFactory from the Bus.
+	1. 包冲突 
