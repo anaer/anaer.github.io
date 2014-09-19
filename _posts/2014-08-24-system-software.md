@@ -2,7 +2,7 @@
 layout: post
 title: "装机必备"
 file: 2014-08-24-system-software.md
-update: 2014-09-07 22:10
+update: 2014-09-19 23:31
 tags: [Windows]
 ---
 
@@ -15,8 +15,8 @@ tags: [Windows]
 
 
 # 编辑器    
-  * [SublimeText]()  
   * [Vim](http://www.vim.org/)  
+  * [SublimeText](http://www.sublimetext.com/)  
 
 ---  
 
