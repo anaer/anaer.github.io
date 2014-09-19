@@ -11,7 +11,7 @@ group: navigation
 日期|影视|状态|链接
 ---|:---:|:---:|:---:
 2014-09-19|血族/嗜血菌株|10|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
-2014-09-19|使徒行者|19|[[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
+2014-09-20|使徒行者|20|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-19|全职猎人|147|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
 2014-09-19|东京食尸鬼|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
 2014-09-19|大药坊|5|[[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
