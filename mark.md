@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-19 22:53
+update: 2014-09-20 00:54
 header : Mark
 group: navigation
 
@@ -14,7 +14,7 @@ group: navigation
 2014-09-20|使徒行者|20|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-19|全职猎人|147|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
 2014-09-19|东京食尸鬼|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
-2014-09-19|大药坊|5|[[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
+2014-09-20|大药坊|10|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
 2014-09-19|传世第1季|3|[[sohu](http://tv.sohu.com/s2014/extant/)]
 2014-09-19|BABY STEPS 网球优等生|24|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
 2014-09-15|--------------------------|-----|-----------
