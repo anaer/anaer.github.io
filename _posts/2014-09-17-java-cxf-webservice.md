@@ -95,3 +95,4 @@ public class ServerPasswordCallback implements CallbackHandler {
   * [java wsdl反向生成源码，并使用CXF实现客户端调用代码 ](http://blog.csdn.net/linwei_1029/article/details/8863424)
   * [cxf wss4j 令牌验证 为什么 回调是空？ jaxws:server password null  ](http://cache.baiducontent.com/c?m=9d78d513d9920bfb4fede53b5a4696315910db326bc0d06468a5925fe5154c30477194cb30226113a2b66b1604b8482cfd804265410434f0db9687109bfdd03f2efb3a292042db1405d36eaccf4732c157c107b6b248bfece735e7ff84ce8f0a0e9f4e443cd3b6d00b1d12ce6cf31336e7a1994a165c1abde63262fa58752882&p=93759a46d7c413f740a9c22d021481&newp=cb7ac54ad5c246b111aac7710f5f86231610db2151d0d21e619dd4&user=baidu&fm=sc&query=cxf+webservice+%C3%DC%C2%EB+%CA%C7%BF%D5&qid=9d3e634100007765&p1=2)
   * [CXF学习笔记(4)-HelloWorld!-安全认证 ](http://blog.csdn.net/crazycoder2010/article/details/6695436)
+  * [CXF WebService+Spring 无法注入问题解决方法 ](http://blog.csdn.net/chq1988/article/details/38554339)
