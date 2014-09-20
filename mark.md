@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-20 00:54
+update: 2014-09-20 13:05
 header : Mark
 group: navigation
 
@@ -17,7 +17,7 @@ group: navigation
 2014-09-19|血族/嗜血菌株|10|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
 2014-09-19|全职猎人|147|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
 2014-09-19|东京食尸鬼|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
-2014-09-19|传世第1季|3|[[sohu](http://tv.sohu.com/s2014/extant/)]
+2014-09-20|传世第1季|10|[[sohu](http://tv.sohu.com/s2014/extant/)]
 2014-09-19|BABY STEPS 网球优等生|24|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
 2014-09-15|--------------------------|-----|-----------
 2014-09-14|妖精的尾巴|199|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
