@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-20 13:08
+update: 2014-09-20 13:28
 header : Mark
 group: navigation
 
@@ -10,7 +10,7 @@ group: navigation
 
 日期|影视|状态|链接
 ---|:---:|:---:|:---
-2014-09-22|--------------------------|-----|-----------
+2014-09-22|-------------------------------|----------|----------------
 2014-09-20|使徒行者|20|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-20|大药坊|10|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
 2014-09-20|传世第1季|10|[[sohu](http://tv.sohu.com/s2014/extant/)]
@@ -19,7 +19,7 @@ group: navigation
 2014-09-19|全职猎人|147|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
 2014-09-19|东京食尸鬼|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
 2014-09-19|BABY STEPS 网球优等生|24|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
-2014-09-15|--------------------------|-----|-----------
+2014-09-15|-------------------------------|----------|----------------
 2014-09-14|妖精的尾巴|199|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-09-14|排球少年|24|[[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)]
 2014-09-14|魔法科高校的劣等生|24|[[看看](http://data.movie.kankan.com/movie/75967)]
@@ -31,5 +31,5 @@ group: navigation
 2014-09-08|疑情别恋|18|[[小二](http://xiaoer.tv/teleplay/hongkong/?Love-Exchange.html)][[QVOD](http://www.qvodsou.com/html/75/2012/06/417541.html)]
 2014-09-08|~~区区有鬼故~~|07/07|[[bilibili](http://www.bilibili.com/video/av1508801/)]
 2014-09-08|~~布袋和尚（林家栋版）~~|20/20|[[优酷](http://www.youku.com/playlist_show/id_19572223.html)]
-2014-09-08|--------------------------|-----|-----------
+2014-09-08|-------------------------------|----------|----------------
 2014-09-06|~~载得有情人~~|20/20|[[优酷](http://www.youku.com/show_page/id_zaa88e088b89311e3a705.html)]
