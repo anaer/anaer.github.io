@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-20 13:28
+update: 2014-09-20 17:37
 header : Mark
 group: navigation
 
@@ -20,7 +20,7 @@ group: navigation
 2014-09-19|东京食尸鬼|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
 2014-09-19|BABY STEPS 网球优等生|24|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
 2014-09-15|-------------------------------|----------|----------------
-2014-09-14|妖精的尾巴|199|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
+2014-09-20|妖精的尾巴|200|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-09-14|排球少年|24|[[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)]
 2014-09-14|魔法科高校的劣等生|24|[[看看](http://data.movie.kankan.com/movie/75967)]
 2014-09-14|龙珠改 魔人布欧篇|23|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]

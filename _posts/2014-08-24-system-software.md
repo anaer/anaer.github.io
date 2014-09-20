@@ -2,7 +2,7 @@
 layout: post
 title: "装机必备"
 file: 2014-08-24-system-software.md
-update: 2014-09-19 23:31
+update: 2014-09-20 13:41
 tags: [Windows]
 ---
 
@@ -22,7 +22,7 @@ tags: [Windows]
 ---  
 
 # 开发工具  
-  * [Tomcat](http://tomcat.apache.org/)  
+  * [Tomcat](http://tomcat.apache.org/)
   * [Eclipse]()  
   * [TortoiseGit](https://code.google.com/p/tortoisegit/)  
   * [TortoiseSVN]()  
