@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-20 22:08
+update: 2014-09-21 07:27
 header : Mark
 group: navigation
 
@@ -28,7 +28,7 @@ group: navigation
 2014-09-14|金田一少年事件簿R|23|[[]()]
 2014-09-14|金田一少年事件簿N|8|[[bilibili](http://www.bilibili.com/sp/%E9%87%91%E7%94%B0%E4%B8%80%E5%B0%91%E5%B9%B4%E4%BA%8B%E4%BB%B6%E7%B0%BFN)]
 2014-09-14|海贼王|661|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
-2014-09-14|刀剑神域2|12|[[看看](http://data.movie.kankan.com/movie/84969)]
+2014-09-14|刀剑神域2|13|[letv](http://comic.letv.com/zt/bilisao2/index.shtml)[看看](http://data.movie.kankan.com/movie/84969)
 2014-09-08|疑情别恋|18|[[小二](http://xiaoer.tv/teleplay/hongkong/?Love-Exchange.html)][[QVOD](http://www.qvodsou.com/html/75/2012/06/417541.html)]
 2014-09-08|~~区区有鬼故~~|07/07|[[bilibili](http://www.bilibili.com/video/av1508801/)]
 2014-09-08|~~布袋和尚（林家栋版）~~|20/20|[[优酷](http://www.youku.com/playlist_show/id_19572223.html)]
