@@ -21,3 +21,6 @@ group: navigation
   * [Campo](http://codecampo.com/)
   * [segmentfault](http://segmentfault.com/)
   * [dewen](http://www.dewen.io/questions/unanswered)
+
+# 音乐
+  * [百度随心听](http://fm.baidu.com/)
