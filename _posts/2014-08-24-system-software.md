@@ -12,6 +12,7 @@ tags: [Windows]
   * [Mozilla Firefox]()  
   * [Cygwin](http://www.cygwin.com/)  
   * [PStart](http://www.pegtop.net/download.php?file=start)
+  * [Sumatra PDF](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html)
 
 
 # 编辑器    
