@@ -27,3 +27,4 @@ group: navigation
 # 音乐
   * [百度随心听](http://fm.baidu.com/)
   * [QQ音乐电台](http://fm.qq.com/)
+  * [fifm收音机](http://www.fifm.us/)
