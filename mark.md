@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-21 07:29
+update: 2014-09-21 08:47
 header : Mark
 group: navigation
 
@@ -12,7 +12,7 @@ group: navigation
 ---|:---:|:---:|:---
 2014-09-22|-------------------------------|----------|----------------
 2014-09-20|妖精的尾巴|200|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
-2014-09-20|巡夜人日记|12|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
+2014-09-20|巡夜人日记|14|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
 2014-09-20|使徒行者|20|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-20|僵尸国度|S01E02|[]()
 2014-09-20|刀剑神域2|13|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)][[看看](http://data.movie.kankan.com/movie/84969)]
