@@ -22,6 +22,7 @@ group: navigation
   * [Campo](http://codecampo.com/)
   * [segmentfault](http://segmentfault.com/)
   * [dewen](http://www.dewen.io/questions/unanswered)
+  * [opera中文论坛](http://o.awk.tw/index.php)
 
 # 音乐
   * [百度随心听](http://fm.baidu.com/)

@@ -9,6 +9,7 @@ tags: [Windows]
 # 装机必备  
   * [foobar2000](http://www.foobar2000.org/)   
   * [CCleaner]()  
+## 浏览器
   * [Mozilla Firefox]()  
   * [Cygwin](http://www.cygwin.com/)  
   * [PStart](http://www.pegtop.net/download.php?file=start)
