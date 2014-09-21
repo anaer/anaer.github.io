@@ -2,7 +2,7 @@
 layout: page
 title : "导航"
 file: sites.md
-update: 2014-09-20 22:04
+update: 2014-09-21 18:58
 header : Sites
 group: navigation
 
@@ -26,3 +26,4 @@ group: navigation
 
 # 音乐
   * [百度随心听](http://fm.baidu.com/)
+  * [QQ音乐电台](http://fm.qq.com/)
