@@ -17,6 +17,7 @@ group: navigation
 
 # 学习
   * [CodeSchool](http://www.codeschool.com/)
+  * [传智博客学习笔记](http://zhpooer.github.io/)
 	
 # 社区
   * [Campo](http://codecampo.com/)
