@@ -11,13 +11,12 @@ tags: [Java, WebService]
 # Maven配置
 
   ```xml
-   <!-- 
+		 <!-- 
             <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-api</artifactId>
             <version>${cxf.version}</version>
             </dependency>
-            
             -->
         <dependency>
             <groupId>org.apache.cxf</groupId>
