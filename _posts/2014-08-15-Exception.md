@@ -87,6 +87,8 @@ tags: [Java, Spring]
 	Key type:			Namespace name
 	Key:				http://www.springframework.org/schema/mvc/spring-mvc.xsd
 	```
+  * eclipse 中 js提示 Syntax error on token "Invalid Character", delete this token 
+	Preferences->JavaScript->Editor 去掉Report problems as you type
 # Mybatis 报错
   * Type interface com.souvi.ibatis.xxxMapper is  not known to the MapperRegistry
 	1. 代码未注册
@@ -111,3 +113,4 @@ tags: [Java, Spring]
 # cxf
   * Cannot find any registered HttpDestinationFactory from the Bus.
 	1. 包冲突 
+
