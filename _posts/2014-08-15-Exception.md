@@ -2,7 +2,7 @@
 layout: post
 title: "异常处理 "
 file: 2014-08-15-exception.md
-update: 2014-09-17 14:16
+update: 2014-09-25 13:17
 tags: [Java, Spring]
 ---
 # Tomcat启动报错
@@ -46,8 +46,47 @@ tags: [Java, Spring]
 	1. Preferences->XML->XML Catalog 添加
 	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
 	http://www.springframework.org/schema/mvc/spring-mvc.xsd
-	xsd文件下载保存本地
+	xsd文件下载保存本地 存放路径最好不带空格
 
+	```xml
+	Entry element:		Public
+	Location:			E:\anaer\workspace\xml\mybatis-3-mapper.dtd
+	URI:   				file:///E:/anaer/workspace/xml/mybatis-3-mapper.dtd
+	Key type:			Public ID
+	Key:				-//mybatis.org//DTD Mapper 3.0//EN
+	```
+
+	```xml
+	Entry element:		URI
+	Location:			E:\anaer\workspace\xml\jaxws.xsd
+	URI:   				file:///E:/anaer/workspace/xml/jaxws.xsd
+	Key type:			Namespace name
+	Key:				http://cxf.apache.org/jaxws
+	```
+
+	```xml
+	Entry element:		URI
+	Location:			E:\anaer\workspace\xml\jaxws.xsd
+	URI:   				file:///E:/anaer/workspace/xml/jaxws.xsd
+	Key type:			Namespace name
+	Key:				http://cxf.apache.org/schemas/jaxws.xsd
+	```
+
+	```xml
+	Entry element:		URI
+	Location:			E:\anaer\workspace\xml\spring-mvc-3.0.xsd
+	URI:   				file:///E:/anaer/workspace/xml/spring-mvc-3.0.xsd
+	Key type:			Namespace name
+	Key:				http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+	```
+
+	```xml
+	Entry element:		URI
+	Location:			E:\anaer\workspace\xml\spring-mvc.xsd
+	URI:   				file:///E:/anaer/workspace/xml/spring-mvc.xsd
+	Key type:			Namespace name
+	Key:				http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	```
 # Mybatis 报错
   * Type interface com.souvi.ibatis.xxxMapper is  not known to the MapperRegistry
 	1. 代码未注册
