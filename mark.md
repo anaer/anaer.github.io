@@ -17,7 +17,7 @@ group: navigation
 2014-09-21|金田一少年事件簿N|9|[[bilibili](http://www.bilibili.com/sp/%E9%87%91%E7%94%B0%E4%B8%80%E5%B0%91%E5%B9%B4%E4%BA%8B%E4%BB%B6%E7%B0%BFN)]
 2014-09-21|海贼王|662|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-09-21|~~排球少年~~|25/25|[[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)]
-2014-09-20|使徒行者|20|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
+2014-09-24|使徒行者|22|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-20|僵尸国度|S01E02|[]()
 2014-09-20|刀剑神域2|13|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)][[看看](http://data.movie.kankan.com/movie/84969)]
 2014-09-20|大药坊|10|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
