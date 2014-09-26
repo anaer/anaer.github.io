@@ -114,3 +114,12 @@ tags: [Java, Spring]
   * Cannot find any registered HttpDestinationFactory from the Bus.
 	1. 包冲突 
 
+# git 
+git clone https://github.com/anaer/root.git
+正克隆到 'root'...
+fatal: unable to access 'https://github.com/anaer/root.git/': error setting cert                                                                                                    ificate verify locations:
+  CAfile: /usr/ssl/certs/ca-bundle.crt
+  CApath: none
+
+  跳过CA验证
+  export GIT_SSL_NO_VERIFY=1
