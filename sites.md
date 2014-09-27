@@ -2,7 +2,7 @@
 layout: page
 title : "导航"
 file: sites.md
-update: 2014-09-21 18:58
+update: 2014-09-27 21:15
 header : Sites
 group: navigation
 
@@ -27,6 +27,8 @@ group: navigation
 
 # 影视
   * [耐卡影音](http://www.ncar.cc)
+  * [B站](http://www.bilibili.com)
+  * [A站](http://www.acfun.tv/)
 
 # 音乐
   * [百度随心听](http://fm.baidu.com/)
