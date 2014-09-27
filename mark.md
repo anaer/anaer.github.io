@@ -8,7 +8,7 @@ group: navigation
 
 ---
 
-日期|影视|状态|链接|更新
+日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-09-29|-------------------------------|----------|----------------|----------------
 2014-09-27|巡夜人日记|16|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
@@ -31,7 +31,7 @@ group: navigation
 2014-09-20|传世第1季|13/13|[[sohu](http://tv.sohu.com/s2014/extant/)]
 2014-09-19|东京喰种|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
 2014-09-15|-------------------------------|----------|----------------|----------------
-2014-09-08|疑情别恋|18|[[小二](http://xiaoer.tv/teleplay/hongkong/?Love-Exchange.html)][[QVOD](http://www.qvodsou.com/html/75/2012/06/417541.html)]
+2014-09-08|疑情别恋|18|[[小二](http://xiaoer.tv/teleplay/hongkong/?Love-Exchange.html)][[QVOD](http://www.qvodsou.com/html/75/2012/06/417541.html)]|版权到期 有几集看不了
 2014-09-08|~~区区有鬼故~~|07/07|[[bilibili](http://www.bilibili.com/video/av1508801/)]
 2014-09-08|~~布袋和尚（林家栋版）~~|20/20|[[优酷](http://www.youku.com/playlist_show/id_19572223.html)]
 2014-09-08|-------------------------------|----------|----------------|----------------
