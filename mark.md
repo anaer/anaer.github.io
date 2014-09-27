@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-27 10:59
+update: 2014-09-27 11:31
 header : Mark
 group: navigation
 
@@ -27,7 +27,7 @@ group: navigation
 2014-09-21|海贼王|662|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-09-21|~~排球少年~~|25/25|[[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)]
 2014-09-20|僵尸国度|S01E02|[]()
-2014-09-20|刀剑神域2|13|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)][[看看](http://data.movie.kankan.com/movie/84969)]
+2014-09-20|刀剑神域2|13|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-09-20|传世第1季|13/13|[[sohu](http://tv.sohu.com/s2014/extant/)]
 2014-09-19|东京喰种|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
 2014-09-15|-------------------------------|----------|----------------|----------------
