@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-27 11:31
+update: 2014-09-27 11:36
 header : Mark
 group: navigation
 
@@ -11,6 +11,7 @@ group: navigation
 日期|影视|状态|链接|更新
 ---|:---:|:---:|:---|:---
 2014-09-29|-------------------------------|----------|----------------|----------------
+2014-09-27|巡夜人日记|15|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
 2014-09-27|使徒行者|25|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-27|龙珠改 魔人布欧篇|24(122)|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]
 2014-09-27|金田一少年事件簿R|24|[[sohu](http://tv.sohu.com/s2014/jtysnr/)]
@@ -21,7 +22,6 @@ group: navigation
 2014-09-26|BABY STEPS 网球优等生|25|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
 2014-09-22|-------------------------------|----------|----------------|----------------
 2014-09-21|妖精的尾巴|200|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
-2014-09-21|巡夜人日记|14|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
 2014-09-21|魔法科高校的劣等生|25|[[看看](http://data.movie.kankan.com/movie/75967)]
 2014-09-21|金田一少年事件簿N|9/9|[[bilibili](http://www.bilibili.com/sp/%E9%87%91%E7%94%B0%E4%B8%80%E5%B0%91%E5%B9%B4%E4%BA%8B%E4%BB%B6%E7%B0%BFN)]
 2014-09-21|海贼王|662|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
