@@ -25,6 +25,9 @@ group: navigation
   * [dewen](http://www.dewen.io/questions/unanswered)
   * [opera中文论坛](http://o.awk.tw/index.php)
 
+# 影视
+  * [耐卡影音](http://www.ncar.cc)
+
 # 音乐
   * [百度随心听](http://fm.baidu.com/)
   * [QQ音乐电台](http://fm.qq.com/)
