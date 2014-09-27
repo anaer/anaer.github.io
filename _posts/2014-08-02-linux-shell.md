@@ -2,10 +2,12 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-09-08 10:51
+update: 2014-09-27 14:15
 tags: [Linux, Shell]
 ---
-# 命令格式: 
+
+# find命令
+## 命令格式: 
 
 	find pathname -options [-print -exec -ok]
     参数
@@ -14,7 +16,7 @@ tags: [Linux, Shell]
         -exec：     find命令对匹配的文件执行该参数所给出的shell命令。相应命令的形式为'command' {} /;，注意{ }和/；之间的空格。
         -ok：       和-exec的作用相同，只不过以一种更为安全的模式来执行该参数所给出的shell命令，在执行每一个命令之前，都会给出提示，让用户来确定是否执行。
 
-# find命令选项
+## find命令选项
 
         -name：按照文件名查找文件。
         -perm：按照文件权限来查找文件。
@@ -43,15 +45,21 @@ tags: [Linux, Shell]
                 -cpio：对匹配的文件使用cpio命令，将这些文件备份到磁带设备中
 
 
-# find
+## find实例
 
-    当前目录及子目录中查找文件名以一个大写字母开头的文件
-            find . -name "[A-Z]*" -print
-
-    在/etc目录中查找文件名以host开头的文件
-            find /etc -name "host*" -print
-
-
+  ```bash
+  find . -name "[A-Z]*" -print  # 当前目录及子目录中查找文件名以一个大写字母开头的文件
+  find /etc -name "host*" -print  # 在/etc目录中查找文件名以host开头的文件
+  find ./ -name "*.log" -type f  # 找到文件后缀为.log的文件, 注意:一定要有引号
+  find . -perm 755 -print       # 找到权限为755的文件
+  find ./ -user poe –print # 找到用户为poe的文件
+  find /apps -group gem –print
+  find / -mtime -5 –print #在系统根目录下查找更改时间在5日以内的文件
+  find /var/adm -mtime +3 –print # 在/var/adm目录下查找更改时间在3日以前的文件
+  find /usr/sam -path "/usr/sam/dir1" -prune -o –print # 在/usr/sam目录下查找不在dir1子目录之内的所有文件
+  find . -maxdepth 1 -name "*.zip" -print # 只在的文件
+  find . -perm 755 -exec ls {} \; ##执行命令, 注意;和{}之间的空格
+  ```
 # exec
 
     find命令将所有匹配到的文件一起传递给exec执行
