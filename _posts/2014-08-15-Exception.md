@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "异常处理 "
-file: 2014-08-15-exception.md
-update: 2014-09-25 13:17
+file: 2014-08-15-Exception.md
+update: 2014-09-27 08:04
 tags: [Java, Spring]
 ---
 # Tomcat启动报错
@@ -123,3 +123,8 @@ fatal: unable to access 'https://github.com/anaer/root.git/': error setting cert
 
   跳过CA验证
   export GIT_SSL_NO_VERIFY=1
+
+#cygwin
+
+* /usr/libexec/git-core/git-remote-https.exe: error while loading shared libraries: ?: cannot open shared object file: No such file or directory
+* 
