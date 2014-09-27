@@ -2,7 +2,7 @@
 layout: post
 title: "异常处理 "
 file: 2014-08-15-Exception.md
-update: 2014-09-27 08:04
+update: 2014-09-27 09:22
 tags: [Java, Spring]
 ---
 # Tomcat启动报错
@@ -127,4 +127,9 @@ fatal: unable to access 'https://github.com/anaer/root.git/': error setting cert
 #cygwin
 
 * /usr/libexec/git-core/git-remote-https.exe: error while loading shared libraries: ?: cannot open shared object file: No such file or directory
+  重新安装libcygkrb5...
+
 * 
+curl: (77) error setting certificate verify locations:
+  CAfile: /usr/ssl/certs/ca-bundle.crt
+  CApath: none
