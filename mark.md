@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-27 07:50
+update: 2014-09-27 10:18
 header : Mark
 group: navigation
 
@@ -11,9 +11,9 @@ group: navigation
 日期|影视|状态|链接|更新
 ---|:---:|:---:|:---|:---
 2014-09-29|-------------------------------|----------|----------------|----------------
+2014-09-27|使徒行者|25|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-26|钻石王牌|49|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-09-26|血族/嗜血菌株|11|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
-2014-09-26|使徒行者|24|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-26|全职猎人|148/148|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
 2014-09-26|大药坊|14|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
 2014-09-26|BABY STEPS 网球优等生|25|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
