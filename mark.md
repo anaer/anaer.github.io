@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-27 21:31
+update: 2014-09-27 23:33
 header : Mark
 group: navigation
 
@@ -16,9 +16,10 @@ group: navigation
 2014-09-27|巡夜人日记|16|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
 2014-09-27|使徒行者|25|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-27|龙珠改 魔人布欧篇|24(122)|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]
-2014-09-27|~~金田一少年事件簿R~~|25/25|[[sohu](http://tv.sohu.com/s2014/jtysnr/)]
 2014-09-27|僵尸国度|S01E03|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)]
+2014-09-27|刀剑神域2|13|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-09-27|大药坊|15|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
+2014-09-27|~~金田一少年事件簿R~~|25/25|[[sohu](http://tv.sohu.com/s2014/jtysnr/)]
 2014-09-26|钻石王牌|49|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-09-26|血族/嗜血菌株|11|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
 2014-09-26|全职猎人|148/148|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
@@ -28,7 +29,6 @@ group: navigation
 2014-09-21|金田一少年事件簿N|9/9|[[bilibili](http://www.bilibili.com/sp/%E9%87%91%E7%94%B0%E4%B8%80%E5%B0%91%E5%B9%B4%E4%BA%8B%E4%BB%B6%E7%B0%BFN)]
 2014-09-21|海贼王|662|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-09-21|~~排球少年~~|25/25|[[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)]
-2014-09-20|刀剑神域2|13|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-09-20|传世第1季|13/13|[[sohu](http://tv.sohu.com/s2014/extant/)]
 2014-09-19|东京喰种|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
 2014-09-15|-------------------------------|----------|----------------|----------------
