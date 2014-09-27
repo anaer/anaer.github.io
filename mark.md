@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-09-27 11:36
+update: 2014-09-27 13:28
 header : Mark
 group: navigation
 
@@ -11,7 +11,7 @@ group: navigation
 日期|影视|状态|链接|更新
 ---|:---:|:---:|:---|:---
 2014-09-29|-------------------------------|----------|----------------|----------------
-2014-09-27|巡夜人日记|15|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
+2014-09-27|巡夜人日记|16|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
 2014-09-27|使徒行者|25|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-27|龙珠改 魔人布欧篇|24(122)|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]
 2014-09-27|金田一少年事件簿R|24|[[sohu](http://tv.sohu.com/s2014/jtysnr/)]
