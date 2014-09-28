@@ -10,7 +10,7 @@ group: navigation
 
 日期|事项
 ---|---
-2014-09-28|cygwin下安装mysql
+2014-09-28|cygwin下安装mysql,公司连不了外网，暂时放弃
 2014-09-25|~~oschina注册邮箱变更 myopera to 139 ~~
 2014-09-16|~~opera账号删除~~
 2014-09-14|余额宝还款配置
