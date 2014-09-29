@@ -10,6 +10,9 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-10-06|-------------------------------|----------|----------------|----------------
+2014-09-29|魔法科高校的劣等生|26/26|[[看看](http://data.movie.kankan.com/movie/75967)]
+2014-09-29|海贼王|663|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-09-29|-------------------------------|----------|----------------|----------------
 2014-09-27|疑犯追踪|S04E01|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
 2014-09-27|妖精的尾巴|207|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
@@ -25,9 +28,7 @@ group: navigation
 2014-09-26|全职猎人|148/148|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
 2014-09-26|BABY STEPS 网球优等生|25|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
 2014-09-22|-------------------------------|----------|----------------|----------------
-2014-09-21|魔法科高校的劣等生|25|[[看看](http://data.movie.kankan.com/movie/75967)]
 2014-09-21|金田一少年事件簿N|9/9|[[bilibili](http://www.bilibili.com/sp/%E9%87%91%E7%94%B0%E4%B8%80%E5%B0%91%E5%B9%B4%E4%BA%8B%E4%BB%B6%E7%B0%BFN)]
-2014-09-21|海贼王|662|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-09-21|~~排球少年~~|25/25|[[bilibili](http://www.bilibili.com/sp/%E6%8E%92%E7%90%83%EF%BC%81%EF%BC%81)]
 2014-09-20|传世第1季|13/13|[[sohu](http://tv.sohu.com/s2014/extant/)]
 2014-09-19|东京喰种|12/12|[[bilibili](http://www.bilibili.com/sp/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC)]
