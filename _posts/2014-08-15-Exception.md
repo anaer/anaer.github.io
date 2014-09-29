@@ -133,3 +133,6 @@ fatal: unable to access 'https://github.com/anaer/root.git/': error setting cert
 curl: (77) error setting certificate verify locations:
   CAfile: /usr/ssl/certs/ca-bundle.crt
   CApath: none
+
+* no acceptable C compiler found in $PATH
+  缺少gcc编译器

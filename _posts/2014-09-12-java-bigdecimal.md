@@ -2,7 +2,7 @@
 layout: post
 title: "Java BigDecimal"
 file: 2014-09-12-java-bigdecimal.md
-update: 2014-09-12 17:24
+update: 2014-09-28 16:25
 description: ""
 category: Java
 tags: [Java]
@@ -54,6 +54,15 @@ ROUND_UP
 写成如下便可通过
 
 BigDecimal num3 = num1.divide(num2，10，ROUND_HALF_DOWN);
+
+  ```Java
+  BigDecimal.setScale()方法用于格式化小数点
+  setScale(1)表示保留一位小数，默认用四舍五入方式
+  setScale(1,BigDecimal.ROUND_DOWN)直接删除多余的小数位，如2.35会变成2.3
+  setScale(1,BigDecimal.ROUND_UP)进位处理，2.35变成2.4
+  setScale(1,BigDecimal.ROUND_HALF_UP)四舍五入，2.35变成2.4
+  setScaler(1,BigDecimal.ROUND_HALF_DOWN)四舍五入，2.35变成2.3，如果是5则向下舍
+  ```
 
 
 # 参考
