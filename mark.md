@@ -10,6 +10,7 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-10-06|妖精的尾巴|202|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-10-06|-------------------------------|----------|----------------|----------------
 2014-10-05|钻石王牌|51|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-10-05|巡夜人日记|18|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
@@ -23,7 +24,6 @@ group: navigation
 2014-09-29|~~魔法科高校的劣等生~~|26/26|[[看看](http://data.movie.kankan.com/movie/75967)]
 2014-09-29|-------------------------------|----------|----------------|----------------
 2014-09-27|疑犯追踪|S04E01|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
-2014-09-27|妖精的尾巴|207|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-09-27|~~金田一少年事件簿R~~|25/25|[[sohu](http://tv.sohu.com/s2014/jtysnr/)]
 2014-09-26|~~全职猎人~~|148/148|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
 2014-09-26|~~BABY STEPS 网球优等生~~|25/25|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
