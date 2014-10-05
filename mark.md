@@ -23,7 +23,7 @@ group: navigation
 2014-09-27|巡夜人日记|16|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
 2014-09-27|龙珠改 魔人布欧篇|24(122)|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]
 2014-09-27|僵尸国度|S01E03|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)]
-2014-09-27|刀剑神域2|13|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
+2014-10-05|刀剑神域2|14|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-09-27|~~金田一少年事件簿R~~|25/25|[[sohu](http://tv.sohu.com/s2014/jtysnr/)]
 2014-09-26|~~全职猎人~~|148/148|[[bilibili](http://www.bilibili.com/sp/%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA%202011)]
 2014-09-26|~~BABY STEPS 网球优等生~~|25/25|[[bilibili](http://www.bilibili.com/sp/BABY%20STEPS%20%E7%BD%91%E7%90%83%E4%BC%98%E7%AD%89%E7%94%9F)]
