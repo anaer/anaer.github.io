@@ -13,6 +13,7 @@ group: navigation
 2014-10-13|-------------------------------|----------|----------------|----------------
 2014-10-06|疑犯追踪|S04E02|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
 2014-10-06|妖精的尾巴|202|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
+2014-10-06|海贼王|664|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-10-06|-------------------------------|----------|----------------|----------------
 2014-10-05|钻石王牌|51|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-10-05|巡夜人日记|18|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
@@ -22,7 +23,6 @@ group: navigation
 2014-10-05|刀剑神域2|14|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-10-05|大药坊|19|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
 2014-10-05|~~使徒行者~~|31/31|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
-2014-09-29|海贼王|663|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-09-29|~~魔法科高校的劣等生~~|26/26|[[看看](http://data.movie.kankan.com/movie/75967)]
 2014-09-29|-------------------------------|----------|----------------|----------------
 2014-09-27|~~金田一少年事件簿R~~|25/25|[[sohu](http://tv.sohu.com/s2014/jtysnr/)]
