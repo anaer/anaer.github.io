@@ -13,11 +13,11 @@ group: navigation
 2014-10-13|-------------------------------|----------|----------------|----------------
 2014-10-06|疑犯追踪|S04E02|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
 2014-10-06|妖精的尾巴|202|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
+2014-10-06|血族/嗜血菌株|13/13|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
 2014-10-06|海贼王|664|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-10-06|-------------------------------|----------|----------------|----------------
 2014-10-05|钻石王牌|51|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-10-05|巡夜人日记|18|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
-2014-10-05|血族/嗜血菌株|12|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
 2014-10-05|龙珠改 魔人布欧篇|25(123)|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]
 2014-10-05|僵尸国度|S01E04|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)]
 2014-10-05|刀剑神域2|14|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
