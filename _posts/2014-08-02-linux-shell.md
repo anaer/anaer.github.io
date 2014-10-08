@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-10-08 15:25
+update: 2014-10-08 15:48
 tags: [Linux, Shell]
 ---
 
@@ -250,6 +250,21 @@ sed '2q' test.txt  //打印到第二行退出
 
   ```bash
   #!/bin/sh -xv
+  ```
+
+
+# Shell script: 实现include
+
+很简单, 用source：
+
+  ```bash
+  #!/bin/bash
+
+  echo "Begin to call another script..."
+
+  source /path/to/another/script.sh #其中的变量在caller中依然有效
+
+  echo "Done"
   ```
 
 # 参考 
