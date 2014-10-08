@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-09-27 14:15
+update: 2014-10-08 15:25
 tags: [Linux, Shell]
 ---
 
@@ -245,6 +245,12 @@ sed '2q' test.txt  //打印到第二行退出
 
 需要注意的是，sed并不直接操作初始数据，它操作的是一份原始数据的拷贝。sed处理时，把当前处理的行存储在临时缓冲区中，然后处理缓冲区中的内容，处理完成后，如果没有重定向到文件， 将把缓冲区中的内容送往屏幕，接着处理下一行直到处理完毕
 ```
+
+# Shell脚本Debug
+
+  ```bash
+  #!/bin/sh -xv
+  ```
 
 # 参考 
   * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
