@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-10-07 13:02
+update: 2014-10-11 19:16
 header : Mark
 group: navigation
 
@@ -11,7 +11,9 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-10-13|-------------------------------|----------|----------------|----------------
-2014-10-07|大药坊|20|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
+2014-10-11|龙珠改 魔人布欧篇|26(124)|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]
+2014-10-11|僵尸国度|S01E05|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)]
+2014-10-11|大药坊|24|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
 2014-10-07|不死法医|2|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)]
 2014-10-06|疑犯追踪|S04E02|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
 2014-10-06|妖精的尾巴|202|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
@@ -20,8 +22,6 @@ group: navigation
 2014-10-06|-------------------------------|----------|----------------|----------------
 2014-10-05|钻石王牌|51|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-10-05|巡夜人日记|18|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
-2014-10-05|龙珠改 魔人布欧篇|25(123)|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]
-2014-10-05|僵尸国度|S01E04|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)]
 2014-10-05|刀剑神域2|14|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-10-05|~~使徒行者~~|31/31|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-29|~~魔法科高校的劣等生~~|26/26|[[看看](http://data.movie.kankan.com/movie/75967)]
