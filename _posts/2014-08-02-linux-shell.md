@@ -267,6 +267,9 @@ sed '2q' test.txt  //打印到第二行退出
   echo "Done"
   ```
 
+# stat
+  查询文件/目录统计信息
+  stat filename
 # 参考 
   * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
   * [sed常见用法总结](http://blog.csdn.net/u011750989/article/details/39005831)
