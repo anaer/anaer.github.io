@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-10-08 15:48
+update: 2014-10-15 17:00
 tags: [Linux, Shell]
 ---
 
@@ -253,7 +253,7 @@ sed '2q' test.txt  //打印到第二行退出
   ```
 
 
-# Shell script: 实现include
+# Shell脚本实现include
 
 很简单, 用source：
 
@@ -267,9 +267,31 @@ sed '2q' test.txt  //打印到第二行退出
   echo "Done"
   ```
 
-# stat
+# stat命令
   查询文件/目录统计信息
   stat filename
+
+# sort命令
+
+  ```bash
+  sort a.txt # 文件内容排序
+  sort -n b.txt # 排序数字类型
+  sort -t'#' -k 2 -n count.txt # -t命令指定分隔符，-k命令指定按第几列排序，-n代表排序数字。  如: 中国#23  
+  sort -n -r b.txt  # -r 降序排序
+  ```
+
+# tar命令/zip命令
+
+  ```bash
+	[root@linux ~]# tar -cvf /tmp/etc.tar /etc <==仅打包，不压缩！  
+    [root@linux ~]# tar -zcvf /tmp/etc.tar.gz /etc <==打包后，以 gzip 压缩  
+    [root@linux ~]# tar -jcvf /tmp/etc.tar.bz2 /etc <==打包后，以 bzip2 压缩  
+
+	# 查看压缩包内容
+	unzip -v large.zip  
+	tar -tf xx.tar
+  ```
+
 # 参考 
   * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
   * [sed常见用法总结](http://blog.csdn.net/u011750989/article/details/39005831)
