@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-10-18 23:21
+update: 2014-10-19 01:50
 header : Mark
 group: navigation
 
@@ -11,7 +11,9 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-10-20|-------------------------------|----------|----------------|----------------
+2014-10-19|信长协奏曲（2014）|1|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-10-19|魔弹之王与战姬|03|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
+2014-10-19|海贼王|666|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-10-18|再战明天|9|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
 2014-10-18|妖精的尾巴|204|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-10-18|巡夜人日记|22|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
@@ -27,7 +29,6 @@ group: navigation
 2014-10-12|七大罪|2|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA)
 2014-10-12|魔术快斗1412/怪盗基德1412|3|[]()
 2014-10-12|龙珠改 魔人布欧篇|27(125)|[[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87)]
-2014-10-12|海贼王|665|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-10-06|~~血族/嗜血菌株~~|13/13|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
 2014-10-06|-------------------------------|----------|----------------|----------------
 2014-10-05|钻石王牌|51|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]

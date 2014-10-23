@@ -5,6 +5,7 @@ file: 2014-08-15-exception.md
 update: 2014-10-15 15:45
 tags: [Exception]
 ---
+
 # Tomcat
 
 ## Tomcat启动报错
@@ -138,7 +139,8 @@ curl: (77) error setting certificate verify locations:
 * no acceptable C compiler found in $PATH
   缺少gcc编译器
 
-# mysql
+# mysql异常处理
+
   * 登录MySQL时，报错ERROR 1045 (28000): Access denied for user root@localhost (using password: NO)
 
   ```
@@ -171,6 +173,12 @@ curl: (77) error setting certificate verify locations:
 	```mysql
 	set names gbk;
 	```
+	
+  6、 还有情况是机子上存在多个mysql服务端，需要指定主机和端口
+  
+  ```sql
+  mysql -u root -h 127.0.0.1 -P3306 database -ppassword
+  ```
 
 # 参考
   * [Linux服务器配置已经软件安装。](http://www.oschina.net/code/snippet_733736_39153)
