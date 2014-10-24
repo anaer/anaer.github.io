@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-10-22 16:24
+update: 2014-10-24 17:05
 tags: [Linux, Shell]
 ---
 
@@ -302,6 +302,12 @@ sed '2q' test.txt  //打印到第二行退出
   file="thisfile.txt"  
   echo "filename: ${file%.*}" # 文件名 
   echo "extension: ${file##*.}" # 扩展名 
+  ```
+
+# Shell 调试
+  
+  ```bash
+  sh -x somefile.sh
   ```
 
 # 参考 

@@ -2,7 +2,7 @@
 layout: post
 title: "Java BigDecimal"
 file: 2014-09-12-java-bigdecimal.md
-update: 2014-09-28 16:25
+update: 2014-10-23 16:28
 description: ""
 category: Java
 tags: [Java]
@@ -64,6 +64,22 @@ BigDecimal num3 = num1.divide(num2，10，ROUND_HALF_DOWN);
   setScaler(1,BigDecimal.ROUND_HALF_DOWN)四舍五入，2.35变成2.3，如果是5则向下舍
   ```
 
+## BigDecimal精度处理
+
+  ```Java
+  @Test
+  public void test3() {
+    BigDecimal a = new BigDecimal(2.134); // 需要使用字符串构造BigDecimal，因为double的精度不准
+                                          // 需要使用下面的两种方式
+    System.out.println(a); // 2.133999999999999896971303314785473048686981201171875
+
+    BigDecimal b = BigDecimal.valueOf(2.134); // valueOf 效果跟下面的一样
+    System.out.println(b); // 2.134
+
+    BigDecimal c = new BigDecimal(String.valueOf(2.134));
+    System.out.println(c); // 2.134
+  }
+  ```
 
 # 参考
   * [Non-terminating decimal expansion; no exact representable decimal result ](http://blog.csdn.net/lopper/article/details/5314686)
