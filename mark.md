@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-10-24 19:31
+update: 2014-10-25 07:43
 header : Mark
 group: navigation
 
@@ -11,7 +11,8 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-10-27|-------------------------------|----------|----------------|----------------
-2014-10-24|再战明天|13|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
+2014-10-25|老表，你好Hea|3|[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
+2014-10-25|再战明天|14|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
 2014-10-24|疑犯追踪|S04E05|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
 2014-10-24|行尸走肉|S05E02|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)
 2014-10-24|七大罪|3|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)
