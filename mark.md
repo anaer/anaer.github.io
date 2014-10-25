@@ -11,8 +11,9 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-10-27|-------------------------------|----------|----------------|----------------
-2014-10-25|老表，你好Hea|3|[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-10-25|再战明天|14|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
+2014-10-25|老表，你好Hea|3|[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
+2014-10-25|~~巡夜人日记~~|24|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
 2014-10-24|疑犯追踪|S04E05|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
 2014-10-24|行尸走肉|S05E02|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)
 2014-10-24|七大罪|3|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)
@@ -24,7 +25,6 @@ group: navigation
 2014-10-19|魔弹之王与战姬|03|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
 2014-10-19|海贼王|666|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-10-18|妖精的尾巴|204|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
-2014-10-18|巡夜人日记|22|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]|每周二、周三凌晨更新1集
 2014-10-18|僵尸国度|S01E06|[sohu](http://tv.sohu.com/s2014/znation1/) [[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)]
 2014-10-18|~~大药坊~~|30/30|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
 2014-10-18|Doctor-X|S03E02|[]()
