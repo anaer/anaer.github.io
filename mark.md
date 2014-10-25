@@ -12,7 +12,7 @@ group: navigation
 ---|:---:|:---:|:---|:---
 2014-10-27|-------------------------------|----------|----------------|----------------
 2014-10-25|再战明天|14|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
-2014-10-25|老表，你好Hea|3|[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
+2014-10-25|老表，你好Hea!|5|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-10-25|僵尸国度|S01E07|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)
 2014-10-25|~~巡夜人日记~~|24|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
 2014-10-25|Doctor-X|S03E03|[]()
@@ -51,3 +51,4 @@ group: navigation
 2014-09-08|~~布袋和尚（林家栋版）~~|20/20|[[优酷](http://www.youku.com/playlist_show/id_19572223.html)]
 2014-09-08|-------------------------------|----------|----------------|----------------
 2014-09-06|~~载得有情人~~|20/20|[[优酷](http://www.youku.com/show_page/id_zaa88e088b89311e3a705.html)]
+2014-10-25|飞虎 II|2|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
