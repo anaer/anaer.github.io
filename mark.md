@@ -37,7 +37,7 @@ group: navigation
 2014-10-13|-------------------------------|----------|----------------|----------------
 2014-10-06|~~血族/嗜血菌株~~|13/13|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
 2014-10-06|-------------------------------|----------|----------------|----------------
-2014-10-05|~~钻石王牌~~|51|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
+2014-10-26|钻石王牌 第二季|3|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-10-05|~~使徒行者~~|31/31|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-29|~~魔法科高校的劣等生~~|26/26|[[看看](http://data.movie.kankan.com/movie/75967)]
 2014-09-29|-------------------------------|----------|----------------|----------------
