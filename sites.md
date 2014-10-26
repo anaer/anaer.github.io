@@ -10,7 +10,6 @@ group: navigation
 
 # 综合
   * [tutorialspoint](http://www.tutorialspoint.com/)
-  tutorialspoint是印度佬创建的一个网站，里面有各种技术、各个知识点的讲解和demo，灰常全面，这比查找API神马的方便多了，遇到不明白的知识点直接根据索引找就是了
 
 # Java
   * [IBM Java 开发](http://www.ibm.com/developerworks/cn/java/)
@@ -36,3 +35,6 @@ group: navigation
   * [百度随心听](http://fm.baidu.com/)
   * [QQ音乐电台](http://fm.qq.com/)
   * [fifm收音机](http://www.fifm.us/)
+
+# Linux
+  * [Linux网站导航](http://linux.ubuntu.org.cn)

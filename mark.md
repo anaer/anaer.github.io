@@ -11,9 +11,17 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-10-27|-------------------------------|----------|----------------|----------------
+2014-10-26|记录的地平线2|4|[pptv](http://v.pptv.com/show/CzibTEHjeTozvbdU.html)
+2014-10-26|海贼王|667|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
+2014-10-26|虫师 续章|12|
 2014-10-25|再战明天|14|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
+2014-10-25|欺诈游戏|2|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
+2014-10-25|魔术快斗1412/怪盗基德1412|4|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)
+2014-10-25|魔弹之王与战姬|04|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
 2014-10-25|老表，你好Hea!|5|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-10-25|僵尸国度|S01E07|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)
+2014-10-25|飞虎 II|2|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
+2014-10-25|刀剑神域2|16|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-10-25|~~巡夜人日记~~|24|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
 2014-10-25|Doctor-X|S03E03|[]()
 2014-10-24|疑犯追踪|S04E05|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
@@ -24,13 +32,9 @@ group: navigation
 2014-10-24|不死法医|6|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)]
 2014-10-20|-------------------------------|----------|----------------|----------------
 2014-10-19|信长协奏曲（2014）|1|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
-2014-10-19|魔弹之王与战姬|03|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
-2014-10-19|海贼王|666|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-10-18|妖精的尾巴|204|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-10-18|~~大药坊~~|30/30|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
-2014-10-17|刀剑神域2|15|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-10-13|-------------------------------|----------|----------------|----------------
-2014-10-12|魔术快斗1412/怪盗基德1412|3|[]()
 2014-10-06|~~血族/嗜血菌株~~|13/13|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
 2014-10-06|-------------------------------|----------|----------------|----------------
 2014-10-05|~~钻石王牌~~|51|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
@@ -51,4 +55,3 @@ group: navigation
 2014-09-08|~~布袋和尚（林家栋版）~~|20/20|[[优酷](http://www.youku.com/playlist_show/id_19572223.html)]
 2014-09-08|-------------------------------|----------|----------------|----------------
 2014-09-06|~~载得有情人~~|20/20|[[优酷](http://www.youku.com/show_page/id_zaa88e088b89311e3a705.html)]
-2014-10-25|飞虎 II|2|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
