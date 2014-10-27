@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-10-25 07:43
+update: 2014-10-26 22:52
 header : Mark
 group: navigation
 
@@ -11,6 +11,9 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-10-27|-------------------------------|----------|----------------|----------------
+2014-10-26|钻石王牌 第二季|3|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
+2014-10-26|信长协奏曲（2014）|2|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
+2014-10-26|七大罪|4|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)
 2014-10-26|记录的地平线2|4|[pptv](http://v.pptv.com/show/CzibTEHjeTozvbdU.html)
 2014-10-26|海贼王|667|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
 2014-10-26|虫师 续章|12|
@@ -26,18 +29,15 @@ group: navigation
 2014-10-25|Doctor-X|S03E03|[]()
 2014-10-24|疑犯追踪|S04E05|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)]
 2014-10-24|行尸走肉|S05E02|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)
-2014-10-24|七大罪|3|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)
 2014-10-24|绿箭|S03E03|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)
 2014-10-24|龙珠改 魔人布欧篇|28(126)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
 2014-10-24|不死法医|6|[[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)]
 2014-10-20|-------------------------------|----------|----------------|----------------
-2014-10-19|信长协奏曲（2014）|1|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-10-18|妖精的尾巴|204|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-10-18|~~大药坊~~|30/30|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
 2014-10-13|-------------------------------|----------|----------------|----------------
 2014-10-06|~~血族/嗜血菌株~~|13/13|[[77ds](http://www.77ds.com/oumei/xuezu/zaixianbofang-0-8.html)][[bilibili](http://www.bilibili.com/sp/%E5%97%9C%E8%A1%80%E8%8F%8C%E6%A0%AA)]
 2014-10-06|-------------------------------|----------|----------------|----------------
-2014-10-26|钻石王牌 第二季|3|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-10-05|~~使徒行者~~|31/31|[[77ds](http://www.77ds.com/tvb/shituxingzhe/zaixianbofang-5-57.html)][[优酷](http://www.youku.com/show_page/id_zfceaf4bcd00611e3a705.html)]
 2014-09-29|~~魔法科高校的劣等生~~|26/26|[[看看](http://data.movie.kankan.com/movie/75967)]
 2014-09-29|-------------------------------|----------|----------------|----------------
