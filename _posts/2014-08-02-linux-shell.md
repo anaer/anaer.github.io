@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-10-29 14:22
+update: 2014-10-29 14:27
 tags: [Linux, Shell]
 ---
 
@@ -360,10 +360,6 @@ sed '2q' test.txt  //打印到第二行退出
   echo $((`date +%N`%100))
   ```
 
-# 参考 
-  * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
-  * [sed常见用法总结](http://blog.csdn.net/u011750989/article/details/39005831)
-  * [tput 命令行使用说明](http://blog.csdn.net/fdipzone/article/details/9993961)
 
 # Cygwin安装库
   * default
@@ -425,9 +421,15 @@ sed '2q' test.txt  //打印到第二行退出
   ```
 
 # 参考  
+## Cygwin
   * [Cygwin官网](https://www.cygwin.com/)  
 
 ## ZSH
   * [Z Shell - 用强大的ZSH把Bash换掉](http://linuxlearner.diandian.com/post/2011-09-16/5080384)  
   * [我最喜爱的工具-oh-my-zsh](http://www.kafeitu.me/shell/2012/03/25/oh-my-zsh.html)  
   * [Mac 下的vim 美化（iterm2 Zsh Powerline）](http://mjason.github.io/blog/2013/02/08/mac-xia-de-vim-mei-hua-%28iterm2-zsh-powerline%29/)  
+
+## Shell
+  * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
+  * [sed常见用法总结](http://blog.csdn.net/u011750989/article/details/39005831)
+  * [tput 命令行使用说明](http://blog.csdn.net/fdipzone/article/details/9993961)
