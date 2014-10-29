@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-10-24 17:05
+update: 2014-10-29 14:22
 tags: [Linux, Shell]
 ---
 
@@ -310,6 +310,124 @@ sed '2q' test.txt  //打印到第二行退出
   sh -x somefile.sh
   ```
 
+# tput彩色输出
+  
+  ```bash
+  tput Color Capabilities:
+
+  tput setab [0-7] – Set a background color using ANSI escape
+  tput setb [0-7] – Set a background color
+  tput setaf [0-7] – Set a foreground color using ANSI escape
+  tput setf [0-7] – Set a foreground color
+
+  Color Code for tput:
+
+  0 – Black
+  1 – Red
+  2 – Green
+  3 – Yellow
+  4 – Blue
+  5 – Magenta
+  6 – Cyan
+  7 – White
+
+  tput Text Mode Capabilities:
+
+  tput bold – Set bold mode
+  tput dim – turn on half-bright mode
+  tput smul – begin underline mode
+  tput rmul – exit underline mode
+  tput rev – Turn on reverse mode
+  tput smso – Enter standout mode (bold on rxvt)
+  tput rmso – Exit standout mode
+  tput sgr0 – Turn off all attributes
+  ```
+
+  ```bash
+  # 彩色输出
+  function put(){
+    color1=$((RANDOM%8))
+    color2=$((RANDOM%8))
+    echo $(tput setaf ${color1}; tput setab ${color2}; tput bold)$*$(tput sgr0)
+
+  ```
+
+# 随机数
+
+  ```
+  echo $(($RANDOM%100))
+  echo $((`head /dev/urandom|cksum|awk '{print $2}'`%100))
+  echo $((`date +%N`%100))
+  ```
+
 # 参考 
   * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
   * [sed常见用法总结](http://blog.csdn.net/u011750989/article/details/39005831)
+  * [tput 命令行使用说明](http://blog.csdn.net/fdipzone/article/details/9993961)
+
+# Cygwin安装库
+  * default
+  * zsh
+  * svn
+  * git
+  * vim
+  * tput 需要安装ncurses
+
+
+# ZSH安装
+  * 使用Cygwin的setup.exe搜索zsh下载安装
+  * 修改/etc/passwd，修改用户的启动shell为zsh
+  * 复制.bashrc为.zshrc, 因为zsh兼容bash的配置
+  * 路径自动补全功能 
+  
+  尝试在cygwin上安装后，响应很慢
+
+
+# wget代理设置
+
+  ```bash
+   在~/.wgetrc中设定代理
+   http_proxy = http://ip_or_domainname:80/
+   ftp_proxy = http://ip_or_domainname:80/
+   use_proxy = on
+   wait = 15
+
+   然后直接wget http://ip/filename就ok了
+  ```
+ 
+# scp ssh上传下载文件
+
+  ```Bash
+  下载
+  scp -r root@10.139.102.xxx:/root/auto_fdisk.sh ./auto_fdisk.sh
+
+  上传
+  scp test.md root@10.139.102.xxx:/root/
+  ```
+# sshpass 
+  安装sshpass
+
+  ```Bash
+  # 需要安装gcc 和 make
+  wget http://sourceforge.net/projects/sshpass/files/sshpass/1.05/sshpass-1.05.tar.gz
+  tar zxvf sshpass-1.05.tar.gz
+  cd sshpass-1.05
+  ./configure
+  make && make install
+  ```
+
+  sshpass使用
+
+  ```Bash
+  sshpass  -p 密码 ssh 用户名@目标IP 要执行的命令
+
+  sshpass -p "123456" scp list.txt user@10.148.6.99:/path/to/destination
+  ```
+
+# 参考  
+  * [Cygwin官网](https://www.cygwin.com/)  
+
+## ZSH
+  * [Z Shell - 用强大的ZSH把Bash换掉](http://linuxlearner.diandian.com/post/2011-09-16/5080384)  
+  * [我最喜爱的工具-oh-my-zsh](http://www.kafeitu.me/shell/2012/03/25/oh-my-zsh.html)  
+  * [Mac 下的vim 美化（iterm2 Zsh Powerline）](http://mjason.github.io/blog/2013/02/08/mac-xia-de-vim-mei-hua-%28iterm2-zsh-powerline%29/)  

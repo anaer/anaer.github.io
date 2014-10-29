@@ -180,6 +180,25 @@ curl: (77) error setting certificate verify locations:
   mysql -u root -h 127.0.0.1 -P3306 database -ppassword
   ```
 
+# Windows 
+  * 找回丢失的发送桌面快捷方式
+  C:\Users\用户名\AppData\Roaming\Microsoft\Windows\SendTo
+  新建文本文档，重命名:桌面快捷方式.desklink
+
+# SVN Subversion
+  * svn: E175013: Unable to connect to a repository at URL
+
+      ```
+      1. 网络问题
+      2.  右键点击本地副本，TortoiseSVN -> Settings -> Saved Data, 清除缓存
+      ```
+  
+ * SVN	文件夹图标不显示  
+
+      ```
+      HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers
+      ```
+
 # 参考
   * [Linux服务器配置已经软件安装。](http://www.oschina.net/code/snippet_733736_39153)
 
