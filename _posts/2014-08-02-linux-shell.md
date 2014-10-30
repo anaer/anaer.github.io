@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-10-30 10:56
+update: 2014-10-30 11:08
 tags: [Linux, Shell]
 ---
 
@@ -450,7 +450,138 @@ sed '2q' test.txt  //打印到第二行退出
 5 [ "$a" == "z*" ] # 如果$a等于z*(字符匹配)，那么结果为true
   ```
 
+
+# 查看Linux版本系统信息方法汇总
+
+  ```bash
+  uname  -a                :查看当前操作系统内核信息
+  cat  /etc/issue          :查看当前操作系统发行版信息
+  cat  /proc/version       :查看当前操作系统版本信息
+  cat  /proc/cpuinfo       :查看cpu相关信息，包括型号、主频、内核信息等
+  getconf   LONG_BIT  	   :查看版本说明当前CPU运行在32bit模式下， 但不代表CPU不支持64bit
+  lsb_release  -a          :查看系统描述 
+  ```
+
+# crontab命令详解
+# 概述
+  crontab是用来设置在固定时间点或时间间隔执行某条指令，类似于时程表。使用-u user是指定user用户的时程表。
+
+# 参数
+
+```
+-e[UserName] :调出编辑器，编辑定时任务，打开后里边有多重文本编辑器，可更具自己偏好选择，若未指定UserName，则是当前shell下的用户
+
+-r[UserName] :删除指定用户当前的时程表，则是当前shell下的用户
+
+-l[UserName] :列出指定用户当前的时程表，则是当前shell下的用户
+
+-v[UserName] :列出指定用户的cron作业状态，则是当前shell下的用户
+```
+
+3. 时程表的格式说明
+
+```
+ F1    F2   F3   F4  F5   program
+(分钟  小时 日   月  星期 作业命令)
+```
+
+例如：5 */1 * * * /usr/sbin/ntpdate cms是指在每小时的第5分钟执行/usr/sbin/ntpdate cms这个命令。
+
+说明见下图:
+![说明图](/assets/images/cron.jpg)
+
+4. 样例
+
+```
+#每天早上6点10分
+10 6 * * * date
+
+#每两个小时
+0 */2 * * * date
+
+#晚上11点到早上8点之间每两个小时，早上8点
+0 23-7/2,8 * * * date
+
+#每个月的4号和每个礼拜一到礼拜三的早上11点
+0 11 4 * 1-3 date
+
+#1月1日早上4点
+0 4 1 1 * date
+
+编写执行命令时要注意当前的环境变量。
+```
+
 # 参考  
+  * [linux下的“定时器”：crontab](http://www.cnblogs.com/leocook/p/linux_crontab.html)
+
+# Cheat——Linux命令行终极备忘录
+
+# 安装pip
+  在pip官网下载get-pip.pyp  
+  执行以下命令安装
+
+  ```bash
+  python get-pip.py
+  ```
+
+# 使用cheat
+
+  ```bash
+  cheat tar
+  ```
+
+# 参考
+  * [pip官网](https://pip.pypa.io/en/latest/installing.html)
+  * [Cheat——Linux命令行终极备忘录](http://my.oschina.net/u/1040430/blog/311616)
+  * [docopt](https://github.com/docopt/docopt)
+  * [Cheat – An Ultimate Command Line ‘Cheat-Sheet’ for Linux Beginners and Administrators](http://www.tecmint.com/cheat-command-line-cheat-sheet-for-linux-users/)
+
+# Linux查看系统配置常用命令
+
+```
+# uname -a # 查看内核/操作系统/CPU信息
+# head -n 1 /etc/issue # 查看操作系统版本
+# cat /proc/cpuinfo # 查看CPU信息
+# hostname # 查看计算机名
+# lspci -tv # 列出所有PCI设备
+# lsusb -tv # 列出所有USB设备
+# lsmod # 列出加载的内核模块
+# env # 查看环境变量 资源
+# free -m # 查看内存使用量和交换区使用量
+# df -h # 查看各分区使用情况
+# du -sh # 查看指定目录的大小
+# grep MemTotal /proc/meminfo # 查看内存总量
+# grep MemFree /proc/meminfo # 查看空闲内存量
+# uptime # 查看系统运行时间、用户数、负载
+# cat /proc/loadavg # 查看系统负载 磁盘和分区
+# mount | column -t # 查看挂接的分区状态
+# fdisk -l # 查看所有分区
+# swapon -s # 查看所有交换分区
+# hdparm -i /dev/hda # 查看磁盘参数(仅适用于IDE设备)
+# dmesg | grep IDE # 查看启动时IDE设备检测状况 网络
+# ifconfig # 查看所有网络接口的属性
+# iptables -L # 查看防火墙设置
+# route -n # 查看路由表
+# netstat -lntp # 查看所有监听端口
+# netstat -antp # 查看所有已经建立的连接
+# netstat -s # 查看网络统计信息 进程
+# ps -ef # 查看所有进程
+# top # 实时显示进程状态 用户
+# w # 查看活动用户
+# id # 查看指定用户信息
+# last # 查看用户登录日志
+# cut -d: -f1 /etc/passwd # 查看系统所有用户
+
+# cut -d: -f1 /etc/group # 查看系统所有组
+# crontab -l # 查看当前用户的计划任务 服务
+# chkconfig –list # 列出所有系统服务
+# chkconfig –list | grep on # 列出所有启动的系统服务 程序
+# rpm -qa # 查看所有安装的软件包
+
+```
+
+# 参考
+  * [Linux查看系统配置常用命令](http://my.oschina.net/u/2009021/blog/311740)
 
 ## Cygwin
   * [Cygwin官网](https://www.cygwin.com/)  
