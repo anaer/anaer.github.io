@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-10-29 14:27
+update: 2014-10-30 10:56
 tags: [Linux, Shell]
 ---
 
@@ -400,6 +400,7 @@ sed '2q' test.txt  //打印到第二行退出
   上传
   scp test.md root@10.139.102.xxx:/root/
   ```
+
 # sshpass 
   安装sshpass
 
@@ -420,7 +421,37 @@ sed '2q' test.txt  //打印到第二行退出
   sshpass -p "123456" scp list.txt user@10.148.6.99:/path/to/destination
   ```
 
+# 确定当前shell
+
+  ```Bash
+  [09:04:37 ~ 1] $ echo $0
+  -bash
+  [09:04:44 ~ 2] $ echo $SHELL
+  /bin/bash
+  [09:04:49 ~ 3] $ ps -p $$
+        PID    PPID    PGID     WINPID   TTY     UID    STIME COMMAND
+       1236    4940    1236       4360  pty1     500 09:04:35 /usr/bin/bash
+  ```
+
+# mount挂载/磁盘映射
+
+  ```Bash
+  mount -t cifs -o username=windows登录账户,password=windows登录密码 //windows主机地址/共享目录 /home/用户名/挂载到的目录
+  # 挂载到的目录需提前创建, 目录名后面不带斜杠, 带斜杆执行貌似不成功 
+  ```
+
+# 字符串比较
+
+  ```
+  注意:==的功能在[[]]和[]中的行为是不同的，如下:
+1 [[ $a == z* ]]    # 如果$a以"z"开头(模式匹配)那么将为true
+2 [[ $a == "z*" ]] # 如果$a等于z*(字符匹配)，那么结果为true
+4 [ $a == z* ]      # File globbing 和word splitting将会发生
+5 [ "$a" == "z*" ] # 如果$a等于z*(字符匹配)，那么结果为true
+  ```
+
 # 参考  
+
 ## Cygwin
   * [Cygwin官网](https://www.cygwin.com/)  
 
@@ -433,3 +464,7 @@ sed '2q' test.txt  //打印到第二行退出
   * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
   * [sed常见用法总结](http://blog.csdn.net/u011750989/article/details/39005831)
   * [tput 命令行使用说明](http://blog.csdn.net/fdipzone/article/details/9993961)
+  * [Shell中字符串、数值的比较](http://www.cnblogs.com/mydomain/archive/2012/09/25/2700931.html)
+
+## Unix
+  * [UNIX 技巧: UNIX 高手的另外 10 个习惯](http://www.ibm.com/developerworks/cn/aix/library/au-unixtips/)
