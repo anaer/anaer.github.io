@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-10-31 20:57
+update: 2014-11-01 12:07
 header : Mark
 group: navigation
 
@@ -11,13 +11,14 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-11-03|-------------------------------|----------|----------------|----------------
+2014-11-01|白银的意志 ARGEVOLLEN|17|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
 2014-10-31|疑犯追踪|S04E06|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)|每周三
 2014-10-31|妖精的尾巴|205|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-10-31|行尸走肉|S05E03|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
 2014-10-31|亡者归来|S02E05|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
 2014-10-31|绿箭|S03E04|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
 2014-10-31|龙珠改 魔人布欧篇|29(127)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
-2014-10-31|老表，你好Hea!|6|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
+2014-10-31|老表，你好Hea!|9|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-10-31|韩版诈欺游戏/欺诈游戏|4|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
 2014-10-31|飞虎 II|4|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
 2014-10-31|不死法医|7|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
