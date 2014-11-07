@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-07 20:29
+update: 2014-11-07 21:08
 header : Mark
 group: navigation
 
@@ -10,8 +10,12 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-11-07|钻石王牌 第二季|4|[iqiyi 第二季](http://www.iqiyi.com/a_19rrhc1049.html)[iqiyi 第一季](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm 第一季](http://www.yydm.com/dongman/zswp/)
+2014-11-07|信长协奏曲（2014）|4|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-07|魔弹之王与战姬|05|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
 2014-11-07|名门暗战|4|[]()
+2014-11-07|韩版诈欺游戏/欺诈游戏|6|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
+2014-11-07|飞虎 II|6|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
 2014-11-07|虫师 续章|13|[sohu](http://tv.sohu.com/s2014/csxz/)
 2014-11-03|-------------------------------|----------|----------------|----------------
 2014-11-02|七大罪|5|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
@@ -31,12 +35,8 @@ group: navigation
 2014-10-31|绿箭|S03E04|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
 2014-10-31|龙珠改 魔人布欧篇|29(127)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
 2014-10-31|老表，你好Hea!|9|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
-2014-10-31|韩版诈欺游戏/欺诈游戏|4|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
-2014-10-31|飞虎 II|4|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
 2014-10-31|不死法医|7|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
 2014-10-27|-------------------------------|----------|----------------|----------------
-2014-10-26|钻石王牌 第二季|3|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
-2014-10-26|信长协奏曲（2014）|2|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-10-25|~~巡夜人日记~~|24|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
 2014-10-20|-------------------------------|----------|----------------|----------------
 2014-10-18|~~大药坊~~|30/30|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
