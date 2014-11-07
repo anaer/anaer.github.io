@@ -2,7 +2,7 @@
 layout: page
 title : "导航"
 file: sites.md
-update: 2014-09-27 21:17
+update: 2014-11-04 09:36
 header : Sites
 group: navigation
 
@@ -38,3 +38,7 @@ group: navigation
 
 # Linux
   * [Linux网站导航](http://linux.ubuntu.org.cn)
+# 工具
+## 正则表达式测试
+  [开源中国的在线正则表达式测试工具](http://tool.oschina.net/regex)   
+  [站长之家的在线正则表达式测试工具](http://tool.chinaz.com/regex/)  

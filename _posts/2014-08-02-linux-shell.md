@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-10-31 14:38
+update: 2014-11-04 10:55
 tags: [Linux, Shell]
 ---
 
@@ -669,6 +669,10 @@ END之间的内容作为cat命令的输入，所以接下来回车后会出现
 
 这种语法在linux shell中叫HERE文档
   ```
+
+# 快捷键
+  * 清屏 ctrl+l
+  * 清除当前输入 ctrl+u
 
 # 参考
   * [Linux查看系统配置常用命令](http://my.oschina.net/u/2009021/blog/311740)

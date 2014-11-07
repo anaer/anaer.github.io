@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-02 08:00
+update: 2014-11-07 20:29
 header : Mark
 group: navigation
 
@@ -10,8 +10,14 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-11-07|魔弹之王与战姬|05|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
+2014-11-07|名门暗战|4|[]()
+2014-11-07|虫师 续章|13|[sohu](http://tv.sohu.com/s2014/csxz/)
 2014-11-03|-------------------------------|----------|----------------|----------------
+2014-11-02|七大罪|5|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-02|记录的地平线2|5|[pptv](http://v.pptv.com/show/CzibTEHjeTozvbdU.html)|每周日
+2014-11-02|坏家伙们|5|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
+2014-11-02|海贼王|668|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
 2014-11-01|妖精的尾巴|206|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
 2014-11-01|魔术快斗1412/怪盗基德1412|5|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)
 2014-11-01|僵尸国度|S01E08|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
@@ -31,10 +37,6 @@ group: navigation
 2014-10-27|-------------------------------|----------|----------------|----------------
 2014-10-26|钻石王牌 第二季|3|[[iqiyi](http://www.iqiyi.com/a_19rrgjao65.html)][[yydm](http://www.yydm.com/dongman/zswp/)]
 2014-10-26|信长协奏曲（2014）|2|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
-2014-10-26|七大罪|4|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)
-2014-10-26|海贼王|667|[[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)]
-2014-10-26|虫师 续章|12|
-2014-10-25|魔弹之王与战姬|04|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
 2014-10-25|~~巡夜人日记~~|24|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
 2014-10-20|-------------------------------|----------|----------------|----------------
 2014-10-18|~~大药坊~~|30/30|[[77ds](http://www.77ds.com/tvb/dayaofangguoyuban/zaixianbofang-0-9.html)][[youku](http://www.youku.com/show_page/id_zbc9e349c670011e3b8b7.html)]
