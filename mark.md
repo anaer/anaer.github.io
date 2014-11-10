@@ -2,9 +2,11 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-10 22:31
+update: 2014-11-10 22:35
 header : Mark
 group: navigation
+---
+
 日期|影视|状态|链接|备注
 2014-11-17|-------------------------------|----------|----------------|----------------
 2014-11-10|龙珠改 魔人布欧篇|31(129)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
