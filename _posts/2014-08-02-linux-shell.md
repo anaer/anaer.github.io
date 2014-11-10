@@ -361,14 +361,14 @@ sed '2q' test.txt  //打印到第二行退出
   ```
 
 
-# Cygwin安装库
-  * default
-  * zsh
-  * svn
-  * git
-  * vim
-  * tput 需要安装ncurses
-
+# Cygwin必装组件
+  * 1. git
+  * 2. vim
+  * 3. mysql
+  * 4. mysqld
+  * 5. tput 需要安装ncurses
+  * 6. zsh
+  * 7. svn
 
 # ZSH安装
   * 使用Cygwin的setup.exe搜索zsh下载安装
