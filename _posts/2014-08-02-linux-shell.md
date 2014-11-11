@@ -369,6 +369,7 @@ sed '2q' test.txt  //打印到第二行退出
   * 5. tput 需要安装ncurses
   * 6. zsh
   * 7. svn
+  * 8. wget
 
 # ZSH安装
   * 使用Cygwin的setup.exe搜索zsh下载安装
