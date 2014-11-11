@@ -2,13 +2,13 @@
 layout: post
 title: "异常处理 "
 file: 2014-08-15-exception.md
-update: 2014-10-15 15:45
+update: 2014-11-11 23:05
 tags: [Exception]
 ---
 
-# Tomcat
+### Java
 
-## Tomcat启动报错
+#### Tomcat启动报错
   * java.lang.ClassNotFoundException: org.springframework.web.servlet.DispatcherServlet.class
   1. 缺少jar包  
 
@@ -43,7 +43,8 @@ tags: [Exception]
   * WARN UUIDHexGenerator:59 - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
 	[Using org.hibernate.id.UUIDHexGenerator的解决方案](http://lvjava.com/?p=370)
 	
-# Eclipse警告信息
+
+#### Eclipse警告信息
   * cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'mvc:interceptors'.
 	1. Preferences->XML->XML Catalog 添加
 	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
@@ -91,7 +92,7 @@ tags: [Exception]
 	```
   * eclipse 中 js提示 Syntax error on token "Invalid Character", delete this token 
 	Preferences->JavaScript->Editor 去掉Report problems as you type
-# Mybatis 报错
+#### Mybatis 报错
   * Type interface com.souvi.ibatis.xxxMapper is  not known to the MapperRegistry
 	1. 代码未注册
 
@@ -108,15 +109,16 @@ tags: [Exception]
 	2. xml中未定义方法
 	3. 返回List,未配置ResultMap
 
-# Log4j报错 
+
+#### Log4j报错 
   * java.lang.NoSuchMethodError: org.slf4j.helpers.MessageFormatter.format(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 	log4j jar包冲突
 
-# cxf
+#### cxf
   * Cannot find any registered HttpDestinationFactory from the Bus.
 	1. 包冲突 
 
-# git 
+### git 
 git clone https://github.com/anaer/root.git
 正克隆到 'root'...
 fatal: unable to access 'https://github.com/anaer/root.git/': error setting cert                                                                                                    ificate verify locations:
@@ -126,7 +128,9 @@ fatal: unable to access 'https://github.com/anaer/root.git/': error setting cert
   跳过CA验证
   export GIT_SSL_NO_VERIFY=1
 
-# cygwin
+### shell
+
+#### cygwin
 
 * /usr/libexec/git-core/git-remote-https.exe: error while loading shared libraries: ?: cannot open shared object file: No such file or directory
   重新安装libcygkrb5...
@@ -139,7 +143,7 @@ curl: (77) error setting certificate verify locations:
 * no acceptable C compiler found in $PATH
   缺少gcc编译器
 
-# mysql异常处理
+### mysql异常处理
 
   * 登录MySQL时，报错ERROR 1045 (28000): Access denied for user root@localhost (using password: NO)
 
@@ -180,12 +184,14 @@ curl: (77) error setting certificate verify locations:
   mysql -u root -h 127.0.0.1 -P3306 database -ppassword
   ```
 
-# Windows 
+### Windows 
+
   * 找回丢失的发送桌面快捷方式
   C:\Users\用户名\AppData\Roaming\Microsoft\Windows\SendTo
   新建文本文档，重命名:桌面快捷方式.desklink
 
-# SVN Subversion
+### SVN Subversion
+
   * svn: E175013: Unable to connect to a repository at URL
 
       ```
@@ -199,8 +205,8 @@ curl: (77) error setting certificate verify locations:
       HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers
       ```
 
-# 参考
+### 参考
   * [Linux服务器配置已经软件安装。](http://www.oschina.net/code/snippet_733736_39153)
 
-## mysql
+#### mysql
   * [linux登录MySQL,报错ERROR 1045 (28000)解决办法](http://www.baidu.com/link?url=EJkYba02tY4gccH_nr6vmMHRr74Ywxgdrcol9Z56QRkuvxG0e4MIDcrITHzQXNw50sED_bWdjWwSZnxZS4gkyCm5-uUmtoyDnAgvouUVhPm)
