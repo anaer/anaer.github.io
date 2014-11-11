@@ -14,7 +14,7 @@ group: navigation
 2014-11-11|韩版诈欺游戏/欺诈游戏|7|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
 2014-11-11|老表，你好Hea!|15|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-11-11|名门暗战|6|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
-2014-11-11|亡者归来|S02E06|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
+2014-11-11|亡者归来|S02E07|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
 2014-11-10|龙珠改 魔人布欧篇|31(129)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
 2014-11-10|魔术快斗1412/怪盗基德1412|6|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)
 2014-11-10|魔弹之王与战姬|06|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
