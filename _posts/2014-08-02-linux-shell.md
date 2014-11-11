@@ -402,11 +402,11 @@ sed '2q' test.txt  //打印到第二行退出
   scp test.md root@10.139.102.xxx:/root/
   ```
 
-# sshpass 
+## sshpass 
   安装sshpass
 
   ```Bash
-  # 需要安装gcc 和 make
+  # 需要安装gcc-core和make
   wget http://sourceforge.net/projects/sshpass/files/sshpass/1.05/sshpass-1.05.tar.gz
   tar zxvf sshpass-1.05.tar.gz
   cd sshpass-1.05
