@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-10 22:41
+update: 2014-11-11 22:02
 header : Mark
 group: navigation
 
@@ -11,6 +11,10 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-11-17|-------------------------------|----------|----------------|----------------
+2014-11-11|韩版诈欺游戏/欺诈游戏|7|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
+2014-11-11|老表，你好Hea!|15|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
+2014-11-11|名门暗战|6|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
+2014-11-11|亡者归来|S02E06|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
 2014-11-10|龙珠改 魔人布欧篇|31(129)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
 2014-11-10|魔术快斗1412/怪盗基德1412|6|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)
 2014-11-10|魔弹之王与战姬|06|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
@@ -26,18 +30,14 @@ group: navigation
 2014-11-10|-------------------------------|----------|----------------|----------------
 2014-11-09|Doctor-X|S03E05|[]()
 2014-11-08|逍遥法外|S01E02|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
-2014-11-08|老表，你好Hea!|14|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-11-08|绿箭|S03E05|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
 2014-11-08|白银的意志 ARGEVOLLEN|18|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
 2014-11-08|妖精的尾巴|207|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
-2014-11-08|名门暗战|5|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-08|僵尸国度|S01E09|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
-2014-11-07|韩版诈欺游戏/欺诈游戏|6|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
 2014-11-07|信长协奏曲（2014）|4|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-03|-------------------------------|----------|----------------|----------------
 2014-11-01|~~再战明天~~|20|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
 2014-10-31|疑犯追踪|S04E06|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)|每周三
-2014-10-31|亡者归来|S02E05|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
 2014-10-31|不死法医|7|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
 2014-10-27|-------------------------------|----------|----------------|----------------
 2014-10-25|~~巡夜人日记~~|24|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
