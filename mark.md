@@ -11,7 +11,9 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-11-17|-------------------------------|----------|----------------|----------------
-2014-11-11|韩版诈欺游戏/欺诈游戏|7|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
+2014-11-12|韩版诈欺游戏/欺诈游戏|8|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
+2014-11-12|疑犯追踪|S04E07|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)|每周三
+2014-11-12|不死法医|8|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
 2014-11-11|老表，你好Hea!|15|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-11-11|名门暗战|6|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-11|亡者归来|S02E07|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
@@ -37,8 +39,6 @@ group: navigation
 2014-11-07|信长协奏曲（2014）|4|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-03|-------------------------------|----------|----------------|----------------
 2014-11-01|~~再战明天~~|20|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
-2014-10-31|疑犯追踪|S04E06|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)|每周三
-2014-10-31|不死法医|7|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
 2014-10-27|-------------------------------|----------|----------------|----------------
 2014-10-25|~~巡夜人日记~~|24|[[sohu](http://tv.sohu.com/s2014/xyrrz/)]
 2014-10-20|-------------------------------|----------|----------------|----------------
