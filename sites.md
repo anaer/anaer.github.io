@@ -40,8 +40,6 @@ group: navigation
 #### Linux
   * [Linux网站导航](http://linux.ubuntu.org.cn)
 
-### 工具
-
-#### 正则表达式测试
-  [开源中国的在线正则表达式测试工具](http://tool.oschina.net/regex)   
-  [站长之家的在线正则表达式测试工具](http://tool.chinaz.com/regex/)  
+#### 正则表达式
+  * [正则表达式测试工具](http://tool.oschina.net/regex)   
+  * [正则表达式测试工具](http://tool.chinaz.com/regex/)  
