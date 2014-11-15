@@ -2,9 +2,89 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-11-04 10:55
+update: 2014-11-15 08:59
 tags: [Linux, Shell]
 ---
+
+### 终端打印
+
+#### echo命令
+  + echo 会自动添加换行符
+
+```
+[8:22 74 ~ ] %echo hello world     # 普通字符 可以直接输出 
+hello world
+[8:22 75 ~ ] %echo hello;world     # shell中;作为命令分隔符
+hello
+bash: command not found: world
+[8:22 76 ~ ] %echo "hello;world"   # 双引号中;作为普通字符
+hello;world
+[8:23 77 ~ ] %echo "$hello world"  # 双引号会对$hello变量求值
+ world
+[8:23 78 ~ ] %echo '$hello world'  # 单引号原样输出, 不对变量$hello求值
+$hello world
+```
+
+  + echo 忽略换行符
+
+```
+[08:51:35 ~ 8] $ echo "123"
+123
+[08:52:45 ~ 9] $ echo -n "123"
+123[08:52:50 ~ 10] $
+```
+
+  + echo 中的转义字符
+  使用echo -e 表明为包含转义字符的字符串
+
+  + echo 彩色输出
+  1. 必须使用echo -e 
+  2. \e[1;31m 将颜色设为红色, \e[0m 将颜色重置
+  3. 颜色码
+  字体:重置=0, 黑色=30, 红色=31, 绿色=32, 黄色=33, 蓝色=34, 洋红=35, 青色=36, 白色=37
+  背景:重置=0, 黑色=40, 红色=41, 绿色=42, 黄色=43, 蓝色=44, 洋红=45, 青色=46, 白色=47
+
+```
+[08:55:39 ~ 12] $ echo -e "\e[1;31m This is red text \e[0m"
+ This is red text
+[08:55:40 ~ 13] $ echo -e "\e[1;42m Green Background \e[0m"
+ Green Background
+```
+  
+```
+[08:51:31 ~ 6] $ echo "1\t2\t3"
+1\t2\t3
+[08:51:34 ~ 7] $ echo -e "1\t2\t3"
+1       2       3
+```
+
+#### printf命令
+  printf命令不会自动添加换行符，需要手动添加
+  示例:
+
+```
+#!/bin/bash 
+#文件名: printf.sh
+
+printf "%-5s %-10s %-4s\n" No Name Mark         # %-5s 输出字符串,左对齐,宽度5
+printf "%-5s %-10s %-4.2f\n" 1 Sarath 80.3456   # %-4.2f 输出浮点数,左对齐,宽度4 宽度不足自动扩展,保留2位小数
+printf "%-5s %-10s %-4d\n" 2 James 90           # $-4d 输出整型,左对齐,宽度4
+printf "%-5s %-10s %4d\n" 3 Jeffy 88            # $4d 输出整型,右对齐,宽度4
+printf "%-5s %-10s %-04d\n" 4 Jeff 77           # $-04d 输出整型,左对齐,宽度4,不足4位左补0,因为左对齐补0没效果
+printf "%-5s %-10s %04d\n" 5 Leon 66            # $04d 输出整型,右对齐,宽度4,不足4位左补0
+```
+
+  输出 
+
+```
+[8:40 93 ~ ] %sh printf.sh
+No    Name       Mark
+1     Sarath     80.35
+2     James      90
+3     Jeffy        88
+4     Jeff       77
+5     Leon       0066
+```
 
 # find命令
 ## 命令格式: 
