@@ -40,6 +40,9 @@ group: navigation
 #### Linux
   * [Linux网站导航](http://linux.ubuntu.org.cn)
 
+#### 下载
+  * [西西软件园](http://www.cr173.com/)
+
 #### 正则表达式
   * [正则表达式测试工具](http://tool.oschina.net/regex)   
   * [正则表达式测试工具](http://tool.chinaz.com/regex/)  

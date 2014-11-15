@@ -11,9 +11,9 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-11-17|-------------------------------|----------|----------------|----------------
-2014-11-14|老表，你好Hea!|18|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
+2014-11-15|名门暗战|10|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
+2014-11-15|老表，你好Hea!|19|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-11-14|白银的意志 ARGEVOLLEN|19|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
-2014-11-14|名门暗战|9|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-14|匹诺曹|2|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
 2014-11-12|韩版诈欺游戏/欺诈游戏|8|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
 2014-11-12|绿箭|S03E06|[bilibili](http://www.bilibili.com/sp/%E7%BB%BF%E7%AE%AD%E4%BE%A0#S-1416) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
