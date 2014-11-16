@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-15 14:53
+update: 2014-11-16 07:51
 header : Mark
 group: navigation
 
@@ -11,12 +11,16 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-11-17|-------------------------------|----------|----------------|----------------
+2014-11-16|妖精的尾巴|208|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
+2014-11-16|僵尸国度|S01E10|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
+2014-11-16|信长协奏曲（2014）|5|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-15|老表，你好Hea!|19|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-11-15|美女的诞生|4|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)
 2014-11-15|名门暗战|10|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-15|~~碟仙诡谭~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnfaorg.html?src=frbdaldjunest)
 2014-11-15|~~盂兰神功~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnep95s.html?src=frbdaldjunest)
 2014-11-15|~~京城81号~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhj8mmc.html?src=frbdaldjunest)
+2014-11-15|Doctor-X|S03E06|[]()|每周六
 2014-11-14|白银的意志 ARGEVOLLEN|19|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
 2014-11-14|匹诺曹|2|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
 2014-11-12|韩版诈欺游戏/欺诈游戏|8|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
@@ -37,11 +41,7 @@ group: navigation
 2014-11-10|刀剑神域2|18|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-11-10|七大罪|6|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-10|-------------------------------|----------|----------------|----------------
-2014-11-09|Doctor-X|S03E05|[]()
 2014-11-08|逍遥法外|S01E02|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
-2014-11-08|妖精的尾巴|207|[[sohu](http://tv.sohu.com/s2011/yjdwb/)]
-2014-11-08|僵尸国度|S01E09|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
-2014-11-07|信长协奏曲（2014）|4|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-03|-------------------------------|----------|----------------|----------------
 2014-11-01|~~再战明天~~|20|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
 2014-10-27|-------------------------------|----------|----------------|----------------
