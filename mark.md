@@ -10,8 +10,10 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-11-24|-------------------------------|----------|----------------|----------------
 2014-11-17|行尸走肉|S05E06|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
 2014-11-17|坏家伙们|7|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
+2014-11-17|七大罪|7|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-17|-------------------------------|----------|----------------|----------------
 2014-11-16|魔术快斗1412/怪盗基德1412|7|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
 2014-11-16|记录的地平线2|7|[iqiyi](http://www.iqiyi.com/a_19rrhc10bp.html) [pptv](http://v.pptv.com/show/CzibTEHjeTozvbdU.html)|每周日
@@ -40,7 +42,6 @@ group: navigation
 2014-11-10|魔弹之王与战姬|06|[bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
 2014-11-10|飞虎 II|8|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
 2014-11-10|钻石王牌 第二季|5|[iqiyi 第二季](http://www.iqiyi.com/a_19rrhc1049.html) [iqiyi 第一季](http://www.iqiyi.com/a_19rrgjao65.html) [yydm 第一季](http://www.yydm.com/dongman/zswp/)
-2014-11-10|七大罪|6|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-10|-------------------------------|----------|----------------|----------------
 2014-11-08|逍遥法外|S01E02|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-11-03|-------------------------------|----------|----------------|----------------
