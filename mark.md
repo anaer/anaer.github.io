@@ -13,6 +13,7 @@ group: navigation
 2014-11-24|-------------------------------|----------|----------------|----------------
 2014-11-19|~~富贵男贫穷女|11|[华数TV](http://www.wasu.cn/Tele/index/id/3319685)
 2014-11-18|韩版诈欺游戏/欺诈游戏|9|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
+2014-11-18|逍遥法外|S01E03|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-11-18|名门暗战|11|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-17|行尸走肉|S05E06|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
 2014-11-17|坏家伙们|7|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
@@ -44,7 +45,6 @@ group: navigation
 2014-11-10|飞虎 II|8|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
 2014-11-10|钻石王牌 第二季|5|[iqiyi 第二季](http://www.iqiyi.com/a_19rrhc1049.html) [iqiyi 第一季](http://www.iqiyi.com/a_19rrgjao65.html) [yydm 第一季](http://www.yydm.com/dongman/zswp/)
 2014-11-10|-------------------------------|----------|----------------|----------------
-2014-11-08|逍遥法外|S01E02|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-11-03|-------------------------------|----------|----------------|----------------
 2014-11-01|~~再战明天~~|20|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
 2014-10-27|-------------------------------|----------|----------------|----------------
