@@ -11,6 +11,9 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-11-24|-------------------------------|----------|----------------|----------------
+2014-11-19|~~富贵男贫穷女|11|[华数TV](http://www.wasu.cn/Tele/index/id/3319685)
+2014-11-18|韩版诈欺游戏/欺诈游戏|9|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
+2014-11-18|名门暗战|11|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-17|行尸走肉|S05E06|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
 2014-11-17|坏家伙们|7|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
 2014-11-17|七大罪|7|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
@@ -26,14 +29,12 @@ group: navigation
 2014-11-16|~~笔仙惊魂3~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhr8d80.html?src=frbdaldjunest)
 2014-11-15|老表，你好Hea!|19|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-11-15|美女的诞生|4|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)
-2014-11-15|名门暗战|10|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-15|~~碟仙诡谭~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnfaorg.html?src=frbdaldjunest)
 2014-11-15|~~盂兰神功~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnep95s.html?src=frbdaldjunest)
 2014-11-15|~~京城81号~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhj8mmc.html?src=frbdaldjunest)
 2014-11-15|Doctor-X|S03E06|[]()|每周六
 2014-11-14|白银的意志 ARGEVOLLEN|19|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
 2014-11-14|匹诺曹|2|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
-2014-11-12|韩版诈欺游戏/欺诈游戏|8|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
 2014-11-12|绿箭|S03E06|[bilibili](http://www.bilibili.com/sp/%E7%BB%BF%E7%AE%AD%E4%BE%A0#S-1416) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
 2014-11-12|疑犯追踪|S04E07|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)|每周三
 2014-11-12|不死法医|8|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
