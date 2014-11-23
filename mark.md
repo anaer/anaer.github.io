@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-23 21:33
+update: 2014-11-23 22:22
 header : Mark
 group: navigation
 
@@ -36,7 +36,7 @@ group: navigation
 2014-11-19|~~富贵男贫穷女~~|11|[华数TV](http://www.wasu.cn/Tele/index/id/3319685)
 2014-11-18|逍遥法外|S01E03|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-11-17|行尸走肉|S05E06|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
-2014-11-17|坏家伙们|7|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
+2014-11-23|坏家伙们|8|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
 2014-11-17|七大罪|7|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-17|-------------------------------|----------|----------------|----------------
 2014-11-16|信长协奏曲（2014）|5|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
