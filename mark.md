@@ -18,7 +18,9 @@ group: navigation
 2014-11-23|美女的诞生|7|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
 2014-11-23|海贼王|671|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
 2014-11-23|妖精的尾巴|209|[sohu](http://tv.sohu.com/s2011/yjdwb/)
+2014-11-23|坏家伙们|8|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
 2014-11-23|僵尸国度/丧尸国度|S01E11|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
+2014-11-23|七大罪|8|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-22|警界线|3|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
 2014-11-22|绿箭|S03E07|[bilibili](http://www.bilibili.com/sp/%E7%BB%BF%E7%AE%AD%E4%BE%A0#S-1416) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
 2014-11-22|白银的意志 ARGEVOLLEN|20|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
@@ -36,8 +38,6 @@ group: navigation
 2014-11-19|~~富贵男贫穷女~~|11|[华数TV](http://www.wasu.cn/Tele/index/id/3319685)
 2014-11-18|逍遥法外|S01E03|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-11-17|行尸走肉|S05E06|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
-2014-11-23|坏家伙们|8|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
-2014-11-17|七大罪|7|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-17|-------------------------------|----------|----------------|----------------
 2014-11-16|信长协奏曲（2014）|5|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-16|~~笔仙惊魂3~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhr8d80.html?src=frbdaldjunest)
