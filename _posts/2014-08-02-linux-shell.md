@@ -108,6 +108,12 @@ value
         PID    PPID    PGID     WINPID   TTY     UID    STIME COMMAND
        1236    4940    1236       4360  pty1     500 09:04:35 /usr/bin/bash
   ```
+  
+#### 查询系统位数
+
+```
+linux查询系统是多少位的：getconf LONG_BIT ，如果是32位的下面会给出32的提示，64位的就是64
+```
 
 #### 检查是否为超级用户
   UID是一个重要的环境变量,可以用于检查当前脚本是以超级用户还是以普通用户的身份运行的.
