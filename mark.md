@@ -11,13 +11,13 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-11-24|行尸走肉|S05E07|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
+2014-11-24|美女的诞生|8|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
 2014-11-24|-------------------------------|----------|----------------|----------------
 2014-11-23|魔术快斗1412/怪盗基德1412|8|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
 2014-11-23|魔弹之王与战姬|08|[iqiyi](http://www.iqiyi.com/a_19rrhc0xbh.html) [bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
 2014-11-23|钻石王牌 第二季|6|[iqiyi 第二季](http://www.iqiyi.com/a_19rrhc1049.html) [iqiyi 第一季](http://www.iqiyi.com/a_19rrgjao65.html) [yydm 第一季](http://www.yydm.com/dongman/zswp/)
 2014-11-23|记录的地平线2|8|[iqiyi](http://www.iqiyi.com/a_19rrhc10bp.html) [pptv](http://v.pptv.com/show/CzibTEHjeTozvbdU.html)|每周日
 2014-11-23|虫师 续章|16|[sohu](http://tv.sohu.com/s2014/csxz/)
-2014-11-23|美女的诞生|7|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
 2014-11-23|海贼王|671|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
 2014-11-23|妖精的尾巴|209|[sohu](http://tv.sohu.com/s2011/yjdwb/)
 2014-11-23|坏家伙们|8|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
