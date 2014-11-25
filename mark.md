@@ -12,6 +12,7 @@ group: navigation
 ---|:---:|:---:|:---|:---
 2014-11-24|行尸走肉|S05E07|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
 2014-11-24|美女的诞生|8|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
+2014-11-24|名门暗战|14|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-24|-------------------------------|----------|----------------|----------------
 2014-11-23|魔术快斗1412/怪盗基德1412|8|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
 2014-11-23|魔弹之王与战姬|08|[iqiyi](http://www.iqiyi.com/a_19rrhc0xbh.html) [bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
@@ -32,14 +33,13 @@ group: navigation
 2014-11-22|不死法医|S01E09|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
 2014-11-22|~~夜半梳头~~|1|[]()
 2014-11-21|老表，你好Hea!|23|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
-2014-11-21|名门暗战|13|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-20|龙珠改 魔人布欧篇|32(130)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
 2014-11-19|飞虎 II|10|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
-2014-11-19|韩版诈欺游戏/欺诈游戏|10|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
+2014-11-25|韩版诈欺游戏/欺诈游戏|11|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
 2014-11-19|~~富贵男贫穷女~~|11|[华数TV](http://www.wasu.cn/Tele/index/id/3319685)
 2014-11-18|逍遥法外|S01E03|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-11-17|-------------------------------|----------|----------------|----------------
-2014-11-16|信长协奏曲（2014）|5|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
+2014-11-25|信长协奏曲（2014）|6|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-16|~~笔仙惊魂3~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhr8d80.html?src=frbdaldjunest)
 2014-11-15|~~碟仙诡谭~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnfaorg.html?src=frbdaldjunest)
 2014-11-15|~~盂兰神功~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnep95s.html?src=frbdaldjunest)
@@ -73,3 +73,4 @@ group: navigation
 2014-09-08|~~区区有鬼故~~|07/07|[[bilibili](http://www.bilibili.com/video/av1508801/)]
 2014-09-08|-------------------------------|----------|----------------|----------------
 2014-09-06|~~载得有情人~~|20/20|[[优酷](http://www.youku.com/show_page/id_zaa88e088b89311e3a705.html)]
+2014-11-25|大凶捕|3|[]()
