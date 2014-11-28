@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-26 22:29
+update: 2014-11-28 20:12
 header : Mark
 group: navigation
 
@@ -10,15 +10,15 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
-2014-11-27|匹诺曹|5|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
-2014-11-26|警界线|6|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
+2014-11-28|警界线|7|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
+2014-11-28|老表，你好Hea!|27|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
+2014-11-28|名门暗战|18|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
+2014-11-28|匹诺曹|6|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
 2014-11-26|~~韩版诈欺游戏/欺诈游戏~~|12|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
-2014-11-25|老表，你好Hea!|24|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-11-25|大凶捕|3|[]()
 2014-11-25|信长协奏曲（2014）|6|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-24|行尸走肉|S05E07|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
 2014-11-24|美女的诞生|8|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
-2014-11-24|名门暗战|14|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-24|-------------------------------|----------|----------------|----------------
 2014-11-23|魔术快斗1412/怪盗基德1412|8|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
 2014-11-23|魔弹之王与战姬|08|[iqiyi](http://www.iqiyi.com/a_19rrhc0xbh.html) [bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
