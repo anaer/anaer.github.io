@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-28 20:12
+update: 2014-11-30 17:11
 header : Mark
 group: navigation
 
@@ -10,15 +10,22 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-12-01|美女的诞生|10|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
+2014-12-01|~~行尸走肉~~|S05E08|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|明年二月
+2014-11-30|~~SPEC～警视厅公安部公安第五课~~|10|[bilibili](http://www.bilibili.com/video/av1157299/index_28.html)
+2014-11-29|~~算计：七天的死亡游戏 (2010)~~|1|[bilibili](http://www.bilibili.com/video/av1755966/)
+2014-11-29|Doctor-X|S03E08|[sohu](http://tv.sohu.com/s2014/doctorx3/)|每周六
+2014-11-28|逍遥法外|S01E04|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-11-28|警界线|7|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
 2014-11-28|老表，你好Hea!|27|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
+2014-11-28|白银的意志 ARGEVOLLEN|21|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
+2014-11-28|疑犯追踪|S04E09|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)|每周三
 2014-11-28|名门暗战|18|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-28|匹诺曹|6|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
+2014-11-28|僵尸国度/丧尸国度|S01E12|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
 2014-11-26|~~韩版诈欺游戏/欺诈游戏~~|12|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
 2014-11-25|大凶捕|3|[]()
 2014-11-25|信长协奏曲（2014）|6|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
-2014-11-24|行尸走肉|S05E07|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|每周一
-2014-11-24|美女的诞生|8|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
 2014-11-24|-------------------------------|----------|----------------|----------------
 2014-11-23|魔术快斗1412/怪盗基德1412|8|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
 2014-11-23|魔弹之王与战姬|08|[iqiyi](http://www.iqiyi.com/a_19rrhc0xbh.html) [bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
@@ -29,23 +36,18 @@ group: navigation
 2014-11-23|海贼王|671|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
 2014-11-23|妖精的尾巴|209|[sohu](http://tv.sohu.com/s2011/yjdwb/)
 2014-11-23|坏家伙们|8|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
-2014-11-23|僵尸国度/丧尸国度|S01E11|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
 2014-11-23|七大罪|8|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-22|绿箭|S03E07|[bilibili](http://www.bilibili.com/sp/%E7%BB%BF%E7%AE%AD%E4%BE%A0#S-1416) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
-2014-11-22|白银的意志 ARGEVOLLEN|20|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
-2014-11-22|疑犯追踪|S04E08|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)|每周三
 2014-11-22|刀剑神域2|20|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-11-22|不死法医|S01E09|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
 2014-11-22|~~夜半梳头~~|1|[]()
 2014-11-20|龙珠改 魔人布欧篇|32(130)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
 2014-11-19|~~富贵男贫穷女~~|11|[华数TV](http://www.wasu.cn/Tele/index/id/3319685)
-2014-11-18|逍遥法外|S01E03|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-11-17|-------------------------------|----------|----------------|----------------
 2014-11-16|~~笔仙惊魂3~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhr8d80.html?src=frbdaldjunest)
 2014-11-15|~~碟仙诡谭~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnfaorg.html?src=frbdaldjunest)
 2014-11-15|~~盂兰神功~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnep95s.html?src=frbdaldjunest)
 2014-11-15|~~京城81号~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhj8mmc.html?src=frbdaldjunest)
-2014-11-15|Doctor-X|S03E07|[sohu](http://tv.sohu.com/s2014/doctorx3/)|每周六
 2014-11-11|亡者归来|S02E07|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
 2014-11-10|-------------------------------|----------|----------------|----------------
 2014-11-03|-------------------------------|----------|----------------|----------------
