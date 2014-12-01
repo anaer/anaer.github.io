@@ -11,6 +11,7 @@ group: navigation
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
 2014-12-01|美女的诞生|10|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
+2014-12-01|七大罪|9|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-12-01|~~行尸走肉~~|S05E08|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|明年二月
 2014-11-30|~~SPEC～警视厅公安部公安第五课~~|10|[bilibili](http://www.bilibili.com/video/av1157299/index_28.html)
 2014-11-29|~~算计：七天的死亡游戏 (2010)~~|1|[bilibili](http://www.bilibili.com/video/av1755966/)
@@ -36,7 +37,6 @@ group: navigation
 2014-11-23|海贼王|671|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
 2014-11-23|妖精的尾巴|209|[sohu](http://tv.sohu.com/s2011/yjdwb/)
 2014-11-23|坏家伙们|8|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
-2014-11-23|七大罪|8|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-11-22|绿箭|S03E07|[bilibili](http://www.bilibili.com/sp/%E7%BB%BF%E7%AE%AD%E4%BE%A0#S-1416) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
 2014-11-22|刀剑神域2|20|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-11-22|不死法医|S01E09|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
