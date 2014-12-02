@@ -2,7 +2,7 @@
 layout: page
 title : 记录
 file: mark.md
-update: 2014-11-30 17:11
+update: 2014-12-02 20:08
 header : Mark
 group: navigation
 
@@ -10,13 +10,17 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-12-02|龙珠改 魔人布欧篇|34(132)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
 2014-12-02|名门暗战|20|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
+2014-12-02|刀剑神域2|21|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
+2014-12-02|亡者归来|S02E08|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
 2014-12-01|警界线|9|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
 2014-12-01|美女的诞生|10|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
 2014-12-01|海贼王|672|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
 2014-12-01|坏家伙们|9|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
 2014-12-01|七大罪|9|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-12-01|~~行尸走肉~~|S05E08|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|明年二月
+2014-12-01|-------------------------------|----------|----------------|----------------
 2014-11-30|~~SPEC～警视厅公安部公安第五课~~|10|[bilibili](http://www.bilibili.com/video/av1157299/index_28.html)
 2014-11-29|~~算计：七天的死亡游戏 (2010)~~|1|[bilibili](http://www.bilibili.com/video/av1755966/)
 2014-11-29|Doctor-X|S03E08|[sohu](http://tv.sohu.com/s2014/doctorx3/)|每周六
@@ -38,17 +42,14 @@ group: navigation
 2014-11-23|虫师 续章|16|[sohu](http://tv.sohu.com/s2014/csxz/)
 2014-11-23|妖精的尾巴|209|[sohu](http://tv.sohu.com/s2011/yjdwb/)
 2014-11-22|绿箭|S03E07|[bilibili](http://www.bilibili.com/sp/%E7%BB%BF%E7%AE%AD%E4%BE%A0#S-1416) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
-2014-11-22|刀剑神域2|20|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-11-22|不死法医|S01E09|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
 2014-11-22|~~夜半梳头~~|1|[]()
-2014-11-20|龙珠改 魔人布欧篇|32(130)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
 2014-11-19|~~富贵男贫穷女~~|11|[华数TV](http://www.wasu.cn/Tele/index/id/3319685)
 2014-11-17|-------------------------------|----------|----------------|----------------
 2014-11-16|~~笔仙惊魂3~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhr8d80.html?src=frbdaldjunest)
 2014-11-15|~~碟仙诡谭~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnfaorg.html?src=frbdaldjunest)
 2014-11-15|~~盂兰神功~~|1|[iqiyi](http://www.iqiyi.com/v_19rrnep95s.html?src=frbdaldjunest)
 2014-11-15|~~京城81号~~|1|[iqiyi](http://www.iqiyi.com/v_19rrhj8mmc.html?src=frbdaldjunest)
-2014-11-11|亡者归来|S02E07|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
 2014-11-10|-------------------------------|----------|----------------|----------------
 2014-11-03|-------------------------------|----------|----------------|----------------
 2014-11-01|~~再战明天~~|20|[77ds](http://www.77ds.com/tvb/zaizhanmingtian/zaixianbofang-1-8.html)
