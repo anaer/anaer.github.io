@@ -10,6 +10,7 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-12-02|名门暗战|20|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-12-01|警界线|9|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
 2014-12-01|美女的诞生|10|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
 2014-12-01|海贼王|672|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
@@ -23,7 +24,6 @@ group: navigation
 2014-11-28|老表，你好Hea!|27|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-11-28|白银的意志 ARGEVOLLEN|21|[iqiyi](http://www.iqiyi.com/a_19rrgif3l1.html)
 2014-11-28|疑犯追踪|S04E09|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25791)|每周三
-2014-11-28|名门暗战|18|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-11-28|匹诺曹|6|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
 2014-11-28|僵尸国度/丧尸国度|S01E12|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
 2014-11-26|~~韩版诈欺游戏/欺诈游戏~~|12|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
