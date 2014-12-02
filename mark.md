@@ -16,6 +16,7 @@ group: navigation
 2014-12-02|警界线|10|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
 2014-12-02|虫师 续章|17|[sohu](http://tv.sohu.com/s2014/csxz/)
 2014-12-02|永恒/不死法医|S01E10|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
+2014-12-02|大凶捕|4|[]()
 2014-12-02|复仇S04E09|[]()
 2014-12-02|名门暗战|20|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-12-02|刀剑神域2|21|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
@@ -36,7 +37,6 @@ group: navigation
 2014-11-28|匹诺曹|6|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
 2014-11-28|僵尸国度/丧尸国度|S01E12|[sohu](http://tv.sohu.com/s2014/znation1/) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25750&extra=&page=2)|每周六
 2014-11-26|~~韩版诈欺游戏/欺诈游戏~~|12|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
-2014-11-25|大凶捕|3|[]()
 2014-11-25|信长协奏曲（2014）|6|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-24|-------------------------------|----------|----------------|----------------
 2014-11-23|魔术快斗1412/怪盗基德1412|8|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
