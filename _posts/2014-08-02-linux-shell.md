@@ -915,6 +915,16 @@ END之间的内容作为cat命令的输入，所以接下来回车后会出现
 这种语法在linux shell中叫HERE文档
   ```
 
+#### Linux 查看进程端口
+
+```
+1.        netstat -tln              netstat -tln | grep 8083    netstat -tln 查看端口使用情况，而netstat -tln | grep 8083 则是只查看端口8083的使用情况  
+
+2.查看端口属于哪个程序？端口被哪个进程占用           lsof -i :8083    
+
+3.杀掉占用端口的进程           kill -9 进程id   
+```
+
 # 快捷键
   * 清屏 ctrl+l
   * 清除当前输入 ctrl+u
