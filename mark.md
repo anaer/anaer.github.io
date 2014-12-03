@@ -10,6 +10,7 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-12-04|晨曦公主|4|[pptv](http://v.pptv.com/show/gxBk4wBKM3HUUro.html?rcc_src=B3)
 2014-12-03|魔术快斗1412/怪盗基德1412|9|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
 2014-12-03|醋娘子|2|[]()
 2014-12-03|警界线|11|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
