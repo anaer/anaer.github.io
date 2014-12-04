@@ -10,10 +10,12 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-12-04|魔弹之王与战姬|09|[iqiyi](http://www.iqiyi.com/a_19rrhc0xbh.html) [bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
 2014-12-04|醋娘子|3|[77ds](http://www.77ds.com/tvb/cuniangziguoyuban/zaixianbofang-0-2.html)
 2014-12-04|警界线|12|[bilibili](http://www.bilibili.com/search?keyword=%E8%AD%A6%E7%95%8C%E7%BA%BF&orderby=&formsubmit=)
 2014-12-04|绿箭|S03E08|[bilibili](http://www.bilibili.com/sp/%E7%BB%BF%E7%AE%AD%E4%BE%A0#S-1416) [耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25877)|每周四
 2014-12-04|晨曦公主|4|[pptv](http://v.pptv.com/show/gxBk4wBKM3HUUro.html?rcc_src=B3)
+2014-12-04|妖精的尾巴|210|[sohu](http://tv.sohu.com/s2011/yjdwb/)
 2014-12-04|名门暗战|22|[77ds](http://www.77ds.com/tvb/mingmenanzhan/zaixianbofang-1-4.html)
 2014-12-04|匹诺曹|7|[youku](http://www.youku.com/show_page/id_z0375f6ec568a11e4a080.html)
 2014-12-03|魔术快斗1412/怪盗基德1412|9|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
@@ -43,9 +45,7 @@ group: navigation
 2014-11-26|~~韩版诈欺游戏/欺诈游戏~~|12|[youku](http://www.youku.com/show_page/id_z3894659054da11e4b522.html)
 2014-11-25|信长协奏曲（2014）|6|[sohu](http://tv.sohu.com/s2014/rjxcxzq/)
 2014-11-24|-------------------------------|----------|----------------|----------------
-2014-11-23|魔弹之王与战姬|08|[iqiyi](http://www.iqiyi.com/a_19rrhc0xbh.html) [bilibili](http://www.bilibili.com/sp/%E9%AD%94%E5%BC%B9%E4%B9%8B%E7%8E%8B%E4%B8%8E%E6%88%98%E5%A7%AC)
 2014-11-23|飞虎 II|12|[mtkan](http://www.mtkan.net/video/s/mtk34982/51x72x5ax73x61x6ex37x6bx52x47x34x6dx4ex6ex2ex68x74x6dx6c.html) [youku](http://www.youku.com/show_page/id_z9f059ec2573b11e38b3f.html)
-2014-11-23|妖精的尾巴|209|[sohu](http://tv.sohu.com/s2011/yjdwb/)
 2014-11-22|~~夜半梳头~~|1|[]()
 2014-11-19|~~富贵男贫穷女~~|11|[华数TV](http://www.wasu.cn/Tele/index/id/3319685)
 2014-11-17|-------------------------------|----------|----------------|----------------
