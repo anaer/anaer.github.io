@@ -13,6 +13,9 @@ group: navigation
 2014-12-07|逍遥法外|S01E05|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
 2014-12-07|虫师 续章|18|[sohu](http://tv.sohu.com/s2014/csxz/)|每周日
 2014-12-07|美女的诞生|11|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
+2014-12-07|海贼王|673|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
+2014-12-07|坏家伙们|10|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
+2014-12-07|七大罪|10|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-12-07|~~老表，你好Hea!~~|30|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-12-07|~~死亡派对~~|1|
 2014-12-07|~~捕蝇纸~~|1|[bilibili](http://www.bilibili.com/video/av1773742/)
@@ -38,9 +41,6 @@ group: navigation
 2014-12-02|复仇S04E09|[]()
 2014-12-02|刀剑神域2|21|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-12-02|亡者归来|S02E08|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
-2014-12-01|海贼王|672|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
-2014-12-01|坏家伙们|9|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
-2014-12-07|七大罪|10|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-12-01|~~行尸走肉~~|S05E08|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|明年二月
 2014-12-01|-------------------------------|----------|----------------|----------------
 2014-11-30|~~SPEC～警视厅公安部公安第五课~~|10|[bilibili](http://www.bilibili.com/video/av1157299/index_28.html)
