@@ -10,11 +10,15 @@ group: navigation
 
 日期|影视|状态|链接|备注
 ---|:---:|:---:|:---|:---
+2014-12-08|-------------------------------|----------|----------------|----------------
+2014-12-07|钻石王牌 第二季|8|[iqiyi 第二季](http://www.iqiyi.com/a_19rrhc1049.html) [iqiyi 第一季](http://www.iqiyi.com/a_19rrgjao65.html) [yydm 第一季](http://www.yydm.com/dongman/zswp/)|每周日
 2014-12-07|逍遥法外|S01E05|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25855&extra=page%3D1)
+2014-12-07|记录的地平线2|10|[iqiyi](http://www.iqiyi.com/a_19rrhc10bp.html) [pptv](http://v.pptv.com/show/CzibTEHjeTozvbdU.html)|每周日
 2014-12-07|虫师 续章|18|[sohu](http://tv.sohu.com/s2014/csxz/)|每周日
 2014-12-07|美女的诞生|11|[youku](http://v.youku.com/v_show/id_XODIzMzk3MzA0.html)|每周日
 2014-12-07|海贼王|673|[77ds](http://www.77ds.com/donghua/haizeiwang/zaixianbofang-0-30.html)|每周日
 2014-12-07|坏家伙们|10|[tudou](http://www.tudou.com/albumcover/3t_qDofSyGw.html)|每周日
+2014-12-07|刀剑神域2|22|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-12-07|七大罪|10|[bilibili](http://www.bilibili.com/sp/%E4%B8%83%E5%A4%A7%E7%BD%AA) [sohu](http://tv.sohu.com/s2014/dhpqyz/)|每周日
 2014-12-07|~~老表，你好Hea!~~|30|[mtkan](http://www.mtkan.net/video/s/mtk34982/50x62x56x71x61x58x37x6bx52x47x34x6fx4dx6ex2ex68x74x6dx6c.html)[77ds](http://www.77ds.com/tvb/laobiaonihaoHeaguoyuban/zaixianbofang-1-2.html)
 2014-12-07|~~死亡派对~~|1|
@@ -34,12 +38,9 @@ group: navigation
 2014-12-04|晨曦公主|4|[pptv](http://v.pptv.com/show/gxBk4wBKM3HUUro.html?rcc_src=B3)
 2014-12-03|魔术快斗1412/怪盗基德1412|9|[iqiyi](http://www.iqiyi.com/a_19rrhc0x81.html)|每周日
 2014-12-02|龙珠改 魔人布欧篇|34(132)|[bilibili](http://www.bilibili.com/sp/%E9%BE%99%E7%8F%A0%E6%94%B9%20%E9%AD%94%E4%BA%BA%E5%B8%83%E6%AC%A7%E7%AF%87) [sohu](http://tv.sohu.com/s2014/lzg2/)
-2014-12-02|钻石王牌 第二季|7|[iqiyi 第二季](http://www.iqiyi.com/a_19rrhc1049.html) [iqiyi 第一季](http://www.iqiyi.com/a_19rrgjao65.html) [yydm 第一季](http://www.yydm.com/dongman/zswp/)
-2014-12-02|记录的地平线2|9|[iqiyi](http://www.iqiyi.com/a_19rrhc10bp.html) [pptv](http://v.pptv.com/show/CzibTEHjeTozvbdU.html)|每周日
 2014-12-02|永恒/不死法医|S01E10|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25783)|每周二
 2014-12-02|大凶捕|4|[]()
 2014-12-02|复仇S04E09|[]()
-2014-12-02|刀剑神域2|21|[[letv](http://comic.letv.com/zt/bilisao2/index.shtml)]
 2014-12-02|亡者归来|S02E08|[ncar](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25794)|每周一
 2014-12-01|~~行尸走肉~~|S05E08|[耐卡](http://www.ncar.cc/bbs/forum.php?mod=viewthread&tid=25790) [tudou](http://www.tudou.com/albumcover/yFjJliziGfc.html)|明年二月
 2014-12-01|-------------------------------|----------|----------------|----------------
