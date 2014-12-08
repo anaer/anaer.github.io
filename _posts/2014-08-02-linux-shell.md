@@ -925,6 +925,14 @@ END之间的内容作为cat命令的输入，所以接下来回车后会出现
 3.杀掉占用端口的进程           kill -9 进程id   
 ```
 
+#### 问题处理 
+  * cygwin 执行mysql shell脚本, 不支持中文路径
+  
+  ```sh
+需要修改脚本*.sh
+set fileencoding=cp936
+  ```
+
 # 快捷键
   * 清屏 ctrl+l
   * 清除当前输入 ctrl+u
