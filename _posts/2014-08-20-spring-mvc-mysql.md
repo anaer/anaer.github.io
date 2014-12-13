@@ -9,7 +9,7 @@ tags: [SpringMVC, Mysql]
 ---
 
 # 环境搭建  
-  * 参考[Java Web 开发](/2014/08/15/JavaWeb/)  
+  * 参考[Java Web 开发](/2014/08/15/java-web/)  
     搭建开发环境
 ---
 
@@ -63,8 +63,6 @@ tags: [SpringMVC, Mysql]
     </web-app>
     ```
 
----
-
 # 数据库配置db-config.properties  
   * 路径: /SpringMVC_Mysql_Demo/src/main/resources/db-config.properties  
   * 配置:  
@@ -76,8 +74,6 @@ tags: [SpringMVC, Mysql]
     db.password=password
     db.dirverClass= com.mysql.jdbc.Driver
     ```
-
----
 
 # 测试数据  
 
@@ -106,8 +102,6 @@ tags: [SpringMVC, Mysql]
 
   select * from usermbo;
   ```
-
----
 
 # applicationContext.xml  
   * 路径: /SpringMVC_Mysql_Demo/src/main/resources/applicationContext.xml  
@@ -194,8 +188,6 @@ tags: [SpringMVC, Mysql]
     </beans>  
     ```
 
----
-
 # UserDao.java  
   * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserDao.java  
   * 代码:  
@@ -240,8 +232,6 @@ tags: [SpringMVC, Mysql]
         }  
     }
     ```
-
----
 
 # UserController.java  
   * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserController.java  
