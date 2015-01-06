@@ -6,9 +6,9 @@ update: 2014-10-15 13:19
 tags: [Javascript]
 ---
 
-# [JS教程](http://www.w3school.com.cn/js/index.asp)
+#### [JS教程](http://www.w3school.com.cn/js/index.asp)
 
-## [JS简介](http://www.w3school.com.cn/js/js_intro.asp)
+#### [JS简介](http://www.w3school.com.cn/js/js_intro.asp)
 
 ### [写入HTML输出](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_document_write)  
 	
@@ -305,6 +305,13 @@ function luhmCheck(bankno){
     }       
 }
   ```
+  
+#### style.display
+
+   ```
+   style.display = ""；是清除display样式，display将使用默认值（块元素会变成block，内联元素会变成inline）
+   style.display="none"； 中“none”是一个值，表示元素将隐藏
+   ```
   
 # 参考
   * [辛星解读Javascript](http://blog.csdn.net/column/details/xinxingjs.html)  
