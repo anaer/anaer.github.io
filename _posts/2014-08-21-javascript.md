@@ -352,3 +352,4 @@ function html_decode(str)
 
 #### 使用JavaScript
   * [使用javascript实现银行卡号的Luhn校验或验证算法](http://www.oschina.net/code/snippet_169741_5774)
+  * [项目中常用js方法整理common.js ](http://blog.csdn.net/sweetsuzyhyf/article/details/41309863)
