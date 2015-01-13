@@ -312,10 +312,43 @@ function luhmCheck(bankno){
    style.display = ""；是清除display样式，display将使用默认值（块元素会变成block，内联元素会变成inline）
    style.display="none"； 中“none”是一个值，表示元素将隐藏
    ```
+   
+#### html编码解码
+
+```javascript
+
+function html_encode(str)  
+{  
+  var s = "";  
+  if (str.length == 0) return "";  
+  s = str.replace(/&/g, "&amp;");  
+  s = s.replace(/</g, "&lt;");  
+  s = s.replace(/>/g, "&gt;");  
+  //s = s.replace(/ /g, "&nbsp;");  
+  s = s.replace(/\'/g, "&#39;");  
+  s = s.replace(/\"/g, "&quot;");  
+  //s = s.replace(/\n/g, "<br>");  
+  return s;  
+}  
+
+function html_decode(str)  
+{  
+  var s = "";  
+  if (str.length == 0) return "";  
+  s = str.replace(/&gt;/g, "&");  
+  s = s.replace(/&lt;/g, "<");  
+  s = s.replace(/&gt;/g, ">");  
+  s = s.replace(/&nbsp;/g, " ");  
+  s = s.replace(/&#39;/g, "\'");  
+  s = s.replace(/&quot;/g, "\"");  
+  s = s.replace(/<br>/g, "\n");  
+  return s;  
+}   
+```
   
-# 参考
+### 参考
   * [辛星解读Javascript](http://blog.csdn.net/column/details/xinxingjs.html)  
   * [Javascript教程](http://www.w3school.com.cn/js/index.asp)
 
-## 使用JavaScript
+#### 使用JavaScript
   * [使用javascript实现银行卡号的Luhn校验或验证算法](http://www.oschina.net/code/snippet_169741_5774)
