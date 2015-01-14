@@ -6,7 +6,9 @@ update: 2014-09-20 13:41
 tags: [Windows]
 ---
 
-# 装机必备  
+### Windows
+
+#### 装机必备  
 
   * [foobar2000](http://www.foobar2000.org/)   
   * ~~[CCleaner]()~~
@@ -17,12 +19,12 @@ tags: [Windows]
   * ~~[PStart](http://www.pegtop.net/download.php?file=start)~~
   * ~~[Sumatra PDF](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html)~~
 
-## 编辑器   
+#### 编辑器   
 
   * [Vim](http://www.vim.org/)  
   * ~~[SublimeText](http://www.sublimetext.com/)~~  
 
-## 开发工具  
+#### 开发工具  
 
   * [Tomcat](http://tomcat.apache.org/)
   * [Eclipse]()  
@@ -36,6 +38,15 @@ tags: [Windows]
   * [Maven]()
   * [JDK]()
    
-## 卸载工具
+#### 卸载工具
 
  * [Your Uninstaller]()
+
+
+### Ubuntu
+#### Ubuntu装机软件
+  * [Eclipse]()
+  * [Adobe Flash Player]()
+  * [Vim]()
+  * [Git]()
+  * [Maven]()
