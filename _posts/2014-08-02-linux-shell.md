@@ -956,5 +956,8 @@ set fileencoding=cp936
 
 ## Unix
   * [UNIX 技巧: UNIX 高手的另外 10 个习惯](http://www.ibm.com/developerworks/cn/aix/library/au-unixtips/)
+  * [linux监控命令全覆盖（图文说明）](http://blog.csdn.net/sweetsuzyhyf/article/details/41309863)
 ## 博客专栏
   * [shell编程笔记](http://blog.csdn.net/column/details/linuxshellgradu.html)
+  
+  
