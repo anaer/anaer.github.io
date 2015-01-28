@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "SpringMVC中的文件上传 "
-description: "转载"
-category: Java
+file: 2014-08-15-springmvc-upload-file.md
+update: 2015-01-28 09:53
 tags: [Java, Spring]
 ---
 
@@ -200,7 +200,7 @@ tags: [Java, Spring]
         }  
         @RequestMapping(value="/add", method=RequestMethod.POST)  
         public String addUser(User user, @RequestParam MultipartFile[] myfiles, HttpServletRequest request) throws IOException{  
-            //如果只是上传一个文件，则只需要MultipartFile类型接收文件即可，而且无需显式指定@RequestParam注解  
+            //如果只是上传一个文件，则只需要MultipartFile类型接收文件即可，而且无需显式指定@RequestParam注解， name还得是myfiles  
             //如果想上传多个文件，那么这里就要用MultipartFile[]类型来接收文件，并且还要指定@RequestParam注解  
             //并且上传多个文件时，前台表单中的所有<input type="file"/>的name都应该是myfiles，否则参数里的myfiles无法获取到所有上传的文件  
             for(MultipartFile myfile : myfiles){  
@@ -298,6 +298,13 @@ tags: [Java, Spring]
   </build>
 </project>
 ```
+
+#### 注意事项
+  * pom文件中必须添加common-upload的jar包依赖
+    否则会提示错误:  org.springframework.web.bind.MissingServletRequestParameterException: Required MultipartFile[] parameter 'myfiles' is not present 
+  * form属性必须设置为enctype="multipart/form-data" method="post" 
+    否则会提示错误: org.springframework.web.multipart.MultipartException: The current request is not a multipart request 
+
 ### 访问测试
   http://127.0.0.1:8080/{web应用名}/user/add
   http://127.0.0.1:8080/{web应用名}/user/list
