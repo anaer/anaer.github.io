@@ -56,3 +56,6 @@ public class OperatorValidator implements Validator {
     }
   }
 ```
+
+### 参考
+  * [JSR 303 - Bean Validation 介绍及最佳实践 ](http://www.ibm.com/developerworks/cn/java/j-lo-jsr303/index.html)
