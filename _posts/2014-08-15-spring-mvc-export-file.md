@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "SpringMVC 导出Excel及Pdf"
+file: 2014-08-15-spring-mvc-export-file.md
+update: 2015-02-05 09:34
 description: "转载"
 category: Java
-tags: [Java, SpringMVC]
+tags: [Java]
 ---
 
 HTML页面并不总是向用户显示数据输出的最好方式，
