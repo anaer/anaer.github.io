@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "memcached"
+title: "memcached使用介绍"
 file: 2015-02-12-memcached.md
-update: 2015-02-13 10:48
-description: ""
-category:
-tags: []
+update: 2015-03-04 09:33
+description: "memcached使用介绍"
+category: memcached
+tags: [memcached]
 
 ---
-
 
 #### 安装启动
         

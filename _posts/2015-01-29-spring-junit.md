@@ -2,8 +2,8 @@
 layout: post
 title: "Spring Junit单元测试"
 file: 2015-01-29-spring-junit.md
-update: 2015-01-29 11:03
-description: ""
+update: 2015-03-04 09:39
+description: "Spring Junit单元测试"
 category:Spring
 tags: [Spring]
 
