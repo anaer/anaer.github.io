@@ -2,7 +2,7 @@
 layout: post
 title: "cxf创建webservice"
 file: 2014-09-17-java-cxf-webservice.md
-update: 2014-09-19 14:59
+update: 2015-03-09 14:50
 description: ""
 category: Java
 tags: [Java, WebService]
@@ -86,6 +86,60 @@ public class ServerPasswordCallback implements CallbackHandler {
    </soapenv:Header>
   ```
 
+#### webservice调试工具
+  * tcpTrace
+  * SoapUI
+  * Wireshark
+  * Eclipse 基于webservice的浏览器
+  * tcpMon
+
+#### 其他
+webservice接口地址:
+http://localhost:8080/as/webService/fund123?wsdl
+
+生成java代码
+wsimport -extension -s f:/test http://localhost:8080/as/webService/fund123?wsdl
+
+apatche-cxf 插件下载
+http://cxf.apache.org/download.html
+
+http://download.csdn.net/download/xuanyunfeime/4886428
+
+添加环境变量
+1、CXF_HOME=D:\apache-cxf-2.7.10
+
+2、在path后面加上 %CXF_HOME%/bin;
+
+wsdl2java -d f:/test -client http://localhost:8080/as/webService/fund123?wsdl
+
+附wsdl2java用法：
+
+wsdl2java -p com -d D:\\src -all  xx.wsdl
+
+-p  指定其wsdl的命名空间，也就是要生成代码的包名:
+
+-d  指定要产生代码所在目录
+
+-client 生成客户端测试web service的代码
+
+-server 生成服务器启动web  service的代码
+
+-impl 生成web service的实现代码
+
+-ant  生成build.xml文件
+
+-all 生成所有开始端点代码：types,service proxy,,service interface, server mainline, client mainline, implementation object, and an Ant build.xml file.
+
+wsdl2java问题处理:
+由于 accessExternalSchema 属性设置的限制而不允许 'file' 访问, 因此无法读取方案文档 'xjc.xsd'。
+
+因为我的jre和jdk都用的是jdk8, 而刚好jaxb-xjc-2.2.7对jdk8有这个bug,bug详情如下:
+https://bugs.openjdk.java.net/browse/JDK-8020999?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel 
+
+#### webservice接口
+  * http://webservice.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx
+  * http://webservice.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx?wsdl
+
 # 参考
 
   * [CXF 发布WebService - jaxws:endpoint](http://dyccsxg.iteye.com/blog/1905440)
@@ -95,3 +149,5 @@ public class ServerPasswordCallback implements CallbackHandler {
   * [cxf wss4j 令牌验证 为什么 回调是空？ jaxws:server password null  ](http://cache.baiducontent.com/c?m=9d78d513d9920bfb4fede53b5a4696315910db326bc0d06468a5925fe5154c30477194cb30226113a2b66b1604b8482cfd804265410434f0db9687109bfdd03f2efb3a292042db1405d36eaccf4732c157c107b6b248bfece735e7ff84ce8f0a0e9f4e443cd3b6d00b1d12ce6cf31336e7a1994a165c1abde63262fa58752882&p=93759a46d7c413f740a9c22d021481&newp=cb7ac54ad5c246b111aac7710f5f86231610db2151d0d21e619dd4&user=baidu&fm=sc&query=cxf+webservice+%C3%DC%C2%EB+%CA%C7%BF%D5&qid=9d3e634100007765&p1=2)
   * [CXF学习笔记(4)-HelloWorld!-安全认证 ](http://blog.csdn.net/crazycoder2010/article/details/6695436)
   * [CXF WebService+Spring 无法注入问题解决方法 ](http://blog.csdn.net/chq1988/article/details/38554339)
+  * [简单CXF方式的webService客户端调用范例](http://rwg109.javaeye.com/blog/812873)
+  * [Apache CXF实战](http://blog.csdn.net/kongxx/article/details/7738717)
