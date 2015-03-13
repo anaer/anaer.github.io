@@ -2,8 +2,11 @@
 layout: post
 title: "Linux Shell命令"
 file: 2014-08-02-linux-shell.md
-update: 2014-11-15 10:03
+update: 2015-03-13 16:54
+description: "Linux Shell命令"
+category: Linux
 tags: [Linux, Shell]
+
 ---
 
 ### 终端打印
