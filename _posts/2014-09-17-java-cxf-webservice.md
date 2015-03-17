@@ -11,7 +11,7 @@ tags: [Java, WebService]
 # Maven配置
 
   ```xml
-		 <!-- 
+        <!--
             <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-api</artifactId>
@@ -23,7 +23,7 @@ tags: [Java, WebService]
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>${cxf.version}</version>
         </dependency>
-        <!-- 
+        <!--
         <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-bindings-soap</artifactId>
@@ -35,7 +35,7 @@ tags: [Java, WebService]
             <artifactId>cxf-rt-transports-http</artifactId>
             <version>${cxf.version}</version>
         </dependency>
-         <!-- 
+         <!--
             <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-ws-security</artifactId>
@@ -46,8 +46,8 @@ tags: [Java, WebService]
 # 错误信息
   * The security token could not be authenticated or authorized
 
-  * cxf wss4j 令牌验证 为什么 回调是空？ jaxws:server password null  
-	
+  * cxf wss4j 令牌验证 为什么 回调是空？ jaxws:server password null
+    
 在按照网上的例子进行配置用户名令牌的例子，在server端的回调函数中获取的password 却一直是空，搜索了好半天，才找到（这个是MD5加密的）：
 
 WSPasswordCallback 的passwordType属性和password 属性都为null，你只能获得用户名（identifier），一般这里的逻辑是使用这个用户名到数据库中查询其密码，然后再设置到password 属性，WSS4J 会自动比较客户端传来的值和你设置的这个值。你可能会问为什么这里CXF 不把客户端提交的密码传入让我们在ServerPasswordCallbackHandler 中比较呢？这是因为客户端提交过来的密码在SOAP 消息中已经被加密为MD5 的字符串，如果我们要在回调方法中作比较，那么第一步要做的就是把服务端准备好的密码加密为MD5 字符串，由于MD5 算法参数不同结果也会有差别，另外，这样的工作CXF 替我们完成不是更简单吗？
@@ -56,19 +56,19 @@ WSPasswordCallback 的passwordType属性和password 属性都为null，你只能
 
 根据上面说的，我获取的password 为null，所以这里就不用自己判断密码了，只要验证用户名后，在设置密码就可以自动验证了，代码如下：
 
-public class ServerPasswordCallback implements CallbackHandler {   
+public class ServerPasswordCallback implements CallbackHandler {
    
-     public void handle(Callback[] callbacks) throws IOException,   
-              UnsupportedCallbackException {   
-          WSPasswordCallback pc = (WSPasswordCallback) callbacks[0];   
-          String pw = pc.getPassword();   
-          String idf = pc.getIdentifier();   
-          System.out.println("password:"+pw);   
-          System.out.println("identifier:"+idf); 
+     public void handle(Callback[] callbacks) throws IOException,
+              UnsupportedCallbackException {
+          WSPasswordCallback pc = (WSPasswordCallback) callbacks[0];
+          String pw = pc.getPassword();
+          String idf = pc.getIdentifier();
+          System.out.println("password:"+pw);
+          System.out.println("identifier:"+idf);
           if(idf.endsWith("admin")){
            pc.setPassword("admin");
           }
-      }   
+      }
    
  }
   
@@ -134,7 +134,18 @@ wsdl2java问题处理:
 由于 accessExternalSchema 属性设置的限制而不允许 'file' 访问, 因此无法读取方案文档 'xjc.xsd'。
 
 因为我的jre和jdk都用的是jdk8, 而刚好jaxb-xjc-2.2.7对jdk8有这个bug,bug详情如下:
-https://bugs.openjdk.java.net/browse/JDK-8020999?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel 
+https://bugs.openjdk.java.net/browse/JDK-8020999?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel
+
+如果生成的TuxedoWebService中提示如下信息， 则需要在wsdl2java生成时, 添加参数"-frontend jaxws21"
+
+```java
+    //This constructor requires JAX-WS API 2.2. You will need to endorse the 2.2
+    //API jar or re-run wsdl2java with "-frontend jaxws21" to generate JAX-WS 2.1
+    //compliant code instead.
+    public TuxedoWebService(WebServiceFeature ... features) {
+        super(WSDL_LOCATION, SERVICE, features);
+    }
+```
 
 #### webservice接口
   * http://webservice.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx
