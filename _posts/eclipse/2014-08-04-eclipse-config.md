@@ -47,8 +47,7 @@ tags: [Eclipse]
       Window->Preferences->Java->Editor->Hovers 将[Combined Hover]取消即可.
 
 #### 默认折叠配置
-      window->perference->java->editor->folding
-
+    window->perference->java->editor->folding
 
 #### Eclipse 每次 debug 时要求 Edit Source Lookup Path 添加被调试项目的解决方案
     Window -- Preferences -- Tomcat-- Source Path 然后选择当前运行的项目就可以
@@ -119,4 +118,6 @@ tags: [Eclipse]
       右边的选项Insert spaces for tabs 勾上！然后 Displayed tab width =4也可以
 
 
-
+### JSP Files
+#### 指定jsp charset
+    WEB-JSP-Files Encoding=ISO 10646/Unicode(UTF-8)

@@ -11,6 +11,14 @@ tags: [Eclipse]
 
 ### 常见错误
 
+#### Access restriction: The constructor 'BASE64Encoder()' is not API 
+
+    M1: 
+    只需要在project build path中先移除默认的JRE System Library，添加自定义的JRE System Library。
+    M2:
+    Windows -> Preferences -> Java -> Compiler -> Errors/Warnings ->
+    Deprecated and trstricted API -> Forbidden reference (access rules): -> change to warning
+
 #### Implementation of project facet me.spring could not be found. Functionality will be limited.
 
     编辑工程目录下.settings/org.eclipse.wst.common.project.facet.core.xml
