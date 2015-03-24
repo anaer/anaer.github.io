@@ -1,0 +1,18 @@
+#/usr/bin/bash
+index=1
+for filename in `ls -v *.md|grep -v -i README.MD`
+do
+  #echo index索引 $index
+  echo 文件名 $filename
+  if test -f $filename
+  then
+    #id=$(echo $filename | awk -F '-' '{ print $1 }' )
+    newname=$(echo $filename |sed "s/^[0-9]*-//" | sed "s/^/$index-/")
+    if test $filename != $newname
+    then
+      echo 重命名 $newname
+      mv $filename $newname
+    fi
+  fi
+  index=$(($index+1))
+done

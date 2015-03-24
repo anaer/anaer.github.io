@@ -1,0 +1,16 @@
+#!/usr/bin/sh
+
+function usage()
+{
+  echo Usage: `basename $0` filename
+  exit 0
+}
+
+if test $# -ne 1
+then
+  usage
+fi
+
+file=$1
+tmp=tmp.$$
+touch $file; date >> $tmp; echo ==== >> $tmp; echo >> $tmp; cat $file >> $tmp; cat $tmp > $file ; rm $tmp;

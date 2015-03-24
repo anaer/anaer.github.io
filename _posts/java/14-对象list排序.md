@@ -1,0 +1,18 @@
+Java	对象list排序	"添加比较器，再掉Collections.sort
+
+class MyComparator implements Comparator {
+        public int compare(Object o1, Object o2) {
+                if (o1 instanceof PledgeActionDetail) {
+                        PledgeActionDetail e1 = (PledgeActionDetail) o1;
+                        PledgeActionDetail e2 = (PledgeActionDetail) o2;
+                        // 产品代码升序
+                        return e1.getProductCode().compareTo(e2.getProductCode());
+                } else if (o1 instanceof FreezeActionDetail) {
+                        FreezeActionDetail e1 = (FreezeActionDetail) o1;
+                        FreezeActionDetail e2 = (FreezeActionDetail) o2;
+                        // 产品代码升序
+                        return e2.getProductCode().compareTo(e1.getProductCode());
+                }
+                return 0;
+        }
+}"	
