@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "eclipse faq"
+title: "Eclipse faq"
 file: 2015-03-19-eclipse-faq.md
 update: 2015-03-19 21:33
-description: ""
+description: "Eclipse FAQ"
 category:Eclipse
 tags: [Eclipse]
 
@@ -11,11 +11,11 @@ tags: [Eclipse]
 
 ### 常见错误
 
-#### Access restriction: The constructor 'BASE64Encoder()' is not API 
+#### Access restriction: The constructor 'BASE64Encoder()' is not API
 
-    M1: 
+    解决1:
     只需要在project build path中先移除默认的JRE System Library，添加自定义的JRE System Library。
-    M2:
+    解决2:
     Windows -> Preferences -> Java -> Compiler -> Errors/Warnings ->
     Deprecated and trstricted API -> Forbidden reference (access rules): -> change to warning
 
