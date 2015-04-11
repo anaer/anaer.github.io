@@ -18,3 +18,16 @@ tags: [面试]
     抽象类可以实现(implements)接口.
     抽象类可以继承具体类.
     抽象类中可以有静态的main方法.
+
+#### abstract class和interface有什么区别？
+    含有abstract修饰符的class即为抽象类,
+    abstract类不能创建实例对象。
+    含有abstract方法的类必须定义为abstract class,
+    abstract class类中的方法不必是抽象类.
+    abstract class类中定义抽象方法必须在具体子类中实现,
+    所以, 不能有抽象构造方法或抽象静态方法.如果子类没有实现抽象父类中的所有抽象方法,那么子类也必须定义为abstract类型.
+
+#### 写clone()方法时,通常都有一行代码,是什么？
+    clone有缺省行为,
+    super.clone();
+    因为首先要把父类中的成员复制到位,然后才是复制自己的成员.
