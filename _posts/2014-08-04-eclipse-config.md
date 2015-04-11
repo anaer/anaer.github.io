@@ -107,3 +107,11 @@ tags: [Eclipse]
 ### JSP Files
 #### 指定jsp charset
     WEB-JSP-Files Encoding=ISO 10646/Unicode(UTF-8)
+
+#### 标签页显示最近修改
+    找到文件e4_default_win7.css 修改swt-mru-visible:false为true即可.
+
+    .MPartStack {
+        swt-simple: true;
+        swt-mru-visible: false;
+    }
