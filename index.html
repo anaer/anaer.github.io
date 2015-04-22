@@ -27,11 +27,14 @@ title: 每天进步一点点
 		</div>
     </li>
   {% endfor %}
+  
+      {% if paginator.total_pages > 1 %}  
+        {% if paginator.previous_page %}  
+            <a href="{{ paginator.previous_page_path }}">上一页</a>  
+        {% endif %}  
+          
+        {% if paginator.next_page %}  
+            <a href="{{ paginator.next_page_path }}">下一页</a>  
+        {% endif %}  
+    {% endif %}  
 </ul>
-
-<!--
-2014-09-09
-  1. 不显示总数
-2014-08-29
-	1. 固定链接宽度
--->
