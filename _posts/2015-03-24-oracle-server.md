@@ -1,3 +1,13 @@
+---
+layout: post
+title: "oracle 服务介绍"
+file: file
+update: 22 Apr 2015
+description: ""
+category: category
+tags: [tag]
+--- 
+
 Oracle 11g服务详细介绍
 按照windows 7 64位 安装oracle 11g R2中的方法成功安装Oracle 11g后，共有7个服务，这七个服务的含义分别为：
  

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "spring AOP取得session "
+title: "spring AOP取得session"
+file: 
+update: 22 Apr 2015
 description: ""
 category: Java
 tags: [Java, Spring]

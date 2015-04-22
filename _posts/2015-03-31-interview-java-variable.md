@@ -1,3 +1,12 @@
+---
+layout: post
+title: "java 面试 变量"
+file: file
+update: 22 Apr 2015
+description: ""
+category: category
+tags: [tag]
+--- 
 
 
 

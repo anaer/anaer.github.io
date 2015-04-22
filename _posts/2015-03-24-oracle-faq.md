@@ -1,3 +1,13 @@
+---
+layout: post
+title: "oracle faq"
+file: file
+update: 22 Apr 2015
+description: ""
+category: category
+tags: [tag]
+--- 
+
 #### ORA-12541 TNS无监听程序
     将tnsnames.ora,listener.ora中的host名称改为计算机名
 #### ORA-12638 身份证明检索失败

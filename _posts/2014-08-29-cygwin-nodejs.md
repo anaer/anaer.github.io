@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: [Cygwin, nodejs]
 ---
-{% include JB/setup %}
  
 # 安装nodejs
   

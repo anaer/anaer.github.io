@@ -14,7 +14,7 @@ tags: [Shell, Screen]
 
   语 法：
 
-  screen [-AmRvx -ls -wipe][-d <作业名称>][-h <行数>][-r <作业名称>][-s ][-S <作业名称>]
+    screen [-AmRvx -ls -wipe][-d <作业名称>][-h <行数>][-r <作业名称>][-s ][-S <作业名称>]
 
   补充说明：
 

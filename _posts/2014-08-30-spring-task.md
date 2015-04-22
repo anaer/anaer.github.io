@@ -2,10 +2,10 @@
 layout: post
 title: "Spring使用注解执行定时任务"
 file: 2014-08-30-spring-task.md
-update: 2015-01-06 21:50
+update: 22 Apr 2015
+description: ""
+category: SpringMVC
 tags: [SpringMVC]
-file: 2014-08-30-spring-mvc-task.md
-update: 2014-09-05 13:56
 ---
 
 # 环境搭建  

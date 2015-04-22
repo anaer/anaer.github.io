@@ -1,4 +1,13 @@
-Java	¶¯Ì¬²ÎÊı	"public int add(int... list) {  
+---
+layout: post
+title: "java åŠ¨æ€å‚æ•°"
+file: file
+update: 22 Apr 2015
+description: ""
+category: category
+tags: [tag]
+---
+Java  åŠ¨æ€å‚æ•°  "public int add(int... list) {  
   
 int sum = 0;  
   
@@ -10,4 +19,4 @@ sum += item;
   
 return sum;  
   
-}"	
+}"  
