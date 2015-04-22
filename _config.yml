@@ -7,7 +7,7 @@ markdown: rdiscount
 auto: true
 highlighter: pygments
 # 每一页显示的文章数
-#paginate: 5
+paginate: 10
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -16,8 +16,8 @@ title : My Blog :)
 tagline: Go...
 author :
   name : anaer
-#  email : anaer@email.test
-#  github : anaer
+  #email : anaer@email.test
+  github : anaer
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
