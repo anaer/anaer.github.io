@@ -28,6 +28,15 @@ title: 每天进步一点点
     </li>
   {% endfor %}
   
+  
+      {% for page in (1..paginator.total_pages) %}  
+        {% if page == 1 %}  
+            <a href="/index.html">{{ page }}</a>  
+        {% else %}  
+            <a href="{{ site.paginate_path | replace: ':num',page }}">{{ page }}</a>  
+        {% endif %}  
+    {% endfor %}  
+    
       {% if paginator.total_pages > 1 %}  
         {% if paginator.previous_page %}  
             <a href="{{ paginator.previous_page_path }}">上一页</a>  
