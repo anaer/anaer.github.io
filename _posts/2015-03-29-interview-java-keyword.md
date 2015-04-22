@@ -32,19 +32,18 @@ tags: [面试]
     让外层的循环条件表达式的结果可以受到里层循环体代码的控制,
     例如,要在二维数组中查找到某个数字.
     
-```java
-int arr[][]={{1,2,3},{4,5,6,7},{9}};
-boolean found = false;
-for(int i=0; i<arr.length&&!found;i++){
-  for(int j=0; j<arr[i].length; j++){
-    System.out.println("i="+i+",j="+j);
-    if(arr[i][j]==5){
-      found=true;
-      break;
+    ```java
+    boolean found = false;
+    for(int i=0; i<arr.length&&!found;i++){
+      for(int j=0; j<arr[i].length; j++){
+        System.out.println("i="+i+",j="+j);
+        if(arr[i][j]==5){
+          found=true;
+          break;
+        }
+      }
     }
-  }
-}
-```
+    ```
 
 #### switch语句能否作用在byte上,能否作用在long上,能否作用在String上?
 
