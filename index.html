@@ -9,7 +9,7 @@ title: 每天进步一点点
 <hr>
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
 	<li class="Item">
 		<div>
 			<a style="width:250px;text-align:left;display:inline-block;" href="{{ BASE_PATH }}{{ post.url }}/">{{ post.title }}</a>
