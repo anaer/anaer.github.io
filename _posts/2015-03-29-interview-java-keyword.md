@@ -17,6 +17,8 @@ tags: [面试]
 
     1. 使用break label
     在java中,要想跳出多重循环,可以在外面的循环语句前定义一个标号,然后在里层循环体的代码中使用带有标号的break羽钜,即可跳出外层循环.例如,
+    
+    ```java
     ok:
     for(int i=0; i<10; i++){
       for(int j=0; j<10; j++){
@@ -24,10 +26,13 @@ tags: [面试]
         if(j==5) break ok;
       }
     }
+    ```
 
     2. 通过满足条件break
     让外层的循环条件表达式的结果可以受到里层循环体代码的控制,
     例如,要在二维数组中查找到某个数字.
+    
+    ```java
     int arr[][]={{1,2,3},{4,5,6,7},{9}};
     boolean found = false;
     for(int i=0; i<arr.length&&!found;i++){
@@ -39,6 +44,7 @@ tags: [面试]
         }
       }
     }
+    ```
 
 #### switch语句能否作用在byte上,能否作用在long上,能否作用在String上?
 
