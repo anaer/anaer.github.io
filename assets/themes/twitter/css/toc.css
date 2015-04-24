@@ -48,9 +48,11 @@
     padding-left: 0;
 }
 
-/*
 #toc-container {
+  /*
   position:fixed;
   right: 140px;
+  */
+  width:940px;
+  margin-left:20px;
 }
-*/
