@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "SVN版本控制"
-file: 2015-03-24-version-control-svn.md
-update: 2015-03-24 22:26
 description: "SVN版本控制"
-category:VC
-tags: [SVN]
+category:版本控制
+tags: [版本控制, SVN]
 
 ---
 
