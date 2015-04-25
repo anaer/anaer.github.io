@@ -1,17 +1,20 @@
 ---
 layout: post
-title: "Nexus5"
-file: 2014-08-15-nexus5.md
-update: 2015-01-24 19:58
-tags: [Android]
+title: "nexus 5"
+description: "nexus 5手机"
+category: phone
+tags: [android]
 ---
 
 #### 支持N5的第三方ROM团队  
+
+  * [yunos](http://bbs.yunos.com/read/263263248)
+  * [miui](http://www.miui.com/forum-386-1.html)
   * [CyanogenMod](http://download.cyanogenmod.org/?device=hammerhead) 
   * [SlimKait](http://www.slimroms.net/index.php/downloads) 
   * [Paranoid](http://download.paranoidandroid.co/roms/hammerhead/) 
   * [OmniRom](http://dl.omnirom.org/hammerhead/) 
-  * [mokee（魔趣）](http://download.mfunz.com/?device=hammerhead) 
+  * [mokee](http://download.mfunz.com/?device=hammerhead) 
   * [AOKP](http://aokp.co/devices/hammerhead) 
   * [ChameleonOS](http://roms.chameleonos.org/index.php?device=hammerhead) 
   * [carbon](http://carbon-rom.com/downloads/?device=hammerhead) 
