@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "linux cat命令"  
-file: file
-update: 24 Apr 2015
-description: ""
+title: "linux命令-cat"  
+description: "linux命令-cat"
 category: linux
-tags: [linux]
+tags: [linux命令]
 --- 
 
 #### cat 命令
