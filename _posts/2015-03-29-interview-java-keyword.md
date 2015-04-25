@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "面试-Java关键字"
-file: 2015-03-29-interview-java-keyword.md
-update: 2015-03-29 21:22
 description: "面试-Java关键字"
 category:面试
 tags: [面试]
@@ -10,15 +8,12 @@ tags: [面试]
 ---
 
 #### Java有没有goto?
-
     java中的保留字,现在没有在java中使用.
 
 #### 在java中如何跳出当前的多重嵌套循环?
-
     1. 使用break label
     在java中,要想跳出多重循环,可以在外面的循环语句前定义一个标号,然后在里层循环体的代码中使用带有标号的break羽钜,即可跳出外层循环.例如,
     
-    ```java
     ok:
     for(int i=0; i<10; i++){
       for(int j=0; j<10; j++){
@@ -26,13 +21,11 @@ tags: [面试]
         if(j==5) break ok;
       }
     }
-    ```
-
+    
     2. 通过满足条件break
     让外层的循环条件表达式的结果可以受到里层循环体代码的控制,
     例如,要在二维数组中查找到某个数字.
     
-    ```java
     boolean found = false;
     for(int i=0; i<arr.length&&!found;i++){
       for(int j=0; j<arr[i].length; j++){
@@ -43,8 +36,7 @@ tags: [面试]
         }
       }
     }
-    ```
-
+    
 #### switch语句能否作用在byte上,能否作用在long上,能否作用在String上?
 
     在switch(expr1)中,expr1只能是一个整数表达式或者枚举常量,整数表达式可以是int基本类型或Integer包装类型,由于,byte,short,char都可以隐含转换为int,所以,这些类型以及这些类型的包装类型也是可以的.显然,long不能被隐式转换为int类型,所以,不能作用于switch语句中.

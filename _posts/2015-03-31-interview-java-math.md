@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "java 面试 数学函数"
-file: file
-update: 22 Apr 2015
-description: ""
-category: category
-tags: [tag]
+title: "面试-java数学函数"
+description: "面试-java数学函数"
+category: 面试 
+tags: [面试]
 --- 
 
-
 #### Math.round(11.5)等于多少?Math.round(-11.5)等于多少?
+
     Math类中提供了三个与取整有关的方法:ceil,floor,round.
     ceil:向上取整
         Math.ceil(11.3)=12

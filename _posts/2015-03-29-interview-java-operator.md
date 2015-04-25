@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "面试-java运算符"
-file: 2015-03-29-interview-java-operator.md
-update: 2015-03-29 21:33
 description: "面试-java运算符"
 category:面试
 tags: [面试]

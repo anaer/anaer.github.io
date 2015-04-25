@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "面试-java类型"
-file: 2015-03-29-interview-java-type.md
-update: 2015-03-29 21:30
 description: "面试-java类型"
 category:面试
 tags: [面试]

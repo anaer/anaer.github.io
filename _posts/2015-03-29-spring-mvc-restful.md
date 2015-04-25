@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "SpringMvc实现Restful"
-file: 2015-03-29-spring-mvc-restful.md
-update: 2015-03-29 12:04
 description: "SpringMvc实现Restful"
 category:Spring
 tags: [Spring,Restful]
-
 ---
 
 #### Restful

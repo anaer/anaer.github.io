@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "面试-Java概念"
-file: 2015-03-29-interview-java-class.md
-update: 2015-03-29 20:58
 description: "面试-Java概念"
-category:
+category:面试
 tags: [面试]
 
 ---
