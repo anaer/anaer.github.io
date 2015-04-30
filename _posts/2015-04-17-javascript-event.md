@@ -26,3 +26,26 @@ tags: [javascript]
             clearInterval(ref);
         }
     });
+    
+    
+#### js 日志打印
+
+    var C;
+    toggleConsole(Config.debug);
+    
+    function toggleConsole(debug) {
+        if (debug) {
+            C = console;
+        } else {
+            C = {
+                log: nullFn,
+                debug: nullFn,
+                error: nullFn,
+                group: nullFn,
+                groupCollapsed: nullFn,
+                groupEnd: nullFn,
+                time: nullFn,
+                timeEnd: nullFn,
+            };
+        }
+    }
