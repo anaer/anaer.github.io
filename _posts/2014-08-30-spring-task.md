@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Spring使用注解执行定时任务"
-file: 2014-08-30-spring-task.md
-update: 22 Apr 2015
 description: ""
-category: SpringMVC
-tags: [SpringMVC]
+category: spring 
+tags: [spring, task]
 ---
 
 # 环境搭建  
@@ -53,6 +51,12 @@ tags: [SpringMVC]
     
     <!-- 注解驱动 -->
     <task:annotation-driven />
+    
+    <!-- 如果定时任务很多，可以配置executor线程池，这里executor的含义和java.util.concurrent.Executor是一样的，pool-size的大小官方推荐为5~10。scheduler的pool-size是ScheduledExecutorService线程池，默认为1。
+    <task:executor id="executor" pool-size="5" />
+    <task:scheduler id="scheduler" pool-size="5" />
+    <task:annotation-driven executor="executor" scheduler="scheduler" />
+     -->
     
     <!-- 配置文件 -->
     <task:scheduled-tasks>
@@ -180,3 +184,4 @@ CRON表达式	含义
   * [Spring使用注解执行定时任务](http://blog.csdn.net/zhuang902/article/details/38902679)
   * [spring 3 中使用注解的方式来进行任务调度](http://blog.csdn.net/xwygn/article/details/19042941)
   * [Spring定时任务的几种实现](http://gong1208.iteye.com/blog/1773177)
+  * [Quartz Spring与Spring Task总结](http://www.blogjava.net/bolo/archive/2015/03/12/423408.html)
