@@ -184,9 +184,7 @@ public class SpringTask {
     0 15 10 ? * MON-FRI	每个周一、周二、周三、周四、周五的10：15触发 
 
 #### 参考  
-  * [Spring使用注解执行定时任务](http://blog.csdn.net/zhuang902/article/details/38902679)
-  * [spring 3 中使用注解的方式来进行任务调度](http://blog.csdn.net/xwygn/article/details/19042941)
-  * [Spring定时任务的几种实现](http://gong1208.iteye.com/blog/1773177)
-  * [Quartz Spring与Spring Task总结](http://www.blogjava.net/bolo/archive/2015/03/12/423408.html)
-  * [Spring文档](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/) 
   * [Spring任务调度](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/scheduling.html)
+  * [Quartz Spring与Spring Task总结](http://www.blogjava.net/bolo/archive/2015/03/12/423408.html)
+  * [Spring定时任务的几种实现](http://gong1208.iteye.com/blog/1773177)
+  * [Spring使用注解执行定时任务](http://blog.csdn.net/zhuang902/article/details/38902679)
