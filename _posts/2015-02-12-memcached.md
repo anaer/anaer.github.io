@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "memcached使用介绍"
-file: 2015-02-12-memcached.md
-update: 2015-03-04 09:33
 description: "memcached使用介绍"
 category: memcached
 tags: [memcached]
@@ -31,3 +29,4 @@ tags: [memcached]
 ### 参考
   * [win7 安装 memcached](http://www.cnblogs.com/jiajinyi/p/3531381.html)
   * [memcached命令行参数说明](http://blog.csdn.net/zzulp/article/details/7823511)
+  * [ehcache memcache redis 三大缓存男高音 ](http://blog.csdn.net/jationxiaozi/article/details/8509732)
