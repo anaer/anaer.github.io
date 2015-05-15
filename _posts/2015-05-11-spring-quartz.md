@@ -36,12 +36,19 @@ tags: [spring, quartz, task]
         <property name="targetMethod" value="quartzTask" />
     </bean>
 
-    <!-- 调度触发器 -->
+    <!-- 调度触发器 quartz 1.8.5跟2.2.1配置不同
+    1.8.5: org.springframework.scheduling.quartz.CronTriggerBean
+    2.2.1: org.springframework.scheduling.quartz.CronTriggerFactoryBean
+    -->
     <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
         <property name="jobDetail" ref="jobDetail" />
         <property name="cronExpression" value="10 0/1 * * * ?" />
     </bean>
 
+    <!-- 
+    1.8.5: org.springframework.scheduling.quartz.SimpleTriggerBean
+    2.2.1: org.springframework.scheduling.quartz.SimpleTriggerFactoryBean
+     -->
     <bean id="taskTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerBean">
         <property name="jobDetail" ref="jobDetail" />
         <property name="startDelay" value="5000" />
@@ -81,4 +88,5 @@ public class QuartzTask {
 ```
 
 ### 参考
+  * [quartz 官方文档](http://www.quartz-scheduler.org/documentation)
   * [Spring集成Quartz定时任务框架介绍和Cron表达式详解](http://www.cnblogs.com/obullxl/archive/2011/07/10/spring-quartz-cron-integration.html)
