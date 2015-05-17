@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "SpringMVC项目步骤"
-file: 2014-09-09-spring-mvc-step.md
-update: 2014-09-09 15:40
 description: ""
 category: Spring
 tags: [SpringMVC]

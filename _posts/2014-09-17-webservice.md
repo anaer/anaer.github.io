@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "cxf创建webservice"
-file: 2014-09-17-webservice.md
-update: 2015-03-14 22:23
 description: ""
 category: Java
 tags: [Java, WebService]

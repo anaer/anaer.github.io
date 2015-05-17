@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "SpringMvc发送邮件"
-file: 
-update: 2015-01-12 22:41
 description: ""
 category:Spring
 tags: [Spring]

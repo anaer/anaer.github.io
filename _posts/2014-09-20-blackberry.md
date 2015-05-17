@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "黑莓手机"
-file: 2014-09-20-blackberry.md
-update: 2014-09-20 14:38
 description: ""
 category: Phone
 tags: [BlackBerry]

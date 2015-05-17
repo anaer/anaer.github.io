@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "分布式与集群的区别 "
-file: 2014-09-11-distributed-cluster.md
-update: 2014-09-11 17:00
 description: ""
 category:
 tags: []

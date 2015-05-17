@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "SpringMvc异常处理"
-file: 
-update: 2015-01-12 22:41
 description: ""
 category:Spring
 tags: [Spring]

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Tomcat FAQ"
-file: 2014-12-05-tomcat.md
-update: 2014-12-05 09:51
 description: "Tomcat FAQ"
 category: Java
 tags: [Tomcat]

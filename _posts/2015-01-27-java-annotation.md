@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Java注解"
-file: 2015-01-27-java-annotation.md
-update: 2015-01-27 11:06
 description: "Java注解"
 category:Java
 tags: [Java]

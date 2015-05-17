@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "开发资源"
-file: 
-update: 2015-01-13 09:15
 description: ""
 category:Dev
 tags: [Dev]

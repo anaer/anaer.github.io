@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Java BigDecimal"
-file: 2014-09-12-java-bigdecimal.md
-update: 2014-10-23 16:28
 description: ""
 category: Java
 tags: [Java]

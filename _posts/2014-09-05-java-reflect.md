@@ -5,8 +5,6 @@ description: ""
 category: Java
 tags: [Java, 反射, reflect]
 file: java-reflect.md
-update: 2014-09-05 15:49
-date: 2014-09-05 14:40
 ---
 
 #Java反射概念

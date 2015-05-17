@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "cxf创建webservice"
-file: 2014-09-17-java-cxf-webservice.md
-update: 2015-03-09 14:50
 description: ""
 category: Java
 tags: [Java, WebService]
@@ -10,39 +8,39 @@ tags: [Java, WebService]
 ---
 # Maven配置
 
-  ```xml
-        <!--
-            <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-api</artifactId>
-            <version>${cxf.version}</version>
-            </dependency>
-            -->
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-frontend-jaxws</artifactId>
-            <version>${cxf.version}</version>
-        </dependency>
-        <!--
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-bindings-soap</artifactId>
-            <version>${cxf.version}</version>
-        </dependency>
-        -->
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-transports-http</artifactId>
-            <version>${cxf.version}</version>
-        </dependency>
-         <!--
-            <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-ws-security</artifactId>
-            <version>${cxf.version}</version>
-            </dependency>
-        -->
-  ```
+```xml
+<!--
+    <dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-api</artifactId>
+    <version>${cxf.version}</version>
+    </dependency>
+    -->
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-frontend-jaxws</artifactId>
+    <version>${cxf.version}</version>
+</dependency>
+<!--
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-bindings-soap</artifactId>
+    <version>${cxf.version}</version>
+</dependency>
+-->
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-transports-http</artifactId>
+    <version>${cxf.version}</version>
+</dependency>
+ <!--
+    <dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-ws-security</artifactId>
+    <version>${cxf.version}</version>
+    </dependency>
+-->
+```
 # 错误信息
   * The security token could not be authenticated or authorized
 
