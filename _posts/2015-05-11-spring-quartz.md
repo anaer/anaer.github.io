@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Spring使用Quartz执行定时任务"
-description: ""
-category: task
+description: "Spring使用Quartz执行定时任务"
+category: spring
 tags: [spring, quartz, task]
 ---
 
@@ -10,11 +10,11 @@ tags: [spring, quartz, task]
     以下代码使用的quartz 1.8.4版本，如果使用新版本jar包, 配置可能不一致
    
 ```xml
-        <dependency>
-            <groupId>org.quartz-scheduler</groupId>
-            <artifactId>quartz</artifactId>
-            <version>1.8.4</version>
-        </dependency>
+    <dependency>
+        <groupId>org.quartz-scheduler</groupId>
+        <artifactId>quartz</artifactId>
+        <version>1.8.4</version>
+    </dependency>
 ```
 
 #### 添加quartz配置
@@ -26,16 +26,13 @@ tags: [spring, quartz, task]
         <property name="maxPoolSize" value="100" />
         <property name="queueCapacity" value="500" />
     </bean>
-
     <!-- 业务对象 -->
     <bean id="bizObject" class="com.task.QuartzTask" />
-
     <!-- 调度业务 -->
     <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
         <property name="targetObject" ref="bizObject" />
         <property name="targetMethod" value="quartzTask" />
     </bean>
-
     <!-- 调度触发器 quartz 1.8.5跟2.2.1配置不同
     1.8.5: org.springframework.scheduling.quartz.CronTriggerBean
     2.2.1: org.springframework.scheduling.quartz.CronTriggerFactoryBean
@@ -44,7 +41,6 @@ tags: [spring, quartz, task]
         <property name="jobDetail" ref="jobDetail" />
         <property name="cronExpression" value="10 0/1 * * * ?" />
     </bean>
-
     <!-- 
     1.8.5: org.springframework.scheduling.quartz.SimpleTriggerBean
     2.2.1: org.springframework.scheduling.quartz.SimpleTriggerFactoryBean
@@ -54,7 +50,6 @@ tags: [spring, quartz, task]
         <property name="startDelay" value="5000" />
         <property name="repeatInterval" value="5000" />
     </bean>
-
     <!-- 设置调度 -->
     <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
         <property name="triggers">
@@ -79,12 +74,10 @@ import org.slf4j.LoggerFactory;
 
 public class QuartzTask {
     private static final Logger logger = LoggerFactory.getLogger(QuartzTask.class);
-
     public void quartzTask() {
         logger.info("执行Quartz任务...");
     }
 }
-
 ```
 
 ### 参考

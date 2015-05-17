@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "mybatis faq"
-description: ""
+description: "mybatis faq"
 category: mybatis
 tags: [mybatis, faq]
 ---
