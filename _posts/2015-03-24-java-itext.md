@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "itext"
-file: 2014-03-24-java-itext.md
-update: 2015-03-24 13:12
 description: "itext"
 category:Java
 tags: [Java, iText]
@@ -16,8 +14,6 @@ tags: [Java, iText]
 
     cell.setHorizontalAlignment(Element.ALIGN_CENTER); //水平居中 
     cell.setVerticalAlignment(Element.ALIGN_MIDDLE); //垂直居中"	
-
-
 
 #### iText 下划线
     

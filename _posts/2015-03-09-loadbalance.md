@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "F5负载均衡"
-file: 2015-03-09-f5.md
-update: 2015-03-09 15:36
 description: ""
 category:F5
 tags: [F5]

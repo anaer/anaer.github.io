@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Maven settings.xml 配置"
-file: 2015-03-24-maven-settings.md
-update: 2015-03-24 11:00
 description: "Maven settings.xml 配置"
 category:Maven
 tags: [Maven]

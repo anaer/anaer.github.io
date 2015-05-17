@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Java堆栈"
-file: 2015-03-24-java-stack&heap.md
-update: 2015-03-24 11:07
-description: ""
-category:
-tags: []
+description: "java堆栈"
+category:java
+tags: [java]
 
 ---
 

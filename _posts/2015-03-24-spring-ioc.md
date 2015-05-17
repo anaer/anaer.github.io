@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Spring Ioc介绍"
-file: 2015-03-24-spring-ioc.md
-update: 2015-03-24 22:28
 description: "Spring Ioc介绍"
 category:Spring
 tags: [Spring, Ioc]

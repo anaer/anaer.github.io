@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "linux命令-cat"  
-description: "linux命令-cat"
-category: linux
-tags: [linux命令]
+title: "编程规范"  
+description: "编程规范"
+category: program
+tags: [program]
 --- 
 
 #### 常见问题

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Eclipse faq"
-file: 2015-03-19-eclipse-faq.md
-update: 2015-03-19 21:33
 description: "Eclipse FAQ"
 category:Eclipse
 tags: [Eclipse]

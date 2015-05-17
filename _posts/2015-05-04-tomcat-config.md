@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Tomcat 配置"
-description: "Tomcat 配置"
-category: Java
-tags: [Tomcat]
+title: "tomcat 配置"
+description: "tomcat 配置"
+category: tomcat
+tags: [tomcat]
 
 ---
 

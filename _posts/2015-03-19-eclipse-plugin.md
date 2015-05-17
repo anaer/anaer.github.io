@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Eclipse插件列表"
-file: 2014-08-04-eclipse.md
-update: 2015-01-28 21:44
 description: "Eclipse插件列表"
 category: Eclipse
 tags: [Eclipse]
