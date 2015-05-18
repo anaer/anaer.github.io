@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Eclipse优化配置"
-file: 2014-08-04-eclipse-config.md
-update: 2015-03-24 16:34
 description: "eclipse优化配置"
 category: Eclipse
 tags: [Eclipse]
@@ -22,7 +20,7 @@ tags: [Eclipse]
 
 #### Eclipse控制台输出没对齐
      使用等宽字体
-    Preferences->General->Appearance->Colors and Fonts->Text Font 默认 使用等宽字体
+    Preferences->General->Appearance->Colors and Fonts->Text Font 默认 使用等宽字体 Consolas 9
 
 #### 备份工作空间workspace
 
