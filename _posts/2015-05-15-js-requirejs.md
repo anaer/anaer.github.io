@@ -2,8 +2,8 @@
 layout: post
 title: "js模块化 requirejs"
 description: "js模块化 requirejs"
-category: requirejs
-tags: [requirejs]
+category: JavaScript
+tags: [JavaScript]
 
 ---
 
