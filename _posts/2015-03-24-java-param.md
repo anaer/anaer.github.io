@@ -2,8 +2,8 @@
 layout: post
 title: "java 动态参数"
 description: ""
-category: category
-tags: [tag]
+category: Java
+tags: [Java]
 ---
 
 #### Java  动态参数  

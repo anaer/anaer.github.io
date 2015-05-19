@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "oracle faq"
-file: file
-update: 22 Apr 2015
 description: ""
-category: category
-tags: [tag]
+category: Oracle
+tags: [Oracle]
 --- 
 
 #### ORA-12541 TNS无监听程序

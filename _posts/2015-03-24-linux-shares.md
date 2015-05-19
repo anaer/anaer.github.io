@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "linux 共享文件夹"
-file: file
-update: 22 Apr 2015
 description: ""
-category: category
-tags: [tag]
+category: Linux
+tags: [Linux]
 --- 
 
 在linux上共享文件夹windows下看

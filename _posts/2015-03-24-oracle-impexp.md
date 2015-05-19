@@ -2,8 +2,8 @@
 layout: post
 title: "数据库导入导出"
 description: ""
-category: category
-tags: [tag]
+category: Oracle
+tags: [Oracle]
 ---
 
 #### 数据泵导入

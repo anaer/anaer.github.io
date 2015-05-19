@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "linux grep命令"
-file: file
-update: 22 Apr 2015
 description: ""
-category: category
-tags: [tag]
+category: Linux
+tags: [Linux]
 --- 
 
 在g r e p命令中输入字符串参数时，最好将其用双引号括起来。例如：“m y s t r i n g”。这样做

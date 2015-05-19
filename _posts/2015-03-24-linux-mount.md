@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "linux 磁盘映射"
-file: file
-update: 22 Apr 2015
 description: ""
-category: category
-tags: [tag]
+category: Linux
+tags: [Linux]
 --- 
 
 http://blog.csdn.net/hs6823/article/details/8017177

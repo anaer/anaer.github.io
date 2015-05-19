@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "linux bash快捷键"
-file: file
-update: 22 Apr 2015
 description: ""
-category: category
-tags: [tag]
+category: Linux
+tags: [Linux]
 --- 
 
 生活在 Bash shell 中，熟记以下快捷键，将极大的提高你的命令行操作效率。

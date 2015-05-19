@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "linux 常用命令"
-file: file
-update: 22 Apr 2015
 description: ""
-category: category
-tags: [tag]
+category: Linux
+tags: [Linux]
 --- 
 
  

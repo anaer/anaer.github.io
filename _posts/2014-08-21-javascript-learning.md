@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Javascript学习笔记"
-file: 2014-08-21-js.md
-update: 2015-01-29 20:42
-tags: [Javascript]
+description: ""
+category: js
+tags: [js]
 ---
 
 #### [JS教程](http://www.w3school.com.cn/js/index.asp)
@@ -12,12 +12,11 @@ tags: [Javascript]
 
 ### [写入HTML输出](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_document_write)  
 	
-	```html
-	document.write("纯文本");
-	document.write("<h1>带标签</h1>");
-	```
-	
-	只能在 HTML 输出中使用 document.write。如果在文档加载后使用该方法，会覆盖整个文档。
+```html
+document.write("纯文本");
+document.write("<h1>带标签</h1>");
+只能在 HTML 输出中使用 document.write。如果在文档加载后使用该方法，会覆盖整个文档。
+```
 
 ### [对事件作出反应](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_alert)
 	原理: 添加按钮事件onclick,触发javascript方法function
@@ -372,6 +371,7 @@ if(new Date().getDay()==6)          week="星期六"
 ### 参考
   * [辛星解读Javascript](http://blog.csdn.net/column/details/xinxingjs.html)  
   * [Javascript教程](http://www.w3school.com.cn/js/index.asp)
+  * [Javascript新手教程](http://js101.co/)
 
 #### 使用JavaScript
   * [使用javascript实现银行卡号的Luhn校验或验证算法](http://www.oschina.net/code/snippet_169741_5774)
