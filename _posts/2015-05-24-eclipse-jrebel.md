@@ -7,7 +7,9 @@ tags: [Eclipse, Jrebel]
 ---
 
 #### 下载Jrebel 
-    这个网上搜下, 有很多破解版的, 比如:http://download.csdn.net/detail/xiaobinxiaobinaini/8143863
+    这个网上搜下, 有很多破解版的, 比如:
+    http://download.csdn.net/detail/xiaobinxiaobinaini/8143863
+    http://download.csdn.net/download/a315157973/8303799
     
 #### Jrebel配置
 
