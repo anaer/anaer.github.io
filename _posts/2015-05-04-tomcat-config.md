@@ -10,5 +10,5 @@ tags: [tomcat]
 #### server.xml 
 
 ```xml
-<Context docBase="D:\GitHub\myweb\target\myweb-0.0.1-SNAPSHOT" path="/myweb" reloadable="true" workDir="D:\GitHub\myweb\work"/>
+<Context docBase="D:\anaer\myweb\target\myweb-0.0.1-SNAPSHOT" path="/myweb" reloadable="true" workDir="D:\anaer\myweb\work"/>
 ```

@@ -23,3 +23,29 @@ tags: [Eclipse, Jrebel]
     -Drebel.dirs ：这个是你要监控的项目的 class 文件路径
     -Drebel.disable_update: 设为true,就不会联网检查更新
     -DJAVA_OPTS: 这个选项不是必须，当内存溢出的时候或其它特殊情况下才需要设置它的参数大小。
+    
+#### rebel.xml 配置
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com"
+    xsi:schemaLocation="http://www.zeroturnaround.com http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
+
+    <classpath>
+        <dir name="D:/anaer/myweb/target/classes">
+        </dir>
+    </classpath>
+
+    <web>
+        <link target="/">
+            <dir name="D:/anaer/myweb/target/m2e-wtp/web-resources">
+            </dir>
+        </link>
+        <link target="/">
+            <dir name="D:/anaer/myweb/src/main/webapp">
+            </dir>
+        </link>
+    </web>
+
+</application>
+```
