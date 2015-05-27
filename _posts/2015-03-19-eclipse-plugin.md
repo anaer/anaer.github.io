@@ -29,6 +29,11 @@ tags: [Eclipse]
 * [tomcat](http://tomcatplugin.sf.net/update)
 * [viPlugin](http://www.viplugin.com/viplugin/)
 * [zen-coding](http://zen-coding.ru/eclipse/updates/)
+* [全屏插件](http://scharf.gr/eclipse/fullscreen/update/)
+* [anyedit](http://andrei.gmxhome.de/eclipse/)
+* [shellEd](http://www.chasetechnology.co.uk/eclipse/updates)
+
+* [Eclipse插件列表](http://apis.jpn.ph/fswiki/wiki.cgi?page=Eclipse%2FPluginList)
  
 #### 版本控制
 
