@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Linux Shell命令"
-file: 2014-08-02-linux-shell.md
-update: 2015-03-13 16:54
 description: "Linux Shell命令"
 category: Linux
 tags: [Linux, Shell]
@@ -102,15 +100,15 @@ value
 
 #### 识别当前的shell版本
 
-  ```Bash
-  [09:04:37 ~ 1] $ echo $0
-  -bash
-  [09:04:44 ~ 2] $ echo $SHELL
-  /bin/bash
-  [09:04:49 ~ 3] $ ps -p $$
-        PID    PPID    PGID     WINPID   TTY     UID    STIME COMMAND
-       1236    4940    1236       4360  pty1     500 09:04:35 /usr/bin/bash
-  ```
+```Bash
+[09:04:37 ~ 1] $ echo $0
+-bash
+[09:04:44 ~ 2] $ echo $SHELL
+/bin/bash
+[09:04:49 ~ 3] $ ps -p $$
+PID    PPID    PGID     WINPID   TTY     UID    STIME COMMAND
+1236    4940    1236       4360  pty1     500 09:04:35 /usr/bin/bash
+```
   
 #### 查询系统位数
 
@@ -133,7 +131,7 @@ else
 fi
 ```
 
-#### Bash提示字符串PS1
+#### bash提示字符串PS1
 
 ```
 # 放在.bashrc中
@@ -164,19 +162,19 @@ no1+no2
 [09:40:22 ~ 94] $ echo $no3
 9
 
-# 自增自减操作
+#### 自增自减操作
 [09:40:27 ~ 96] $ let no1++
 [09:45:11 ~ 97] $ let no2--
 [09:45:15 ~ 98] $ echo $no1 $no2
 5 4
 
-# 加减操作
+#### 加减操作
 [09:45:23 ~ 99] $ let no1+=6
 [09:46:20 ~ 100] $ let no2-=6
 [09:46:26 ~ 101] $ echo $no1 $no2
 11 -2
 
-# 其他方法
+#### 其他方法
 [09:46:28 ~ 102] $ no4=$[ no1 + no2 ]  # []操作与let类似, 变量前可加可不加$
 [09:47:41 ~ 103] $ echo $no4
 9
@@ -204,9 +202,10 @@ no1+no2
 ```
 
 #### 浮点数运算
-  * bc是一个用于数学运算的高级工具
 
-  * 浮点数运算
+* bc是一个用于数学运算的高级工具
+
+* 浮点数运算
     可以将参数放在运算之前,以分号;分隔
 
 ```
@@ -222,7 +221,7 @@ no1+no2
 .37
 ```
 
-  * 进制转换
+* 进制转换
   obase 表示输出进制
   ibase 表示输入进制
   默认输入输出为10进制
@@ -236,7 +235,7 @@ no1+no2
 99
 ```
 
-  * 计算平方及平方根
+* 计算平方及平方根
 
 ```
 [09:57:40 ~ 130] $ echo "sqrt(100)"|bc
@@ -612,7 +611,7 @@ sed '2q' test.txt  //打印到第二行退出
   * 7. svn
   * 8. wget
 
-# ZSH安装
+### ZSH安装
   * 使用Cygwin的setup.exe搜索zsh下载安装
   * 修改/etc/passwd，修改用户的启动shell为zsh
   * 复制.bashrc为.zshrc, 因为zsh兼容bash的配置
@@ -620,19 +619,6 @@ sed '2q' test.txt  //打印到第二行退出
   
   尝试在cygwin上安装后，响应很慢
 
-
-# wget代理设置
-
-  ```bash
-   在~/.wgetrc中设定代理
-   http_proxy = http://ip_or_domainname:80/
-   ftp_proxy = http://ip_or_domainname:80/
-   use_proxy = on
-   wait = 15
-
-   然后直接wget http://ip/filename就ok了
-  ```
- 
 # scp ssh上传下载文件
 
   ```Bash
@@ -931,36 +917,34 @@ END之间的内容作为cat命令的输入，所以接下来回车后会出现
 #### 问题处理 
   * cygwin 执行mysql shell脚本, 不支持中文路径
   
-  ```sh
+```sh
 需要修改脚本*.sh
 set fileencoding=cp936
-  ```
+```
 
-# 快捷键
-  * 清屏 ctrl+l
-  * 清除当前输入 ctrl+u
+### 快捷键
 
-# 参考
-  * [Linux查看系统配置常用命令](http://my.oschina.net/u/2009021/blog/311740)
+    清屏 ctrl+l
+    清除当前输入 ctrl+u
 
-## Cygwin
-  * [Cygwin官网](https://www.cygwin.com/)  
+### 参考
+* [Linux查看系统配置常用命令](http://my.oschina.net/u/2009021/blog/311740)
 
-## ZSH
-  * [Z Shell - 用强大的ZSH把Bash换掉](http://linuxlearner.diandian.com/post/2011-09-16/5080384)  
-  * [我最喜爱的工具-oh-my-zsh](http://www.kafeitu.me/shell/2012/03/25/oh-my-zsh.html)  
-  * [Mac 下的vim 美化（iterm2 Zsh Powerline）](http://mjason.github.io/blog/2013/02/08/mac-xia-de-vim-mei-hua-%28iterm2-zsh-powerline%29/)  
+#### Cygwin
+* [Cygwin官网](https://www.cygwin.com/)  
 
-## Shell
-  * [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
-  * [sed常见用法总结](http://blog.csdn.net/u011750989/article/details/39005831)
-  * [tput 命令行使用说明](http://blog.csdn.net/fdipzone/article/details/9993961)
-  * [Shell中字符串、数值的比较](http://www.cnblogs.com/mydomain/archive/2012/09/25/2700931.html)
+#### ZSH
+* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-## Unix
-  * [UNIX 技巧: UNIX 高手的另外 10 个习惯](http://www.ibm.com/developerworks/cn/aix/library/au-unixtips/)
-  * [linux监控命令全覆盖（图文说明）](http://blog.csdn.net/sweetsuzyhyf/article/details/41309863)
-## 博客专栏
-  * [shell编程笔记](http://blog.csdn.net/column/details/linuxshellgradu.html)
-  
-  
+#### Shell
+* [shell 判断字符串是否存在包含关系](http://www.blogjava.net/xzclog/archive/2011/03/04/345712.html)
+* [sed常见用法总结](http://blog.csdn.net/u011750989/article/details/39005831)
+* [tput 命令行使用说明](http://blog.csdn.net/fdipzone/article/details/9993961)
+* [Shell中字符串、数值的比较](http://www.cnblogs.com/mydomain/archive/2012/09/25/2700931.html)
+
+#### Unix
+* [UNIX 技巧: UNIX 高手的另外 10 个习惯](http://www.ibm.com/developerworks/cn/aix/library/au-unixtips/)
+* [linux监控命令全覆盖（图文说明）](http://blog.csdn.net/sweetsuzyhyf/article/details/41309863)
+
+#### 博客专栏
+* [shell编程笔记](http://blog.csdn.net/column/details/linuxshellgradu.html)

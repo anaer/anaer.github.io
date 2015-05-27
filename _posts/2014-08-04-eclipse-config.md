@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Eclipse优化配置"
-description: "eclipse优化配置"
+description: "Eclipse优化配置"
 category: Eclipse
 tags: [Eclipse]
 ---
@@ -18,27 +18,24 @@ tags: [Eclipse]
     主机:[SVN路径]
     点击Finish即可完成SVN的连接。
 
-#### Eclipse控制台输出没对齐
+#### Eclipse控制台输出对齐设置 使用等宽字体
      使用等宽字体
     Preferences->General->Appearance->Colors and Fonts->Text Font 默认 使用等宽字体 Consolas 9
 
 #### 备份工作空间workspace
 
-    1. 直接保存一个已经配置好但没建项目的空workspace
-    可以将workspace保存到如github,gitosc等平台进行版本控制
+    1. 直接保存一个已经配置好没有项目的空workspace
+        将workspace保存到如github,gitosc等平台进行版本控制
     2. 使用eclipse的导出功能
-    在菜单栏选择File -> Export... -> General -> Preferences，导出来即可！
+        在菜单栏选择File -> Export... -> General -> Preferences，导出来即可！
 
 #### 批量替换字符串
-    先选中你要替换的东东，然后再菜单栏中找到Search→Text→Project，这样就会在整个项目中查找单词。然后在Search的Console中，单击项目，右键选择Replace All，填入你想替换的东东，就OK了。但是貌似不支持Whole Word。
-
+    先选中你要替换的东东，然后再菜单栏中找到Search→Text→Project，这样就会在整个项目中查找单词。
+    然后在Search的Console中，单击项目，右键选择Replace All，填入你想替换的东东，就OK了。但是貌似不支持Whole Word。
 
 #### eclipse不格式化注释
     Java->Code Style->Formatter点击Edit 后在Tab上选择Comments,将General settings中的"Enable comment formatting"前面的勾去掉就可以了
 
-
-#### Eclipse 关闭鼠标悬停提示
-    Window->Preferences->Java->Editor->Hovers 将[Combined Hover]取消即可.
 
 #### 默认折叠配置
     window->perference->java->editor->folding
@@ -46,7 +43,7 @@ tags: [Eclipse]
 #### Eclipse 每次 debug 时要求 Edit Source Lookup Path 添加被调试项目的解决方案
     Window -- Preferences -- Tomcat-- Source Path 然后选择当前运行的项目就可以
 
-#### Eclipse 取消Javascript校验 (测试可用)
+#### Eclipse 取消Javascript校验 
 
     Right click your project  (右单击工程属性)
     Select Properties -> JavaScript -> Include(选择JavaScript下的include菜单)
@@ -81,7 +78,7 @@ tags: [Eclipse]
     常规->编辑器->文件关联
     *.wiki WikiText Editor
 
-#### 高亮显示
+#### 高亮显示选中项
     windows-> preferences->java->Editor->Mark Occurences
 
 #### 配置Text Editors
@@ -96,13 +93,10 @@ tags: [Eclipse]
 
 #### Eclipse tab 使用 空格
     1. Window-->Preferences-->Java-->Code Style-->Formatter
-    然后右边选择 Edit...按钮，在General Settings页中 Tab policy 右边的下拉框，选择Space only!
-
+        然后右边选择 Edit...按钮，在General Settings页中 Tab policy 右边的下拉框，选择Space only!
     2. Window-->Preferences-->General-->Editors-->Text Editors
+        右边的选项Insert spaces for tabs 勾上！然后 Displayed tab width =4也可以
 
-    右边的选项Insert spaces for tabs 勾上！然后 Displayed tab width =4也可以
-
-### JSP Files
 #### 指定jsp charset
     WEB-JSP-Files Encoding=ISO 10646/Unicode(UTF-8)
 
