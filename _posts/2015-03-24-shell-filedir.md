@@ -68,3 +68,8 @@ tags: [shell]
     filename=$(basename "$fullfile")
     extension="${filename##*.}"
     filename="${filename%.*}"
+
+
+#### 删除空目录
+
+find . -type d -empty -depth -exec rm -r {} ';'
