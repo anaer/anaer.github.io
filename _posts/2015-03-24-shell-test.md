@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "shell test命令"
-file: 2015-03-24-shell-test.md
-update: 2015-03-24 22:29
 description: "shell test命令"
 category:shell
 tags: [shell, test]
