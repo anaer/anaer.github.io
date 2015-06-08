@@ -6,7 +6,7 @@ category: Shell
 tags: [Shell, Screen]
 ---
 
-# linux screen 命令详解
+### linux screen 命令详解
 
   功能说明：
 
@@ -57,7 +57,7 @@ tags: [Shell, Screen]
   C-a z -> 把当前session放到后台执行，用 shell 的 fg 命令則可回去。
   C-a w -> Windows，列出已开启的 windows 有那些
   C-a t -> Time，显示当前时间，和系统的 load
-  C-a K -> kill window，强行关闭当前的 window 
+  C-a K -> kill window，强行关闭当前的 window
 
-# 参考
+### 参考
   * [linux中强大的screen命令](http://pythonorg.diandian.com/post/2012-01-05/40027464147)

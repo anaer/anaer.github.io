@@ -17,6 +17,8 @@ tags: [Cygwin]
 * zsh
 * wget
 * email
+* screen
+* tmux 比screen多一个状态栏
   
 ### 安装说明
 #### 安装nodejs
