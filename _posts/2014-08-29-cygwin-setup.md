@@ -1,21 +1,22 @@
 ---
 layout: post
-title: "Cygwin下相关软件的安装"
-description: ""
+title: "Cygwin安装配置"
+description: "Cygwin安装配置"
 category: Cygwin
 tags: [Cygwin]
 ---
  
 #### Cygwin必装组件
  
-* 1. git
-* 2. vim
-* 3. mysql
-* 4. mysqld
-* 5. tput 需要安装ncurses
-* 6. zsh
-* 7. svn
-* 8. wget
+* vim
+* git
+* svn
+* mysql
+* mysqld
+* tput 需要安装ncurses
+* zsh
+* wget
+* email
   
 ### 安装说明
 #### 安装nodejs

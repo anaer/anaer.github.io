@@ -58,5 +58,53 @@ tags: [Eclipse]
     Key:                <http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd>
     ```
 
+#### cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'mvc:interceptors'.
+	1. Preferences->XML->XML Catalog 添加
+	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+	http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	xsd文件下载保存本地 存放路径最好不带空格
+
+	```xml
+	Entry element:		Public
+	Location:			E:\anaer\workspace\xml\mybatis-3-mapper.dtd
+	URI:   				file:///E:/anaer/workspace/xml/mybatis-3-mapper.dtd
+	Key type:			Public ID
+	Key:				-//mybatis.org//DTD Mapper 3.0//EN
+	```
+
+	```xml
+	Entry element:		URI
+	Location:			E:\anaer\workspace\xml\jaxws.xsd
+	URI:   				file:///E:/anaer/workspace/xml/jaxws.xsd
+	Key type:			Namespace name
+	Key:				http://cxf.apache.org/jaxws
+	```
+
+	```xml
+	Entry element:		URI
+	Location:			E:\anaer\workspace\xml\jaxws.xsd
+	URI:   				file:///E:/anaer/workspace/xml/jaxws.xsd
+	Key type:			Namespace name
+	Key:				http://cxf.apache.org/schemas/jaxws.xsd
+	```
+
+	```xml
+	Entry element:		URI
+	Location:			E:\anaer\workspace\xml\spring-mvc-3.0.xsd
+	URI:   				file:///E:/anaer/workspace/xml/spring-mvc-3.0.xsd
+	Key type:			Namespace name
+	Key:				http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+	```
+
+	```xml
+	Entry element:		URI
+	Location:			E:\anaer\workspace\xml\spring-mvc.xsd
+	URI:   				file:///E:/anaer/workspace/xml/spring-mvc.xsd
+	Key type:			Namespace name
+	Key:				http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	```
+#### eclipse 中 js提示 Syntax error on token "Invalid Character", delete this token 
+	Preferences->JavaScript->Editor 去掉Report problems as you type
+
 ###参考
   * [processWorkerExit](http://blog.csdn.net/lvzhuyiyi4/article/details/16336479)
