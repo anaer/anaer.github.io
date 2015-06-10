@@ -1,20 +1,20 @@
 ---
 layout: post
 title: "Eclipse使用Jrebel进行热部署"
-description: ""
-category: Eclipse 
+description: "Eclipse使用Jrebel进行热部署"
+category: Eclipse
 tags: [Eclipse, Jrebel]
 ---
 
-#### 下载Jrebel 
+#### 下载Jrebel
     这个网上搜下, 有很多破解版的, 比如:
     http://download.csdn.net/detail/xiaobinxiaobinaini/8143863
     http://download.csdn.net/download/a315157973/8303799
-    
+
 #### Jrebel配置
 
     在Servers启动的配置中,在VM arguments中添加如下配置
-    -noverify -javaagent:C:\Users\Administrator\Desktop\jrebel6.0.0-crack\jrebel.jar
+    -noverify -javaagent:"D:\Program Files\jrebel6.0.0-crack\jrebel.jar"
     -Drebel.spring_plugin=true
     -Drebel.struts2-plugin=true
 
@@ -23,8 +23,9 @@ tags: [Eclipse, Jrebel]
     -Drebel.dirs ：这个是你要监控的项目的 class 文件路径
     -Drebel.disable_update: 设为true,就不会联网检查更新
     -DJAVA_OPTS: 这个选项不是必须，当内存溢出的时候或其它特殊情况下才需要设置它的参数大小。
-    
+
 #### rebel.xml 配置
+    src/main/resources目录下
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
