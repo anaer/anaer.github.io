@@ -23,3 +23,11 @@ C-b 0、C-b 1……C-b n 切换到第 n 个窗口
 vim ~/.tmux.conf
 set -g default-terminal "screen-256color"
 启动时,使用tmux -2启动, -2 Force tmux to assume the terminal supports 256 colours.
+
+#### Tmux复制
+
+1. Ctrl+a  按 [ 进入 tmux屏幕拷贝模式
+2. 然后按空格键开始复制
+3. 使用类似vim的上下左右键方式进行选中
+4. 按enter退出复制模式
+5. Ctrl＋a  按 ］ 进行粘贴
