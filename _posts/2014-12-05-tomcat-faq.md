@@ -66,3 +66,15 @@ tags: [tomcat]
 #### WARN UUIDHexGenerator:59 - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
 	[Using org.hibernate.id.UUIDHexGenerator的解决方案](http://lvjava.com/?p=370)
 	
+#### org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+缺少jar包
+```xml
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-core-asl</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+</dependency>
+```
