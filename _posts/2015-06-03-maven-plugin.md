@@ -30,6 +30,12 @@ tags: [Maven]
     <version>2.4</version>
     <configuration>
         <failOnMissingWebXml>false</failOnMissingWebXml>
+        <!-- 默认src/main/webapp -->
+        <webResources>
+            <resource>
+                <directory>webApp</directory>
+            </resource>
+        </webResources>
     </configuration>
 </plugin>
   ```
@@ -54,7 +60,8 @@ tags: [Maven]
     </configuration>
 </plugin>
   ```
-  
+
 ### 参考
 #### maven插件
 * [maven 插件](http://maven.apache.org/plugins/index.html)
+* [Maven实战（九）——打包的技巧](http://www.infoq.com/cn/news/2011/06/xxb-maven-9-package)
