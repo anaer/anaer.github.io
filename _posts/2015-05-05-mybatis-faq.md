@@ -40,5 +40,11 @@ tags: [mybatis, faq]
 	2. xml中未定义方法
 	3. 返回List,未配置ResultMap
 
+#### The processing instruction must begin with the name of the target.   
+错误原因<? xml version="1.0" encoding="UTF-8" ?>这里面有空格
+
+#### Cannot find class: org.apache.derby.jdbc.EmbeddedDriver  
+需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib
+
 ### 参考
   * [ MyBatis+MySQL 返回插入的主键ID ](http://chenzhou123520.iteye.com/blog/1849881)
