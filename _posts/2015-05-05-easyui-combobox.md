@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "easyui combobox"
-description: "easyui combobox"
+title: "easyui下拉框combobox"
+description: "easyui下拉框combobox"
 category:easyui
 tags: [easyui, combobox]
 
