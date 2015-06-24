@@ -8,9 +8,9 @@ tags: [Maven]
 
 #### Maven插件
 
-  配置编译使用的jdk版本
+* 配置编译使用的jdk版本
 
-  ```xml
+```xml
 <plugin>
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.1</version>
@@ -20,11 +20,11 @@ tags: [Maven]
         <encoding>UTF-8</encoding>
     </configuration>
 </plugin>
-  ```
+```
 
-  编译war包配置
+* 编译war包配置
 
-  ```xml
+```xml
 <plugin>
     <artifactId>maven-war-plugin</artifactId>
     <version>2.4</version>
@@ -38,11 +38,11 @@ tags: [Maven]
         </webResources>
     </configuration>
 </plugin>
-  ```
+```
 
-  单元测试配置
+* 单元测试配置
 
-  ```xml
+```xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
@@ -59,7 +59,7 @@ tags: [Maven]
         </excludes>
     </configuration>
 </plugin>
-  ```
+```
 
 ### 参考
 #### maven插件
