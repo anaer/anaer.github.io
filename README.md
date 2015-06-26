@@ -3,7 +3,7 @@
 * 添加友言评论
   _config.yml 添加 uyan项
   _include\comments.md 添加uyan内容
-  
+
 * 添加prettify语法高亮
   media\css\prettify.css 增加
   media\css\prettify.js 增加
@@ -14,3 +14,5 @@
             window.prettyPrint && prettyPrint();
         });
     </script>
+
+* post文件行数<1000

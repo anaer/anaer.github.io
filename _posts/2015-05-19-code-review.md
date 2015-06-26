@@ -4,6 +4,7 @@ title: "Code Review"
 description: ""
 category: Java
 tags: [Java]
+
 ---
 
 #### 常见问题
@@ -24,8 +25,7 @@ tags: [Java]
     longToTime()
     longToDateTime()
     formaturl()
-    
-    
+
 ### 网上总结的要点
 
 1.
@@ -34,12 +34,12 @@ tags: [Java]
     result.setCode(201);
     result.setStr(re);
     result.setMessage("获取id成功");
-    
+
     建议：对常用的功能，可以：新增Constructor，把4行code用1行搞定。
-    
-    Result result=new Result(code, str, msg); 
-    
-2. 
+
+    Result result=new Result(code, str, msg);
+
+2.
 
     StringBuffer stringBuffer=new StringBuffer();
     String[] formatStr=snFormatStr.split(splitChar);
@@ -53,7 +53,7 @@ tags: [Java]
     倒数第二行用commons-lang3的，既能避免硬编码，又避免了正则表达式。
     StringUtils.startsWithIgnoreCase(CharSequence, CharSequence)
 
-3. 
+3.
 
     private String processDate(String str) throws Exception{
     String[] strings=str.split(innerChar);
@@ -62,7 +62,7 @@ tags: [Java]
     建议：凡是属于 “无状态的” “通用的”功能，可以放在Util.java里。
     如果确实需要硬编码，放在Util.java里，让它们只永远出现一次。
 
-4. 
+4.
 
     String re="";
     ……
@@ -71,7 +71,7 @@ tags: [Java]
     建议：org.apache.commons.lang3.StringUtils.EMPTY
     重用常量，不要自己新创建。
 
-5. 
+5.
 
     import org.slf4j.Logger;
     import org.slf4j.LoggerFactory;
@@ -82,7 +82,7 @@ tags: [Java]
     建议：既然用了slf4j，里面就封装了判断log level的功能。
     LOGGER.isDebugEnabled()是多余的。
 
-6. 
+6.
 
     if (attributes == null) {
         return null;
@@ -96,7 +96,7 @@ tags: [Java]
     org.springframework.util.Assert.isTrue(boolean, String)
     org.springframework.util.Assert.state(boolean, String)
 
-7. 
+7.
 
     if (null != sos) {
         try {
@@ -110,7 +110,7 @@ tags: [Java]
     org.apache.commons.io.IOUtils.closeQuietly(OutputStream)
     org.apache.commons.io.IOUtils.closeQuietly(Writer)
 
-8. 
+8.
 
     public void setApplicationContext(final ApplicationContext applicationContext) {
         super.setApplicationContext(applicationContext);
@@ -119,7 +119,7 @@ tags: [Java]
 
     建议：既然父类已经有了ApplicationContext，子类的就是无用的，可以删除。
 
- 9. 
+ 9.
 
     public class ImageVaditeAuthenticationViaFormAction
     if (this.credentialsBinder != null && this.credentialsBinder.supports(credentials.getClass())) {
@@ -128,7 +128,7 @@ tags: [Java]
 
     建议：Web层里，传递给Service层的东东，不应该有Servlet API。
 
-10. 
+10.
 
     UserCacheVO vo = new UserCacheVO();
     vo.setLoginIP(request.getRemoteAddr());
@@ -145,7 +145,7 @@ tags: [Java]
     解决方式：这样定义Constructor，每5个参数放在一行，
     任何IDE的排版（都是一行有80/120/160个字符），都会保持整齐队形了。
 
-11.  
+11.
 
     建议：合并。每个package里，有几个几十个类是正常的。
     com.gy.prvg.acl.constant里的多个常量类，合并为一个。Enum，也做在常量类里面。
@@ -155,7 +155,7 @@ tags: [Java]
 
     好处：便于开发，便于查找，便于检错，便于调试，便于维护，便于测试。
 
-12. 
+12.
 
     public static final List<AccountType> AllTypes() {
         List<AccountType> types = new ArrayList<AccountType>();
@@ -168,7 +168,7 @@ tags: [Java]
 
     建议：List<TimeUnit> list = java.util.Arrays.asList(TimeUnit.values()); 一句话搞定。
 
-13. 
+13.
 
     @Override
     public String toString() {
@@ -191,7 +191,7 @@ tags: [Java]
     可以用JSON.toJSONString(this);一句搞定。或者加上@JsonIgnore能屏蔽些field。
     搞json格式，全部项目应该用统一的jar。推荐：fastjson。
 
-14. 
+14.
 
     import org.apache.log4j.FileAppender;
     import org.apache.log4j.Layout;
@@ -204,7 +204,7 @@ tags: [Java]
 
     建议：org.apache.log4j.RollingFileAppender应该足够用了，不用自建class。
 
-15. 
+15.
 
     public enum RoleType {
         PlatAdmin("平台管理员"),
@@ -224,7 +224,7 @@ tags: [Java]
 
     建议：用ASCII表里的英文字母或数字。
 
-16. 
+16.
 
     public interface ILoginService {
         void loadPrivilegeItemList(String resourceNo, String loginId, HttpServletRequest request);
@@ -235,12 +235,12 @@ tags: [Java]
     上层能调用下层，下层不能调用上层。
     Service层里，不应该有Web层api。
 
-17. 
+17.
 
     if (data.get("uri").indexOf(action.getItemContent())>=0) {
     建议：java.lang.String.contains(CharSequence)
 
-18. 
+18.
 
     int len = roleCode.length() - 3;
     int maxNo = Integer.valueOf(roleCode.substring(len));
@@ -260,7 +260,7 @@ tags: [Java]
     assertEquals("1.23456789E7", String .valueOf(12345678.90));
     这3个都变味了。所以，使用这些功能之前，要确保正确性。
 
-19. 
+19.
 
     try {
         ……
@@ -282,25 +282,25 @@ tags: [Java]
     Java5以前的Runnable  run()，就是强迫catch { }，让开发者感到臃肿。
     Java5+的Callable，V call()  throws Exception; catch { } 就是可有可无的，很清爽。
 
-20. 
+20.
 
     userRole.setRoleName(URLDecoder.decode(userRole.getRoleName(), "UTF-8"));
-    
+
     建议：
     org.apache.commons.lang3.CharEncoding.UTF_8
     凡是可能有编码毛病之处，用POST方式，
     把org.springframework.web.filter.CharacterEncodingFilter当做过滤器，就实现了统管，
     就不用在多处搞多个URLDecoder.decode()了。
 
-21. 
+21.
 
     int index = StringUtil.isEmpty(pageLeafCode) ? 0 : pageLeafCode.indexOf("[");
     if (index > 0) {
         pageLeafCode = pageLeafCode.substring(index + 1,pageLeafCode.length() - 1);
-        
+
     建议：org.apache.commons.lang3.StringUtils.substringAfter(String, String)
 
-22. 
+22.
 
     public String toString() {
         return "Leaf [leafId=" + leafId + ", leafName=" + leafName
@@ -313,7 +313,7 @@ tags: [Java]
     org.apache.commons.lang3.builder.ToStringBuilder.reflectionToString(
     this, ToStringStyle.SHORT_PREFIX_STYLE);
 
-23. 
+23.
 
     Map<String,String> data = new HashMap<>();
     data.put("uri", request.getRequestURI());
@@ -322,19 +322,19 @@ tags: [Java]
 
     建议：凡是常用的hardcode，都做成静态常量。
 
-24. 
+24.
 
     CacheLoadUtil.getRelationMap().put(roleCode, map);
     建议：缓存的东东，不应该在static map的里面，而应该在obj map里面。
 
-25. 
+25.
 
     public static String objectToString(Object obj){
         return obj.toString();
 
     建议：删除这个函数。
 
-26. 
+26.
 
     public static String replaceSpecialStr(Object value){
         if(null != value && !"".equals(value)){
@@ -345,7 +345,7 @@ tags: [Java]
     java.lang.String.replaceAll(String, String) 适合于：正则表达式。
     java.lang.String.replace(CharSequence, CharSequence) 更适合此处。
 
-27. 
+27.
 
     public static String nullConvert(String value){
     return null==value?"":value;
@@ -353,12 +353,12 @@ tags: [Java]
     建议：该报错的时候，就报错，用org.springframework.util.Assert.notNull(Object)
     如果确实有用，用：org.apache.commons.lang3.StringUtils.defaultString(String)
 
-28. 
+28.
 
     void modifyAuditStatus(Long[] ids, String operType, Map<String,String> data)
     建议：Long[] ids改成：List<Long>，面向对象编程，少用array，多用List。
 
-29. 
+29.
 
     Map<String, List<Role>> map = new HashMap<String,List<Role>>();
     map.put("leftRoles", leftRoles);
@@ -366,7 +366,7 @@ tags: [Java]
 
     建议：既然只放两个，可以用：org.apache.commons.lang3.tuple.Pair.of(left, right)
 
-30. 
+30.
 
     for (String loginId : addUsers) {
         UserRole ur = new UserRole();
@@ -395,7 +395,7 @@ tags: [Java]
 
     不属于OO设计范围，就算Constructor里有200+个参数，也是正确的。
 
-31. 
+31.
 
     if (StringUtil.isNotEmpty(viewVO.getViewName())) {
         viewVO.setViewName("%" + viewVO.getViewName() + "%");
@@ -406,7 +406,7 @@ tags: [Java]
         viewVO.setViewType("%" + viewVO.getViewType() + "%");
         where.append(" and viewType LIKE :viewType ");
     }
-    
+
     if (StringUtil.isNotEmpty(viewVO.getCreatedBy())) {
         viewVO.setCreatedBy("%" + viewVO.getCreatedBy() + "%");
         where.append(" and createdBy LIKE :createdBy ");
@@ -421,7 +421,7 @@ tags: [Java]
         return Util.SQL_WILDCARD + str + Util.SQL_WILDCARD;
     }
 
-32. 
+32.
 
     // 转换用户状态
     switch (u.getStatus()) {
@@ -437,7 +437,7 @@ tags: [Java]
         default:
             u.setStatus("Illegal");// 非法
             break;
-            
+
     // 转换参数状态
     switch (sys.getStatus()) {
         case "0":
@@ -471,7 +471,7 @@ tags: [Java]
         default:
             sys.setOperationGrade("Illegal");
             break;
-    
+
     建议：
     在default后面，不要写break。
     switch(x)里，尽量不用String，而用enum。
@@ -493,13 +493,13 @@ tags: [Java]
         * 企业系统
         */
         company(3, 30000),
-  
-33. 
+
+33.
 
     private CacheLoadUtil() {
         super();
     }
-    
+
     public class StringUtil {
         private StringUtil(){
         super();
@@ -510,13 +510,13 @@ tags: [Java]
         throw new java.lang.NoSuchMethodError();
     }
 
-34. 
+34.
 
     String sql = " select l.* from T_PVG_LEAF l join T_PVG_ROLE_LEAF rl on l.leafCode
     建议：应该回避”l”。
     ”l”长得很像数字1和i的大写字母，java的语言规范中都回避，long 3用”3L”表示。
 
-35. 
+35.
 
     if (obj == null) {
         result = "PO00000000";
@@ -527,25 +527,25 @@ tags: [Java]
     建议：如果两个长度都中等，可以合并为一行，用java的三元运算符：
     result = (null == obj) ? x : y
 
-36. 
+36.
 
     public class CacheLoadUtil {
         /**
          * <p>以企业资源号为key 公司对象为value</p>
          */
         private static final Map<String, Corporation> CORPS = new HashMap<String, Corporation>();
-        
+
         /**
          * <p>以部门编号为key 部门对象为value</p>
          */
         private static final Map<String, Department> DEPTS = new HashMap<String,Department>();
-        
+
         /**
          * <p>以角色代码为key 角色对象为value</p>
          */
-        
+
         private static final Map<String, Role> ROLES = new HashMap<String,Role>();
-        
+
     建议：缓存，不要搞static Map，用实例化的对象，最好用框架EHCache、Memcache……
 
 37. 推荐的Java测试组件
@@ -578,7 +578,7 @@ tags: [Java]
     Testng，本身过度复杂，在各大IDE上的版本都不同，
     本身也有内存泄露等毛病，新版本久不更新，应该抛弃。
 
-40. 
+40.
 
     public static final Map<String, Corporation> getCorps() throws SystemException {
         if (CORPS.isEmpty()) {
@@ -605,16 +605,16 @@ tags: [Java]
     }
 
     建议：删除Constructor，或者参考第33节
-    
+
     建议：扔掉getBean函数，用：
-    org.springframework.beans.factory.BeanFactory.getBean(String, Class<T>) 
+    org.springframework.beans.factory.BeanFactory.getBean(String, Class<T>)
     BeanFactory 是ApplicationContext的父接口。
-    
+
     建议：Spring搞的都是OO，我们用Spring也应该遵循OO。OO和静态的东东是相排斥的。
     把Spring的ctx做成静态的引用，会有多种缺陷。例如：
     （A）潜在的内存泄露。
     （B）清理对象的时候，总是不能清理static ctx，这是灾难性的错误。
-    
+
     建议：getBean可能是作者的使用目的，是以static的方式访问的。
     可它的初始化，竟然是以实例的方式搞的！！！
     @Override
@@ -622,7 +622,7 @@ tags: [Java]
 
     建议：经过上面4条建议，可以删除掉SpringBeanUtil这个可怜的类了。
 
-41. 
+41.
 
     public String resetPassword(String loginId, String resourceNo,
         Map<String,String> data) throws SystemException {
@@ -646,7 +646,7 @@ tags: [Java]
 
     建议：第4行，凡是从缓存取数据的操作，应该建立个成员变量（member variable），
     用Spring的标准set方式注入cacheManager对象，坚决抛弃静态功能。
-    
+
     建议：CoderUtils，词汇Coder明显意义错误。
     可以改成CodecUtils，标准依据：org.apache.commons.codec.*
 
@@ -654,11 +654,11 @@ tags: [Java]
 
     建议：倒数第3行，密码，不应该以明文方式出现在log里。
 
-42. 
+42.
 
     public class SystemServiceImpl implements ISystemService {
         private static final Logger LOGGER = LoggerFactory.getLogger(SystemServiceImpl.class);
-        
+
     建议：实例范围的类，就用实例范围的Logger。
     private Logger LOGGER = LoggerFactory.getLogger(getClass());
 
@@ -715,7 +715,7 @@ tags: [Java]
 
         DatabaseOperation.CLEAN_INSERT.execute(dbConn2, dataSet2);
 
-46. 
+46.
 
     private String translateContract(String contract,Declare declare) throws Exception {
         Pattern pattern = Pattern.compile("[$]\\{[^}]*\\}");
@@ -734,7 +734,7 @@ tags: [Java]
 
     至于替换的功能，参考：spring  PropertyPlaceholderConfigurer
 
-47. 
+47.
 
     contract.setSerialno(UUID.randomUUID().toString().replaceAll("-", ""));
 
@@ -744,7 +744,7 @@ tags: [Java]
     这里，应该用
     public String replace(CharSequence target, CharSequence replacement)
 
-48. 
+48.
 
     if(type.equals(Workflow.TASK_CLAIM)){
         if(role.equals("S")){
@@ -805,7 +805,7 @@ tags: [Java]
         这个需要很多年的细致的知识积累，软件行业里，很少有人能达到。
         例如：很多功能，在jdk/apache commons/spring里都有，我们简单的调用就行了。
 
-51. 
+51.
 
     try {
         newMAC = PosCryptor.getMAC(PosServerConfig.getKeyHost(),PosServerConfig.getKeyPost(),
@@ -823,7 +823,7 @@ tags: [Java]
     建议：参考第19节。
     建议：org.apache.commons.codec.binary.Hex
 
-52. 
+52.
 
     @Service
     public class XxxServiceImpl implements XxxService {
@@ -850,33 +850,33 @@ tags: [Java]
 
     建议：参考第38节。
 
-55.  
+55.
 
     建议：在循环里搞删除，影响性能，应该使用sql批量删除，输入的参数为：”1,2,3”
-    
+
     建议：return行，返回：1或0，这是C风格，不是Java风格。
         Java风格是：使用Exception：public void myDeleteFunction(String str) throws Exception
-    
+
     建议：扔掉try-catch。参考第19节。
-    
+
     建议：经过了以上3个和第19节的建议，这个函数只需要1行就行了：
         msgPrivateMapper.deleteXxx (ids);
 
-56.  
+56.
 
     建议：所有的能跑的东东，都应该写在单元测试（junit）里，而不是main里。
-    
+
     建议：有大量的注释（//或/* … */），就是错误。
         要么删除；要么解开，改变成为一个个的单独的junit test method。
         那么，在持续构建里，就能总是能把那些功能跑到，总是能自我检查尽早检查。
 
     建议：main()最后1行，不需要显式调用System.exit(0)。
 
-58.  
+58.
 
     建议：把重用多次的’N’、’Y’做成常量。
 
-59.  
+59.
 
     建议：del、add、update，都是相同性质的事务，Spring默认的行为就够用了。
     所以，rollback-for和no-rollback-for这2项，可以删除。
@@ -900,7 +900,7 @@ tags: [Java]
 61. 如何对Java程序做格式化？
 
     建议：这是个来自于Spring源码里的文件，用Eclipse导入：
-    Preferences—>Java—>Code Style—>Formatter-->Import 
+    Preferences—>Java—>Code Style—>Formatter-->Import
 
 62. 某项目有600个class，修改了2个，影响了些啥？
 
@@ -930,7 +930,7 @@ tags: [Java]
         搞好了这项，往往达到70%的效果。
     （E）再优化耗时第2多的。搞好了这项，又增加了20%的效果。
         优化某项，里面又有多个组件R/S/T，如何分辨性能瓶颈？
-        
+
     建议：重复之前的路线，针对R/S/T都建立TestCase……各个击破。
 
 67. 跟性能最密切的程序段，可能是些啥？
@@ -939,7 +939,7 @@ tags: [Java]
     是每次必须经过的路线。
     针对这些，必须有专门的TestCase，反复跑，反复优化。
 
-69.  
+69.
 
     建议：HashMap是有关算法的，肯定要内建hash表和计算hash。
     如果key是纯粹的数字，而且很小，那就直接做成数组/List，数组的index就是key。
@@ -961,7 +961,7 @@ tags: [Java]
     （B）朝着稳定的方向依赖。
         完成同一个功能，是用Spring框架搞得稳定呢？还是用自己写的code搞得稳定呢？
 
-70. 
+70.
 
     Map<Integer,String> messageBody = new LinkedHashMap<Integer,String>();
     messageBody.put(3,termTradeCode);
@@ -981,7 +981,7 @@ tags: [Java]
         这个程序或者测试程序有毛病，需要改善。
     （B） 业务是业务，框架是框架，它们之间应该是弱耦合的，针对接口编程的，能替换其它实现类的。它们都是能单独测试的，还能用上针对接口的Mock的东东。
 
-72. 
+72.
 
     这个极品工程里，只有几个class，每个class还占了一个package。
     建议：
@@ -990,76 +990,76 @@ tags: [Java]
         这个cache-api工程，可以合并到common工程里。如果code太烂，干脆就废除掉。
     （B） 静态方法调用要回避，应该做成实例形式，便于搞Object的模拟和测试。
 
-75.  
+75.
 
     建议：
     （A）权威的证明资料：《J2EE Development without EJB》
         我们自建的MyException，都应该extends RuntimeException，而非checked Exception。
     （B）重复的、临时的、不伦不类的、命名意义模糊的、小范围使用的class，赶快删除吧。
 
-76.  
+76.
 
     建议：PowerDesigner等工具生成的code，也要用眼睛看3遍。明显臃肿的，要删除。
 
-77.  
+77.
 
     建议：
     （A）用void代替boolean。如果出毛病了失败了，就抛出RuntimeException。
     （B）从try开始的几行，只保留Ecms所在的一行就够了。
     （C）带有@Test 的method，都应该声明throws Exception，为了里面尽量少写try-catch。
 
-78. 
+78.
 
     建议：
     （A） else-if，要有else { throw new RuntimeException(…) }
     （B） Java7，switch( string )
 
-79.  
+79.
 
     建议：用标准的JavaDoc方式，这还能避免某些源码覆盖率工具的解析错误。
 
-80.  
+80.
 
     后面request在cache里的值，精确的覆盖了前面request在cache里的值。
 
-81.  
+81.
 
     建议1：request应该是个傻傻的的简单的数据容器，里面怎么有个ServerMainHandler？
         ServerMainHandler调用request，是正常的，还能反过来调用，就是错误。
-    
+
     建议2：handlerExecute(...)明显是搞业务的，里面怎么会放个Spring单态类？
         应该通过set/get的方式注入Spring单态类才对，不用每次在参数里传入。
 
-82.  
+82.
 
     aWeb项目的有多个spring的xml配置，可能跟b.jar、c.jar里的发生重名冲突。
     如今，公司测试环境OS上多个app，配置都统一在一个目录里，配置文件更加容易冲突。
     建议：配置文件应该统一命名为projectName_config.xml，projectName_config.properties
     不应该有applicationContext*.xml这种文件名字了。
 
-83.  
+83.
 
     建议：把package级的javadoc写在.java里，jdk和开源软件都走这种标准路线了。
 
-84.  
+84.
 
     建议：继承，只是OO的特性，跟常量（Constants）没有关系。
         应该杜绝常量类的继承。还应该杜绝常量接口。
 
-85.  
+85.
 
     建议：
     org.apache.commons.lang3.StringUtils
     public static boolean isNotBlank(CharSequence cs)
     public static boolean isNotEmpty(CharSequence cs)
 
-86. 
+86.
 
     建议：common有太多的小模块了，全部加起来也只430KB。
     这会浪费dev很多的编译和查错时间。
     应该合并为1个模块。
 
-87.  
+87.
 
     建议：
     （A）最明显的是57行—65行，连续出现3次相同的code。应该重新整理if-else。
@@ -1071,12 +1071,12 @@ tags: [Java]
     （D）多个if-else，就必须要有足够的自动化TC覆盖到每个分支，否则，会出多个bug。
     （E）Filter的参数，也应该来自于spring工厂。参考第96节。
 
-88.  
+88.
 
     疯狂的if-else，这来自于Apache Continuum，是个反OO的典型范例。
     前人蹉跌，后人知警。
 
-89.  
+89.
 
     建议 1：第1行，返回的数据容器，应该是个普通的List/Map，怎么是JSONArray？
         List/Map是性能最高的，JSONArray性能肯定偏低。
@@ -1102,11 +1102,11 @@ tags: [Java]
 
     建议 6：避免用Map，避免hash计算，多用List。
         就算用Map是对的，Map的key也应该是Integer、String、Class等，绝不是JSONArray。
-        
+
     建议 7：从原意看来，Map里只有一个元素（Entry），key是list，value是int。
         既然信息只有两样，不用Map，恰好可以用apache-commons Pair<List, Integer>。
 
-    建议 8：从原意看来，如果要携带更多信息，可以自定义class来搞。 
+    建议 8：从原意看来，如果要携带更多信息，可以自定义class来搞。
 
     建议 9：综上所述，Server端Client端都做得很奇葩。
         以后dev再遇到这种code，应该立即提出来。
@@ -1116,10 +1116,10 @@ tags: [Java]
         多数情况，总共都只有几百条，那就每次取2000条数据缓存于ServerA的session里。
         避免每次取10条取多次而增加request次数。
 
-90.  
+90.
 
     建议 1：成员变量Random被多线程访问，会出错。
-    
+
     建议 2：验证码，应该避免长得像的字符：
     （A）数字1、L的小写和i的大写。
     （B）数字0和字母o大写。
@@ -1127,12 +1127,12 @@ tags: [Java]
 
     建议 3：成员变量都应该显式声明为final，扔掉private。
 
-91.  
+91.
 
     建议：这种情况，“可读性”比“性能和硬编码”更重要。
     String.format(“12%s45%s”, 3, 6);
 
-92.  
+92.
 
     建议：常用的英文词汇，搞简写就行了。
     transactionàtx
@@ -1146,7 +1146,7 @@ tags: [Java]
     receive-->rcv
     service-->svc
 
-93. 跑·不跑 
+93. 跑·不跑
 
     今天是2014/12/31，这几个的最后更新日期，竟然是146天之前！！！
     建议：测试类，肯定是经常增加内容的。例如：
@@ -1159,7 +1159,7 @@ tags: [Java]
         持续构建，把工程里几万行code跑几遍几十遍，就是经常的“跑”。
         本图，就是典型的“不跑”。
 
-94. 外部配置·main程序（jar） 
+94. 外部配置·main程序（jar）
 
     在spring xml里配置相对的.properties文件路径：
     <context:property-placeholder location="file:../../hsserv/config/pos.properties" />
@@ -1177,7 +1177,7 @@ tags: [Java]
     Class-Path: . config/ ../
     Main-Class: com.gy.pos.Main
     这表明：，classpath包括了：
-    当前路径，当前的config里的路径，上一级路径。 
+    当前路径，当前的config里的路径，上一级路径。
     有些.xml要单独的拷贝出来，避免出现重复的配置，这用到了maven-resources-plugin。
     它们必须在classpath里，而且必须在jar外面，而且还能被别的app共用。
     完整的配置：
@@ -1190,7 +1190,7 @@ tags: [Java]
 
 95. 外部配置·web程序（war）
 
-    如果maven web项目的某子模块用了这个配置，在pom.xml里屏蔽掉。 
+    如果maven web项目的某子模块用了这个配置，在pom.xml里屏蔽掉。
     在打war包的时候，子模块的jar就 不会 有这个文件了。
     然后，在dist或aggregator子模块里修改spring配置：
     <context:property-placeholder location="file:../../hsserv/config/posweb_config.properties" />
@@ -1217,8 +1217,8 @@ tags: [Java]
     （3）Servlet
     所以，在Filter之前，Spring的ctx就已经组装好。
     Filter做init()的时候，就能拿到Spring的配置值（myProperties）了。
-    <util:properties id="my_config" location="classpath:my_config.properties" /> 
-    以上2行都是spring的标准api。 
+    <util:properties id="my_config" location="classpath:my_config.properties" />
+    以上2行都是spring的标准api。
 
     通用的Util.getConfigBean()还能在 任何时候任何地点 使用，这就足够灵活了。
 
@@ -1234,7 +1234,7 @@ tags: [Java]
     那么，在prod环境，用的就是开发环境的on！实际上我们需要的是off！
     所以，建议删除此xml的*-test.properties、*-prod.properties。
 
-98. 外部配置·自定义的扩展类 
+98. 外部配置·自定义的扩展类
 
     目前，多个app用的是公司common里的：GyPropertyPlaceholderConfigurer，
     作用：把多个.properties内容合并为一个大的，能取得配置值。
@@ -1246,7 +1246,7 @@ tags: [Java]
     （B）config.properties、notice-config.properties、acl-config.properties等等，
         本来都是独立的，就不应该在此class里合并。
 
-99. 外部配置·多个配置文件·推荐的路线 
+99. 外部配置·多个配置文件·推荐的路线
 
     优点：
     1 不需要自己创建class、interface跟Spring做整合。符合大原则：Don’t Write Code。
@@ -1254,14 +1254,13 @@ tags: [Java]
         Properties  posConf  = ctx.getBean("pos_PosConf", Properties.class);
         里面的Key Value的命名也是最宽松的，随便倒腾都行，不会影响别的.properties。
     3 多个配置之间，永远不会有覆盖的事情。
-    
+
 100. 外部配置·全局配置·局部配置
 
     如果公共classpath里已经有了some_config.properties，
     但我的app不用那个，只用自己专有的some_config.properties，怎么办？
     很简单，把some_config换个新名字some_config_for_myproj。
     各种局部配置都可以这么做。
-    
-### 参考
 
+### 参考
 * [Code Review最佳实践](http://jimhuang.cn/?p=59)
