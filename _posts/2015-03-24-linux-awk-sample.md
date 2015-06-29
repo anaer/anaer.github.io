@@ -4,6 +4,7 @@ title: "Linux的awk命令用法"
 description: "Linux的awk命令用法"
 category: Linux
 tags: [Linux]
+
 ---
 
 #### 字符串分隔, 根据:分隔, 并打印第二项
@@ -24,7 +25,7 @@ tags: [Linux]
 
 #### 逆序查看文件
     awk '{a[i++]=$0} END {for (j=i-1; j>=0;) print a[j--] }'
-    
+
 #### 查看第3到第6行
     awk 'NR >= 3 && NR <= 6' /path/to/file
 
@@ -36,9 +37,8 @@ tags: [Linux]
 
 #### 查看输入数据的特定位置的单个字符
     echo "abcdefg"|awk 'BEGIN {FS="''"} {print $2}'
-
     ls | awk '{print NR "\t" $0}'
-    
+
 #### 查看最常用的命令和使用次数
     history | awk '{if ($2 == "sudo") a[$3]++; else a[$2]++}END{for(i in a){print a[i] " " i}}' |  sort -rn | head
 
@@ -50,6 +50,3 @@ tags: [Linux]
 
 #### 格式化输出当前的进程信息
     ps -ef | awk -v OFS="\n" '{ for (i=8;i<=NF;i++) line = (line ? line FS : "") $i; print NR ":", $1, $2, $7, line, ""; line = "" }'
-
-
-
