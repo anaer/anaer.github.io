@@ -12,7 +12,7 @@ tags: [Spring]
   @Value在Spring 3.0之后提供
 
 #### 用法
-  1. `#{expression?:default value}`
+1. `#{expression?:default value}`
 
 ```java
 @Value("#{systemProperties['mongodb.port'] ?: 27017}")
@@ -25,8 +25,8 @@ private String mongodbUrl;
 private int age;
 ```
 
-  2. @Value和配置文件
-  `${property:default value}`
+2. @Value和配置文件
+`${property:default value}`
 
 ```java
 //@PropertySource("classpath:/config.properties}")
@@ -58,7 +58,7 @@ http://www.springframework.org/schema/util/spring-util-3.0.xsd
 <util:properties id="config" location="classpath:config.properties"/>
 ```
 
-如果要使用${}必须先在配置文件中配置或者使用注解注册PropertySourcesPlaceholderConfigurer 
+如果要使用${}必须先在配置文件中配置或者使用注解注册PropertySourcesPlaceholderConfigurer
 
 ```java
 //@PropertySource("classpath:/config.properties}")
