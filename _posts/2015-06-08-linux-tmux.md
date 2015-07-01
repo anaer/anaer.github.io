@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Linux工具:Tmux"
-description: ""
+title: "Linux工具Tmux"
+description: "Linux工具tmux"
 category: Linux
 tags: [Linux, Tmux]
+
 ---
 
 #### Tmux介绍
