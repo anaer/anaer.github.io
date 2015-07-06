@@ -18,10 +18,8 @@ tags: [Linux, cron]
 /n(斜线) 	那个 n 代表数字，亦即是『每隔 n 单位间隔』的意思，例如每五分钟进行一次，则： */5 * * * * command
 
 #### cygwin下安装cron
-
 1. `apt-cyg install cron`
 2. cron-config 根据说明操作
 3. services.msc修改cron服务, 使用登录帐号, 因为本机测试使用本地系统帐户选项一直不成功.
 4. 添加任务测试cron `crontab -e`
   `* * * * * /usr/bin/date >> ~/tmp`
-
