@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "log4j配置说明"
-description: ""
+title: "spring log4j配置说明"
+description: "spring log4j配置说明"
 category: java
 tags: [log4j]
+
 ---
 
 ### spring项目添加log4j支持
@@ -180,7 +181,6 @@ rootCategory是旧的使用名称，对应原来的Category类
 Logger类是Category类的子类，所以，rootCategory是旧的用法，不推荐使用
 
 ### 参考
-
 * [为什么要使用SLF4J而不是Log4J](http://www.importnew.com/7450.html)
 * [Log4j 如何实现 根据不同的类 或者不同的包 输出的调试信息到不同的文件夹中](http://my.oschina.net/tinglanrmb32/blog/343215)
 * [log4j日志分模块打印，同时不打印到控制台上](http://blog.csdn.net/xiamizy/article/details/38225919)
