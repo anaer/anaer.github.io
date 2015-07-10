@@ -19,6 +19,8 @@ pom.xml中过滤icu4j
 
 #### 解决SSL证书PKIX问题
 [解决SSL证书PKIX问题](http://my.oschina.net/topeagle/blog/416139)
+[Java安全通信：HTTPS与SSL](http://www.cnblogs.com/devinzhang/archive/2012/02/28/2371631.html)
+[Java#PKIX path building failed ](http://blog.csdn.net/ybygjy/article/details/12147281)
 
 #### java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
 重新编译
