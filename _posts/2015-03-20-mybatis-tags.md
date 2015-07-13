@@ -16,6 +16,17 @@ tags: [mybatis]
     foreach
     bind
 
+#### foreach
+```xml
+<if test="multiName !=null and multiName.size()!=0">
+    and name in
+    <foreach collection="multiName" item="item"
+        index="index" open="(" close=")" separator=",">
+        #{item}
+    </foreach>
+</if>
+```
+
 ### 参考
 * [动态sql](http://mybatis.github.io/mybatis-3/zh/dynamic-sql.html)
 * [MyBatis的动态SQL详解](http://haohaoxuexi.iteye.com/blog/1338557)
