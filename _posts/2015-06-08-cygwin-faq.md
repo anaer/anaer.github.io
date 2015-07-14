@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Cygwin³£¼ûÎÊÌâ´¦Àí"
+title: "Cygwinå¸¸è§é—®é¢˜å¤„ç†"
+description: "Cygwinå¸¸è§é—®é¢˜å¤„ç†"
+category: Cygwin
 tags: [Cygwin]
 ---
 
-#### cygwin
 
-* /usr/libexec/git-core/git-remote-https.exe: error while loading shared libraries: ?: cannot open shared object file: No such file or directory
-  ÖØĞÂ°²×°libcygkrb5...
+#### /usr/libexec/git-core/git-remote-https.exe: error while loading shared libraries: ?: cannot open shared object file: No such file or directory
+  é‡æ–°å®‰è£…libcygkrb5...
 
-* 
-curl: (77) error setting certificate verify locations:
+#### curl: (77) error setting certificate verify locations:
   CAfile: /usr/ssl/certs/ca-bundle.crt
   CApath: none
 
-* no acceptable C compiler found in $PATH
-  È±ÉÙgcc±àÒëÆ÷
+#### no acceptable C compiler found in $PATH
+  ç¼ºå°‘gccç¼–è¯‘å™¨
 
