@@ -1,0 +1,49 @@
+---
+layout: post
+title: "装机必备"
+describe: ""
+category: OS
+tags: [OS]
+
+---
+
+### Windows
+
+#### 装机必备
+
+* [foobar2000](http://www.foobar2000.org/)
+* [7z]()
+* [QQ]()
+* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/all/)
+* [Cygwin](http://www.cygwin.com/)
+* [Everything]()
+* [PStart](http://www.pegtop.net/download.php?file=start)
+
+* [Sumatra PDF](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html)
+* [CCleaner]()
+
+#### 编辑器
+
+* [Vim](http://www.vim.org/)
+
+* [SublimeText](http://www.sublimetext.com/)
+
+#### 开发工具
+
+* [Eclipse]()
+* [Tomcat](http://tomcat.apache.org/)
+* [TortoiseGit](https://code.google.com/p/tortoisegit/)
+* [TortoiseSVN]()
+* [Maven]()
+* [JDK]()
+* [dbeaver]() 数据库工具
+
+* [olv]()
+* [jd-gui]()
+* [Poderosa]()
+* [PLSQL Developer]()
+* [JetBrains IntelliJ IDEA](http://www.jetbrains.com/idea/)[注册](http://www.oschina.net/news/54738/jetbrains-half-off)
+
+#### 卸载工具
+
+* [Your Uninstaller]()
