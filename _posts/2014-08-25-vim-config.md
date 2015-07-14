@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Vim优化配置"
+description: "Vim优化配置"
+category: Vim
 tags: [Vim]
 
 ---
