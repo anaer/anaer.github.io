@@ -65,16 +65,20 @@ object Notification(
 ```
 
 2. 支持的事件
+```
 void ondisplay()        // 显示前触发
 void onshow()           // 显示后触发
 void onclick()          // 点击时候触发
 void onerror()          // 错误时候触发
 void onclose()          // 关闭时候触发
+```
 
 3. 支持的方法
+```
 void show()            // 错误时候触发
 void cancel()          // 关闭
 void close()           // 关闭
+```
 
 ### 参考
 * [w3 notifications文档](http://www.w3.org/TR/notifications/)
