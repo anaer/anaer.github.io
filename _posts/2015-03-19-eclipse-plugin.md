@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Eclipseæ’ä»¶åˆ—è¡¨"
-description: "Eclipseæ’ä»¶åˆ—è¡¨"
+title: "Eclipse²å¼şÁĞ±í"
+description: "Eclipse²å¼şÁĞ±í"
 category: Eclipse
 tags: [Eclipse]
 ---
 
-### Eclipseå¸¸ç”¨æ’ä»¶
+### Eclipse³£ÓÃ²å¼ş
 
 * [ADT](http://dl-ssl.google.com/android/eclipse)
 * [CFEclipse](http://www.cfeclipse.org/update)
 * [emmet](http://emmet.io/eclipse/updates/)
-* [Metrics æµ‹é‡å¤æ‚åº¦ ](http://metrics.sourceforge.net/update)
-* [JDependâ€¯è¿›è¡Œä¾èµ–é¡¹æ£€æŸ¥ ](http://andrei.gmxhome.de/eclipse/)
+* [Metrics ²âÁ¿¸´ÔÓ¶È ](http://metrics.sourceforge.net/update)
+* [JDepend?½øĞĞÒÀÀµÏî¼ì²é ](http://andrei.gmxhome.de/eclipse/)
 * [LOGpulse](http://update.toem.de)
 * [Log4E](http://log4e.jayefem.de/update)
 * [Properties Editor](http://propedit.sourceforge.jp/eclipse/updates/)
@@ -29,34 +29,37 @@ tags: [Eclipse]
 * [tomcat](http://tomcatplugin.sf.net/update)
 * [viPlugin](http://www.viplugin.com/viplugin/)
 * [zen-coding](http://zen-coding.ru/eclipse/updates/)
-* [å…¨å±æ’ä»¶](http://scharf.gr/eclipse/fullscreen/update/)
+* [È«ÆÁ²å¼ş](http://scharf.gr/eclipse/fullscreen/update/)
 * [anyedit](http://andrei.gmxhome.de/eclipse/)
 * [shellEd](http://www.chasetechnology.co.uk/eclipse/updates)
 
-* [Eclipseæ’ä»¶åˆ—è¡¨](http://apis.jpn.ph/fswiki/wiki.cgi?page=Eclipse%2FPluginList)
+* [Eclipse²å¼şÁĞ±í](http://apis.jpn.ph/fswiki/wiki.cgi?page=Eclipse%2FPluginList)
  
-#### ç‰ˆæœ¬æ§åˆ¶
+#### °æ±¾¿ØÖÆ
 
 * [subclipse](http://subclipse.tigris.org/update_1.10.x)
+	Archived Releases: http://subclipse.tigris.org/archive/
+	×îĞÂ°æÏÂÔØµØÖ·: http://subclipse.tigris.org/files/documents/906/49431/site-1.10.9.zip
+
 * [subversive](http://www.eclipse.org/subversive/)
 * [EGit Mylyn GitHub connector](http://download.eclipse.org/egit/github/updates-nightly)
 * [egit](http://download.eclipse.org/egit/updates)
 
-#### ä¸»é¢˜æ ·å¼
+#### Ö÷ÌâÑùÊ½
 
 * [EclipseColorer](http://colorer.sf.net/eclipsecolorer/)
   
-#### ä»£ç è§„èŒƒ
+#### ´úÂë¹æ·¶
 
 * [PMD](http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/)
 * [CheckStyle](http://eclipse-cs.sourceforge.net/update)
 * [Structure101](http://structure101.com/binaries/eclipse)
 * [FindBugs](http://findbugs.cs.umd.edu/eclipse)
 
-### Eclipse æ’ä»¶å®‰è£…æ–¹å¼
+### Eclipse ²å¼ş°²×°·½Ê½
 
     1. Help -> Install New Software...
-    2. å°†æ’ä»¶ä¸‹è½½åè§£å‹åˆ°[Eclipse_Home]/dropinsç›®å½•ä¸‹
-    3. å°†æ’ä»¶è§£å‹åˆ°è‡ªå®šä¹‰ç›®å½•, åœ¨[Eclipse_Home]/linksç›®å½•ä¸‹æ–°å¢
-      æ’ä»¶å.link
-      path = [æ’ä»¶è·¯å¾„] #è·¯å¾„/éœ€è¦æ›¿æ¢ä¸º\
+    2. ½«²å¼şÏÂÔØºó½âÑ¹µ½[Eclipse_Home]/dropinsÄ¿Â¼ÏÂ
+    3. ½«²å¼ş½âÑ¹µ½×Ô¶¨ÒåÄ¿Â¼, ÔÚ[Eclipse_Home]/linksÄ¿Â¼ÏÂĞÂÔö
+      ²å¼şÃû.link
+      path = [²å¼şÂ·¾¶] #Â·¾¶/ĞèÒªÌæ»»Îª\
