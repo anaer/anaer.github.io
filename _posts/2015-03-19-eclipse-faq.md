@@ -100,3 +100,5 @@ Key:				http://www.springframework.org/schema/mvc/spring-mvc.xsd
 
 #### eclipse 中 js提示 Syntax error on token "Invalid Character", delete this token
 Preferences->JavaScript->Editor 去掉Report problems as you type
+#### 启动Eclipse报错 Failed to load the JNI shared library
+    Eclipse与JDK位数不一致, 一个32位 一个64位
