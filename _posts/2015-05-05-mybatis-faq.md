@@ -46,5 +46,17 @@ tags: [mybatis, faq]
 #### Cannot find class: org.apache.derby.jdbc.EmbeddedDriver  
 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib
 
+#### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: An attempt by a client to checkout a Connection has timed out.
+数据库配置不对
+
+#### mapper.xml中使用特殊符号
+```xml
+        <if test="begin_date_time !=null and begin_date_time !='' ">
+              <![CDATA[ and DATE_FORMAT(create_datetime, '%Y%m%d%H%i%s') >=DATE_FORMAT(#{begin_date_time},'%Y%m%d%H%i%s')]]>
+        </if>
+        <if test="end_date_time !=null and end_date_time !='' ">
+              <![CDATA[ and DATE_FORMAT(create_datetime, '%Y%m%d%H%i%s') <=DATE_FORMAT(#{end_date_time},'%Y%m%d%H%i%s')]]>
+        </if> 
+```
 ### 参考
   * [ MyBatis+MySQL 返回插入的主键ID ](http://chenzhou123520.iteye.com/blog/1849881)
