@@ -9,4 +9,4 @@ tags: [velocity]
 
 * [使用 Velocity 模板引擎快速生成代码](http://www.ibm.com/developerworks/cn/java/j-lo-velocity1/)
 * [ spring+velocity+javamail发送模板邮件 ](http://gundumw100.iteye.com/blog/515346)
-
+* [Velocity语法](http://pengenjing.iteye.com/blog/1829229)
