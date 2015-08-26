@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Maven插件配置"
-description: ""
+title: "maven插件配置"
+description: "maven插件配置"
 category: Maven
 tags: [Maven]
 ---
