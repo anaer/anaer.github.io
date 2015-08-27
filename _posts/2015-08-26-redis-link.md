@@ -11,3 +11,8 @@ tags: [redis]
 * [redis-spring](http://my.oschina.net/u/1169079/blog/186425)
 * [使用AOP 实现Redis缓存注解，支持SPEL](http://www.cnblogs.com/DajiangDev/p/3770894.html)
 
+* [redis3.0.3安装与配置](http://blog.csdn.net/miyatang/article/details/47257209)
+
+* [spring cache with redis 自定义Key/ValueSerializer](http://www.oschina.net/code/snippet_270988_49901)
+
+* [注释驱动的 Spring cache 缓存介绍](http://www.ibm.com/developerworks/cn/opensource/os-cn-spring-cache/)
