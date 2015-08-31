@@ -2,7 +2,7 @@
 layout: post
 title: "ehcache缓存"
 description: "ehcache缓存"
-category: ehcache 
+category: ehcache
 tags: [ehcache]
 
 ---
@@ -21,11 +21,11 @@ tags: [ehcache]
 
 #### mapper启动cache
     在mapper中添加cache配置
-    
+
 ```xml
     <!-- 以下两个<cache>标签二选一,第一个可以输出日志,第二个不输出日志 -->
     <cache type="org.mybatis.caches.ehcache.LoggingEhcache" />
-    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/> 
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
 ```
 
 #### cache配置
