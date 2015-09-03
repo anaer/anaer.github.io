@@ -20,4 +20,3 @@ tags: [maven, jetty]
 
 #### java.lang.Exception: Timeout scanning annotations
     在启动脚本中添加参数 -Dorg.eclipse.jetty.annotations.maxWait=120
-    有没有效 还有待验证
