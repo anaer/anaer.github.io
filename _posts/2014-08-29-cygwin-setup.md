@@ -33,5 +33,6 @@ $ ./configure
 $ make install
 $ node -v
 ```
+
 ### 参考
 * [win7下cygwin+nodeJs的安装 ](http://blog.csdn.net/xiaokaibupabupa/article/details/6890869)
