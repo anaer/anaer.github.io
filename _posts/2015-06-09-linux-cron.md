@@ -23,3 +23,9 @@ tags: [Linux, cron]
 3. services.msc修改cron服务, 使用登录帐号, 因为本机测试使用本地系统帐户选项一直不成功.
 4. 添加任务测试cron `crontab -e`
   `* * * * * /usr/bin/date >> ~/tmp`
+
+#### 在crontab中执行date命令, 取到的时间时区不对
+
+```
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+```
