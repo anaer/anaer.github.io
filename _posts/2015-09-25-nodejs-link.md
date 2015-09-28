@@ -15,3 +15,4 @@ tags: [nodejs]
 * [iojsv2.3.3下载地址](https://iojs.org/dist/v2.3.3/iojs-v2.3.3-x64.msi)
 
 * [从零开始nodejs系列文章](http://segmentfault.com/a/1190000000341210)
+* [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs)
