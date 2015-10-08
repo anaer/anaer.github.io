@@ -13,6 +13,5 @@ tags: [light]
     如果安装报错, 提示无法连接之类的错误信息, 执行下面的命令
     npm config set registry http://registry.npmjs.org/
 5. light -v 检查安装的light版本
-
 6. light server 启动light服务
     默认端口3000
