@@ -2,9 +2,8 @@
 layout: post
 title: "nodejs 模块调用"
 description: "nodejs模块调用"
-category:nodejs
+category: nodejs
 tags: [nodejs]
-
 ---
 
 * 创建circle.js
