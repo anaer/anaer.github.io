@@ -4,7 +4,6 @@ title: "nodejs HelloWorld"
 description: ""
 category:nodejs
 tags: [nodejs]
-
 ---
 
 * 创建脚本hello.js
@@ -15,6 +14,7 @@ function hello() {
 
 hello();
 ```
+
 * 执行脚本
 
 ```

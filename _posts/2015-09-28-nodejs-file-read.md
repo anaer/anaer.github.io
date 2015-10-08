@@ -2,9 +2,8 @@
 layout: post
 title: "nodejs文件读取"
 description: "nodejs文件读取"
-category:nodejs
+category: nodejs
 tags: [nodejs]
-
 ---
 
 * 异步IO

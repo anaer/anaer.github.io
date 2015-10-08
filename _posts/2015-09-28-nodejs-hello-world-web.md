@@ -2,9 +2,8 @@
 layout: post
 title: "nodejs web版 Hello World"
 description: ""
-category:nodejs
+category: nodejs
 tags: [nodejs]
-
 ---
 
 * 创建脚本helloworld.js

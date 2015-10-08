@@ -2,9 +2,8 @@
 layout: post
 title: "light应用开发环境部署"
 description: "light应用开发环境部署"
-category:light
+category: light
 tags: [light]
-
 ---
 
 1. 下载安装nodejs
@@ -17,4 +16,3 @@ tags: [light]
 
 6. light server 启动light服务
     默认端口3000
-
