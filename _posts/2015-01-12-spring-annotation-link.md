@@ -2,9 +2,8 @@
 layout: post
 title: "Spring注解"
 description: ""
-category:Spring
+category: Spring
 tags: [Spring]
-
 ---
 
 ### 参考

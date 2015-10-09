@@ -4,7 +4,6 @@ title: "Java BigDecimal"
 description: ""
 category: Java
 tags: [Java]
-
 ---
 
 由于需要处理精度比较高的浮点数，所以弃用double类型，改用BigDecimal类来进行数值处理。
@@ -13,7 +12,7 @@ tags: [Java]
 
 大概的意思是“无法结束的除法表达式；没有精确的除结果”。我当时输入的10/3，结果应该是3.3333....333。
 
- 
+
 
 于是在网上找资料，发现我原来的处理方式有问题。
 
@@ -23,7 +22,7 @@ BigDecimal num2 = new BigDecimal("3");
 
 BigDecimal num3 = num1.divide(num2);
 
- 
+
 
 其实devide的函数定义如下
 

@@ -3,7 +3,7 @@ layout: post
 title: "Java反射"
 description: ""
 category: Java
-tags: [Java, 反射, reflect]
+tags: [Java, reflect]
 ---
 
 #Java反射概念
