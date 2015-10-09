@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "SpringMVC中的文件上传 "
-file: 2014-08-15-springmvc-upload-file.md
-update: 2015-01-28 09:53
+description: ""
+category: Java
 tags: [Java, Spring]
 ---
 
@@ -85,85 +85,85 @@ tags: [Java, Spring]
 
 ### /WEB-INF/jsp/user/add.jsp 上传表单页面
 ``` html
-    <%@ page language="java" pageEncoding="UTF-8"%>  
-    <form action="<%=request.getContextPath()%>/user/add" method="POST" enctype="multipart/form-data">  
-        username: <input type="text" name="username"/><br/>  
-        nickname: <input type="text" name="nickname"/><br/>  
-        password: <input type="password" name="password"/><br/>  
-        yourmail: <input type="text" name="email"/><br/>  
-        yourfile: <input type="file" name="myfiles"/><br/>  
-        yourfile: <input type="file" name="myfiles"/><br/>  
-        yourfile: <input type="file" name="myfiles"/><br/>  
-        <input type="submit" value="添加新用户"/>  
-    </form>  
+    <%@ page language="java" pageEncoding="UTF-8"%>
+    <form action="<%=request.getContextPath()%>/user/add" method="POST" enctype="multipart/form-data">
+        username: <input type="text" name="username"/><br/>
+        nickname: <input type="text" name="nickname"/><br/>
+        password: <input type="password" name="password"/><br/>
+        yourmail: <input type="text" name="email"/><br/>
+        yourfile: <input type="file" name="myfiles"/><br/>
+        yourfile: <input type="file" name="myfiles"/><br/>
+        yourfile: <input type="file" name="myfiles"/><br/>
+        <input type="submit" value="添加新用户"/>
+    </form>
 ```
 
 ### /WEB-INF/jsp/user/list.jsp 打印用户信息的页面
 ```html
-    <%@ page language="java" pageEncoding="UTF-8"%>  
-    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
-    <c:forEach items="${users}" var="user">  
-        ${user.value.username}----${user.value.nickname}----${user.value.password}----${user.value.email}  
-            <a href="<%=request.getContextPath()%>/user/${user.value.username}">查看</a>  
-            <a href="<%=request.getContextPath()%>/user/${user.value.username}/update">编辑</a>  
-            <a href="<%=request.getContextPath()%>/user/${user.value.username}/delete">删除</a>  
-        <br/>  
-    </c:forEach>  
-    <br/>  
-    <a href="<%=request.getContextPath()%>/user/add">继续添加用户</a>  
+    <%@ page language="java" pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+    <c:forEach items="${users}" var="user">
+        ${user.value.username}----${user.value.nickname}----${user.value.password}----${user.value.email}
+            <a href="<%=request.getContextPath()%>/user/${user.value.username}">查看</a>
+            <a href="<%=request.getContextPath()%>/user/${user.value.username}/update">编辑</a>
+            <a href="<%=request.getContextPath()%>/user/${user.value.username}/delete">删除</a>
+        <br/>
+    </c:forEach>
+    <br/>
+    <a href="<%=request.getContextPath()%>/user/add">继续添加用户</a>
 ```
 
 ### /WEB-INF/jsp/error_fileupload.jsp 上传文件内容过大时的提示页面
 ```html
-    <%@ page language="java" pageEncoding="UTF-8"%>  
-    <h1>文件过大，请重新选择</h1>  
+    <%@ page language="java" pageEncoding="UTF-8"%>
+    <h1>文件过大，请重新选择</h1>
 ```
 
 ### User.java 实体类
 ```java
-    package com.jadyer.model;  
+    package com.jadyer.model;
 
     /**
      * User
      * @author 宏宇
      * @create May 12, 2012 1:24:43 AM
-     */  
-    public class User {  
-        private String username;  
-        private String nickname;  
-        private String password;  
-        private String email;  
-        /*==四个属性的getter()、setter()略==*/  
-        public User() {}  
-        public User(String username, String nickname, String password, String email) {  
-            this.username = username;  
-            this.nickname = nickname;  
-            this.password = password;  
-            this.email = email;  
-        }  
-    }  
+     */
+    public class User {
+        private String username;
+        private String nickname;
+        private String password;
+        private String email;
+        /*==四个属性的getter()、setter()略==*/
+        public User() {}
+        public User(String username, String nickname, String password, String email) {
+            this.username = username;
+            this.nickname = nickname;
+            this.password = password;
+            this.email = email;
+        }
+    }
 ```
 
 ### UserController.java 核心
 ``` java
-    package com.jadyer.controller;  
+    package com.jadyer.controller;
 
-    import java.io.File;  
-    import java.io.IOException;  
-    import java.util.HashMap;  
-    import java.util.Map;  
+    import java.io.File;
+    import java.io.IOException;
+    import java.util.HashMap;
+    import java.util.Map;
 
-    import javax.servlet.http.HttpServletRequest;  
+    import javax.servlet.http.HttpServletRequest;
 
-    import org.apache.commons.io.FileUtils;  
-    import org.springframework.stereotype.Controller;  
-    import org.springframework.ui.Model;  
-    import org.springframework.web.bind.annotation.RequestMapping;  
-    import org.springframework.web.bind.annotation.RequestMethod;  
-    import org.springframework.web.bind.annotation.RequestParam;  
-    import org.springframework.web.multipart.MultipartFile;  
+    import org.apache.commons.io.FileUtils;
+    import org.springframework.stereotype.Controller;
+    import org.springframework.ui.Model;
+    import org.springframework.web.bind.annotation.RequestMapping;
+    import org.springframework.web.bind.annotation.RequestMethod;
+    import org.springframework.web.bind.annotation.RequestParam;
+    import org.springframework.web.multipart.MultipartFile;
 
-    import com.jadyer.model.User;  
+    import com.jadyer.model.User;
 
     /**
      * SpringMVC中的文件上传
@@ -174,54 +174,54 @@ tags: [Java, Spring]
      * @see 第四步：编写前台表单。注意enctype="multipart/form-data"以及<input type="file" name="****"/>
      * @author 宏宇
      * @create May 12, 2012 1:26:21 AM
-     */  
-    @Controller  
-    @RequestMapping("/user")  
-    public class UserController {  
-        private final static Map<String,User> users = new HashMap<String,User>();  
+     */
+    @Controller
+    @RequestMapping("/user")
+    public class UserController {
+        private final static Map<String,User> users = new HashMap<String,User>();
 
-        //模拟数据源,构造初始数据  
-        public UserController(){  
-            users.put("张起灵", new User("张起灵", "闷油瓶", "02200059", "menyouping@yeah.net"));  
-            users.put("李寻欢", new User("李寻欢", "李探花", "08866659", "lixunhuan@gulong.cn"));  
-            users.put("拓拔野", new User("拓拔野", "搜神记", "05577759", "tuobaye@manhuang.cc"));  
-            users.put("孙悟空", new User("孙悟空", "美猴王", "03311159", "sunhouzi@xiyouji.zh"));  
-        }  
+        //模拟数据源,构造初始数据
+        public UserController(){
+            users.put("张起灵", new User("张起灵", "闷油瓶", "02200059", "menyouping@yeah.net"));
+            users.put("李寻欢", new User("李寻欢", "李探花", "08866659", "lixunhuan@gulong.cn"));
+            users.put("拓拔野", new User("拓拔野", "搜神记", "05577759", "tuobaye@manhuang.cc"));
+            users.put("孙悟空", new User("孙悟空", "美猴王", "03311159", "sunhouzi@xiyouji.zh"));
+        }
 
-        @RequestMapping("/list")  
-        public String list(Model model){  
-            model.addAttribute("users", users);  
-            return "user/list";  
-        }  
+        @RequestMapping("/list")
+        public String list(Model model){
+            model.addAttribute("users", users);
+            return "user/list";
+        }
 
-        @RequestMapping(value="/add", method=RequestMethod.GET)  
-        public String addUser(){  
-            return "user/add";  
-        }  
-        @RequestMapping(value="/add", method=RequestMethod.POST)  
-        public String addUser(User user, @RequestParam MultipartFile[] myfiles, HttpServletRequest request) throws IOException{  
-            //如果只是上传一个文件，则只需要MultipartFile类型接收文件即可，而且无需显式指定@RequestParam注解， name还得是myfiles  
-            //如果想上传多个文件，那么这里就要用MultipartFile[]类型来接收文件，并且还要指定@RequestParam注解  
-            //并且上传多个文件时，前台表单中的所有<input type="file"/>的name都应该是myfiles，否则参数里的myfiles无法获取到所有上传的文件  
-            for(MultipartFile myfile : myfiles){  
-                if(myfile.isEmpty()){  
-                    System.out.println("文件未上传");  
-                }else{  
-                    System.out.println("文件长度: " + myfile.getSize());  
-                    System.out.println("文件类型: " + myfile.getContentType());  
-                    System.out.println("文件名称: " + myfile.getName());  
-                    System.out.println("文件原名: " + myfile.getOriginalFilename());  
-                    System.out.println("========================================");  
-                    //如果用的是Tomcat服务器，则文件会上传到\\%TOMCAT_HOME%\\webapps\\YourWebProject\\WEB-INF\\upload\\文件夹中  
-                    String realPath = request.getSession().getServletContext().getRealPath("/WEB-INF/upload");  
-                    //这里不必处理IO流关闭的问题，因为FileUtils.copyInputStreamToFile()方法内部会自动把用到的IO流关掉，我是看它的源码才知道的  
-                    FileUtils.copyInputStreamToFile(myfile.getInputStream(), new File(realPath, myfile.getOriginalFilename()));  
-                }  
-            }  
-            users.put(user.getUsername(), user);  
-            return "redirect:/user/list";  
-        }  
-    }  
+        @RequestMapping(value="/add", method=RequestMethod.GET)
+        public String addUser(){
+            return "user/add";
+        }
+        @RequestMapping(value="/add", method=RequestMethod.POST)
+        public String addUser(User user, @RequestParam MultipartFile[] myfiles, HttpServletRequest request) throws IOException{
+            //如果只是上传一个文件，则只需要MultipartFile类型接收文件即可，而且无需显式指定@RequestParam注解， name还得是myfiles
+            //如果想上传多个文件，那么这里就要用MultipartFile[]类型来接收文件，并且还要指定@RequestParam注解
+            //并且上传多个文件时，前台表单中的所有<input type="file"/>的name都应该是myfiles，否则参数里的myfiles无法获取到所有上传的文件
+            for(MultipartFile myfile : myfiles){
+                if(myfile.isEmpty()){
+                    System.out.println("文件未上传");
+                }else{
+                    System.out.println("文件长度: " + myfile.getSize());
+                    System.out.println("文件类型: " + myfile.getContentType());
+                    System.out.println("文件名称: " + myfile.getName());
+                    System.out.println("文件原名: " + myfile.getOriginalFilename());
+                    System.out.println("========================================");
+                    //如果用的是Tomcat服务器，则文件会上传到\\%TOMCAT_HOME%\\webapps\\YourWebProject\\WEB-INF\\upload\\文件夹中
+                    String realPath = request.getSession().getServletContext().getRealPath("/WEB-INF/upload");
+                    //这里不必处理IO流关闭的问题，因为FileUtils.copyInputStreamToFile()方法内部会自动把用到的IO流关掉，我是看它的源码才知道的
+                    FileUtils.copyInputStreamToFile(myfile.getInputStream(), new File(realPath, myfile.getOriginalFilename()));
+                }
+            }
+            users.put(user.getUsername(), user);
+            return "redirect:/user/list";
+        }
+    }
 ```
 
 ### /WEB-INF/upload/ 上传目录
@@ -301,9 +301,9 @@ tags: [Java, Spring]
 
 #### 注意事项
   * pom文件中必须添加common-upload的jar包依赖
-    否则会提示错误:  org.springframework.web.bind.MissingServletRequestParameterException: Required MultipartFile[] parameter 'myfiles' is not present 
-  * form属性必须设置为enctype="multipart/form-data" method="post" 
-    否则会提示错误: org.springframework.web.multipart.MultipartException: The current request is not a multipart request 
+    否则会提示错误:  org.springframework.web.bind.MissingServletRequestParameterException: Required MultipartFile[] parameter 'myfiles' is not present
+  * form属性必须设置为enctype="multipart/form-data" method="post"
+    否则会提示错误: org.springframework.web.multipart.MultipartException: The current request is not a multipart request
 
 ### 访问测试
   http://127.0.0.1:8080/{web应用名}/user/add

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Sublime Text编辑器"
-file: 2014-08-24-sublimetext.md
-update: 2014-09-27 13:55
+description: ""
+category: SublimeText
 tags: [SublimeText]
 ---
 
 # 快捷键
-  
+
   ```
   Ctrl+Shift+P 打开命令面板
   Ctrl+P 搜索项目中的文件
@@ -62,13 +62,13 @@ EA7E-855605
 E1D0AE85 A0BBD039 0E9C8D55 E1B89D5D
 5CDB7036 E56DE1C0 EFCC0840 650CD3A6
 B98FC99C 8FAC73EE D2B95564 DF450523
------- END LICENSE ------ 
+------ END LICENSE ------
 ```
 
 # 设置文件编码
 "default_encoding": "UTF-8",在Preferences，setting-default下设置就好
 
 # 参考
-    * [Sublime Text 官网](http://www.sublimetext.com/)
-    * [Sublime Text 的简单安装与详细配置 ](http://microsimple.github.io/2013/12/12/preferences-sublime.html)
-    * [Sublime Text 2 使用心得](http://ximingcheng.github.io/posts/Sublime-Text-2.html)
+* [Sublime Text 官网](http://www.sublimetext.com/)
+* [Sublime Text 的简单安装与详细配置 ](http://microsimple.github.io/2013/12/12/preferences-sublime.html)
+* [Sublime Text 2 使用心得](http://ximingcheng.github.io/posts/Sublime-Text-2.html)

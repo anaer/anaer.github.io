@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "spring AOP取得session"
-file: 
-update: 22 Apr 2015
 description: ""
 category: Java
 tags: [Java, Spring]
@@ -57,7 +55,6 @@ public class GetContent implements Filter {
 
 	@Override
 	public void init(FilterConfig arg0) throws ServletException {
-		// TODO Auto-generated method stub
 	}
 }
 
@@ -65,10 +62,10 @@ public class GetContent implements Filter {
 @Aspect
 public Class AopTest{
 	@Around(value="execution(* com.aptech.service.*.*(..))")
-	public void aroundTest(ProceedingJoinPoint pj) throws Exception {  
-    	HttpServletRequest request = SysContent.getRequest();  
-    	HttpServletResponse response = SysContent.getResponse();  
-    	HttpSession session = SysContent.getSession();  
+	public void aroundTest(ProceedingJoinPoint pj) throws Exception {
+    	HttpServletRequest request = SysContent.getRequest();
+    	HttpServletResponse response = SysContent.getResponse();
+    	HttpSession session = SysContent.getSession();
     	//其他操作
         if(true){
         	pj.proceed();
@@ -79,14 +76,14 @@ public Class AopTest{
 
 ```
 
-``` xml
-	<!-- web.xml -->
-	<filter>
-		<filter-name>GetContent</filter-name>
-		<filter-class>com.xxx.GetContent</filter-class>
-	</filter>
-	<filter-mapping>
-		<filter-name>GetContent</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+```xml
+<!-- web.xml -->
+<filter>
+    <filter-name>GetContent</filter-name>
+    <filter-class>com.xxx.GetContent</filter-class>
+</filter>
+<filter-mapping>
+    <filter-name>GetContent</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
 ```

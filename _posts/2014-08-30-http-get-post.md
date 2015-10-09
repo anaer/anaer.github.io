@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "web Form 表单 get与post区别"
-file: 2014-08-30-get-post.md
-update: 2015-01-26 16:56
 description: ""
 category: Java
-tags: [JavaWeb]
+tags: [Java]
 ---
 
 #### web Form 表单 get与post区别
@@ -52,7 +50,7 @@ tags: [JavaWeb]
 
 
 
-#### 参考  
+#### 参考
   * [web Form 表单method="get" method="post" 区别](http://www.cnblogs.com/yzc19838458/p/3946180.html)
   * [get/post发送HTTP请求3](http://www.cnblogs.com/java-pan/archive/2012/05/05/HTTP-POST-byte.html)
   * [java如何得到GET和POST请求URL和参数列表 ](http://blog.csdn.net/yaerfeng/article/details/18942739)

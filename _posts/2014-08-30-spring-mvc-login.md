@@ -6,8 +6,8 @@ category: SpringMVC
 tags: [SpringMVC]
 ---
 
-# 环境搭建  
-  * 参考[Java Web 开发](/2014/08/15/JavaWeb/)  
+# 环境搭建
+  * 参考[Java Web 开发](/2014/08/15/JavaWeb/)
     搭建开发环境
 
 # 配置web.xml
@@ -42,7 +42,7 @@ tags: [SpringMVC]
   <beans xmlns="http://www.springframework.org/schema/beans"
 	  xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
 	  xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	  xsi:schemaLocation="http://www.springframework.org/schema/beans
 					  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 					  http://www.springframework.org/schema/context
 					  http://www.springframework.org/schema/context/spring-context-3.0.xsd
@@ -63,7 +63,7 @@ tags: [SpringMVC]
 		  <property name="prefix" value="/WEB-INF/pages/" />
 		  <property name="suffix" value=".jsp" />
 	  </bean>
-  </beans>                 
+  </beans>
   ```
 
 # TestController
@@ -310,5 +310,5 @@ method="post">
 # 代码地址
   https://github.com/anaer/SpringMVC_Login_Demo
 
-# 参考  
+# 参考
   * [SpringMVC 登录DEMO ](http://blog.csdn.net/javaweiming/article/details/38927685)

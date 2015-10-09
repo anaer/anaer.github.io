@@ -2,8 +2,8 @@
 layout: post
 title: "Java Bean与Map<String,Object>互转"
 description: ""
-category: 
-tags: []
+category: java
+tags: [java]
 ---
 
 1. 为什么要实现javaBean与Map<String,Object>相互转换？
@@ -14,7 +14,7 @@ tags: []
 
 方法1： 利用java.beans.Introspector和java.beans.PropertyDescriptor实现 javaBean与Map<String,Object>互转
 
-方法2： 利用org.apache.commons.beanutils.BeanUtils工具类，BeanUtils.populate实现Map 转换为javaBean 
+方法2： 利用org.apache.commons.beanutils.BeanUtils工具类，BeanUtils.populate实现Map 转换为javaBean
 
   ```java
   package javaStudyDemo.bean.reflect.test;
@@ -115,7 +115,7 @@ tags: []
 
 		  if(obj == null){
 			  return null;
-		  }        
+		  }
 		  Map<String, Object> map = new HashMap<String, Object>();
 		  try {
 			  BeanInfo beanInfo = Introspector.getBeanInfo(obj.getClass());
@@ -143,7 +143,7 @@ tags: []
   }
   ```
 
-  注: PersonBean不能 直接作为上面这个类的内部类，会转换失败 
+  注: PersonBean不能 直接作为上面这个类的内部类，会转换失败
 
   ```java
   public class PersonBean {
@@ -201,9 +201,9 @@ tags: []
 总结：  javaBean与Map<String,Object>互转利用到了java的内省（ Introspector ）和反射（reflect）机制。 其思路为： 通过类 Introspector 来获取某个对象的 BeanInfo 信息，然后通过 BeanInfo 来获取属性的描述器PropertyDescriptor，再利用属性描述器获取某个属性对应的 getter/setter 方法，然后通过反射机制来getter和setter。
 
 
-什么是内省？ 
+什么是内省？
 
 内省是 Java 语言对 Bean 类属性、事件的一种缺省处理方法。例如类 PersonBean中有属性 name, 那我们可以通过 getName,setName 来得到其值或者设置新的值。通过 getName/setName 来访问 name 属性，这就是默认的规则。 Java 中提供了一套 API 用来访问某个属性的 getter/setter 方法，通过这些 API 可以使你不需要了解这个规则（但你最好还是要搞清楚），这些 API 存放于包 java.beans 中。注意： PersonBean中属性mN的getter/setter方法必须满足javaBean命名规范，即getmN，不能写作getMN，否则转换失败。详情参考  http://blog.renren.com/share/236384819/5598710664
 
-# 参考  
+# 参考
   * [javaBean与Map<String,Object>互转 ](http://blog.csdn.net/cuidiwhere/article/details/8130434)

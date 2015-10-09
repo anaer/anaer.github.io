@@ -6,9 +6,7 @@ category: Java
 tags: [Java, Spring]
 ---
 
-### Spring Validator 
-
-#### 
+### Spring Validator
 
 1. 实现validator接口
 
