@@ -2,7 +2,7 @@
 layout: post
 title: "maven常用配置"
 description: "maven常用配置"
-category:Java
+category: maven
 tags: [maven]
 ---
 
@@ -49,7 +49,7 @@ tags: [maven]
         <velocity-tools.version>1.4</velocity-tools.version>
         <javax.ws.rs.version>1.1.1</javax.ws.rs.version>
     </properties>
-    
+
     <dependencies>
           <!-- jodd工具包 -->
         <dependency>
@@ -71,7 +71,7 @@ tags: [maven]
             <version>${apache-logging.version}</version>
         </dependency>
 
-   <!-- Lucene -->
+        <!-- Lucene -->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
@@ -154,8 +154,8 @@ tags: [maven]
             <version>${org.apache.cxf.version}</version>
         </dependency>
     <dependencies>
-    
-    
+
+
 #### maven仓库
 
 ```xml

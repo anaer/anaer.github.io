@@ -2,9 +2,8 @@
 layout: post
 title: "Maven settings.xml 配置"
 description: "Maven settings.xml 配置"
-category:Maven
-tags: [Maven]
-
+category: maven
+tags: [maven]
 ---
 
 #### settings_osc.xml
@@ -52,15 +51,7 @@ tags: [Maven]
     </profile>
   </profiles>
   <activeProfiles>
-    <!--make the profile active all the time -->
     <activeProfile>nexus</activeProfile>
   </activeProfiles>
-    <servers>
-         <server>
-           <id>nexus</id>
-           <username>readOnly</username>
-           <password>hscmreadonly</password>
-         </server>
-     </servers>
 </settings>
 ```

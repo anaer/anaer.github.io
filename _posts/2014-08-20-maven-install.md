@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "maven笔记"
+title: "maven安装"
 description: ""
-category:java
+category: maven
 tags: [maven]
 ---
 
@@ -22,28 +22,17 @@ tags: [maven]
     命令参数:
     -o offline"
 
-    导入maven项目出现 Unsupported IClasspathEntry kind=4
-    问题是因为使用spring ide使用了m2eclipse 插件，但是这个插件的使用前提是不允许命令 mvn eclipse:eclipse在项目上执行过，如果执行过，就会抛出这个异常。
-
-    现阶段修复这个问题需要做两件事
-
-      1、保证m2e插件的版本高于 1.1.0，如果没有到站点升级 : https://repository.sonatype.org/content/repositories/forge-sites/m2e/1.1.0/N/LATEST/
-
-      2、去掉项目的maven特性，右键菜单就能去除，然后执行 mvn eclipse:clean，并且重新激活 maven 特性
-
-
     使用Maven的range dependency机制自动更新项目所需jar包
 
-
-    Range         Meaning
-    　(,1.0] 　                version ≤ 1.0
-    　1.0    　                固定1.0版本
+      Range         Meaning
+    　(,1.0] 　     version ≤ 1.0
+    　1.0    　     固定1.0版本
     　[1.0]
     　[1.2,1.3]  　 1.2 ≤ version ≤ 1.3
     　[1.0,2.0)  　 1.0 ≤ version ≤ 2.0
-    　[1.5,) 　                version ≥ 1.5
-    　(,1.0],[1.2,)  　x ≤ 1.0 || x ≥ 1.2 (区间用英文逗号隔开)
-    　(,1.1),(1.1,)  　version ≠ 1.0
+    　[1.5,) 　     version ≥ 1.5
+    　(,1.0],[1.2,) x ≤ 1.0 || x ≥ 1.2 (区间用英文逗号隔开)
+    　(,1.1),(1.1,) version ≠ 1.0
 
 #### Maven生命周期
   Maven拥有三套互相独立的生命周期，它们分别是clean,default和site。clean生命周期的目的是清理项目，default生命周期的目的是构建项目，而site生命周期的目的是建立项目站点。
