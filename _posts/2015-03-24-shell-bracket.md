@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "shell中括号处理"
-file: 2015-03-24-shell-bracket.md
-update: 2015-03-24 22:41
 description: "shell中括号处理"
-category:shell
+category: shell
 tags: [shell]
-
 ---
 
 ### shell中单中括号和双中括号的区别

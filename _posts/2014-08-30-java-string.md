@@ -26,30 +26,29 @@ tags: [Java]
   ```
 
 #### java.util.Date和java.sql.Date的区别及应用
-  
+
   ```
   java.util.Date 就是在除了SQL语句的情况下面使用
   java.sql.Date 是针对SQL语句使用的，它只包含日期而没有时间部分
   它都有getTime方法返回毫秒数，自然就可以直接构建
   java.util.Date d = new java.util.Date(sqlDate.getTime());
   ```
-  
+
 
 #### String 占位符
-  
+
     String stringFormat  = ""lexical error at position %s, encountered %s, expected %s "";
     String messageFormat =""lexical error at position {0}, encountered {1}, expected {2}"";
     System.out.println(String.format(stringFormat, 123, 100, 456));
     System.out.println(MessageFormat.format(messageFormat, new Date(), 100, 456));
 
    2种方式 主要是占位符不一样
-   
+
 
 #### string.format用法
 
 ```
-
-       1.对整数进行格式化：%[index$][标识][最小宽度]转换方式
+1.对整数进行格式化：%[index$][标识][最小宽度]转换方式
         我们可以看到，格式化字符串由4部分组成，其中%[index$]的含义我们上面已经讲过，[最小宽度]的含义也很好理解，就是最终该整数转化的字符串最少包含多少位数字。我们来看看剩下2个部分的含义吧：
 
 标识：
@@ -150,4 +149,4 @@ System.out.println(String.format("%1$d%%", 12));
 
 
 ### 参考
-  * [java.util.Date和java.sql.Date的区别及应用](http://www.cnblogs.com/gmh/archive/2008/03/14/1106064.html)
+* [java.util.Date和java.sql.Date的区别及应用](http://www.cnblogs.com/gmh/archive/2008/03/14/1106064.html)

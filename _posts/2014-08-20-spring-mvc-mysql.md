@@ -6,14 +6,13 @@ category: SpringMVC
 tags: [SpringMVC, Mysql]
 ---
 
-# 环境搭建  
-  * 参考[Java Web 开发](/2014/08/15/java-web/)  
+# 环境搭建
+  * 参考[Java Web 开发](/2014/08/15/java-web/)
     搭建开发环境
----
 
-# 配置web.xml  
-  * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/web.xml  
-  * 配置  
+# 配置web.xml
+  * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/web.xml
+  * 配置
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -61,9 +60,9 @@ tags: [SpringMVC, Mysql]
     </web-app>
     ```
 
-# 数据库配置db-config.properties  
-  * 路径: /SpringMVC_Mysql_Demo/src/main/resources/db-config.properties  
-  * 配置:  
+# 数据库配置db-config.properties
+  * 路径: /SpringMVC_Mysql_Demo/src/main/resources/db-config.properties
+  * 配置:
 
     ```
     #如果未指定主机名，默认为“127.0.0.1”。如果未指定端口，默认为“3306”，它是MySQL服务器的默认端口号。
@@ -73,37 +72,37 @@ tags: [SpringMVC, Mysql]
     db.dirverClass= com.mysql.jdbc.Driver
     ```
 
-# 测试数据  
+# 测试数据
 
   ```sql
   Create database springmvcdb ;
   use springmvcdb;
 
-  SET FOREIGN_KEY_CHECKS=0;  
-  -- ----------------------------  
-  -- Table structure for `usermbo`  
-  -- ----------------------------  
-  DROP TABLE IF EXISTS `usermbo`;  
-  CREATE TABLE `usermbo` (  
-   `USERID` int(11) NOT NULL DEFAULT '0',  
-   `USERNAME` varchar(50) DEFAULT NULL,  
-   `USERAGE` int(11) DEFAULT NULL,  
-   PRIMARY KEY (`USERID`)  
-  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;  
+  SET FOREIGN_KEY_CHECKS=0;
+  -- ----------------------------
+  -- Table structure for `usermbo`
+  -- ----------------------------
+  DROP TABLE IF EXISTS `usermbo`;
+  CREATE TABLE `usermbo` (
+   `USERID` int(11) NOT NULL DEFAULT '0',
+   `USERNAME` varchar(50) DEFAULT NULL,
+   `USERAGE` int(11) DEFAULT NULL,
+   PRIMARY KEY (`USERID`)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-  -- ----------------------------  
-  -- Records of usermbo  
-  -- ----------------------------  
-  INSERT INTO `usermbo` VALUES('1', '李晓红', '25');  
-  INSERT INTO `usermbo` VALUES('2', '柳梦璃', '27');  
+  -- ----------------------------
+  -- Records of usermbo
+  -- ----------------------------
+  INSERT INTO `usermbo` VALUES('1', '李晓红', '25');
+  INSERT INTO `usermbo` VALUES('2', '柳梦璃', '27');
   INSERT INTO `usermbo` VALUES('3', '韩菱纱', '26');
 
   select * from usermbo;
   ```
 
-# applicationContext.xml  
-  * 路径: /SpringMVC_Mysql_Demo/src/main/resources/applicationContext.xml  
-  * 配置:  
+# applicationContext.xml
+  * 路径: /SpringMVC_Mysql_Demo/src/main/resources/applicationContext.xml
+  * 配置:
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -183,161 +182,161 @@ tags: [SpringMVC, Mysql]
     			<value>userInfo</value>
     		</property>
     	</bean>
-    </beans>  
+    </beans>
     ```
 
-# UserDao.java  
-  * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserDao.java  
-  * 代码:  
-
-    ```java
-    package com.yjde.springmvc;  
-
-    import java.sql.ResultSet;  
-    import java.sql.SQLException;  
-    import java.util.Collection;  
-    import java.util.List;  
-
-    import org.springframework.jdbc.core.RowMapper;  
-    import org.springframework.jdbc.core.support.JdbcDaoSupport;  
-
-    //JdbcTemplate是core包的核心类。它替我们完成了资源的创建以及释放工作，从而简化了我们对JDBC的使用。它还可以帮助我们避免一些常见的错误，比如忘记关闭数据库连接。具体请参阅API  
-    @SuppressWarnings("all")  
-    public class UserDao extends JdbcDaoSupport {  
-        private String msg;  
-
-        public String getMsg() {  
-            return msg;  
-        }  
-
-        public void setMsg(String msg) {  
-            this.msg = msg;  
-        }  
-
-        // 此方法把USEMBO表对应的字段查询出来依次放入userPO中  
-        public Collection<UserPO> doquery() {  
-            String sql = "SELECT T.USERID,T.USERNAME,T.USERAGE FROM USERMBO T";  
-            return super.getJdbcTemplate().query(sql, new RowMapper() {  
-
-                public Object mapRow(ResultSet rs, int num) throws SQLException {  
-                    UserPO user = new UserPO();  
-                    user.setUserId(rs.getInt("USERID"));  
-                    user.setUserName(rs.getString("USERNAME"));  
-                    user.setUserAge(rs.getInt("USERAGE"));  
-                    return user;  
-                }  
-            });  
-        }  
-    }
-    ```
-
-# UserController.java  
-  * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserController.java  
+# UserDao.java
+  * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserDao.java
   * 代码:
 
     ```java
-    package com.yjde.springmvc;  
+    package com.yjde.springmvc;
 
-    import java.io.PrintWriter;  
-    import java.util.ArrayList;  
-    import java.util.Collection;  
-    import java.util.HashMap;  
-    import java.util.List;  
-    import java.util.Map;  
+    import java.sql.ResultSet;
+    import java.sql.SQLException;
+    import java.util.Collection;
+    import java.util.List;
 
-    import javax.servlet.http.HttpServletRequest;  
-    import javax.servlet.http.HttpServletResponse;  
+    import org.springframework.jdbc.core.RowMapper;
+    import org.springframework.jdbc.core.support.JdbcDaoSupport;
 
+    //JdbcTemplate是core包的核心类。它替我们完成了资源的创建以及释放工作，从而简化了我们对JDBC的使用。它还可以帮助我们避免一些常见的错误，比如忘记关闭数据库连接。具体请参阅API
+    @SuppressWarnings("all")
+    public class UserDao extends JdbcDaoSupport {
+        private String msg;
 
-    import org.springframework.validation.BindException;  
-    import org.springframework.web.servlet.ModelAndView;  
-    import org.springframework.web.servlet.mvc.SimpleFormController;  
+        public String getMsg() {
+            return msg;
+        }
 
-    @SuppressWarnings("all")  
-    // SimpleFormController是spring提供的表单控制器，把页面中Form中的元素名称设定为和bean中的一样，当传入的时候Spring会自动抓取form中和Bean名称一样的元素值，把它转换成一个bean,使得开发人员可以很方便的使用。  
-    public class UserController extends SimpleFormController {  
-        private String viewpage;  
-        private UserDao dao;  
+        public void setMsg(String msg) {
+            this.msg = msg;
+        }
 
-        public String getViewpage() {  
-            return viewpage;  
-        }  
+        // 此方法把USEMBO表对应的字段查询出来依次放入userPO中
+        public Collection<UserPO> doquery() {
+            String sql = "SELECT T.USERID,T.USERNAME,T.USERAGE FROM USERMBO T";
+            return super.getJdbcTemplate().query(sql, new RowMapper() {
 
-        public void setViewpage(String viewpage) {  
-            this.viewpage = viewpage;  
-        }  
-
-        @Override  
-        protected ModelAndView onSubmit(HttpServletRequest request,  
-                HttpServletResponse response, Object command, BindException errors)  
-                throws Exception {  
-            UserDao tmp = (UserDao) command;  
-            Collection<UserPO> list = dao.doquery();  
-            List<UserPO> users = new ArrayList<UserPO>();  
-            UserPO user;  
-            for (UserPO userPO : list) {  
-                user = new UserPO();  
-                user.setUserId(userPO.getUserId());  
-                user.setUserName(userPO.getUserName());  
-                user.setUserAge(userPO.getUserAge());  
-                users.add(user);  
-            }  
-            Map mp = new HashMap();  
-            mp.put("list", users);  
-            return new ModelAndView(getViewpage(), mp);  
-        }  
-
-        public void setDao(UserDao dao) {  
-            this.dao = dao;  
-        }  
-
-    }  
+                public Object mapRow(ResultSet rs, int num) throws SQLException {
+                    UserPO user = new UserPO();
+                    user.setUserId(rs.getInt("USERID"));
+                    user.setUserName(rs.getString("USERNAME"));
+                    user.setUserAge(rs.getInt("USERAGE"));
+                    return user;
+                }
+            });
+        }
+    }
     ```
 
----
-
-# UserPO.java  
-  * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserPO.java  
-  * 代码:  
+# UserController.java
+  * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserController.java
+  * 代码:
 
     ```java
-    package com.yjde.springmvc;  
+    package com.yjde.springmvc;
 
-    public class UserPO {  
-        private Integer userId;  
-        private String userName;  
-        private Integer userAge;  
+    import java.io.PrintWriter;
+    import java.util.ArrayList;
+    import java.util.Collection;
+    import java.util.HashMap;
+    import java.util.List;
+    import java.util.Map;
 
-        public Integer getUserId() {  
-            return userId;  
-        }  
+    import javax.servlet.http.HttpServletRequest;
+    import javax.servlet.http.HttpServletResponse;
 
-        public void setUserId(Integer userId) {  
-            this.userId = userId;  
-        }  
 
-        public String getUserName() {  
-            return userName;  
-        }  
+    import org.springframework.validation.BindException;
+    import org.springframework.web.servlet.ModelAndView;
+    import org.springframework.web.servlet.mvc.SimpleFormController;
 
-        public void setUserName(String userName) {  
-            this.userName = userName;  
-        }  
+    @SuppressWarnings("all")
+    // SimpleFormController是spring提供的表单控制器，把页面中Form中的元素名称设定为和bean中的一样，当传入的时候Spring会自动抓取form中和Bean名称一样的元素值，把它转换成一个bean,使得开发人员可以很方便的使用。
+    public class UserController extends SimpleFormController {
+        private String viewpage;
+        private UserDao dao;
 
-        public Integer getUserAge() {  
-            return userAge;  
-        }  
+        public String getViewpage() {
+            return viewpage;
+        }
 
-        public void setUserAge(Integer userAge) {  
-            this.userAge = userAge;  
-        }  
-    }  
+        public void setViewpage(String viewpage) {
+            this.viewpage = viewpage;
+        }
+
+        @Override
+        protected ModelAndView onSubmit(HttpServletRequest request,
+                HttpServletResponse response, Object command, BindException errors)
+                throws Exception {
+            UserDao tmp = (UserDao) command;
+            Collection<UserPO> list = dao.doquery();
+            List<UserPO> users = new ArrayList<UserPO>();
+            UserPO user;
+            for (UserPO userPO : list) {
+                user = new UserPO();
+                user.setUserId(userPO.getUserId());
+                user.setUserName(userPO.getUserName());
+                user.setUserAge(userPO.getUserAge());
+                users.add(user);
+            }
+            Map mp = new HashMap();
+            mp.put("list", users);
+            return new ModelAndView(getViewpage(), mp);
+        }
+
+        public void setDao(UserDao dao) {
+            this.dao = dao;
+        }
+
+    }
     ```
 
 ---
 
-# index.jsp  
-  * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/jsp/index.jsp  
+# UserPO.java
+  * 路径: /SpringMVC_Mysql_Demo/src/main/java/com/yjde/springmvc/UserPO.java
+  * 代码:
+
+    ```java
+    package com.yjde.springmvc;
+
+    public class UserPO {
+        private Integer userId;
+        private String userName;
+        private Integer userAge;
+
+        public Integer getUserId() {
+            return userId;
+        }
+
+        public void setUserId(Integer userId) {
+            this.userId = userId;
+        }
+
+        public String getUserName() {
+            return userName;
+        }
+
+        public void setUserName(String userName) {
+            this.userName = userName;
+        }
+
+        public Integer getUserAge() {
+            return userAge;
+        }
+
+        public void setUserAge(Integer userAge) {
+            this.userAge = userAge;
+        }
+    }
+    ```
+
+---
+
+# index.jsp
+  * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/jsp/index.jsp
   * 代码:
 
     ```html
@@ -358,8 +357,8 @@ tags: [SpringMVC, Mysql]
     <meta http-equiv="expires" content="0">
     <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
     <meta http-equiv="description" content="This is my page">
-    <!--  
-        <link rel="stylesheet" type="text/css" href="styles.css">  
+    <!--
+        <link rel="stylesheet" type="text/css" href="styles.css">
         -->
     </head>
 
@@ -374,8 +373,8 @@ tags: [SpringMVC, Mysql]
 
 ---
 
-# userInfo.jsp  
-  * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/jsp/userInfo.jsp  
+# userInfo.jsp
+  * 路径: /SpringMVC_Mysql_Demo/src/main/webapp/WEB-INF/jsp/userInfo.jsp
   * 代码:
 
     ```html
@@ -431,9 +430,9 @@ tags: [SpringMVC, Mysql]
 
 ---
 
-# pom.xml  
-  * 路径: /SpringMVC_Mysql_Demo/pom.xml  
-  * 配置:  
+# pom.xml
+  * 路径: /SpringMVC_Mysql_Demo/pom.xml
+  * 配置:
 
     ```xml
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -497,28 +496,16 @@ tags: [SpringMVC, Mysql]
   </project>
     ```
 
----
-
-# 学习  
-  * web.xml及其他配置中/代表了webapp目录  
-  * 配置中classpath:指/WEB-INF/classes/  
-  * src/main/resources下的配置文件编译后在/WEB-INF/classes  
-  * mysql的url配置，如果是本机而且使用默认端口可以不用配置ip及端口  
+# 学习
+  * web.xml及其他配置中/代表了webapp目录
+  * 配置中classpath:指/WEB-INF/classes/
+  * src/main/resources下的配置文件编译后在/WEB-INF/classes
+  * mysql的url配置，如果是本机而且使用默认端口可以不用配置ip及端口
     直接jdbc:mysql:///springmvcdb
 
----
-
-# 代码地址  
-  * [SpringMVC_Mysql_Demo](https://github.com/anaer/SpringMVC_Mysql_Demo)  
+# 代码地址
+  * [SpringMVC_Mysql_Demo](https://github.com/anaer/SpringMVC_Mysql_Demo)
     标签tag v1.0
 
----
-
-# 参考  
-  * [SpringMVC+Mysql实例详解 ](http://blog.csdn.net/tjcyjd/article/details/7492805)  
-<!--
-修改记录:
-  2014-08-20:
-    1. 新增文档
-
--->
+# 参考
+  * [SpringMVC+Mysql实例详解 ](http://blog.csdn.net/tjcyjd/article/details/7492805)

@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "shell实用命令"
-file: 2015-03-24-shell-script.md
-update: 2015-03-24 21:58
 description: "shell实用命令"
-category:shell
+category: shell
 tags: [shell]
 
 ---

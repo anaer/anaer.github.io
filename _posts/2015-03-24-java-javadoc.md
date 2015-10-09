@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Java 注释"
-file: 2014-03-24-java-comment.md
-update: 2015-03-24 11:14
 description: "Java 注释"
 category:Java
 tags: [Java]
-
 ---
 
 #### javadoc参数说明：

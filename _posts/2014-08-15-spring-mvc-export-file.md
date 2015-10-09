@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "SpringMVC 导出Excel及Pdf"
-file: 2014-08-15-spring-mvc-export-file.md
-update: 2015-02-05 09:34
 description: "转载"
 category: Java
 tags: [Java]
@@ -63,12 +61,12 @@ Spring支持从数据动态生成PDF或Excel文件，并使这一过程变得简
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-<context:component-scan base-package="com.lzk.controller"/>  
+<context:component-scan base-package="com.lzk.controller"/>
 
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
-        <property name="prefix" value="/WEB-INF/jsp/"/>  
-        <property name="suffix" value=".jsp"/>  
-    </bean>  
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
 
 </beans>
 ```
@@ -251,22 +249,22 @@ import com.lowagie.text.pdf.PdfWriter;
 * @author Tony Lin Created on 2008-10-22
 * @version Version 1.0
 */
-public class ViewPDF extends AbstractPdfView {  
-    public void buildPdfDocument(Map model, Document document,  
-            PdfWriter writer, HttpServletRequest request,  
-            HttpServletResponse response) throws Exception {  
+public class ViewPDF extends AbstractPdfView {
+    public void buildPdfDocument(Map model, Document document,
+            PdfWriter writer, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
 
-        List list = (List) model.get("list");  
+        List list = (List) model.get("list");
 
-        for (int i = 0; i < list.size(); i++)  
-            document.add(new Paragraph((String) list.get(i)));  
-    }  
+        for (int i = 0; i < list.size(); i++)
+            document.add(new Paragraph((String) list.get(i)));
+    }
 }
 ```
 
 6. /WEB-INF/jsp/view.jsp JSP页面调用
 ```html
-<%@ page language="java" pageEncoding="UTF-8"%>  
+<%@ page language="java" pageEncoding="UTF-8"%>
 <a href="<%=request.getContextPath()%>/view.form?method=pdftest" target="blank">保存pdf</a>
 <input name="button" type="button" id="button" value="保存excel"
 onclick="javascript:window.open('<%=request.getContextPath()%>/view.form?method=exceltest');"/>

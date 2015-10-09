@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "HTTP 状态码"
-file: 2014-08-29-http-status-code.md
-update: 2015-03-31 13:54
 description: ""
 category: HTTP
 tags: [HTTP]

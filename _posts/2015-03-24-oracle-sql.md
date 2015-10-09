@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Oracle常用sql"
-file: 2015-03-24-oracle-sql.md
-update: 2015-03-24 13:40
 description: "Oracle常用sql"
 category:Oracle
 tags: [Oracle, sql]
-
 ---
 
 --Admin123
@@ -74,7 +71,7 @@ select uat.table_name as 表名,
 #### 数据库连接串
 
  conn scott/tiger@orcl as sysdba;
- 
+
 #### Oracle order by 排序 默认升序
 asc 升序
 desc 降序
@@ -103,7 +100,7 @@ USE master EXEC sp_addumpdevice 'disk', 'testBack', 'c:/mssql7backup/MyNwind_1.d
 BACKUP DATABASE PUBS TO testback
 
 4：创建新表
-        
+
     crate table table-name(col1 type1 [not null] [primary key] , col2 type2 [not null],……………)
 
 根据已有的表创建新表
