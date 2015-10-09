@@ -4,18 +4,17 @@ title: "memcached使用介绍"
 description: "memcached使用介绍"
 category: memcached
 tags: [memcached]
-
 ---
 
 #### 安装启动
-        
+
     安装
     memcached.exe -d install
     启动
     memcached.exe -d start
 
 #### 连接memcached
-    
+
     telnet 127.0.0.1 11211
 
     常用命令:

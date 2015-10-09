@@ -4,10 +4,9 @@ title: "SpringMVC项目步骤"
 description: ""
 category: Spring
 tags: [SpringMVC]
-
 ---
 
-# SpringMVC关于ajax+Spring+MyBatis整合概述 
+# SpringMVC关于ajax+Spring+MyBatis整合概述
  1.前期工作
 
     1.1 数据库建表；

@@ -4,7 +4,6 @@ title: "Spring Junit单元测试"
 description: "Spring Junit单元测试"
 category:Spring
 tags: [Spring]
-
 ---
 
 #### 添加maven依赖
@@ -18,21 +17,21 @@ tags: [Spring]
 ```
 
 #### 读取配置文件
-    
+
     假设Spring配置文件为applicationContext.xml
     文件路径:src/main/resources
     代码:
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");  
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
     注解:
-        @RunWith(SpringJUnit4ClassRunner.class)  
-        @ContextConfiguration(locations={"classpath:applicationContext.xml"})  
+        @RunWith(SpringJUnit4ClassRunner.class)
+        @ContextConfiguration(locations={"classpath:applicationContext.xml"})
 
     文件路径:WEB-INF
     代码:
-        ApplicationContext applicationContext = new FileSystemXmlApplicationContext("src/main/webapp/WEB-INF/applicationContext.xml");  
+        ApplicationContext applicationContext = new FileSystemXmlApplicationContext("src/main/webapp/WEB-INF/applicationContext.xml");
     注解:
-        @RunWith(SpringJUnit4ClassRunner.class)  
-        @ContextConfiguration(locations={"file:src/main/webapp/WEB-INF/applicationContext.xml"})   
+        @RunWith(SpringJUnit4ClassRunner.class)
+        @ContextConfiguration(locations={"file:src/main/webapp/WEB-INF/applicationContext.xml"})
 
 #### 测试代码
 
@@ -61,7 +60,7 @@ public class SiteServiceTest {
 ```
 
 #### 说明
-  
+
     测试代码路径:src/test/java/com.service/SiteServiceTest.java
     资源文件路径:src/test/resources/spring/servlet-beans.xml
                  src/test/resources/spring/database-beans.xml

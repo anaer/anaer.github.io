@@ -4,7 +4,6 @@ title: "面试-java类型"
 description: "面试-java类型"
 category:面试
 tags: [面试]
-
 ---
 
 #### short s1=1;s1=s1+1;有什么错?short s1=1;s1+=1;有什么错?

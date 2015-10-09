@@ -4,8 +4,8 @@ title: "分布式与集群的区别 "
 description: ""
 category:
 tags: []
-
 ---
+
 简单说，分布式是以缩短单个任务的执行时间来提升效率的，而集群则是通过提高单位时间内执行的任务数来提升效率。
 
 例如：
@@ -16,7 +16,7 @@ tags: []
 
 而采用集群方案，同样提供10台服务器，每台服务器都能独立处理这个任务。假设有10个任务同时到达，10个服务器将同时工作，10小后，10个任务同时完成，这样，整身来看，还是1小时内完成一个任务！
 
- 
+
 
 以下是摘抄自网络文章：
 集群概念
@@ -56,17 +56,17 @@ Linux集群主要分成三大类( 高可用集群， 负载均衡集群，科学
 
 具体包括：
 
-Linux High Availability 高可用集群                                      
+Linux High Availability 高可用集群
 (普通两节点双机热备，多节点HA集群，RAC, shared, share-nothing集群等)
 
-Linux Load Balance 负载均衡集群                                     
+Linux Load Balance 负载均衡集群
  (LVS等....)
 
-Linux High Performance Computing 高性能科学计算集群    
+Linux High Performance Computing 高性能科学计算集群
  (Beowulf 类集群....)
 
-分布式存储                                                                        
-其他类linux集群             
+分布式存储
+其他类linux集群
 (如Openmosix, rendering farm 等..)
 详细介绍
 

@@ -2,9 +2,9 @@
 layout: post
 title: "面试-java数学函数"
 description: "面试-java数学函数"
-category: 面试 
+category: 面试
 tags: [面试]
---- 
+---
 
 #### Math.round(11.5)等于多少?Math.round(-11.5)等于多少?
 
