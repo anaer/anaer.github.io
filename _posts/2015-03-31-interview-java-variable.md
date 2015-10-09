@@ -4,7 +4,7 @@ title: "面试-java变量"
 description: "面试-java变量"
 category: 面试
 tags: [面试]
---- 
+---
 
 #### 静态变量和实例变量的区别
     在语法定义上的区别:
