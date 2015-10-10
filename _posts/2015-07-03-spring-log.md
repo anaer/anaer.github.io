@@ -1,10 +1,9 @@
 ---
 layout: post
-title: ""
+title: "Spring实现方法执行前后记录日志"
 description: ""
-category:
-tags: []
-
+category: spring
+tags: [spring]
 ---
 
 ### 使用BeanNameAutoProxyCreator实现方法执行前和执行后的日志记录

@@ -4,7 +4,6 @@ title: "log4j改造"
 description: ""
 category:log4j
 tags: [log4j]
-
 ---
 
 #### AsyncConsoleAppender
@@ -31,7 +30,7 @@ public class AsyncConsoleAppender extends AsyncWriterAppender {
         super.setAppender(appender);
         this.addAppender(appender);
     }
-    
+
     /**
      * Recognized values are
      * "System.out" and "System.err". Any other value will be ignored.
@@ -41,7 +40,7 @@ public class AsyncConsoleAppender extends AsyncWriterAppender {
     public void setTarget(String value) {
         appender.setTarget(value);
     }
-    
+
     /**
      * Returns the current value of the <b>Target</b> property. The default
      * value of the option is "System.out".
@@ -52,7 +51,7 @@ public class AsyncConsoleAppender extends AsyncWriterAppender {
     public String getTarget() {
         return appender.getTarget();
     }
-    
+
     /**
      * Sets whether the appender honors reassignments of System.out or
      * System.err made after configuration.
@@ -65,7 +64,7 @@ public class AsyncConsoleAppender extends AsyncWriterAppender {
     public final void setFollow(final boolean newValue) {
         appender.setFollow(newValue);
     }
-    
+
     /**
      * Gets whether the appender honors reassignments of System.out or
      * System.err made after configuration.
@@ -95,7 +94,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
      * 追加器.
      */
     private DailyRollingFileAppender appender = new DailyRollingFileAppender();
-    
+
     /**
      * 构造函数.
      */
@@ -106,7 +105,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
         // appender.setMaximumFileSize(100L * 1024L * 1024L); // 默认文件大小 100M
         this.addAppender(appender);
     }
-    
+
     /**
      * The <b>File</b> property takes a string value which should be the name of
      * the file to append to.
@@ -120,19 +119,19 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public void setFile(String file) {
         appender.setFile(file);
     }
-    
+
     /**
      * @return Returns the value of the <b>Append</b> option.
      */
     public boolean getAppend() {
         return appender.getAppend();
     }
-    
+
     /** @return Returns the value of the <b>File</b> option. */
     public synchronized String getFile() {
         return appender.getFile();
     }
-    
+
     /**
      * BufferedIO will significatnly increase performance on heavily loaded systems.
      *
@@ -141,7 +140,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public boolean getBufferedIO() {
         return appender.getBufferedIO();
     }
-    
+
     /**
      * Get the size of the IO buffer.
      */
@@ -149,7 +148,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public int getBufferSize() {
         return appender.getBufferSize();
     }
-    
+
     /**
      * The <b>Append</b> option takes a boolean value. It is set to <code>true</code> by default. If true, then <code>File</code> will be
      * opened in append mode by {@link #setFile setFile} (see above). Otherwise, {@link #setFile setFile} will open <code>File</code> in truncate mode.
@@ -161,7 +160,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public void setAppend(boolean flag) {
         appender.setAppend(flag);
     }
-    
+
     /**
      * The <b>BufferedIO</b> option takes a boolean value. It is set to <code>false</code> by default. If true, then <code>File</code> will be
      * opened and the resulting {@link java.io.Writer} wrapped around a {@link java.io.BufferedWriter}.
@@ -173,7 +172,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public void setBufferedIO(boolean bufferedIO) {
         appender.setBufferedIO(bufferedIO);
     }
-    
+
     /**
      * Set the size of the IO buffer.
      */
@@ -181,7 +180,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public void setBufferSize(int bufferSize) {
         appender.setBufferSize(bufferSize);
     }
-    
+
     /**
      * <p>
      * Sets and <i>opens</i> the file where the log output will go. The specified file must be writable.
@@ -203,7 +202,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
             boolean bufferedIO, int bufferSize) throws IOException {
         appender.setFile(fileName, append, bufferedIO, bufferSize);
     }
-    
+
     /**
      * Get the maximum size that the output file is allowed to reach before
      * being rolled over to backup files.
@@ -215,7 +214,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public long getMaximumFileSize() {
         return appender.getMaximumFileSize();
     }
-    
+
     /**
      * Set the maximum size that the output file is allowed to reach before
      * being rolled over to backup files.
@@ -235,7 +234,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public void setMaximumFileSize(long maxFileSize) {
         appender.setMaximumFileSize(maxFileSize);
     }
-    
+
     /**
      * Set the maximum size that the output file is allowed to reach before
      * being rolled over to backup files.
@@ -253,7 +252,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public void setMaxFileSize(String value) {
         appender.setMaxFileSize(value);
     }
-    
+
     /**
      * Returns the value of the <b>MaxBackupIndex</b> option.
      * @return the value of the <b>MaxBackupIndex</b> option
@@ -261,7 +260,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public int getMaxBackupIndex() {
         return appender.getMaxBackupIndex();
     }
-    
+
     /**
      * Set the maximum number of backup files to keep around.
      *
@@ -276,7 +275,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public void setMaxBackupIndex(int maxBackups) {
         appender.setMaxBackupIndex(maxBackups);
     }
-    
+
     /**
      * The <b>DatePattern</b> takes a string in the same format as expected by {@link java.text.SimpleDateFormat}. This options determines the rollover schedule.
      *
@@ -285,7 +284,7 @@ public class AsyncFileAppender extends AsyncWriterAppender {
     public void setDatePattern(String pattern) {
         appender.setDatePattern(pattern);
     }
-    
+
     /**
      * Returns the value of the <b>DatePattern</b> option.
      *
@@ -1264,14 +1263,14 @@ public class LogContext {
     public static void initContext(LogContext logContext) {
         LOG_CONTEXTS.set(logContext);
     }
-    
+
     /**
      * 清除日志上下文信息.
      */
     public static void clearContext() {
         LOG_CONTEXTS.remove();
     }
-    
+
     /**
      * 获取日志上下文信息.
      *
@@ -1280,7 +1279,7 @@ public class LogContext {
     public static LogContext getLogContext() {
         return LOG_CONTEXTS.get();
     }
-    
+
     /**
      * 对原始日志信息进行封装处理.
      *
@@ -1360,7 +1359,7 @@ public class LogContext {
     public final void setClientIp(String clientIp) {
         this.clientIp = clientIp;
     }
-    
+
 
 }
 

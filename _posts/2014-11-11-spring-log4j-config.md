@@ -4,7 +4,6 @@ title: "spring log4j配置说明"
 description: "spring log4j配置说明"
 category: java
 tags: [log4j]
-
 ---
 
 ### spring项目添加log4j支持
