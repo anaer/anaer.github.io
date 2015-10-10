@@ -4,7 +4,7 @@ title: "linux 磁盘映射"
 description: ""
 category: Linux
 tags: [Linux]
---- 
+---
 
 http://blog.csdn.net/hs6823/article/details/8017177
 假定需要被映射的源目录所在的机器为PC1:192.168.1.1
@@ -33,7 +33,7 @@ http://blog.csdn.net/hs6823/article/details/8017177
 
         no_root_squash：nfs服务器共享目录用户的属性，如果用户是 root，那么对于这个共享目录来说就具有 root 的权限。
 
-  
+
 
         接着执行如下命令，启动端口映射：
 
@@ -61,6 +61,6 @@ http://blog.csdn.net/hs6823/article/details/8017177
 
  以上就是全部映射的过程。感谢：http://server.zdnet.com.cn/server/2007/0831/482007.shtml
 
- 
+
 
       取消挂载的命令是 umount /mnt

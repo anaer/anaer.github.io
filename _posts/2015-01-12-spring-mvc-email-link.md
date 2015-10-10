@@ -4,7 +4,6 @@ title: "SpringMvc发送邮件"
 description: ""
 category:Spring
 tags: [Spring]
-
 ---
 
 ### 参考

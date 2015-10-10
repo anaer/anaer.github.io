@@ -4,7 +4,6 @@ title: "cxf创建webservice"
 description: ""
 category: Java
 tags: [Java, WebService]
-
 ---
 
 ### Webservice技术
@@ -12,21 +11,21 @@ tags: [Java, WebService]
 #### Java的Webservice
 
   * Axis2
-  * Spring WS 
+  * Spring WS
   * Jaxws 适合几乎所有Webservice客户端的调用
 
 #### JAX-WS 概述
 
     JAX-WS2.0 的全称为 Java API for XML-Based Webservices (JAX-WS) 2.0。
-    JAX-WS 2.0 是对 JAX-RPC 1.0 规范的扩展，是 JAX-RPC 1.1 的后续版本， JAX-RPC 2.0 标准发布不久后便被重新命名为 JAX-WS 2.0。 
-    JAX-WS 2.0 是面向 Java 5 的开发 Web services 的最新编程标准，它提供了新的编程模型和对以往的 JAX-RPC 方式的 Web services 进行了增强。 
+    JAX-WS 2.0 是对 JAX-RPC 1.0 规范的扩展，是 JAX-RPC 1.1 的后续版本， JAX-RPC 2.0 标准发布不久后便被重新命名为 JAX-WS 2.0。
+    JAX-WS 2.0 是面向 Java 5 的开发 Web services 的最新编程标准，它提供了新的编程模型和对以往的 JAX-RPC 方式的 Web services 进行了增强。
     JAX-WS2.0 (JSR 224)是Sun新的web services协议栈，是一个完全基于标准的实现。
     在binding层，使用的是the Java Architecture for XMLBinding (JAXB, JSR 222)，
     在parsing层，使用的是the Streaming API for XML (StAX, JSR 173)，
     同时它还完全支持schema规范。
 
 #### JAX-WS 2.1特性
-  
+
   * 支持SOAP 1.1（默认）、1.2
   * 支持XML/HTTP Binding
   * 支持WS-Addressing
@@ -89,7 +88,7 @@ public class Hello {
 #### Maven配置
 
   ```xml
-		 <!-- 
+		 <!--
             <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-api</artifactId>
@@ -101,7 +100,7 @@ public class Hello {
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>${cxf.version}</version>
         </dependency>
-        <!-- 
+        <!--
         <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-bindings-soap</artifactId>
@@ -113,7 +112,7 @@ public class Hello {
             <artifactId>cxf-rt-transports-http</artifactId>
             <version>${cxf.version}</version>
         </dependency>
-         <!-- 
+         <!--
             <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-ws-security</artifactId>
@@ -124,26 +123,26 @@ public class Hello {
 #### 错误信息
   * The security token could not be authenticated or authorized
 
-  * cxf wss4j 令牌验证 为什么 回调是空？ jaxws:server password null  
-	
+  * cxf wss4j 令牌验证 为什么 回调是空？ jaxws:server password null
+
 在按照网上的例子进行配置用户名令牌的例子，在server端的回调函数中获取的password 却一直是空，搜索了好半天，才找到（这个是MD5加密的）：
 
 WSPasswordCallback 的passwordType属性和password 属性都为null，你只能获得用户名（identifier），一般这里的逻辑是使用这个用户名到数据库中查询其密码，然后再设置到password 属性，WSS4J 会自动比较客户端传来的值和你设置的这个值。你可能会问为什么这里CXF 不把客户端提交的密码传入让我们在ServerPasswordCallbackHandler 中比较呢？这是因为客户端提交过来的密码在SOAP 消息中已经被加密为MD5 的字符串，如果我们要在回调方法中作比较，那么第一步要做的就是把服务端准备好的密码加密为MD5 字符串，由于MD5 算法参数不同结果也会有差别，另外，这样的工作CXF 替我们完成不是更简单吗？
 
- 
+
 
 根据上面说的，我获取的password 为null，所以这里就不用自己判断密码了，只要验证用户名后，在设置密码就可以自动验证了，代码如下：
 
 ```java
-public class ServerPasswordCallback implements CallbackHandler {   
-   
-     public void handle(Callback[] callbacks) throws IOException,   
-              UnsupportedCallbackException {   
-          WSPasswordCallback pc = (WSPasswordCallback) callbacks[0];   
-          String pw = pc.getPassword();   
-          String idf = pc.getIdentifier();   
-          System.out.println("password:"+pw);   
-          System.out.println("identifier:"+idf); 
+public class ServerPasswordCallback implements CallbackHandler {
+
+     public void handle(Callback[] callbacks) throws IOException,
+              UnsupportedCallbackException {
+          WSPasswordCallback pc = (WSPasswordCallback) callbacks[0];
+          String pw = pc.getPassword();
+          String idf = pc.getIdentifier();
+          System.out.println("password:"+pw);
+          System.out.println("identifier:"+idf);
           if(idf.endsWith("admin")){
            pc.setPassword("admin");
           }

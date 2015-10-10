@@ -10,8 +10,8 @@ tags: [js]
 
 #### [JS简介](http://www.w3school.com.cn/js/js_intro.asp)
 
-### [写入HTML输出](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_document_write)  
-	
+### [写入HTML输出](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_document_write)
+
 ```html
 document.write("纯文本");
 document.write("<h1>带标签</h1>");
@@ -20,12 +20,12 @@ document.write("<h1>带标签</h1>");
 
 ### [对事件作出反应](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_alert)
 	原理: 添加按钮事件onclick,触发javascript方法function
-	
+
 	```html
 	<button type="button" onclick="alert('弹出提示框')">提示</button>
 	```
-  
-### [改变HTML内容](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_inner_html)  
+
+### [改变HTML内容](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_inner_html)
 	原理: 通过x=document.getElementById("id"); 找到元素
 	      再通过x.innerHTML="改变内容";
 
@@ -39,7 +39,7 @@ document.write("<h1>带标签</h1>");
 	x.style.color="#ff0000";           //改变样式
 	```
 
-### [验证输入](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_validate)  
+### [验证输入](http://www.w3school.com.cn/tiy/t.asp?f=js_intro_validate)
 
 	```html
 	var x=document.getElementById("demo").value;
@@ -93,7 +93,7 @@ document.write("<h1>带标签</h1>");
 
   ```html
   // 单行注释
-  /* 
+  /*
   多
   行
   注
@@ -102,7 +102,7 @@ document.write("<h1>带标签</h1>");
   ```
 
 ## [JS变量](http://www.w3school.com.cn/js/js_variables.asp)
-  
+
 
 # Javascript事件
   document.getElementById("id")
@@ -148,11 +148,11 @@ document.write("<h1>带标签</h1>");
   splice()：插入、删除或者替换一个数组元素
 
   javascript的数组不需要设定长度，会自己进行扩展，数组名.length返回元素个数
-	
+
 
 ---
 
-# JavaScript--事件对象 
+# JavaScript--事件对象
 
   ```
   事件源对象 event.srcElement.tagName event.srcElement.type
@@ -217,7 +217,7 @@ document.write("<h1>带标签</h1>");
   窗口是否关闭 win.closed
   checkbox扁平 <input type=checkbox style="position: absolute; clip:rect(5px 15px 15px 5px)"><br>
   获取选中内容 document.selection.createRange().duplicate().text
-  自动完成功能 <input type=text autocomplete=on>打开该功能 <input type=text autocomplete=off>关闭该功能   
+  自动完成功能 <input type=text autocomplete=on>打开该功能 <input type=text autocomplete=off>关闭该功能
   窗口最大化 <body onload="window.resizeTo(window.screen.width - 4,window.screen.height-50);window.moveTo(-4,-4)">
   无关闭按钮IE window.open("aa.htm", "meizz", "fullscreen=7");
   统一编码/解码 alert(decodeURIComponent(encodeURIComponent("http://你好.com?as= hehe"))) encodeURIComponent对":"、"/"、";" 和 "?"也编码
@@ -229,20 +229,20 @@ document.write("<h1>带标签</h1>");
 
   ```Javascript
   //Description:  银行卡号Luhm校验
- 
+
 //Luhm校验规则：16位银行卡号（19位通用）:
- 
+
 // 1.将未带校验位的 15（或18）位卡号从右依次编号 1 到 15（18），位于奇数位号上的数字乘以 2。
 // 2.将奇位乘积的个十位全部相加，再加上所有偶数位上的数字。
 // 3.将加法和加上校验位能被 10 整除。
- 
-//方法步骤很清晰，易理解，需要在页面引用Jquery.js   
- 
- 
+
+//方法步骤很清晰，易理解，需要在页面引用Jquery.js
+
+
 //bankno为银行卡号 banknoInfo为显示提示信息的DIV或其他控件
 function luhmCheck(bankno){
     var lastNum=bankno.substr(bankno.length-1,1);//取出最后一位（与luhm进行比较）
- 
+
     var first15Num=bankno.substr(0,bankno.length-1);//前15或18位
     var newArr=new Array();
     for(var i=first15Num.length-1;i>-1;i--){    //前15或18位倒序存进数组
@@ -250,7 +250,7 @@ function luhmCheck(bankno){
     }
     var arrJiShu=new Array();  //奇数位*2的积 <9
     var arrJiShu2=new Array(); //奇数位*2的积 >9
-     
+
     var arrOuShu=new Array();  //偶数位数组
     for(var j=0;j<newArr.length;j++){
         if((j+1)%2==1){//奇数位
@@ -262,14 +262,14 @@ function luhmCheck(bankno){
         else //偶数位
         arrOuShu.push(newArr[j]);
     }
-     
+
     var jishu_child1=new Array();//奇数位*2 >9 的分割之后的数组个位数
     var jishu_child2=new Array();//奇数位*2 >9 的分割之后的数组十位数
     for(var h=0;h<arrJiShu2.length;h++){
         jishu_child1.push(parseInt(arrJiShu2[h])%10);
         jishu_child2.push(parseInt(arrJiShu2[h])/10);
-    }       
-     
+    }
+
     var sumJiShu=0; //奇数位*2 < 9 的数组之和
     var sumOuShu=0; //偶数位数组之和
     var sumJiShuChild1=0; //奇数位*2 >9 的分割之后的数组个位数之和
@@ -278,22 +278,22 @@ function luhmCheck(bankno){
     for(var m=0;m<arrJiShu.length;m++){
         sumJiShu=sumJiShu+parseInt(arrJiShu[m]);
     }
-     
+
     for(var n=0;n<arrOuShu.length;n++){
         sumOuShu=sumOuShu+parseInt(arrOuShu[n]);
     }
-     
+
     for(var p=0;p<jishu_child1.length;p++){
         sumJiShuChild1=sumJiShuChild1+parseInt(jishu_child1[p]);
         sumJiShuChild2=sumJiShuChild2+parseInt(jishu_child2[p]);
-    }     
+    }
     //计算总和
     sumTotal=parseInt(sumJiShu)+parseInt(sumOuShu)+parseInt(sumJiShuChild1)+parseInt(sumJiShuChild2);
-     
+
     //计算Luhm值
-    var k= parseInt(sumTotal)%10==0?10:parseInt(sumTotal)%10;       
+    var k= parseInt(sumTotal)%10==0?10:parseInt(sumTotal)%10;
     var luhm= 10-k;
-     
+
     if(lastNum==luhm){
     $("#banknoInfo").html("Luhm验证通过");
     return true;
@@ -301,48 +301,48 @@ function luhmCheck(bankno){
     else{
     $("#banknoInfo").html("银行卡号必须符合Luhm校验");
     return false;
-    }       
+    }
 }
   ```
-  
+
 #### style.display
 
    ```
    style.display = ""；是清除display样式，display将使用默认值（块元素会变成block，内联元素会变成inline）
    style.display="none"； 中“none”是一个值，表示元素将隐藏
    ```
-   
+
 #### html编码解码
 
 ```javascript
 
-function html_encode(str)  
-{  
-  var s = "";  
-  if (str.length == 0) return "";  
-  s = str.replace(/&/g, "&amp;");  
-  s = s.replace(/</g, "&lt;");  
-  s = s.replace(/>/g, "&gt;");  
-  //s = s.replace(/ /g, "&nbsp;");  
-  s = s.replace(/\'/g, "&#39;");  
-  s = s.replace(/\"/g, "&quot;");  
-  //s = s.replace(/\n/g, "<br>");  
-  return s;  
-}  
+function html_encode(str)
+{
+  var s = "";
+  if (str.length == 0) return "";
+  s = str.replace(/&/g, "&amp;");
+  s = s.replace(/</g, "&lt;");
+  s = s.replace(/>/g, "&gt;");
+  //s = s.replace(/ /g, "&nbsp;");
+  s = s.replace(/\'/g, "&#39;");
+  s = s.replace(/\"/g, "&quot;");
+  //s = s.replace(/\n/g, "<br>");
+  return s;
+}
 
-function html_decode(str)  
-{  
-  var s = "";  
-  if (str.length == 0) return "";  
-  s = str.replace(/&gt;/g, "&");  
-  s = s.replace(/&lt;/g, "<");  
-  s = s.replace(/&gt;/g, ">");  
-  s = s.replace(/&nbsp;/g, " ");  
-  s = s.replace(/&#39;/g, "\'");  
-  s = s.replace(/&quot;/g, "\"");  
-  s = s.replace(/<br>/g, "\n");  
-  return s;  
-}   
+function html_decode(str)
+{
+  var s = "";
+  if (str.length == 0) return "";
+  s = str.replace(/&gt;/g, "&");
+  s = s.replace(/&lt;/g, "<");
+  s = s.replace(/&gt;/g, ">");
+  s = s.replace(/&nbsp;/g, " ");
+  s = s.replace(/&#39;/g, "\'");
+  s = s.replace(/&quot;/g, "\"");
+  s = s.replace(/<br>/g, "\n");
+  return s;
+}
 ```
 
 #### js获取星期几
@@ -357,8 +357,8 @@ if(new Date().getDay()==4)          week="星期四"
 if(new Date().getDay()==5)          week="星期五"
 if(new Date().getDay()==6)          week="星期六"
 ```
-  
-  
+
+
 #### js 数组获取
 
     mm 超出范围时, 取''
@@ -367,9 +367,9 @@ if(new Date().getDay()==6)          week="星期六"
              'August', 'September', 'October',
              'November', 'December'
             ][mm-1] || '';
-            
+
 ### 参考
-  * [辛星解读Javascript](http://blog.csdn.net/column/details/xinxingjs.html)  
+  * [辛星解读Javascript](http://blog.csdn.net/column/details/xinxingjs.html)
   * [Javascript教程](http://www.w3school.com.cn/js/index.asp)
   * [Javascript新手教程](http://js101.co/)
 

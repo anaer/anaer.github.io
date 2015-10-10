@@ -8,7 +8,7 @@ tags: [spring, quartz, task]
 
 #### 添加quartz jar包依赖
     以下代码使用的quartz 1.8.4版本，如果使用新版本jar包, 配置可能不一致
-   
+
 ```xml
     <dependency>
         <groupId>org.quartz-scheduler</groupId>
@@ -41,7 +41,7 @@ tags: [spring, quartz, task]
         <property name="jobDetail" ref="jobDetail" />
         <property name="cronExpression" value="10 0/1 * * * ?" />
     </bean>
-    <!-- 
+    <!--
     1.8.5: org.springframework.scheduling.quartz.SimpleTriggerBean
     2.2.1: org.springframework.scheduling.quartz.SimpleTriggerFactoryBean
      -->

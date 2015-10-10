@@ -4,7 +4,7 @@ title: "oracle faq"
 description: ""
 category: Oracle
 tags: [Oracle]
---- 
+---
 
 #### ORA-12541 TNS无监听程序
     将tnsnames.ora,listener.ora中的host名称改为计算机名

@@ -7,6 +7,7 @@ tags: [Oracle]
 ---
 
 #### 数据泵导入
+
     导出：
     expdp scott/tiger directory=dumpdir dumpfile=scott.dmp
 

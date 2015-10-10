@@ -102,3 +102,7 @@ Key:				http://www.springframework.org/schema/mvc/spring-mvc.xsd
 Preferences->JavaScript->Editor 去掉Report problems as you type
 #### 启动Eclipse报错 Failed to load the JNI shared library
     Eclipse与JDK位数不一致, 一个32位 一个64位
+
+#### Maven工程转换
+    maven工程转为一般工程： 工程右键--->Maven--->Disable Maven Nature转为一般工程。
+    一般工程转为maven工程： 工程右键--->Configure--->Convert to Maven Project转为maven工程。

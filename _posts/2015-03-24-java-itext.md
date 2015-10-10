@@ -4,19 +4,18 @@ title: "itext"
 description: "itext"
 category:Java
 tags: [Java, iText]
-
 ---
 
 #### iText 表格内容 水平居中
 
-    先调用Cell.setUseAscender(true); 
-    再调用Cell.setVerticalAlignment(Cell.ALIGN_MIDDLE); 
+    先调用Cell.setUseAscender(true);
+    再调用Cell.setVerticalAlignment(Cell.ALIGN_MIDDLE);
 
-    cell.setHorizontalAlignment(Element.ALIGN_CENTER); //水平居中 
-    cell.setVerticalAlignment(Element.ALIGN_MIDDLE); //垂直居中"	
+    cell.setHorizontalAlignment(Element.ALIGN_CENTER); //水平居中
+    cell.setVerticalAlignment(Element.ALIGN_MIDDLE); //垂直居中"
 
 #### iText 下划线
-    
+
     Phrase phrase = new Phrase();
     phrase.add(ChunkValue(""xxxx"", titleFont));
     phrase.add(new Chunk(""公司"", titleFont));
@@ -25,7 +24,7 @@ tags: [Java, iText]
     phrase.add(new Chunk(""99"", valueFont));
     phrase.add(new Chunk(""期"", titleFont));
     phrase.add(new Chunk(""103"", valueFont));
-    insertParagraph(phrase, ""center"");"	
+    insertParagraph(phrase, ""center"");"
 
 #### iText 下划线
 

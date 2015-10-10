@@ -8,8 +8,8 @@ tags: [java, xml, dom4j]
 
 #### XML概念
 
-    XML（可扩展标记语言）是一种很流行的简单的基于文本的语言来用作应用程序之间的通信模式。它被认为是传输标准装置和存储数据。JAVA提供了极好的支持和丰富的库来解析，修改或查询XML文档。
-
+    XML（可扩展标记语言）是一种很流行的简单的基于文本的语言来用作应用程序之间的通信模式。它被认为是传输标准装置和存储数据。
+    JAVA提供了极好的支持和丰富的库来解析，修改或查询XML文档。
 
 #### 添加dom4j jar包依赖
 
@@ -28,7 +28,7 @@ tags: [java, xml, dom4j]
   <version>1.1.6</version>
 </dependency>
 ```
-    
+
 #### dom4j解析xml文件
 
 ```java
@@ -57,7 +57,7 @@ Element dependencies = project.addElement("dependencies");
 Element dependEle = dependencies.addElement("dependency");
 dependEle.addElement("groupId").addText(groupId);
 dependEle.addElement("artifactId").addText(artifactId);
-            
+
 // 不格式化的话 直接输出这个就行了
 String result = doc.asXML();
 

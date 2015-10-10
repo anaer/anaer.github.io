@@ -4,7 +4,7 @@ title: "linux 共享文件夹"
 description: ""
 category: Linux
 tags: [Linux]
---- 
+---
 
 在linux上共享文件夹windows下看
 *******************************************
