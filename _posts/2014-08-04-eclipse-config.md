@@ -19,7 +19,7 @@ tags: [Eclipse]
     点击Finish即可完成SVN的连接。
 
 #### Eclipse控制台输出对齐设置 使用等宽字体
-     使用等宽字体
+    使用等宽字体
     Preferences->General->Appearance->Colors and Fonts->Text Font 默认 使用等宽字体 Consolas 9
 
 #### 备份工作空间workspace
@@ -43,7 +43,7 @@ tags: [Eclipse]
 #### Eclipse 每次 debug 时要求 Edit Source Lookup Path 添加被调试项目的解决方案
     Window -- Preferences -- Tomcat-- Source Path 然后选择当前运行的项目就可以
 
-#### Eclipse 取消Javascript校验 
+#### Eclipse 取消Javascript校验
 
     Right click your project  (右单击工程属性)
     Select Properties -> JavaScript -> Include(选择JavaScript下的include菜单)

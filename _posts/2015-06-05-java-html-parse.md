@@ -11,7 +11,7 @@ tags: [Java, html]
 
 #### htmlPraser
     核心类:org.htmlparser.Parser
-    
+
     构造函数：
     public Parser ();
     public Parser (Lexer lexer, ParserFeedback fb);
@@ -22,7 +22,7 @@ tags: [Java, html]
     public Parser (URLConnection connection) throws ParserException;
     静态类:
     public static Parser createParser (String html, String charset);
-    
+
 
 
 ### 参考

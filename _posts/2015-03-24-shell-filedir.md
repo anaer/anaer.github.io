@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "shell中文件目录处理"
-file: 2015-03-24-shell-filedir.md
-update: 2015-03-24 22:35
 description: "shell中文件目录处理"
 category:shell
 tags: [shell]
-
 ---
+
 #### 判断文件/目录是否存在
-    if [ ! -x "$myPath" ]; then
-      mkdir "$myPath"
-    fi
+
+```sh
+if [ ! -x "$myPath" ]; then
+  mkdir "$myPath"
+fi
+```
 
     常用参数说明：
     -x 判断$myPath是否存在并且是否具有可执行权限

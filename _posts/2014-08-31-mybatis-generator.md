@@ -244,7 +244,7 @@ tags: [Maven, Mybatis]
   </generatorConfiguration>
   ```
 # 生成代码
-  * 在eclipse 中，选择pom.xml文件，击右键先择Run AS——>Maven Build… ——>在Goals框中输入：mybatis-generator:generate
+  * 在eclipse 中，选择pom.xml文件，击右键先择Run AS->Maven Build… ->在Goals框中输入：mybatis-generator:generate
   * 调用java代码执行生成
   `/Mybatis_Generator/src/main/java/Genetor.java`
 

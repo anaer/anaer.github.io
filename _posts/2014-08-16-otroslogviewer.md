@@ -3,7 +3,7 @@ layout: post
 title: "日志查看工具OtrosLogVIewer"
 description: ""
 category: Java
-tags: [Java, Log]
+tags: [Java]
 ---
 
 ### 相关链接

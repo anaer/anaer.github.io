@@ -4,7 +4,6 @@ title: "Linux Shell命令"
 description: "Linux Shell命令"
 category: Linux
 tags: [Linux, Shell]
-
 ---
 
 ### 终端打印
@@ -51,7 +50,7 @@ $hello world
 [08:55:40 ~ 13] $ echo -e "\e[1;42m Green Background \e[0m"
  Green Background
 ```
-  
+
 ```
 [08:51:31 ~ 6] $ echo "1\t2\t3"
 1\t2\t3
@@ -89,7 +88,7 @@ No    Name       Mark
 
 ### 变量
 #### 变量赋值
-  
+
 ```
 [09:12:09 ~ 28] $ var="value"   # =号旁边不能带空格,var = "value" 是相等操作不是赋值操作
 [09:12:13 ~ 29] $ echo $var
@@ -109,7 +108,7 @@ value
 PID    PPID    PGID     WINPID   TTY     UID    STIME COMMAND
 1236    4940    1236       4360  pty1     500 09:04:35 /usr/bin/bash
 ```
-  
+
 #### 查询系统位数
 
 ```
@@ -355,7 +354,7 @@ no1+no2
     统计当前目录下所有文件的大小,含子目录,精确到字节
         find ./ -type f | xargs ls -l | awk 'BEGIN{size=0}{size+=$5};END{print size}'
 
- 
+
 
 # 案例：
 
@@ -458,7 +457,7 @@ sed 'y/bb ll/BB LL/' test.txt  //将bb替换成BB，ll替换成LL
 sed '/he/w test1.txt' test.txt   //读取test.txt内容匹配he的行写入test1.txt
 sed '1,2w test1.txt' test.txt    //读取test.txt内容，第一二行写入test1.txt
 sed '/he/r test1.txt' test.txt //读取test.txt内容匹配he的行与test1.txt所有内容合并后输出
- 
+
 sed -n '1,3p' getrow.sh   //显示一行到三行的肉容
 sed -n '1,/hello/'p  orig.txt //从第一行开始打印，打印到第一个含有hello行
 //n的作用是取消默认输出 只打印包含模板的行,缺省为打印所有行(编辑和未编辑)
@@ -545,13 +544,13 @@ sed '2q' test.txt  //打印到第二行退出
   ```
 
 # Shell 调试
-  
+
   ```bash
   sh -x somefile.sh
   ```
 
 # tput彩色输出
-  
+
   ```bash
   tput Color Capabilities:
 
@@ -605,7 +604,7 @@ sed '2q' test.txt  //打印到第二行退出
   * 修改/etc/passwd，修改用户的启动shell为zsh
   * 复制.bashrc为.zshrc, 因为zsh兼容bash的配置
   * 路径自动补全功能
-  
+
   尝试在cygwin上安装后，响应很慢
 
 # scp ssh上传下载文件
@@ -853,7 +852,7 @@ sed '2q' test.txt  //打印到第二行退出
 ```
 
 # Linux Shell中的$0,$?,$!和<<'END'
-  
+
   ```
   变量说明:
 $$
@@ -905,7 +904,7 @@ END之间的内容作为cat命令的输入，所以接下来回车后会出现
 
 #### 问题处理
   * cygwin 执行mysql shell脚本, 不支持中文路径
-  
+
 ```sh
 需要修改脚本*.sh
 set fileencoding=cp936
