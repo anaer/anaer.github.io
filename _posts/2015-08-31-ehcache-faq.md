@@ -4,7 +4,6 @@ title: "ehcache常见问题"
 description: "ehcache常见问题"
 category:ehcache
 tags: [ehcache]
-
 ---
 
 * 关闭ehcache update check

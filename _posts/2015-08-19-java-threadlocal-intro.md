@@ -4,7 +4,6 @@ title: "Threadlocal线程局部变量"
 description: "Threadlocal线程局部变量"
 category:Java
 tags: [Threadlocal]
-
 ---
 
 #### ThreadLocal

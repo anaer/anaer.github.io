@@ -4,7 +4,6 @@ title: "Firefox的桌面通知"
 description: "Firefox的桌面通知"
 category:Firefox
 tags: [Firefox]
-
 ---
 
 #### 桌面通知代码

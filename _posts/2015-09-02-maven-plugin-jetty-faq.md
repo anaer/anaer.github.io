@@ -4,8 +4,8 @@ title: "maven jetty 插件常见问题"
 description: "maven jetty 插件常见问题"
 category:maven
 tags: [maven, jetty]
-
 ---
+
 #### jetty:run 提示数组下标越界
     在web.xml中 添加配置metadata-complete="true", 禁用jetty的注解扫描.
 

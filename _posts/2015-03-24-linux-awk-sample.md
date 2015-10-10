@@ -4,7 +4,6 @@ title: "Linux的awk命令用法"
 description: "Linux的awk命令用法"
 category: Linux
 tags: [Linux]
-
 ---
 
 #### 字符串分隔, 根据:分隔, 并打印第二项

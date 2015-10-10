@@ -2,16 +2,16 @@
 layout: post
 title: "Spring使用注解执行定时任务"
 description: ""
-category: spring 
+category: spring
 tags: [spring, task]
 ---
 
-#### 环境搭建  
-  * 参考[Java Web 开发](/2014/08/15/JavaWeb/)  
+#### 环境搭建
+  * 参考[Java Web 开发](/2014/08/15/JavaWeb/)
     搭建开发环境
 
 #### 配置web.xml
-  
+
 ```xml
   <!-- /SpringMVC_Task_Demo/src/main/webapp/WEB-INF/web.xml -->
   <?xml version="1.0" encoding="UTF-8"?>
@@ -47,22 +47,22 @@ tags: [spring, task]
             http://www.springframework.org/schema/task
     http://www.springframework.org/schema/task/spring-task-3.0.xsd">
 
-	<context:component-scan base-package="com.task.springTask" />  
-    
+	<context:component-scan base-package="com.task.springTask" />
+
     <!-- 注解驱动 -->
     <task:annotation-driven />
-    
+
     <!-- 如果定时任务很多，可以配置executor线程池，这里executor的含义和java.util.concurrent.Executor是一样的，pool-size的大小官方推荐为5~10。scheduler的pool-size是ScheduledExecutorService线程池，默认为1。
     <task:annotation-driven executor="myExecutor" scheduler="myScheduler"/>
     <task:executor id="myExecutor" pool-size="5"/>
     <task:scheduler id="myScheduler" pool-size="10"/>
      -->
-    
+
     <!-- 配置文件 -->
     <task:scheduled-tasks>
         <task:scheduled ref="springTask" method="myTask2" cron="0/2 * * * * ?" />
     </task:scheduled-tasks>
-    
+
     <!-- 任务配置 实例
     <task:scheduled-tasks scheduler="myScheduler">
         <task:scheduled ref="beanA" method="methodA" fixed-delay="5000" initial-delay="1000"/>
@@ -181,9 +181,9 @@ public class SpringTask {
     0 0/5 14,18 * * ?	每天的下午2点至2：55和6点至6点55分两个时间段内每5分钟一次触发
     0 0-5 14 * * ?	每天14:00至14:05每分钟一次触发
     0 10,44 14 ? 3 WED	三月的每周三的14：10和14：44触发
-    0 15 10 ? * MON-FRI	每个周一、周二、周三、周四、周五的10：15触发 
+    0 15 10 ? * MON-FRI	每个周一、周二、周三、周四、周五的10：15触发?
 
-#### 参考  
+#### 参考
   * [Spring任务调度](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/scheduling.html)
   * [Quartz Spring与Spring Task总结](http://www.blogjava.net/bolo/archive/2015/03/12/423408.html)
   * [Spring定时任务的几种实现](http://gong1208.iteye.com/blog/1773177)

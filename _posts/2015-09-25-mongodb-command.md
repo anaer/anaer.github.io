@@ -4,7 +4,6 @@ title: "mongodb操作命令"
 description: "mongodb操作命令"
 category:mongodb
 tags: [mongodb]
-
 ---
 
 * 启动mongodb

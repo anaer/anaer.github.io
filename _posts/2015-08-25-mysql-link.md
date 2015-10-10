@@ -4,7 +4,6 @@ title: "mysql链接"
 description: "mysql链接"
 category:mysql
 tags: [mysql]
-
 ---
 
 * [一分钟教你知道乐观锁和悲观锁的区别](http://blog.csdn.net/hongchangfirst/article/details/26004335)

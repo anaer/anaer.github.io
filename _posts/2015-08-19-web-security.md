@@ -4,7 +4,6 @@ title: "web安全配置"
 description: "web安全配置"
 category:security
 tags: [security]
-
 ---
 
 #### Tomcat安全配置
@@ -51,7 +50,7 @@ Unix系统：
 * 检查Tomcat是否记录了错误信息和访问信息
 Tomcat的日志信息默认存放在%Tomcat_home%\logs中，访问日志默认未开启
 如果Tomcat独立运行（未与Apache整合），可以选择开启访问日志，修改%Tomcat_home%\conf\server.xml，取消注释：
-<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"  
+<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
 prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
 启用access_log后，重启tomcat，在%Tomcat_home%\logs中可以看到访问日志
 
@@ -60,14 +59,14 @@ prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="fals
 修改%Tomcat_home%\webapps\APP_NAME\WEB-INF\web.xml
 在最后</web-app>一行之前加入以下内容
 （1）表示出现404未找到网页的错误时显示notfound.html页面
-<error-page> 
+<error-page>
 <error-code>404</error-code>
-<location>/nofound.html</location> 
+<location>/nofound.html</location>
 </error-page>
 （2）表示出现java.lang.NullPointerException错误时显示 error.jsp页面
 <error-page>
 <exception-type>java.lang.NullPointerException</exception-type>
-<location>/ error.jsp</location> 
+<location>/ error.jsp</location>
 </error-page>
 
 #### apache安全配置
@@ -83,14 +82,14 @@ Options -Indexes -Includes
 
 * 控制对root目录的访问
 <Directory />
-Options None 
-AllowOverride None 
-deny from all 
+Options None
+AllowOverride None
+deny from all
 </Directory>
-开放指定目录: 
-<Directory "/var/www/html/"> 
-Order allow,deny 
-allow from all 
+开放指定目录:
+<Directory "/var/www/html/">
+Order allow,deny
+allow from all
 </Directory>
 
 #### MySql安全配置

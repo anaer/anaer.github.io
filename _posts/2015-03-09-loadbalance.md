@@ -2,9 +2,8 @@
 layout: post
 title: "F5负载均衡"
 description: ""
-category:F5
-tags: [F5]
-
+category: loadbalance
+tags: [loadbalance]
 ---
 
 #### 什么负载均衡

@@ -2,9 +2,8 @@
 layout: post
 title: "redis配置说明"
 description: "redis配置说明"
-category:redis
+category: redis
 tags: [redis]
-
 ---
 
 * redis.conf

@@ -4,7 +4,6 @@ title: "ehcache缓存"
 description: "ehcache缓存"
 category: ehcache
 tags: [ehcache]
-
 ---
 
 ### mybatis整合ehcache
@@ -12,11 +11,11 @@ tags: [ehcache]
 #### 添加jar包依赖
 
 ```xml
-        <dependency>
-            <groupId>org.mybatis.caches</groupId>
-            <artifactId>mybatis-ehcache</artifactId>
-            <version>1.0.3</version>
-        </dependency>
+<dependency>
+    <groupId>org.mybatis.caches</groupId>
+    <artifactId>mybatis-ehcache</artifactId>
+    <version>1.0.3</version>
+</dependency>
 ```
 
 #### mapper启动cache

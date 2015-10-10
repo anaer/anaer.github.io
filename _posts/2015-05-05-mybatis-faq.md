@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "mybatis faq"
-description: "mybatis faq"
+title: "mybatis常见问题"
+description: "mybatis常见问题"
 category: mybatis
 tags: [mybatis, faq]
 ---
@@ -35,15 +35,15 @@ tags: [mybatis, faq]
 #### org.apache.ibatis.binding.BindingException: Type interface com.mybatis3.mappers.StudentMapper is already known to the MapperRegistry.
 	上面那个问题产生的，重复注册
 
-#### Invalid bound statement (not found) 
+#### Invalid bound statement (not found)
 	1. namespace不对
 	2. xml中未定义方法
 	3. 返回List,未配置ResultMap
 
-#### The processing instruction must begin with the name of the target.   
+#### The processing instruction must begin with the name of the target.
 错误原因<? xml version="1.0" encoding="UTF-8" ?>这里面有空格
 
-#### Cannot find class: org.apache.derby.jdbc.EmbeddedDriver  
+#### Cannot find class: org.apache.derby.jdbc.EmbeddedDriver
 需要导入derby的jar包 C:\Program Files\Sun\JavaDB\lib
 
 #### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: An attempt by a client to checkout a Connection has timed out.
@@ -56,7 +56,7 @@ tags: [mybatis, faq]
         </if>
         <if test="end_date_time !=null and end_date_time !='' ">
               <![CDATA[ and DATE_FORMAT(create_datetime, '%Y%m%d%H%i%s') <=DATE_FORMAT(#{end_date_time},'%Y%m%d%H%i%s')]]>
-        </if> 
+        </if>
 ```
 ### 参考
   * [ MyBatis+MySQL 返回插入的主键ID ](http://chenzhou123520.iteye.com/blog/1849881)

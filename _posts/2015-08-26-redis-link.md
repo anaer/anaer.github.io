@@ -4,7 +4,6 @@ title: "redis链接"
 description: "redis链接"
 category:redis
 tags: [redis]
-
 ---
 
 * [spring与redis集成之aop整合方案 ](http://my.oschina.net/boltwu/blog/424686)

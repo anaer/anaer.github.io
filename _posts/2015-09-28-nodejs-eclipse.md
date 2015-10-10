@@ -4,7 +4,6 @@ title: "搭建eclipse的nodejs开发环境"
 description: "搭建eclipse的nodejs开发环境"
 category:nodejs
 tags: [nodejs,eclipse]
-
 ---
 
 【在eclipse中安装这三个插件】
