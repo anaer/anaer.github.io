@@ -2,15 +2,14 @@
 layout: post
 title: "Vim 映射配置"
 description: "Vim映射配置"
-category: Vim
-tags: [Vim]
-
+category: vim
+tags: [vim]
 ---
 
 #### JSON格式化
 vim中normal模式下, 输入`,jf`执行json格式化
 
-```vimrc
+```sh
 " 设置映射前导符
 let mapleader = ","
 let g:mapleader = ","

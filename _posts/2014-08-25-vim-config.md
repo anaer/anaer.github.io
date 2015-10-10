@@ -2,39 +2,49 @@
 layout: post
 title: "Vim优化配置"
 description: "Vim优化配置"
-category: Vim
-tags: [Vim]
-
+category: vim
+tags: [vim]
 ---
 
 #### 配置
 * 显示所有设置选项
 :set all
+
 * Vim中截取部分内容保存到其他文件
 :起始行,结束行 w 文件名
+
 * Vim中截取部分内容追加到其他文件
 :起始行,结束行 w >> 文件名
 
 #### Vim命令模式
 1. ,替换为,换行
 :%s/,/,\r/g
+
 2. 删除空行
 :%g/^$/d
 :g/^$/d
+
 3. 行前添加a.
 :%s/^/a./g
+
 4. 以十六进制显示
 :%!xxd
+
 5. 不以十六进制显示, 返回普通文本显示
 :%!xxd -r
+
 6. 删除文本每行开头的空格
 :%s/^ *//g
+
 7. 删除空行
 :g/^$/d
+
 8. 排序
 :开始行,结束行 sort
+
 9. 倒序
 :开始行,结束行 sort!
+
 10. 空格替换为换行
 :%s/ /\r/g
 
@@ -116,12 +126,14 @@ git clone http://github.com/gmarik/vundle.git $HOME/.vim/bundle/vundle
 
 #### Vim插件管理
 https://github.com/tpope/vim-pathogen
+
 ```bash
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
 #### 用vim去掉utf-8 BOM
+
 ```
 '去掉utf-8 BOM
 :set nobomb
@@ -130,6 +142,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
 #### Vim中文帮助
+
 ```
 set helplang=cn
 设置 set helplang=cn 并不能马上看到中文帮助，我们还得下载中文帮助文件。
