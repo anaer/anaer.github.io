@@ -3,8 +3,7 @@ layout: post
 title: "SVN管理"
 description: ""
 category:版本控制
-tags: [版本控制, SVN]
-
+tags: [SVN]
 ---
 
 ### 参考

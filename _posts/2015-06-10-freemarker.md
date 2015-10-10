@@ -4,10 +4,10 @@ title: "FreeMarker模板引擎"
 description: "FreeMarker模板引擎"
 category:FreeMarker
 tags: [FreeMarker]
-
 ---
 
 ####freemarker 替换(方括号)语法
+
 注意:
 这个特性从 FreeMarker 2.3.4 版本后才可用。
 

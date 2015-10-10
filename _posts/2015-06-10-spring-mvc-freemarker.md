@@ -4,7 +4,6 @@ title: "SpringMvc中使用FreeMarker模板引擎"
 description: "SpringMvc中使用FreeMarkder模板引擎"
 category:Spring
 tags: [Spring, FreeMarker]
-
 ---
 
 #### servlet中添加FreeMarker配置

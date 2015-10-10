@@ -4,7 +4,6 @@ title: "Linux下tput命令"
 description: ""
 category:Linux
 tags: [Linux]
-
 ---
 
 ```sh

@@ -4,12 +4,11 @@ title: "Unix/Linux工具:Screen命令使用"
 description: ""
 category: Linux
 tags: [Linux, Screen]
-
 ---
 
 #### linux screen 命令详解
       使用telnet或SSH远程登录linux时，如果连接非正常中断，重新连接时，系统将开一个新的session，无法恢复原来的 session.
-  screen命令可以解决这个问题。Screen工具是一个终端多路转接器，在本质上，这意味着你能够使用一个单一的终端窗口运行多终端 的应用。 
+  screen命令可以解决这个问题。Screen工具是一个终端多路转接器，在本质上，这意味着你能够使用一个单一的终端窗口运行多终端 的应用。
 
   语 法：
 

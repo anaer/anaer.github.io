@@ -4,7 +4,6 @@ title: "mysql的show命令"
 description: ""
 category:mysql
 tags: [mysql]
-
 ---
 
 ####mysql 显示表字段及注释等信息

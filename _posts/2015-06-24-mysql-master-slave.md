@@ -4,7 +4,6 @@ title: "mysql主从配置"
 description: "mysql主从配置"
 category:mysql
 tags: [mysql]
-
 ---
 
 ### mysql主主配置 两台服务器互为主从
