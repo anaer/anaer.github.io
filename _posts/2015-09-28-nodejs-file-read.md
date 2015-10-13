@@ -22,6 +22,8 @@ fs.readFile("hello.js", "UTF-8", function(err, data) {
 console.log("读取文件完毕...");
 ```
 
+读取文件与打印日志异步执行
+
 * 同步IO
 filereadsync.js
 
@@ -31,3 +33,5 @@ var data = fs.readFileSync("hello.js", "UTF-8");
 console.log(data);
 console.log("读取文件完毕...");
 ```
+
+打印日志在读取文件完成之后

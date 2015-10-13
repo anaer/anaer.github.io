@@ -6,7 +6,7 @@ category: nodejs
 tags: [nodejs]
 ---
 
-* 创建脚本helloworld.js
+* 创建脚本helloworld-web.js
 
 ```js
 var http = require('http');
@@ -23,7 +23,7 @@ console.log('Server running at http://127.0.0.1');
 * 执行脚本
 
 ```sh
->node helloworld.js
+>node helloworld-web.js
 打开浏览器 访问http://127.0.0.1, 页面打印Hello World
 ```
 
