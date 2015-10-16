@@ -80,20 +80,11 @@ tags: [maven]
 
 #### Maven中Scope的作用
 
-    <dependency>中还引入了<scope>，它主要管理依赖的部署。目前<scope>可以使用5个值：
+<dependency>中还引入了<scope>，它主要管理依赖的部署。目前<scope>可以使用5个值：
 
-    * compile，缺省值，适用于所有阶段，会随着项目一起发布。
-    compile是默认的范围；如果没有提供一个范围，编译范围依赖在所有的classpath 中可用，同时它们也会被打包。而且这些dependency会传递到依赖的项目中。
-    * provided，类似compile，期望JDK、容器或使用者会提供这个依赖。如servlet.jar。
-    provided 明了dependency 由JDK或者容器提供。例如如果开发了一个web 应用，可能在编译 classpath 中需要可用的Servlet API 来编译一个servlet，但是你不会想要在打包好的WAR 中包含这个Servlet API；这Servlet API JAR 由你的应用服务器或者servlet容器提供。已提供范围的依赖在编译classpath （不是运行时）可用。它们不是传递性的也不会被打包。
-    * runtime，只在运行时使用，如JDBC驱动，适用运行和测试阶段。
-    runtime 依赖在运行和测试系统的时候需要，但在编译的时候不需要。比如可能在编译的时候只需要JDBC API JAR，而只有在运行的时候才需要JDBC驱动实现。
-    * test，只在测试时使用，用于编译和运行测试代码。不会随项目发布。
-    test范围依赖 在一般的编译和运行时都不需要，它们只有在测试编译和测试运行阶段可用。
-    * system，类似provided，需要显式提供包含依赖的jar，Maven不会在Repository中查找它。
+* compile，compile是默认的范围；如果没有提供一个范围，编译范围依赖在所有的classpath 中可用，同时它们也会被打包。而且这些dependency会传递到依赖的项目中。
+* provided，provided 声明了dependency 由JDK或者容器提供。例如如果开发了一个web 应用，可能在编译 classpath 中需要可用的Servlet API 来编译一个servlet，但是你不会想要在打包好的WAR 中包含这个Servlet API；这Servlet API JAR 由你的应用服务器或者servlet容器提供。已提供范围的依赖在编译classpath （不是运行时）可用。它们不是传递性的也不会被打包。
+* runtime，runtime 依赖在运行和测试系统的时候需要，但在编译的时候不需要。比如可能在编译的时候只需要JDBC API JAR，而只有在运行的时候才需要JDBC驱动实现。
+* test，test范围依赖 在一般的编译和运行时都不需要，它们只有在测试编译和测试运行阶段可用。
+* system，类似provided，需要显式提供包含依赖的jar，Maven不会在Repository中查找它。
 
-### 参考
-#### Maven帮助
-  * [maven中添加war包依赖](http://blog.zhukunqian.com/?p=810)
-  * [Maven常用仓库地址以及手动添加jar包到仓库 ](http://blog.csdn.net/kqygww/article/details/12837783)
-  * [Maven手册](http://maven.apache.org/guides/index.html)
