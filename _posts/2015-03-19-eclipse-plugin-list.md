@@ -23,7 +23,7 @@ tags: [Eclipse]
 * [FindBugs Update Site](http://findbugs.cs.umd.edu/eclipse)
 * [FindBugs 官网下载](http://findbugs.sourceforge.net/downloads.html)
 * [jadClipse](http://feeling.sourceforge.net/update)
-* [JDepend?进行依赖项检查 ](http://andrei.gmxhome.de/eclipse/)
+* [JDepend进行依赖项检查 ](http://andrei.gmxhome.de/eclipse/)
 * [jrebel](http://www.zeroturnaround.com/update-site/)
 * [Log4E](http://log4e.jayefem.de/update)
 * [LOGpulse](http://update.toem.de)
@@ -43,3 +43,4 @@ tags: [Eclipse]
 * [viPlugin](http://www.viplugin.com/viplugin/)
 * [zen-coding](http://zen-coding.ru/eclipse/updates/)
 * [全屏插件](http://scharf.gr/eclipse/fullscreen/update/)
+* [EclEmma统计代码的测试覆盖率](http://update.eclemma.org)
