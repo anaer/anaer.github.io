@@ -44,3 +44,4 @@ tags: [Eclipse]
 * [zen-coding](http://zen-coding.ru/eclipse/updates/)
 * [全屏插件](http://scharf.gr/eclipse/fullscreen/update/)
 * [EclEmma统计代码的测试覆盖率](http://update.eclemma.org)
+* [JAutodoc 自动添加文档注释](http://jautodoc.sourceforge.net/update/)
