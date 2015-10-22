@@ -6,9 +6,7 @@ category: OpenSource
 tags: [OpenSource]
 ---
 
-```
-http://mirrors.163.com/
-http://mirrors.sohu.com/
-http://mirrors.aliyun.com/
-http://mirrors.oschina.net/
-```
+* [网易开源镜像站](http://mirrors.163.com/)
+* [搜狐开源镜像站](http://mirrors.sohu.com/)
+* [阿里云开源镜像站](http://mirrors.aliyun.com/)
+* [Linux运维派开源镜像站](http://mirrors.skyshe.cn/)
