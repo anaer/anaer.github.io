@@ -51,3 +51,27 @@ tar -zxvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
 重启firefox浏览器
 13. 添加.gitconfig配置
+14. 下载yong输入法
+15. 更换镜像源
+sudo gedit /etc/apt/sources.list
+deb http://mirrors.163.com/ubuntu/ precise main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ precise-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ precise-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ precise-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise-backports main restricted universe multiverse
+
+sudo apt-get update
+sudo apt-get upgrade
+16. 安装screen
+17. 安装7z
+    sudo apt-get install p7zip
+18. 安装jdk, maven, tomcat
+  这几个还是手动下载安装吧
+19. 安装mysql-server
+20. 导入数据库
+21. deploy发布工程
