@@ -4,7 +4,6 @@ title: "Eclipse常见问题"
 description: "Eclipse常见问题"
 category:Eclipse
 tags: [Eclipse]
-
 ---
 
 #### Access restriction: The constructor 'BASE64Encoder()' is not API
@@ -106,3 +105,8 @@ Preferences->JavaScript->Editor 去掉Report problems as you type
 #### Maven工程转换
     maven工程转为一般工程： 工程右键--->Maven--->Disable Maven Nature转为一般工程。
     一般工程转为maven工程： 工程右键--->Configure--->Convert to Maven Project转为maven工程。
+
+####  Access restriction: The method
+    这个是eclipse设置问题，它默认把这些受访问限制的API设成了ERROR，只要把
+Windows-Preferences-Java-Complicer-Errors/Warnings
+里面的Deprecated and restricted API中的Forbidden references(access rules)选为Warning就可以编译通过了。
