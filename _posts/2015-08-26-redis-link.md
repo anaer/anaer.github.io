@@ -14,3 +14,4 @@ tags: [redis]
 * [注释驱动的 Spring cache 缓存介绍](http://www.ibm.com/developerworks/cn/opensource/os-cn-spring-cache/)
 * [spring data redis RedisTemplate操作redis相关用法](http://blog.mkfree.com/posts/515835d1975a30cc561dc35d)
 * [Jedis编程设计:连接池](http://shift-alt-ctrl.iteye.com/blog/1885910)
+* [使用Spring + Jedis集成Redis](http://my.oschina.net/u/866380/blog/521658)
