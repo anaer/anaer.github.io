@@ -46,3 +46,5 @@ tags: [shell, test]
     test –u File                         文件存在并且设置了它的set-user-id位
     test –w File                         文件存在并且可写
     test –x File                         文件存在并且可执行
+
+
