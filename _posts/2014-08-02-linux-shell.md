@@ -663,7 +663,7 @@ sed '2q' test.txt  //打印到第二行退出
   cat  /etc/issue          :查看当前操作系统发行版信息
   cat  /proc/version       :查看当前操作系统版本信息
   cat  /proc/cpuinfo       :查看cpu相关信息，包括型号、主频、内核信息等
-  getconf   LONG_BIT         :查看版本说明当前CPU运行在32bit模式下， 但不代表CPU不支持64bit
+  getconf   LONG_BIT       :查看版本说明当前CPU运行在32bit模式下， 但不代表CPU不支持64bit
   lsb_release  -a          :查看系统描述
   ```
 
