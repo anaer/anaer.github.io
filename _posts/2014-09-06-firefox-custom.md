@@ -17,6 +17,24 @@ start firefox.exe -profile "Profile"
 桌面快捷方式
 "D:\Program Files\Mozilla Firefox\firefox.exe" -profile Profile
 ```
+#### Ubuntu指定firefox默认配置目录
+修改配置文件 .mozilla/firefox/profiles.ini
+
+```
+[General]
+StartWithLastProfile=1
+
+[Profile0]
+Name=default
+IsRelative=1
+Path=i11ygygi.default
+
+[Profile1]
+Name=MyFirefox
+IsRelative=0
+Path=/home/lvcn/.firefox-profile
+Default=1
+```
 
 ### 参考
 #### 油猴脚本
