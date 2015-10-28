@@ -77,6 +77,7 @@ git clone http://github.com/gmarik/vundle.git $HOME/.vim/bundle/vundle
 　　比如将一个UTF-8 编码的文件转换成GBK编码
 　　iconv -f GBK -t UTF-8 file1 -o file2
 ```
+
 #### 代码折叠
   ```
   1. 折叠方式
