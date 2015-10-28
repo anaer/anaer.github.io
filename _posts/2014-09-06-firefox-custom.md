@@ -36,6 +36,9 @@ Path=/home/lvcn/.firefox-profile
 Default=1
 ```
 
+#### Windows下设置firefox默认配置目录
+启动firefox时,使用firefox -p打开配置模式, 在这里设置默认配置目录
+
 ### 参考
 #### 油猴脚本
 * [Greasy Fork](https://greasyfork.org/)

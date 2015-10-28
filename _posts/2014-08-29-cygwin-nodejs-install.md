@@ -6,23 +6,6 @@ category: Cygwin
 tags: [Cygwin]
 ---
 
-#### Cygwin必装组件
-
-* vim
-* git
-* svn
-* mysql
-* mysqld
-* tput 需要安装ncurses
-* zsh
-* wget
-* email
-* screen
-* tmux 比screen多一个状态栏
-* cron
-* task
-
-### 安装说明
 #### 安装nodejs
 
 ```bash
