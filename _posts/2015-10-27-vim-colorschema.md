@@ -12,3 +12,7 @@ tags: [vim]
 * 选中文本样式修改, Visual
 
 * vim命令行中执行:hi 可以查看所有的样式配置, 也可以:hi Visual查看具体项的样式配置
+
+#### 参考
+* [Vim样式主题](http://vimcolors.com/)
+* [Vim在线样式编辑](http://bytefluent.com/vivify/)

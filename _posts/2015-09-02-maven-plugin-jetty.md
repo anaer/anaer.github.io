@@ -22,5 +22,5 @@ tags: [maven, jetty]
 </plugin>
 ```
 
-### 参考
-* [jetty插件配置说明](http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html)
+#### 执行
+  `mvn jetty:run`

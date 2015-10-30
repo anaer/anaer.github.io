@@ -7,7 +7,7 @@ tags: [maven, jetty]
 ---
 
 #### jetty:run 提示数组下标越界
-    在web.xml中 添加配置metadata-complete="true", 禁用jetty的注解扫描.
+  在web.xml中 添加配置metadata-complete="true", 禁用jetty的注解扫描.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
