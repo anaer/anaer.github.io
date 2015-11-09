@@ -8,11 +8,16 @@
   media\css\prettify.css 增加
   media\css\prettify.js 增加
   _layouts\default.html中body标签闭合前添加添加
-    <script>
-        $(function() {
-            $('pre').addClass('prettyprint linenums').css('overflow-x', 'auto');
-            window.prettyPrint && prettyPrint();
-        });
-    </script>
 
-* post文件行数<1000
+```
+<script>
+    $(function() {
+        $('pre').addClass('prettyprint linenums').css('overflow-x', 'auto');
+        window.prettyPrint && prettyPrint();
+    });
+</script>
+```
+
+* `post文件行数<1000`
+
+* 不存图片, 尽量使用文本, 就算有图片也使用网络图片, 图片太大了
