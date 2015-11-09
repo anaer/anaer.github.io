@@ -12,8 +12,8 @@ tags: [msmtp]
 
 #### msmtp配置
     163邮箱使用客户端授权密码, 所以在password项配置的是客户端授权密码, 而不是登录密码.
+修改msmtp配置文件.msmtprc
 
-.msmtprc
 ```
 defaults
 account f_test
@@ -51,6 +51,7 @@ END
 ```
 
 详细点的例子, 这个我是放在.git/hooks/commit-msg中, 作为邮件通知的
+
 ```sh
 msmtp -d ${USER_MAIL} <<END
 to:${USER_MAIL}
