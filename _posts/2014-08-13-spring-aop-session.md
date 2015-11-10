@@ -10,7 +10,7 @@ tags: [Java, Spring]
 当然Struts2同样不依赖Servlet容器，可以在Spring AOP中可以使用com.opensymphony.xwork2.ActionContext，就可以获得Session。
 但是在Servlet中或struts1中，可以通过ThreadLocal方式将session保存，Spring AOP中获得Session对象。
 
-``` java
+```java
 //这个是保存request和session的类
 public class SysContent {
 	private static ThreadLocal<HttpServletRequest> requestLocal = new ThreadLocal<!-- <HttpServletRequest> -->();
@@ -73,7 +73,6 @@ public Class AopTest{
         throw new Exception("您没有该权限");
     }
 }
-
 ```
 
 ```xml
