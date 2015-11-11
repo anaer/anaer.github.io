@@ -29,6 +29,8 @@ root = /home/root/.yong/
 root = /cygdrive/d/yong/.yong/
 # force表示会以本地所指定文件夹为标准，将该目录同步到远端。
 #force =
+# prefer表示有冲突时, 以哪边的文件为主
+prefer = /cygdrive/d/yong/.yong/
 # 忽略指定目录，即同步时不同步它。
 #ignore =
 # 全自动模式，接受缺省动作，并执行。
