@@ -10,9 +10,6 @@ tags: [go]
 * 环境变量配置
 
 ```
-GOBIN=d:\Go\bin
-GOARCH=386
-GOOS=windows
 GOROOT=d:\go
-Path=%GOBIN%
+Path+=%GOROOT%\bin
 ```
