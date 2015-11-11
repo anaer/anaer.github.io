@@ -18,5 +18,6 @@ tags: [cygwin]
 8. 安装subversion
 9. 安装screen
 10. 安装cron
+11. unison
 
 
