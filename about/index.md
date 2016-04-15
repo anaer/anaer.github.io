@@ -13,11 +13,18 @@ comments: no
 {% if site.qq %}
 ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
 {% endif %}
+
+{% if site.name %}
 网站：[{{ site.name }}]({{ site.url }})
+{% endif %}
 
+{% if site.email %}
 邮箱：[{{ site.email }}](mailto:{{ site.email }})
+{% endif %}
 
+{% if site.github %}
 GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
+{% endif %}
 
 ----
 
