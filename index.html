@@ -5,6 +5,7 @@ layout: page
 
 <ul class="listing">
 {% for post in paginator.posts %}
+  post.title
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
@@ -32,19 +33,19 @@ layout: page
     <span class="previous disabled">&lt;前页</span>
   {% endif %}
 
-      {% if paginator.page == 1 %}
-      <span class="current-page">1</span>
-      {% else %}
-      <a href="/">1</a>
-      {% endif %}
+  {% if paginator.page == 1 %}
+    <span class="current-page">1</span>
+  {% else %}
+    <a href="/">1</a>
+  {% endif %}
 
-    {% for count in (2..paginator.total_pages) %}
-      {% if count == paginator.page %}
-      <span class="current-page">{{count}}</span>
-      {% else %}
-      <a href="/page{{count}}">{{count}}</a>
-      {% endif %}
-    {% endfor %}
+  {% for count in (2..paginator.total_pages) %}
+    {% if count == paginator.page %}
+    <span class="current-page">{{count}}</span>
+    {% else %}
+    <a href="/page{{count}}">{{count}}</a>
+    {% endif %}
+  {% endfor %}
 
   {% if paginator.next_page %}
     <a class="next" href="/page{{paginator.next_page}}">后页&gt;</a>
