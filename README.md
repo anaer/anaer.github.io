@@ -5,8 +5,8 @@
   _include\comments.md 添加uyan内容
 
 * 添加prettify语法高亮
-  media\css\prettify.css 增加
-  media\css\prettify.js 增加
+  assets\css\prettify.css 增加
+  assets\css\prettify.js 增加
   _layouts\default.html中body标签闭合前添加添加
 
 ```
