@@ -15,3 +15,4 @@ pygments: true
 safe: true
 paginate: 10
 about: 
+truncate: 100
