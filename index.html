@@ -41,10 +41,10 @@ layout: page
     <a href="/">1</a>
   {% endif %}
 
-  {% for count in (2..paginator.total_pages) %}
+  {% for count in (paginator.page..paginator.total_pages) limit:10 %}
     {% if count == paginator.page %}
     <span class="current-page">{{count}}</span>
-    {% else count < paginator.page + 10 %}
+    {% else %}
     <a href="/page{{count}}">{{count}}</a>
     {% endif %}
   {% endfor %}
