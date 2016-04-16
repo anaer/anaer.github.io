@@ -5,9 +5,6 @@ layout: page
 
 <ul class="listing">
 {% for post in paginator.posts %}
-{{ post.title }}
-
-  
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
@@ -15,11 +12,13 @@ layout: page
   {% endif %}
   
   <li class="listing-item">
+    {% if post.title %}
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     {% if site.truncate %}
     <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
-    {% endif%}
+    {% endif %}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
