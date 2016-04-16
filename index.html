@@ -36,9 +36,9 @@ layout: page
   {% endif %}
 
   {% if paginator.page == 1 %}
-    <span class="current-page">1</span>
+    <span class="current-page">首页</span>
   {% else %}
-    <a href="/">1</a>
+    <a href="/">首页</a>
   {% endif %}
 
   {% for count in (paginator.page..paginator.total_pages) limit:10 %}
