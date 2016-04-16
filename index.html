@@ -4,8 +4,6 @@ layout: page
 ---
 
 <ul class="listing">
-
-  {% for count in (2..paginator.total_pages) %}
 {% for post in paginator.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
@@ -23,7 +21,6 @@ layout: page
     {% endif %}
   </li>
 {% endfor %}
-  {% endfor %}
 </ul>
 
 <div id="post-pagination" class="paginator">
@@ -47,7 +44,7 @@ layout: page
   {% for count in (2..paginator.total_pages) %}
     {% if count == paginator.page %}
     <span class="current-page">{{count}}</span>
-    {% else %}
+    {% else count < paginator.page + 10 %}
     <a href="/page{{count}}">{{count}}</a>
     {% endif %}
   {% endfor %}
