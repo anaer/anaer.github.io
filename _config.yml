@@ -13,5 +13,5 @@ weibo:
 github: anaer
 pygments: true
 safe: true
-paginate: 10
+paginate: 100
 about: 
