@@ -10,7 +10,7 @@ layout: page
     {% assign year = y %}
     <li class="listing-seperator">{{ y }}</li>
   {% endif %}
-  
+
   <li class="listing-item">
     {% if post.title %}
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -41,7 +41,12 @@ layout: page
     <a href="/">首页</a>
   {% endif %}
 
-  {% for count in (paginator.page..paginator.total_pages) limit:10 %}
+  {% if paginator.page <= 5 %}
+      {% assign start = 1 %}
+  {% else %}
+      {% assign start = paginator.page - 5 %}
+  {% endif %}
+  {% for count in (start..paginator.total_pages) limit:10 %}
     {% if count == paginator.page %}
     <span class="current-page">{{count}}</span>
     {% else %}
