@@ -44,7 +44,7 @@ layout: page
   {% if paginator.page <= 5 %}
       {% assign start = 1 %}
   {% else %}
-      {% assign start = paginator.page | minus:5 %}
+      {% assign start = paginator.page | minus:4 %}
   {% endif %}
   {% for count in (start..paginator.total_pages) limit:9 %}
     {% if count == paginator.page %}
