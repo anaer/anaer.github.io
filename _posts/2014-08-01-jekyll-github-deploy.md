@@ -10,19 +10,22 @@ tags: [Github, jekyll]
   如果是要直接发布到github上的, 可以不用安装jekyll, 直接进行第二步.
 
 * 安装Cygwin
-  下载`cygwin`安装程序, 根据步骤进行安装即可.
+  下载cygwin安装程序, 根据步骤进行安装即可.
 
 * 安装apt-cyg工具
-  这一步不是必须的, 可以直接通过Cygwin的setup程序进行安装
-  [github apt-cyg](https://github.com/transcode-open/apt-cyg)
+  命令行安装脚本, 可以不通过该脚本直接使用Cygwin的setup程序进行安装
+  [apt-cyg](https://github.com/transcode-open/apt-cyg)
 
 ```bash
-# svn --force export http://apt-cyg.googlecode.com/svn/trunk/ /bin/
-# chmod +x /bin/apt-cyg
+svn --force export http://apt-cyg.googlecode.com/svn/trunk/ /bin/
+chmod +x /bin/apt-cyg
 ```
 
 * 安装Ruby
-  执行`apt-cyg install Ruby`安装Ruby，并添加PATH
+
+```bash
+apt-cyg install Ruby
+```
 
 * 安装[gem](http://rubygems.org/pages/download)
   实际安装的时候, 最好到官网找下最新版本
@@ -35,7 +38,7 @@ $ ruby setup.rb
 ```
 
 * 安装jekyll以及其他依赖
-默认源可能安装不了, 最好更换为taobao的源, 具体参看ruby.md
+默认源可能安装不了, 可更换为taobao的源, 具体参看ruby.md
 
 ```bash
 $ gem instal -V jekyll RedCloth rdiscount
@@ -52,9 +55,9 @@ $ cd anaer.github.com
 $ jekyll server
 ```
 
-* 修改配置文件``_config.yml`` 大致如下:
+* 修改配置文件 `_config.yml` 大致如下:
 
-``` yml
+```yml
 title : My Blog :)
 tagline: Go...
 author :
@@ -115,6 +118,7 @@ pygmentize -S native -f html > pygments.css, "native"是样式名，"html"是for
 
 * 语法高亮用法
 
+```html
 {% highlight java linenos %}
 public class HelloWorld {
     public static void main(String args[]) {
@@ -122,6 +126,7 @@ public class HelloWorld {
     }
 }
 {% endhighlight %}
+```
 
 #### 使用google-code-prettify
 
@@ -186,22 +191,10 @@ rake theme:switch name="twitter"
 
 #### 添加友言
 
-* 简单的添加方法
-  将友言提供的通用代码添加到模板中
-
-    <!-- anaer.github.io/_includes/themes/twitter/default.html -->
-    <!-- 添加到content内容div后面即可 -->
-    <!-- UY BEGIN -->
-    <div id="uyan_frame"></div>
-    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1958077"></script>
-    <!-- UY END -->
-
-+ 简单的可配置的添加方法
-
-* 添加comments-providers
+##### 方法一：直接将友言提供的通用代码添加到模板
 
 ```html
-<!-- anaer.github.io/_includes/JB/comments-providers下添加uyan  -->
+<!-- anaer.github.io/_includes/themes/twitter/default.html -->
 <!-- 添加到content内容div后面即可 -->
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
@@ -209,24 +202,7 @@ rake theme:switch name="twitter"
 <!-- UY END -->
 ```
 
-* 添加comments配置
-
-```html
-<!-- anaer.github.io/_includes/JB/comments -->
-<!-- {+% 那个会被github解析成Liquid tag进行处理, 不了解Liquid tag, 所以直接加了横线过滤 -->
-{-% when "uyan" %-}
-{-% include JB/comments-providers/uyan %-}
-```
-
-* 修改_config.yml, 配置comments的provider为uyan
-
-```yml
-comments :
-provider : uyan
-```
-
-+ 复杂的可配置的添加方法
-
+##### 方法二: 使用配置文件
 * 添加comments-providers
 
 ```html
@@ -244,7 +220,12 @@ provider : uyan
 ```
 
 * 添加comments配置
-同上面
+```html
+<!-- anaer.github.io/_includes/JB/comments -->
+<!-- {+% 那个会被github解析成Liquid tag进行处理, 不了解Liquid tag, 所以直接加了横线过滤 -->
+{-% when "uyan" %-}
+{-% include JB/comments-providers/uyan %-}
+```
 
 * 修改_config.yml
 
@@ -257,20 +238,23 @@ comments :
 
 ### 添加目录toc
 
-+ [jekyll-toc-generator](https://github.com/dafi/jekyll-toc-generator)
-Github pages can't use plugins, Github不支持这个插件，所以用下面这个
-+ [TOC Generator for Markdown](https://github.com/dafi/tocmd-generator)
-- 安装步骤:
-* Download ZIP
-* 将js/css放到使用的主题目录下
+#### jekyll-toc-generator
+ [jekyll-toc-generator](https://github.com/dafi/jekyll-toc-generator)
+  Github pages can't use plugins, Github不支持这个插件，所以用下面这个
+
+#### TOC Generator for Markdown
+
+  [TOC Generator for Markdown](https://github.com/dafi/tocmd-generator)
+* 安装步骤:
+1. Download ZIP
+2. 将js/css放到使用的主题目录下
 
 ```
 anaer.github.io\assets\themes\twitter\js
 anaer.github.io\assets\themes\twitter\css
 ```
 
-* 因为这个插件用到了jQuery, 需要将jquery.js放到js目录下
-* 引入插件
+3. 引入js
 
 ```js
   <!-- anaer.github.io\_includes\themes\twitter\default.html -->
@@ -293,11 +277,11 @@ anaer.github.io\assets\themes\twitter\css
   </script>
 ```
 
-* 让toc跟随页面浮动
+4. 让toc跟随页面浮动
 有个简单的方法，将position设置fixed，可以固定在页面不动。
 jquery有一个扩展jquery.scroll-follow.js，可以实现这个功能，不过我这没试成功，所以用的下面这个方法
 
-+ 修改css样式
+修改css样式
 
 ```css
 /*anaer.github.io\assets\themes\twitter\css\toc.css*/
@@ -307,7 +291,7 @@ jquery有一个扩展jquery.scroll-follow.js，可以实现这个功能，不过
 }
 ```
 
-+ 添加js脚本
+添加js脚本
 
 ```js
 <!-- anaer.github.io\_includes\themes\twitter\default.html -->

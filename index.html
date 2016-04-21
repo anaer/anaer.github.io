@@ -10,12 +10,15 @@ layout: page
     {% assign year = y %}
     <li class="listing-seperator">{{ y }}</li>
   {% endif %}
+
   <li class="listing-item">
+    {% if post.title %}
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     {% if site.truncate %}
     <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
-    {% endif%}
+    {% endif %}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
@@ -32,19 +35,24 @@ layout: page
     <span class="previous disabled">&lt;前页</span>
   {% endif %}
 
-      {% if paginator.page == 1 %}
-      <span class="current-page">1</span>
-      {% else %}
-      <a href="/">1</a>
-      {% endif %}
+  {% if paginator.page == 1 %}
+    <span class="current-page">首页</span>
+  {% else %}
+    <a href="/">首页</a>
+  {% endif %}
 
-    {% for count in (2..paginator.total_pages) %}
-      {% if count == paginator.page %}
-      <span class="current-page">{{count}}</span>
-      {% else %}
-      <a href="/page{{count}}">{{count}}</a>
-      {% endif %}
-    {% endfor %}
+  {% if paginator.page <= 5 %}
+      {% assign start = 1 %}
+  {% else %}
+      {% assign start = paginator.page | minus:4 %}
+  {% endif %}
+  {% for count in (start..paginator.total_pages) limit:9 %}
+    {% if count == paginator.page %}
+    <span class="current-page">{{count}}</span>
+    {% else %}
+    <a href="/page{{count}}">{{count}}</a>
+    {% endif %}
+  {% endfor %}
 
   {% if paginator.next_page %}
     <a class="next" href="/page{{paginator.next_page}}">后页&gt;</a>
