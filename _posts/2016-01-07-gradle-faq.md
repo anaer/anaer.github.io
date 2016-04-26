@@ -21,3 +21,7 @@ tasks.withType(Compile) {
     options.encoding = "UTF-8"
 }
 ```
+
+* 编码GBK的不可映射字符
+在build.gradle文件中加入如下内容：
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
