@@ -11,8 +11,8 @@ beian:
 cnzz:
 weibo:
 github: anaer
-pygments: true
+rouge:true
 safe: true
 paginate: 10
-about: 
+about:
 truncate: 100
