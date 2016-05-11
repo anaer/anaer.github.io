@@ -46,3 +46,8 @@ OK
 127.0.0.1:6379> get name
 "abc"
 ```
+
+* 部署Redis为Windows服务
+```
+redis-server --service-install redis.windows.conf
+```
