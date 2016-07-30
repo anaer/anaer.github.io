@@ -11,7 +11,7 @@ tags: [maven]
 #### Maven安装
 
     1. 下载maven包, 上官网下载 *.tar.gz
-    2.  解压安装包 解压路径随意指定 如：/usr/local
+    2. 解压安装包 解压路径随意指定 如：/usr/local
     tar -xvf *.tar.gz
     3. 设置环境变量 .bashrc
     export MAVEN_HOME=/usr/local/maven

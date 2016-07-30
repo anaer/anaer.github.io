@@ -8,7 +8,7 @@ tags: [maven]
 
 #### settings_osc.xml
 
-```xml
+```
 <settings>
 <localRepository>C:/Users/Administrator/.m2/repository</localRepository>
   <mirrors>
