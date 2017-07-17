@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "description": "导航页面",
+  "name": "ljquan.github.io",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "es6-promise": "^4.0.5",
+    "iconv-lite": "^0.4.13",
+    "jsonwebtoken": "^7.1.9",
+    "koa": "^1.2.4",
+    "koa-body": "^1.5.0",
+    "koa-logger": "^1.3.0",
+    "koa-onerror": "^2.0.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "koa-views": "^4.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "browser-sync": "^2.16.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "function-bind": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-express": "^0.3.5",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-open": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-merge": "^0.15.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server/app.js",
+    "watch": "gulp watch",
+    "update": "git add . && git commit -am 'update' && git push origin master"
+  }
+}
