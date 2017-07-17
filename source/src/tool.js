@@ -2,7 +2,7 @@
  * @file tool 入口文件，路由定义
  * @author ljquan@qq.com
  */
-
+require('./polyfill');
 var m_loading = require('card/common/loading');
 require('helper/common_event'); //注册公共指令
 require('css/tool.css');
