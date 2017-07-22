@@ -7,7 +7,6 @@ var util = {};
 var m_toast = require('./toast');
 
 $.extend(util, {
-    formatDate: BCD.time.formatDate,
     /*
         abs: abs,
         separateTime: separateTime,
