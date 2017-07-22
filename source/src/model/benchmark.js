@@ -1,4 +1,5 @@
 const benchDict = {
+    string_split: require('page/benchmark/string_split.js'),
     string_match: require('page/benchmark/string_match.js'),
     string_plus__vs__array_push: require('page/benchmark/string_plus__vs__array_push.js'),
     white_list_good: require('page/benchmark/white_list_good.js'),
@@ -8,7 +9,7 @@ const benchDict = {
 
 let configs = [{
     title: '字符串相关',
-    rows: ['string_match', 'string_plus__vs__array_push', {
+    rows: ['string_match', 'string_split', 'string_plus__vs__array_push', {
       name:'string-startswith',
       href: 'https://jsperf.com/string-startswith/48'
     }]
@@ -28,7 +29,7 @@ let configs = [{
 
 let j = 0;
 let daohangList = [];
-let pathname = "./benchmark.html";
+let pathname = location.origin + "/benchmark.html";
 
 configs.forEach((item, i)=>{
     if(!daohangList[j]){
