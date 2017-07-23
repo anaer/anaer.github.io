@@ -44,7 +44,7 @@ let getLinks = new Promise((resolve) => {
       resolve(data);
     }
     return data.length ? 1 : 0;
-  }, 0, 1E3, 1);
+  }, 0, 3E3, 1);
 }).catch((e) => console.info(e));
 
 
