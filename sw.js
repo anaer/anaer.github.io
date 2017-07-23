@@ -13,7 +13,9 @@ var expectedCaches = [
 ];
 //正则匹配缓存文件
 var regDict = {};
-regDict[libCacheName] = /\.js$|\.css$|\.html$|\.woff|\.woff2|\.ico$/;
+regDict[libCacheName] = /source\/lib|\.woff$|\.woff2$|\.ico$/;
+regDict[businessCacheName] = /source\/dist/;
+
 //安装文件
 var FILES = [
   './',
