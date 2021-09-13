@@ -28,6 +28,7 @@ npm start # 本地启动
 
 gulp dev
 gulp server
+gulp watch
 ```
 
 ## FAQ
