@@ -2,6 +2,7 @@ const m_util = require('common/util');
 const m_search = require('helper/search');
 let links = [];
 let linkTab = {};
+let count = [];
 
 let getLinks = new Promise((resolve) => {
   BCD.ajaxCache('./json/link.json', function (data) {
@@ -11,9 +12,19 @@ let getLinks = new Promise((resolve) => {
       ], () => {
         links = [];
         linkTab = [];
+        count = [];
         data.forEach(o => {
           let start = links.length;
+          // 如果count[o.groupid]不存在，则初始化为0
+          if(!count[o.groupid]){
+            count[o.groupid] = 0;
+          }
+          // 如果未设置limit, 则默认为8, 同一组最多显示8条. 防止太长
+          let limit = o.limit || 8;
           (o.rows || []).forEach(str => {
+            // 对同一groupid进行计数
+            count[o.groupid] = count[o.groupid] + 1;
+            console.info("count[o.groupid]=", count[o.groupid]);
             let arr = str.split(' | ');
             let firstLetter = pinyinUtil.getFirstLetter(arr[0], true).join(' ');
             if (arr.length) {
@@ -23,7 +34,10 @@ let getLinks = new Promise((resolve) => {
                 firstLetter: firstLetter,
                 searchKey: arr.concat(o.title, firstLetter).join(' ')
               };
-              links.push(item);
+              // 判断是否设置limit限制, 如果设置了, 判断是否超过限制
+              if(!limit || count[o.groupid]<=limit){
+                links.push(item);
+              }
             }
           });
           if (o.groupid) {

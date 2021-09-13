@@ -1,7 +1,8 @@
 [
-    { // 常用项目
+    {
         "title": "常用项目",
         "groupid": 1,
+        "limit": 8,
         "rows": [
             "Github | https://github.com/",
             "微信小程序 | https://mp.weixin.qq.com/debug/wxadoc/dev/api/",
@@ -11,7 +12,7 @@
             "nightwatch | http://nightwatchjs.org/api/"
         ]
     },
-    { // 工具
+    {
         "title": "工具",
         "groupid": 2,
         "rows": [
@@ -25,7 +26,7 @@
             "firebase | https://console.firebase.google.com"
         ]
     },
-    { // 参考资料
+    {
         "title": "参考资料",
         "groupid": 3,
         "rows": [
@@ -38,7 +39,7 @@
             "廖雪峰 | http://www.liaoxuefeng.com/"
         ]
     },
-    { // 网址导航
+    {
         "title": "网址导航",
         "groupid": 4,
         "rows": [
@@ -172,7 +173,7 @@
             "78创业商机 | http://www.78.cn/?sid=902"
         ]
     },
-    { // 游戏
+    {
         "title": "游戏",
         "groupid": 5,
         "rows": [
