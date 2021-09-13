@@ -1,7 +1,7 @@
 {
   "private": true,
   "description": "导航页面",
-  "name": "ljquan.github.io",
+  "name": "anaer.github.io",
   "dependencies": {
     "ejs": "^2.5.2",
     "es6-promise": "^4.0.5",

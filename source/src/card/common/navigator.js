@@ -30,7 +30,7 @@ module.exports = function(option, base) {
         },
         template: '<header class="am-topbar">' +
             '  <h1 class="am-topbar-brand">' +
-            '    <a data-on="?m=go" data-url="<%=location.href.replace(location.origin, "https://ljquan.github.io/")%>" title="正式环境">^_^</a>' +
+            '    <a data-on="?m=go" data-url="<%=location.href.replace(location.origin, "https://anaer.github.io/")%>" title="正式环境">^_^</a>' +
             '  </h1>' +
             '  <button data-am-collapse="{target: \\\'.am-topbar-collapse\\\'}" class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>' +
             '  <div class="am-collapse am-topbar-collapse">' +
