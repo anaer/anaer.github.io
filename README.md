@@ -25,7 +25,15 @@ fork from https://ljquan.github.io/
 ```yml
 npm install # 安装依赖
 npm start # 本地启动
+
+gulp dev
+gulp server
 ```
+
+## FAQ
+
+Q: gulp命令执行报错, 如`gulp dev`, `gulp server`, 错误信息: ReferenceError: primordials is not defined
+A: NodeJS可能版本太高(当前最新: 16.8.0), 调整使用8.6.0可以执行
 
 ## 许可
 MIT
