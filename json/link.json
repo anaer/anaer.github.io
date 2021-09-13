@@ -2,7 +2,7 @@
     {
         "title": "常用项目",
         "groupid": 1,
-        "limit": 8,
+        "limit": 6,
         "rows": [
             "Github | https://github.com/",
             "微信小程序 | https://mp.weixin.qq.com/debug/wxadoc/dev/api/",

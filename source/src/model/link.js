@@ -19,8 +19,8 @@ let getLinks = new Promise((resolve) => {
           if(!count[o.groupid]){
             count[o.groupid] = 0;
           }
-          // 如果未设置limit, 则默认为8, 同一组最多显示8条. 防止太长
-          let limit = o.limit || 8;
+          // 如果未设置limit, 则默认为6, 同一组最多显示6条. 防止太长
+          let limit = o.limit || 6;
           (o.rows || []).forEach(str => {
             // 对同一groupid进行计数
             count[o.groupid] = count[o.groupid] + 1;

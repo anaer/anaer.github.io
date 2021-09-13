@@ -33,8 +33,25 @@ gulp watch
 
 ## FAQ
 
+```log
 Q: gulp命令执行报错, 如`gulp dev`, `gulp server`, 错误信息: ReferenceError: primordials is not defined
 A: NodeJS可能版本太高(当前最新: 16.8.0), 调整使用8.6.0可以执行
+```
+
+## link.json说明
+
+```json
+[
+    {
+        "title": "组标题",
+        "groupid": 1, // 组id
+        "limit": 8, // 限制条目数, 默认6条
+        "rows": [  // 书签列表
+            "Github | https://github.com/"
+        ]
+    }
+]
+```
 
 ## 许可
 MIT
