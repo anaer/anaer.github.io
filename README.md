@@ -13,7 +13,7 @@ fork from https://ljquan.github.io/
 
 ## 使用方式
 
-1. 把本项目fork一份到你的仓库,更改项目名称为`your_name.github.io`,几分钟后Github会自动为你开通![your_name.github.io](https://github.com/anaer/anaer.github.io)的个人主页
+1. 把本项目fork一份到你的仓库,更改项目名称为`your_name.github.io`,几分钟后Github会自动为你开通[your_name.github.io](https://github.com/anaer/anaer.github.io)的个人主页
 
 2. 通过Git的命令行(Git Bash)把your_name.github.io项目clone到本地
 
