@@ -5,6 +5,7 @@
         "limit": 6,
         "rows": [
             "Github | https://github.com/",
+            "Github Notifications | https://github.com/notifications?query=is%3Aunread",
             "微信小程序 | https://mp.weixin.qq.com/debug/wxadoc/dev/api/",
             "sequelizejs | http://docs.sequelizejs.com/en/v3/",
             "webpack | http://webpack.github.io/docs/",
