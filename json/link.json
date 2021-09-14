@@ -35,7 +35,8 @@
         "title": "网址导航",
         "groupid": 4,
         "rows": [
-            "时光网 | http://www.mtime.com/"
+            "SearchCode | https://searchcode.com/",
+            "SourceGraph | https://sourcegraph.com/search"
         ]
     },
     {
@@ -49,7 +50,14 @@
         "title": "电子书",
         "groupid": 6,
         "rows": [
-            "go+python混合开发配套电子书 - 体验版 | https://www.yuque.com/bobby-zpcyu/fgg66n"
+            "技术文章摘抄 | http://learn.lianglianglee.com/",
+            "go+python混合开发配套电子书 - 体验版 | https://www.yuque.com/bobby-zpcyu/fgg66n",
+            "菜鸟教程 | https://www.runoob.com/",
+            "支付宝文档中心 | https://opendocs.alipay.com/open/common/abilitymap",
+            "微信支付开发文档 | https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=1_1",
+            "微信公众平台接口调试工具 | https://mp.weixin.qq.com/debug/",
+            "网易互客开发文档 | https://thoughts.teambition.com/sharespace/5f7402aa5b936900168be494/docs/6101295eb17afd00462ba62c",
+            "网易云信开发文档 | https://doc.yunxin.163.com/docs/TM5MzM5Njk/jk3MzY2MTI?platformId=60353"
         ]
     }
 ]
