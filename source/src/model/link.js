@@ -28,9 +28,22 @@ let getLinks = new Promise((resolve) => {
             let arr = str.split(' | ');
             let firstLetter = pinyinUtil.getFirstLetter(arr[0], true).join(' ');
             if (arr.length) {
+              var favicon = '';
+              var url = arr[1];
+              if (url) {
+                var domain = url.split('/');
+                if(domain[2]){
+                  if(url.startsWith('https')){
+                    favicon = "https://"+domain[2]+"/favicon.ico";
+                  }else{
+                    favicon = "http://"+domain[2]+"/favicon.ico";
+                  }
+                }
+              }
               let item = {
                 name: arr[0],
                 href: arr[1],
+                favicon: favicon,
                 firstLetter: firstLetter,
                 searchKey: arr.concat(o.title, firstLetter).join(' ')
               };

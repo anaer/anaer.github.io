@@ -38,6 +38,7 @@ Q: gulp命令执行报错, 如`gulp dev`, `gulp server`, 错误信息: Reference
 A: NodeJS可能版本太高(当前最新: 16.8.0), 调整使用8.6.0可以执行
 ```
 
+
 ## link.json说明
 
 ```json
@@ -47,7 +48,7 @@ A: NodeJS可能版本太高(当前最新: 16.8.0), 调整使用8.6.0可以执行
         "groupid": 1, // 组id
         "limit": 8, // 限制条目数, 默认6条
         "rows": [  // 书签列表
-            "Github | https://github.com/"
+            "标题(不超过10个字, 过长有样式问题) | URL链接(与标题之前|分隔且前后带空格)"
         ]
     }
 ]
