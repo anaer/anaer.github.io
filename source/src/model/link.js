@@ -1,5 +1,7 @@
 const m_util = require('common/util');
 const m_search = require('helper/search');
+var _ = require('lodash');
+
 let links = [];
 let linkTab = {};
 let count = [];
@@ -39,7 +41,9 @@ let getLinks = new Promise((resolve) => {
                 }
               }
               let item = {
-                name: arr[0],
+                // 缩写
+                name: _.truncate(arr[0], { 'length': 16, 'omission': '...' }),
+                title: arr[0],
                 href: arr[1],
                 favicon: favicon,
                 firstLetter: firstLetter,

@@ -14,7 +14,8 @@
     "koa-router": "^5.4.0",
     "koa-static": "^2.0.0",
     "koa-views": "^4.1.0",
-    "nvm": "^0.0.4"
+    "nvm": "^0.0.4",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.1",
