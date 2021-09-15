@@ -1,5 +1,5 @@
 var version = 'v2';
-var namePrefix = 'ljquan-';
+var namePrefix = 'cache-';
 var nameReg = new RegExp('^' + namePrefix);
 var businessKey = 'business-' + version;
 var businessCacheName = namePrefix + businessKey;

@@ -34,7 +34,8 @@
             "codebeautify | https://codebeautify.org/",
             "在线PDF工具 | https://tools.pdf24.org/zh/",
             "查错工具网 | http://24log.chacuo.net/",
-            "Amaze UI | https://amazeui.shopxo.net/"
+            "Amaze UI | https://amazeui.shopxo.net/",
+            "lodash | https://lodash.com/docs/4.17.15"
         ]
     },
     {
@@ -60,10 +61,11 @@
         ]
     },
     {
-        "title": "游戏",
+        "title": "娱乐资源",
         "groupid": 5,
         "rows": [
-            "雀魂麻将 | https://game.maj-soul.com/1/"
+            "雀魂麻将 | https://game.maj-soul.com/1/",
+            "茶杯狐 | https://www.cupfox.com/"
         ]
     },
     {
@@ -113,7 +115,6 @@
         "title": "影视资源",
         "groupid": 9,
         "rows": [
-            "茶杯狐 | https://www.cupfox.com/"
         ]
     }
 ]
