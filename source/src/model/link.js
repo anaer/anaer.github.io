@@ -1,6 +1,5 @@
 const m_util = require('common/util');
 const m_search = require('helper/search');
-var _ = require('lodash');
 
 let links = [];
 let linkTab = {};
@@ -42,7 +41,7 @@ let getLinks = new Promise((resolve) => {
               }
               let item = {
                 // 缩写
-                name: _.truncate(arr[0], { 'length': 16, 'omission': '...' }),
+                name: truncate(arr[0], 20),
                 title: arr[0],
                 href: arr[1],
                 favicon: favicon,
@@ -75,7 +74,24 @@ let getLinks = new Promise((resolve) => {
   }, 0, 3E3, 1);
 }).catch((e) => console.info(e));
 
-
+/**
+ * 截取字符串.
+ *
+ * @param {*} str 字符串
+ * @param {*} limit 限制长度, 如果是中文, 再减4, 主要是中文宽度较宽
+ * @returns
+ */
+function truncate(str, limit) {
+  var chinese = RegExp('[\u4e00-\u9fa5]{0,}');
+  if(str.length > limit){
+    if(chinese.test(str) && (limit-4>0)){
+        limit = limit -4;
+    }
+    return str.slice(0, limit) + '...';
+  }else{
+    return str;
+  }
+}
 
 //搜索直达
 const searchDirect = (word) => {

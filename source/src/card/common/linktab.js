@@ -1,4 +1,4 @@
-﻿
+﻿// 默认隐藏二维码button
 module.exports = function(option) {
     return $.extend({
         name: 'common/linktab',
@@ -11,7 +11,7 @@ module.exports = function(option) {
             '            <ul class="am-list">' +
             '                <%var list = obj.rows; for(var i=0, len=list.length; i<obj.limit && i<len; i++){%>' +
             '                <li style="padding:8px"><span ><a data-on="?m=<%=config.isEnv ? "goEnv" : "go"%>&target=_blank" data-url="<%=list[i].href%>" title="<%=list[i].title%>"><img style="height:16px; width:16px" src="<%=list[i].favicon%>"></img> <%=list[i].name%></a></span>' +
-            '               <button type="button" class="am-btn am-btn-default am-btn-xs" style="float:right" data-on="?m=goQR<%=config.isEnv ? "&env=1" : ""%>" data-url="<%=list[i].href%>">二维码</button></li><%}%>' +
+            '                <button style="display:none" type="button" class="am-btn am-btn-default am-btn-xs" style="float:right" data-on="?m=goQR<%=config.isEnv ? "&env=1" : ""%>" data-url="<%=list[i].href%>">QR</button></li><%}%>' +
             '            </ul>' +
             '        </div>' +
             '    </section>' +
