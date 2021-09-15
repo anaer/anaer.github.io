@@ -5,7 +5,8 @@
         "limit": 6,
         "rows": [
             "Github | https://github.com/",
-            "Github Notifications | https://github.com/notifications?query=is%3Aunread"
+            "Github Notifications | https://github.com/notifications?query=is%3Aunread",
+            "杭州天气 | http://www.nmc.cn/publish/forecast/AZJ/hangzhou.html"
         ]
     },
     {
@@ -112,7 +113,7 @@
         ]
     },
     {
-        "title": "影视资源",
+        "title": "其他资源",
         "groupid": 9,
         "rows": [
         ]
