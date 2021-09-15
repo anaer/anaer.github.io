@@ -19,12 +19,10 @@ let getLinks = new Promise((resolve) => {
           if(!count[o.groupid]){
             count[o.groupid] = 0;
           }
-          // 如果未设置limit, 则默认为6, 同一组最多显示6条. 防止太长
-          let limit = o.limit || 6;
           (o.rows || []).forEach(str => {
             // 对同一groupid进行计数
             count[o.groupid] = count[o.groupid] + 1;
-            console.info("count[o.groupid]=", count[o.groupid]);
+            // console.info("count[o.groupid]=", count[o.groupid]);
             let arr = str.split(' | ');
             let firstLetter = pinyinUtil.getFirstLetter(arr[0], true).join(' ');
             if (arr.length) {
@@ -47,16 +45,15 @@ let getLinks = new Promise((resolve) => {
                 firstLetter: firstLetter,
                 searchKey: arr.concat(o.title, firstLetter).join(' ')
               };
-              // 判断是否设置limit限制, 如果设置了, 判断是否超过限制
-              if(!limit || count[o.groupid]<=limit){
-                links.push(item);
-              }
+              links.push(item);
             }
           });
           if (o.groupid) {
             let tab = {
               title: o.title,
-              rows: links.slice(start)
+              rows: links.slice(start),
+              // 如果未设置limit, 则默认为6, 同一组最多显示6条. 防止太长
+              limit: o.limit || 6
             }
             if (linkTab[o.groupid]) {
               linkTab[o.groupid].push(tab);
