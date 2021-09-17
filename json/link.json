@@ -4,7 +4,7 @@
         "groupid": 1,
         "limit": 6,
         "rows": [
-            "One | https://github.com/anaer/anaer.github.io/blob/master/json/link.json",
+            "编辑此页 | https://github.com/anaer/anaer.github.io/blob/master/json/link.json",
             "Github | https://github.com/",
             "Github Notifications | https://github.com/notifications?query=is%3Aunread",
             "杭州天气 | http://www.nmc.cn/publish/forecast/AZJ/hangzhou.html",
@@ -117,9 +117,10 @@
         ]
     },
     {
-        "title": "其他资源",
+        "title": "开源框架",
         "groupid": 9,
         "rows": [
+            "Sa-Token 文档 | https://sa-token.dev33.cn/doc/index.html#/"
         ]
     }
 ]
