@@ -64,7 +64,8 @@
         "rows": [
             "SearchCode | https://searchcode.com/",
             "SourceGraph | https://sourcegraph.com/search",
-            "Magi | https://magi.com/"
+            "Magi | https://magi.com/",
+            "文档搜索 | https://readthedocs.org/"
         ]
     },
     {
