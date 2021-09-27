@@ -128,7 +128,8 @@
         "title": "开源框架",
         "groupid": 9,
         "rows": [
-            "Sa-Token 文档 | https://sa-token.dev33.cn/doc/index.html#/"
+            "Sa-Token 文档 | https://sa-token.dev33.cn/doc/index.html#/",
+            "HikariCP | https://github.com/brettwooldridge/HikariCP"
         ]
     }
 ]
