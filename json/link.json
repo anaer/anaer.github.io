@@ -116,7 +116,9 @@
             "域名ip查询 | https://ip-api.com/docs/api:json",
             "个推文档中心 | https://docs.getui.com/",
             "RabbitMQ文档 | https://www.rabbitmq.com/documentation.html",
-            "腾讯云文档中心 | https://cloud.tencent.com/document/product"
+            "腾讯云文档中心 | https://cloud.tencent.com/document/product",
+            "Sa-Token 文档 | https://sa-token.dev33.cn/doc/index.html#/",
+            "HikariCP | https://github.com/brettwooldridge/HikariCP"
         ]
     },
     {
@@ -128,11 +130,10 @@
         ]
     },
     {
-        "title": "开源框架",
+        "title": "手机应用",
         "groupid": 9,
         "rows": [
-            "Sa-Token 文档 | https://sa-token.dev33.cn/doc/index.html#/",
-            "HikariCP | https://github.com/brettwooldridge/HikariCP"
+            "iOS限免 | https://mergeek.com/free/apps"
         ]
     }
 ]
