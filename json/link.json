@@ -90,9 +90,10 @@
         ]
     },
     {
-        "title": "三方服务",
+        "title": "开发文档",
         "groupid": 7,
         "rows": [
+            "MapStruct文档 | https://mapstruct.org/documentation/stable/reference/html/",
             "支付宝文档中心 | https://opendocs.alipay.com/open/common/abilitymap",
             "微信支付开发文档 | https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=1_1",
             "微信公众平台接口调试 | https://mp.weixin.qq.com/debug/",
