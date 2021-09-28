@@ -118,7 +118,8 @@
             "RabbitMQ文档 | https://www.rabbitmq.com/documentation.html",
             "腾讯云文档中心 | https://cloud.tencent.com/document/product",
             "Sa-Token 文档 | https://sa-token.dev33.cn/doc/index.html#/",
-            "HikariCP | https://github.com/brettwooldridge/HikariCP"
+            "HikariCP | https://github.com/brettwooldridge/HikariCP",
+            "Lombok | https://objectcomputing.com/resources/publications/sett/january-2010-reducing-boilerplate-code-with-project-lombok"
         ]
     },
     {
