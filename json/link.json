@@ -57,6 +57,7 @@
         "title": "开发社区",
         "groupid": 3,
         "rows": [
+            "开源中国 | https://www.oschina.net/",
             "Web API 接口(MDN) | https://developer.mozilla.org/zh-CN/docs/Web/API",
             "web基础知识（谷歌） | https://developers.google.cn/web/fundamentals/?hl=zh-cn",
             "掘金 | https://juejin.im/",
