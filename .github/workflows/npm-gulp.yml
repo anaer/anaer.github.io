@@ -3,9 +3,9 @@ name: NodeJS with Gulp
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: [master]
+    paths:
+      - "**.js"
 
 jobs:
   build:

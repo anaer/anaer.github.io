@@ -63,16 +63,16 @@ A: 1. NodeJS可能版本太高(当前最新: 16.8.0), 调整使用8.6.0可以执
 
 ```
 json
-    link.json 链接配置文件
+  link.json 链接配置文件
 source
-    src
-        model
-            link.js link.json解析
-        card
-            common
-                linktab.js linktab模板代码
-                daohang.js linktab生成
-                navigator.js 导航条
+  src
+    model
+      link.js link.json解析
+    card
+      common
+        linktab.js linktab模板代码
+        daohang.js linktab生成
+        navigator.js 导航条
 ```
 
 ## 许可
