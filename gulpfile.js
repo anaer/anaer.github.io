@@ -35,7 +35,7 @@ gulp.task("dev", function () {
 });
 
 // 监听修改 自动构建
-gulp.task("watch", function () {
-  gulp.run(["dev", "server"]);
-  gulp.watch(["source/src/**/*.js", "source/src/**/*.css"], ["dev"]);
+gulp.task("watch", gulp.series('dev', 'server'), function () {
+  // gulp.run(["dev", "server"]);
+  gulp.watch(["source/src/**/*.js", "source/src/**/*.css"], ['dev']);
 });
