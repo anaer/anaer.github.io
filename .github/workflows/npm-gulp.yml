@@ -28,13 +28,25 @@ jobs:
         npm install
         gulp dev
 
-    - name: Commit files
+    - name: 提交更改
       run: |
-        git config --local user.name  ${{ github.actor }}
-        git add -A
-        git commit -m "Update gulp output files"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+         git config --local user.email "a._-0@139.com"
+         git config --local user.name "[bot]"
+         git add -A
+         if [ -z "$(git status --porcelain)" ]
+         then
+            echo "nothing to update."
+         else
+            git commit -m "Update gulp output files"
+         fi
+    - name: 推送更改
+      uses:  ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.REPO_GITHUB_TOKEN }}
-        # force: true
+         # github_token: ${{ secrets.TOKEN }}
+         branch: master
+
+    - name: 删除无用 workflow runs
+      uses: GitRML/delete-workflow-runs@main
+      with:
+        retain_days: 0.1
+        keep_minimum_runs: 3
