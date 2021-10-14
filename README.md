@@ -72,6 +72,7 @@ source
             common
                 linktab.js linktab模板代码
                 daohang.js linktab生成
+                navigator.js 导航条
 ```
 
 ## 许可

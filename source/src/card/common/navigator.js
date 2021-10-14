@@ -12,15 +12,15 @@ module.exports = function (option, base) {
         data: [{
             type: 'link',
             name: '导航',
-        }, {
-            type: 'qrcode',
-            name: '二维码',
-        }, {
-            type: 'edit',
-            name: '模板可视化编辑',
-        }, {
-            type: 'benchmark',
-            name: '性能基准测试',
+        // }, {
+        //     type: 'qrcode',
+        //     name: '二维码',
+        // }, {
+        //     type: 'edit',
+        //     name: '模板可视化编辑',
+        // }, {
+        //     type: 'benchmark',
+        //     name: '性能基准测试',
         }],
         getData: function (hashRender, options) {
             options.config = {
