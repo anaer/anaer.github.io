@@ -35,7 +35,8 @@ gulp watch
 
 ```log
 Q: gulp命令执行报错, 如`gulp dev`, `gulp server`, 错误信息: ReferenceError: primordials is not defined
-A: NodeJS可能版本太高(当前最新: 16.8.0), 调整使用8.6.0可以执行
+A: 1. NodeJS可能版本太高(当前最新: 16.8.0), 调整使用8.6.0可以执行
+   2. 升级gulp版本为4.x, 同时修改gulpfile.js中的过时方法
 ```
 
 
@@ -55,6 +56,22 @@ A: NodeJS可能版本太高(当前最新: 16.8.0), 调整使用8.6.0可以执行
         ]
     }
 ]
+```
+
+
+## 目录结构
+
+```
+json
+    link.json 链接配置文件
+source
+    src
+        model
+            link.js link.json解析
+        card
+            common
+                linktab.js linktab模板代码
+                daohang.js linktab生成
 ```
 
 ## 许可
