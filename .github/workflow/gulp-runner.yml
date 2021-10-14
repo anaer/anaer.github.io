@@ -2,6 +2,7 @@ name: Run gulp tasks
 
 # Controls when the action will run.
 on:
+  workflow_dispatch:
   push:
     # On which branch
     branches: ["master"]
