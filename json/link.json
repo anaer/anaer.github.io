@@ -141,7 +141,8 @@
             "HikariCP | https://github.com/brettwooldridge/HikariCP",
             "Lombok | https://objectcomputing.com/resources/publications/sett/january-2010-reducing-boilerplate-code-with-project-lombok",
             "Lombok Maven Plugin | http://anthonywhitford.com/lombok.maven/lombok-maven-plugin/usage.html",
-            "python requests | https://docs.python-requests.org/en/latest/user/quickstart/"
+            "python requests | https://docs.python-requests.org/en/latest/user/quickstart/",
+            "rest-assured使用指南 | https://testerhome.com/topics/7060#Multi-part%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE"
         ]
     },
     {
