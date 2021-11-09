@@ -55,7 +55,8 @@
             "Public-apis | https://github.com/public-apis",
             "transmittable-thread-local | https://github.com/alibaba/transmittable-thread-local",
             "mzt-biz-log | https://github.com/mouzt/mzt-biz-log",
-            "Python PyYAML | https://pyyaml.org/wiki/PyYAMLDocumentation"
+            "Python PyYAML | https://pyyaml.org/wiki/PyYAMLDocumentation",
+            "Python Github | https://pygithub.readthedocs.io/en/latest/introduction.html"
         ]
     },
     {
