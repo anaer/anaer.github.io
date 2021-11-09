@@ -33,7 +33,8 @@ BCD.addEvent('fast_input', function(ele) {
     setTimeout(()=>viewInput[0].focus(), 300);
   };
   const doSearch = () => {
-    let href = 'https://www.baidu.com/s?wd='+encodeURIComponent(getWord());
+    //let href = 'https://www.baidu.com/s?wd='+encodeURIComponent(getWord());
+    let href = 'https://www.ecosia.org/search?q='+encodeURIComponent(getWord());
     reset();
     window.open(href);
   };
