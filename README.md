@@ -73,6 +73,8 @@ source
         linktab.js linktab模板代码
         daohang.js linktab生成
         navigator.js 导航条
+      tool
+        link.js      可以修改搜索框默认搜索引擎
 ```
 
 ## 许可
