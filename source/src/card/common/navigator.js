@@ -41,7 +41,7 @@ module.exports = function (option, base) {
             '    <%}%>' +
             '    </ul>' +
             '  </div>' +
-            '  <img src="https://profile-counter.glitch.me/anaer/count.svg" />
+            '  <img src="https://profile-counter.glitch.me/anaer/count.svg" />' +
             '</header>'
     }, option);
 };
