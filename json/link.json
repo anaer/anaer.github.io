@@ -32,7 +32,8 @@
             "transmittable-thread-local | https://github.com/alibaba/transmittable-thread-local",
             "mzt-biz-log | https://github.com/mouzt/mzt-biz-log",
             "Python PyYAML | https://pyyaml.org/wiki/PyYAMLDocumentation",
-            "Python Github | https://pygithub.readthedocs.io/en/latest/introduction.html"
+            "Python Github | https://pygithub.readthedocs.io/en/latest/introduction.html",
+            "markdown guide | https://about.gitlab.com/handbook/markdown-guide/"
         ]
     },
     {
