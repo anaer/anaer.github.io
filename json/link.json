@@ -2,7 +2,7 @@
     {
         "title": "常用项目",
         "groupid": 1,
-        "limit": 6,
+        "limit": 10,
         "rows": [
             "编辑此页 | https://github.com/anaer/anaer.github.io/blob/master/json/link.json",
             "Github Notifications | https://github.com/notifications?query=is%3Aunread",
