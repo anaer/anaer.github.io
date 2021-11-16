@@ -35,6 +35,7 @@
     {
         "title": "开发社区",
         "groupid": 2,
+        "limit": 9,
         "rows": [
             "开源中国 | https://www.oschina.net/",
             "开发者头条 | https://toutiao.io/",
@@ -50,6 +51,7 @@
     {
         "title": "搜索引擎",
         "groupid": 3,
+        "limit": 8,
         "rows": [
             "SearchCode | https://searchcode.com/",
             "SourceGraph | https://sourcegraph.com/search",
@@ -62,6 +64,7 @@
     {
         "title": "娱乐资源",
         "groupid": 4,
+        "limit": 7,
         "rows": [
             "雀魂麻将 | https://game.maj-soul.com/1/",
             "茶杯狐 | https://www.cupfox.com/",
@@ -71,6 +74,7 @@
     {
         "title": "电子书",
         "groupid": 5,
+        "limit": 6,
         "rows": [
             "技术文章摘抄 | http://learn.lianglianglee.com/",
             "go+python混合开发配套电子书 - 体验版 | https://www.yuque.com/bobby-zpcyu/fgg66n",
@@ -82,6 +86,7 @@
     {
         "title": "开发文档",
         "groupid": 6,
+        "limit": 10,
         "rows": [
             "诺依后台管理系统文档 | http://doc.ruoyi.vip/ruoyi/",
             "Redis命令参考 | http://redisdoc.com/index.html",
@@ -116,6 +121,7 @@
     {
         "title": "开源镜像站",
         "groupid": 7,
+        "limit": 6,
         "rows": [
             "清华大学镜像站 | https://mirrors.tuna.tsinghua.edu.cn/",
             "华为开源镜像站 | https://mirrors.huaweicloud.com/home"
@@ -124,6 +130,7 @@
     {
         "title": "工具",
         "groupid": 8,
+        "limit": 10,
         "rows": [
             "MD5加密解密 | https://www.md5online.org/md5-encrypt.html",
             "开源中国在线工具 | https://tool.oschina.net/",
@@ -167,6 +174,7 @@
     {
         "title": "软件应用",
         "groupid": 9,
+        "limit": 6,
         "rows": [
             "iOS限免 | https://mergeek.com/free/apps",
             "小众软件 | https://www.appinn.com/",
