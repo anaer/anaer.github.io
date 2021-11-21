@@ -28,7 +28,7 @@
     },
         {
         "title": "电子书",
-        "groupid": 5,
+        "groupid": 2,
         "limit": 6,
         "rows": [
             "书栈网 | https://www.bookstack.cn/",
@@ -40,7 +40,7 @@
     },
     {
         "title": "开发社区",
-        "groupid": 2,
+        "groupid": 5,
         "limit": 9,
         "rows": [
             "开源中国 | https://www.oschina.net/",
