@@ -26,6 +26,18 @@
             "markdown guide | https://about.gitlab.com/handbook/markdown-guide/"
         ]
     },
+        {
+        "title": "电子书",
+        "groupid": 5,
+        "limit": 6,
+        "rows": [
+            "书栈网 | https://www.bookstack.cn/",
+            "技术文章摘抄 | http://learn.lianglianglee.com/",
+            "go+python混合开发配套电子书 - 体验版 | https://www.yuque.com/bobby-zpcyu/fgg66n",
+            "菜鸟教程 | https://www.runoob.com/",
+            "开发文档 | https://devdocs.io/"
+        ]
+    },
     {
         "title": "开发社区",
         "groupid": 2,
@@ -65,18 +77,7 @@
             "伊洛纳 | https://www.taptap.com/app/79072/topic?sort=created"
         ]
     },
-    {
-        "title": "电子书",
-        "groupid": 5,
-        "limit": 6,
-        "rows": [
-            "技术文章摘抄 | http://learn.lianglianglee.com/",
-            "go+python混合开发配套电子书 - 体验版 | https://www.yuque.com/bobby-zpcyu/fgg66n",
-            "菜鸟教程 | https://www.runoob.com/",
-            "开发文档 | https://devdocs.io/",
-            "书栈网 | https://www.bookstack.cn/"
-        ]
-    },
+
     {
         "title": "开发文档",
         "groupid": 6,
