@@ -33,9 +33,11 @@ let getLinks = new Promise((resolve) => {
                 var domain = url.split('/');
                 if(domain[2]){
                   if(url.startsWith('https')){
-                    favicon = "https://"+domain[2]+"/favicon.ico";
+                    //favicon = "https://"+domain[2]+"/favicon.ico";
+                    favicon = "https://ico.kucat.cn/get.php?url=https://"+domain[2];
                   }else{
-                    favicon = "http://"+domain[2]+"/favicon.ico";
+                    //favicon = "http://"+domain[2]+"/favicon.ico";
+                    favicon = "https://ico.kucat.cn/get.php?url=http://"+domain[2];
                   }
                 }
               }
