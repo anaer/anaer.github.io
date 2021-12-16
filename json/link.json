@@ -117,7 +117,8 @@
             "python requests | https://docs.python-requests.org/en/latest/user/quickstart/",
             "rest-assured使用指南 | https://testerhome.com/topics/7060#Multi-part%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE",
             "spring data redis 教程 | https://www.baeldung.com/spring-data-redis-tutorial",
-            "js-Grid | http://js-grid.com/docs/"
+            "js-Grid | http://js-grid.com/docs/",
+            "jqGrid | http://www.trirand.com/jqgridwiki/doku.php?id=start"
         ]
     },
     {
