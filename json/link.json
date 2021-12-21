@@ -124,15 +124,6 @@
         ]
     },
     {
-        "title": "开源镜像站",
-        "groupid": 7,
-        "limit": 6,
-        "rows": [
-            "清华大学镜像站 | https://mirrors.tuna.tsinghua.edu.cn/",
-            "华为开源镜像站 | https://mirrors.huaweicloud.com/home"
-        ]
-    },
-    {
         "title": "工具",
         "groupid": 8,
         "limit": 10,
@@ -189,7 +180,7 @@
     },
     {
         "title": "音乐广播",
-        "groupid": 10,
+        "groupid": 7,
         "limit": 6,
         "rows": [
             "CNR经典音乐广播 | http://ngcdn004.cnr.cn/live/dszs/index.m3u8",
