@@ -11,7 +11,7 @@
             "Gmail | https://mail.google.com/mail/u/0/#inbox",
             "国家信息安全漏洞库 | http://www.cnnvd.org.cn/web/vulnerability/querylist.tag",
             "人人词典 | https://www.91dict.com/",
-            "F 搜 | https://fsou.cc/",
+            
             "Java API实例 | https://www.programcreek.com/java-api-examples/",
             
             "知乎热榜 | https://www.zhihu.com/hot",
@@ -67,6 +67,7 @@
         "groupid": 3,
         "limit": 8,
         "rows": [
+            "F 搜 | https://fsou.cc/",
             "SearchCode | https://searchcode.com/",
             "SourceGraph | https://sourcegraph.com/search",
             "Magi | https://magi.com/",
