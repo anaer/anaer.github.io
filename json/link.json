@@ -7,7 +7,7 @@
             "编辑此页 | https://github.com/anaer/anaer.github.io/blob/master/json/link.json",
             "Github | https://github.com",
             "杭州天气 | http://www.nmc.cn/publish/forecast/AZJ/hangzhou.html",
-            "Feedly | https://feedly.com/i/my/me",
+            
             "Gmail | https://mail.google.com/mail/u/0/#inbox",
             "国家信息安全漏洞库 | http://www.cnnvd.org.cn/web/vulnerability/querylist.tag",
             "人人词典 | https://www.91dict.com/",
@@ -26,7 +26,8 @@
             "源仓库 | http://yck.mumuceo.com/",
             "Extract Pics | https://extract.pics/",
             "RssHub | https://docs.rsshub.app",
-            "个推Maven仓库 | https://mvn.getui.com/nexus/content/repositories/releases/"
+            "个推Maven仓库 | https://mvn.getui.com/nexus/content/repositories/releases/",
+            "Feedly | https://feedly.com/i/my/me",
         ]
     },
         {
