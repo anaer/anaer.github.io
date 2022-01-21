@@ -60,7 +60,8 @@ BCD.addEvent('fast_input', function(ele) {
             success: function(data) {},
         });
         // 放success里 好像没提示, 不搞前端, 不确定原因, 先放外面提示已通知
-        alert('已通知');
+        // alert('已通知');
+        $(btnNotify).tip('已通知');
       }
     }, 300);
   })
