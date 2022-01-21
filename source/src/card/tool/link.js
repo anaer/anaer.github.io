@@ -2,8 +2,9 @@
 var m_link = require('model/link');
 
 BCD.addEvent('fast_input', function(ele) {
-  let viewInput = ele.find('input');
+  let viewInput = ele.find('#content');
   let viewDrop = ele.find('[data-selector="dropdown"]');
+  let btnNotify = ele.find('#notify');
   viewDrop.setView({
     name: 'link/drop',
     template: '<ul><%(obj ||[]).forEach(function(o, i){%>' +
@@ -34,7 +35,8 @@ BCD.addEvent('fast_input', function(ele) {
   };
   const doSearch = () => {
     //let href = 'https://www.baidu.com/s?wd='+encodeURIComponent(getWord());
-    let href = 'https://www.ecosia.org/search?q='+encodeURIComponent(getWord());
+    // let href = 'https://www.ecosia.org/search?q='+encodeURIComponent(getWord());
+    let href = 'https://duckduckgo.com/?q='+encodeURIComponent(getWord());
     reset();
     window.open(href);
   };
@@ -44,6 +46,24 @@ BCD.addEvent('fast_input', function(ele) {
       viewDrop.hide();
     }, 300);
   });
+
+  btnNotify.on('click', function(){
+    setTimeout(function(){
+      let word = getWord();
+      if (word) {
+        $.ajax({
+            url: "https://api2.pushdeer.com/message/push?pushkey=PDU3423TORUEz2NZHKZVIpSlb2ErGJcERTunXneI&text="+encodeURIComponent(word),
+            type: 'get',
+            dataType: 'jsonp',  // 请求方式为jsonp
+            crossDomain: true,
+            data: {},
+            success: function(data) {},
+        });
+        // 放success里 好像没提示, 不搞前端, 不确定原因, 先放外面提示已通知
+        alert('已通知');
+      }
+    }, 300);
+  })
   ele.on('keydown', function(e) { //上下选择
     //console.log(e.keyCode);
     if(e.keyCode==27){
@@ -123,12 +143,14 @@ BCD.addEvent('fast_input', function(ele) {
   });
 
 });
-var view = $('<div class="am-container">' +
+var view = $(
+  '<div class="am-container">' +
   '  <div class="am-margin-lg am-u-sm-11" style="padding:0" data-on="?m=fast_input">' +
-  '   <input type="text" class="am-form-field"' +
-  '    style="ime-mode:active" autofocus="autofocus" placeholder="地址直达（支持拼音首字母）">' +
+  '   <input id="content" type="text" class="am-form-field" style="ime-mode:active" autofocus="autofocus" placeholder="地址直达（支持拼音首字母）">' +
   '   <div class="autocomplete-dropdown" data-selector="dropdown" style="display:none"></div>' +
-  '  </div></div>').setView({
+  '   <input id="notify" type="button" class="" style="" value="通知一下", title="在文本框中输入内容, 然后点击按钮可以通知作者." />' +
+  '  </div>'+
+  '</div>').setView({
   name: 'link/input'
 });
 
