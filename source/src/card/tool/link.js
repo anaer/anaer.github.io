@@ -83,14 +83,14 @@ BCD.addEvent('fast_input', function(ele) {
       return;
     }
     let word = getWord();
-    if(e.keyCode>95 && e.keyCode < 106 &&(!/^\d+$/.test(word))){ //0-9 是96-105
+    if(e.keyCode>95 && e.keyCode < 106 &&(!/^\d+$/.test(word))){ //0-9 是96-105 小键盘
       if(selectList[e.keyCode-96]){
         $(selectList[e.keyCode-96]).trigger('click');
         setTimeout(reset, 100);
       }
       return;
     }
-    if(e.keyCode>47 && e.keyCode < 58 &&(!/^\d+$/.test(word))){ //0-9 是48-57
+    if(e.keyCode>47 && e.keyCode < 58 &&(!/^\d+$/.test(word))){ //0-9 是48-57 数字键盘
       if(selectList[e.keyCode-48]){
         $(selectList[e.keyCode-48]).trigger('click');
         return setTimeout(reset, 100);
