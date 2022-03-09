@@ -124,6 +124,7 @@
         "groupid": 8,
         "limit": 10,
         "rows": [
+            "爱达杂货铺 | https://adzhp.cn/",
             "MD5加密解密 | https://www.md5online.org/md5-encrypt.html",
             "开源中国在线工具 | https://tool.oschina.net/",
             "base64图片转换 | http://tool.css-js.com/base64.html",
@@ -142,7 +143,6 @@
             "端口联通检测 | http://port.ping.pe/",
             "在线工具jsons.cn | http://www.jsons.cn/",
             "Linux命令搜索 | https://wangchujiang.com/linux-command/",
-            "爱达杂货铺 | https://adzhp.cn/",
             "常用正则表达式 | https://ihateregex.io/",
             "正则表达式 | https://tools.fun/regexp.html",
             "在线工具tool.lu | https://tool.lu/",
@@ -154,7 +154,6 @@
             "短链接 | https://sina.lt/index.html",
             "dependency check maven | https://jeremylong.github.io/DependencyCheck/dependency-check-maven/index.html",
             "Chrome 插件下载 | https://crxdl.com/",
-            "百分浏览器 | http://www.centbrowser.cn/",
             "编程字体 在线选择 | https://www.codingfont.com/",
             "v2ray文档 | https://www.v2ray.com/",
             "国家区域代码缩写 | http://www.sol.com.cn/tool/guojia.html",
@@ -170,7 +169,7 @@
             "小众软件 | https://www.appinn.com/",
             "IINA | https://iina.io/",
             "Dbeaver | https://dbeaver.io/",
-            "The old Reader | https://theoldreader.com/",
+            "The old Reader | https://theoldreader.com/"
         ]
     },
     {
@@ -181,8 +180,7 @@
             "CNR经典音乐广播 | http://ngcdn004.cnr.cn/live/dszs/index.m3u8",
             "楚天音乐广播 | http://satellitepull.cnr.cn/live/wx32hubctyygb/playlist.m3u8",
             "浙江经济广播 | http://satellitepull.cnr.cn/live/wxzjjjgb/playlist.m3u8",
-            "浙江民生资讯广播 | http://satellitepull.cnr.cn/live/wxzjmsgb/playlist.m3u8",
-            "QQ音乐台 | http://149.129.100.78:8000/iradio"
+            "浙江民生资讯广播 | http://satellitepull.cnr.cn/live/wxzjmsgb/playlist.m3u8"
         ]
     }
 ]
