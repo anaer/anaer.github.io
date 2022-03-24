@@ -117,7 +117,8 @@
             "js-Grid | http://js-grid.com/docs/",
             "jqGrid | http://www.trirand.com/jqgridwiki/doku.php?id=start",
             "豆瓣接口文档 | https://api.doubans.com/",
-            "华为推送 | https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-server-dev-0000001050040110"
+            "华为推送 | https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-server-dev-0000001050040110",
+            "华为推送服务服务端Java示例代码 | https://gitee.com/hms-core/hms-push-serverdemo-java"
         ]
     },
     {
