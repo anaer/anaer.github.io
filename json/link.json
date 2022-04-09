@@ -68,6 +68,7 @@
         "groupid": 3,
         "limit": 8,
         "rows": [
+            "grep app | https://grep.app/",
             "SearchCode | https://searchcode.com/",
             "SourceGraph | https://sourcegraph.com/search",
             "Java API实例 | https://www.programcreek.com/java-api-examples/",
