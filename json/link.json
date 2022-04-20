@@ -176,6 +176,18 @@
         ]
     },
     {
+        "title": "推送服务",
+        "groupid": 10,
+        "limit": 6,
+        "rows": [
+            "个推 | https://docs.getui.com/getui/server/rest_v2/introduction/",
+            "华为推送 | https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-server-dev-0000001050040110",
+            "小米推送 | https://dev.mi.com/console/doc/detail?pId=1278",
+            "OPPO推送 | https://open.oppomobile.com/new/developmentDoc/info?id=11233",
+            "VIVO推送 | https://dev.vivo.com.cn/documentCenter/doc/541#w2-98585059"
+        ]
+    },
+    {
         "title": "音乐广播",
         "groupid": 7,
         "limit": 6,
