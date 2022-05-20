@@ -4,7 +4,7 @@
         "groupid": 1,
         "limit": 10,
         "rows": [
-            "编辑此页 | https://github.com/anaer/anaer.github.io/blob/master/json/link.json",
+            "编辑此页 | https://vscode.dev/github/anaer/anaer.github.io/json/link.json",
             "Github | https://github.com",
             "Gmail | https://mail.google.com/mail/u/0/#inbox",
             "抽屉新热榜 | https://dig.chouti.com/",
@@ -105,6 +105,7 @@
         "groupid": 8,
         "limit": 10,
         "rows": [
+            "正则可视化 | https://devtoolcafe.com/tools/regex#!flags=img&re=",
             "爱达杂货铺 | https://adzhp.cn/",
             "度度网 | https://www.topdodo.com/size",
             "MD5加密解密 | https://www.md5online.org/md5-encrypt.html",
