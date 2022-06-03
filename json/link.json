@@ -18,7 +18,7 @@
             "猫不在 | https://thiscatdoesnotexist.com/",
             "免费字体 | https://www.100font.com/",
             "Gallerix 名画博物馆 | https://gallerix.asia/",
-            "Zlibrary | https://zh.1lib.world/"
+            "Zlibrary数字图书馆 | https://zh.1lib.world/"
         ]
     },
         {
@@ -39,12 +39,9 @@
         "groupid": 5,
         "limit": 9,
         "rows": [
-            "开源中国 | https://www.oschina.net/",
             "开发者头条 | https://toutiao.io/",
-            
             "掘金 | https://juejin.im/",
-            "segmentfault | https://segmentfault.com",
-            "运维生存时间 | http://www.ttlsa.com/"
+            "segmentfault | https://segmentfault.com"
         ]
     },
     {
@@ -57,7 +54,6 @@
             "SearchCode | https://searchcode.com/",
             "SourceGraph | https://sourcegraph.com/search",
             "Java API实例 | https://www.programcreek.com/java-api-examples/",
-            "Magi | https://magi.com/",
             "文档搜索 | https://readthedocs.org/",
             "Maven | https://search.maven.org/search?q=hutool-all"
         ]
