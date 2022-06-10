@@ -50,7 +50,7 @@ let getLinks = new Promise((resolve) => {
                   }else{
                     newDomain = "http://"+domain[2];
                   }
-                  favicon = 'http://www.google.com/s2/favicons?domain='+newDomain;
+                  favicon = 'https://www.google.com/s2/favicons?domain='+newDomain;
                 }
               }
               let item = {
