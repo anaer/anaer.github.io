@@ -32,11 +32,13 @@ let getLinks = new Promise((resolve) => {
               if (url) {
                 var domain = url.split('/');
                 if(domain[2]){
-                  if(url.startsWith('https')){
-                    favicon = "https://"+domain[2]+"/favicon.ico";
-                  }else{
-                    favicon = "http://"+domain[2]+"/favicon.ico";
-                  }
+                  //if(url.startsWith('https')){
+                  //  favicon = "https://"+domain[2]+"/favicon.ico";
+                  //}else{
+                  //  favicon = "http://"+domain[2]+"/favicon.ico";
+                  //}
+                  // 调整使用获取favicon的公共API
+                  favicon = 'https://statics.dnspod.cn/proxy_favicon/_/favicon?domain='+domain[2];
                 }
               }
               let item = {
