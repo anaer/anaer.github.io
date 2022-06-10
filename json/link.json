@@ -7,7 +7,6 @@
             "编辑此页 | https://github.com/anaer/anaer.github.io/edit/master/json/link.json",
             "Github | https://github.com",
             "Gmail | https://mail.google.com/mail/u/0/#inbox",
-            "抽屉新热榜 | https://dig.chouti.com/",
             "杭州天气 | http://www.nmc.cn/publish/forecast/AZJ/hangzhou.html",
             "万年历 | https://wannianli.tianqi.com/",
             "维基百科 | https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5",
@@ -18,15 +17,15 @@
             "猫不在 | https://thiscatdoesnotexist.com/",
             "免费字体 | https://www.100font.com/",
             "Gallerix 名画博物馆 | https://gallerix.asia/",
-            "Zlibrary数字图书馆 | https://zh.1lib.world/",
-            "Java全栈知识体系 | https://pdai.tech/"
+            "Zlibrary数字图书馆 | https://zh.1lib.world/"
         ]
     },
-        {
+    {
         "title": "电子书",
         "groupid": 2,
         "limit": 6,
         "rows": [
+            "Java全栈知识体系 | https://pdai.tech/",
             "书栈网 | https://www.bookstack.cn/",
             "技术文章摘抄 | http://learn.lianglianglee.com/",
             "go+python混合开发配套电子书 - 体验版 | https://www.yuque.com/bobby-zpcyu/fgg66n",
@@ -69,7 +68,6 @@
             "伊洛纳 | https://www.taptap.com/app/79072/topic?sort=created"
         ]
     },
-
     {
         "title": "开发文档",
         "groupid": 6,
@@ -140,7 +138,6 @@
             "编程字体 在线选择 | https://www.codingfont.com/",
             "v2ray文档 | https://www.v2ray.com/",
             "国家区域代码缩写 | http://www.sol.com.cn/tool/guojia.html",
-            
             "websocket 在线测试 | http://coolaf.com/tool/chattest"
         ]
     },
