@@ -38,8 +38,8 @@ let getLinks = new Promise((resolve) => {
                   //  favicon = "http://"+domain[2]+"/favicon.ico";
                   //}
                   // 调整使用获取favicon的公共API
-                  // http://www.google.com/s2/favicons?domain=www.baidu.com
-                  favicon = 'https://statics.dnspod.cn/proxy_favicon/_/favicon?domain='+domain[2];
+                  // favicon = 'https://statics.dnspod.cn/proxy_favicon/_/favicon?domain='+domain[2];
+                  favicon = 'http://www.google.com/s2/favicons?domain='+domain[2];
                 }
               }
               let item = {
