@@ -32,14 +32,25 @@ let getLinks = new Promise((resolve) => {
               if (url) {
                 var domain = url.split('/');
                 if(domain[2]){
+                  // 方式一: 有些网站没有favicon
                   //if(url.startsWith('https')){
                   //  favicon = "https://"+domain[2]+"/favicon.ico";
                   //}else{
                   //  favicon = "http://"+domain[2]+"/favicon.ico";
                   //}
+
                   // 调整使用获取favicon的公共API
+                  // 方式二: dnspod domain不带http前缀
                   // favicon = 'https://statics.dnspod.cn/proxy_favicon/_/favicon?domain='+domain[2];
-                  favicon = 'http://www.google.com/s2/favicons?domain='+domain[2];
+
+                  // 方式三: google domain最好带http/https前缀, 有些不带取不到favicon
+                  var newDomain = '';
+                  if(url.startsWith('https')){ // 暂时先这么处理, 有空再调整
+                    newDomain = "https://"+domain[2];
+                  }else{
+                    newDomain = "http://"+domain[2];
+                  }
+                  favicon = 'http://www.google.com/s2/favicons?domain='+newDomain;
                 }
               }
               let item = {
