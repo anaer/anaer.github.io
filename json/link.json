@@ -159,7 +159,7 @@
         "groupid": 10,
         "limit": 10,
         "rows": [
-            "IINA播放器 | https://iina.io/",
+            "IINA播放器 | https://github.com/iina/iina/releases",
             "Dbeaver数据库工具 | https://dbeaver.io/",
             "clash_for_windows | https://github.com/Fndroid/clash_for_windows_pkg/releases"
         ]
