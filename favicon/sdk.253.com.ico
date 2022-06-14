@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="X-UA-Compatible" content="Chrome=1,IE=Edge" />
+<link rel="shortcut icon" href="https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/clfavicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/stylesheets/windows_styles/cssreset.css" />
+<link rel="stylesheet" href="/stylesheets/windows_styles/flex.css" />
+<link rel="stylesheet" href="/stylesheets/windows_styles/header.css" />
+<link rel="stylesheet" href="/stylesheets/windows_styles/footer.css" />
+<link rel="stylesheet" href="/stylesheets/windows_styles/process.css" />
+<link rel="stylesheet" href="/stylesheets/windows_styles/follow.css" />
+<link rel="stylesheet" href="/stylesheets/popover.css" />
+        <title>一键登录，身份验证，IM即时通讯服务-上海璟梦信息科技有限公司</title>
+        <meta id="keywords" name="keywords" content="一键登录,身份核验,IM即时通讯SDK，实时音视频,直播SDK-上海璟梦信息科技有限公司">
+        <meta id="description" name="description" content="上海璟梦信息科技有限公司-提供会员认证服务，音视频云服务，会员营销服务，多种SDK，一站式满足企业全链路需求">
+        <link rel="stylesheet" href="/stylesheets/swiper.css" />
+        <link rel="stylesheet" href="/stylesheets/animate.min.css" />
+        <link rel="stylesheet" href="/stylesheets/windows_styles/index.css" />
+        
+    </head>
+    <body>
+        <div class="layout-block">
+            <div class="sdk-header">
+    <header class="main-block">
+        <div class="sdk-row sdk-row-middle sdk-row-space-between sdk-header-content">
+            <div class="sdk-col">
+                <div class="sdk-row sdk-row-middle">
+                    <div class="sdk-col header-logo">
+                        <a href="/">
+                            <img src="https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/cllogo.png" alt="" />
+                        </a>
+                    </div>
+                    <ul class="sdk-col sdk-header-naving">
+                        <li id="product">产品<img height="6" src="/images/windows_images/header/arrow.png" alt="产品" /></li>
+                        <li id="solution">解决方案<img height="6" src="/images/windows_images/header/arrow.png" alt="解决方案" /></li>
+                        <li id="developer">开发者中心<img height="6" src="/images/windows_images/header/arrow.png" alt="开发者中心" /></li>
+                        
+                        <li><a style="color: rgb(37, 42, 61)" href="/sdk-price">价格</a></li>
+                        
+                        <li><a style="color: rgb(37, 42, 61)" target="_blank" href="/commit-detail/ruwset/ugxr5m"> 合规文档 </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sdk-col sdk-header-operate">
+                
+                <a href="/developer/login/login_form" data-ripple class="sdk-header-console">登录控制台</a>
+                <a href="/developer/login/register_phone" data-ripple class="sdk-header-regist">快速注册</a>
+                
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="sdk-header-detail">
+    <div class="main-block">
+        <div class="popover-menu first-popver hide" id="product-menu">
+            <div class="first-tag">
+                <img height="16" src="/images/windows_images/header/triangle.png" alt="箭头" />
+            </div>
+            <ul class="sdk-row sdk-row-space-between menu-detail">
+                <li class="sdk-col detail-item-first">
+                    <h3>验证云</h3>
+                    <ul class="sdk-row product-block">
+                        <li class="sdk-col sdk-col-12 product-item">
+                            <a href="/sdk-flash">
+                                <div class="sdk-row">
+                                    <div class="sdk-col item-left">
+                                        <img width="14" src="/images/windows_images/header/flash.png" alt="闪验认证" />
+                                    </div>
+                                    <div class="sdk-col item-right">
+                                        <h4>闪验认证</h4>
+                                        <p>提供一键登录和手机号认证功能</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="sdk-col sdk-col-12 product-item">
+                            <a href="/sdk-alive">
+                                <div class="sdk-row">
+                                    <div class="sdk-col item-left">
+                                        <img width="15" src="/images/windows_images/header/alive.png" alt="实人认证" />
+                                    </div>
+                                    <div class="sdk-col item-right">
+                                        <h4>实人认证</h4>
+                                        <p>直连公安数据库实时核验用户身份</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="popover-menu second-popver hide" id="solution-menu">
+            <div class="second-tag">
+                <img height="16" src="/images/windows_images/header/triangle.png" alt="箭头" />
+            </div>
+            <ul class="sdk-row sdk-row-space-between menu-detail">
+                <li class="sdk-col service-item service-hover">
+                    <a href="/sdk-game">
+                        <div class="sdk-row">
+                            <div class="sdk-col item-left">
+                                <img width="15" src="/images/windows_images/header/game.png" alt="游戏" />
+                            </div>
+                            <div class="sdk-col item-right">
+                                <h4>游戏</h4>
+                                <p>激活提升玩家活跃度</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sdk-col service-item service-hover">
+                    <a href="/sdk-finance">
+                        <div class="sdk-row">
+                            <div class="sdk-col item-left">
+                                <img width="14" src="/images/windows_images/header/finance.png" alt="金融" />
+                            </div>
+                            <div class="sdk-col item-right">
+                                <h4>金融</h4>
+                                <p>加快创新速度并提升用户体验</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sdk-col service-item service-hover">
+                    <a href="/sdk-education">
+                        <div class="sdk-row">
+                            <div class="sdk-col item-left">
+                                <img width="17" src="/images/windows_images/header/education.png" alt="教育" />
+                            </div>
+                            <div class="sdk-col item-right">
+                                <h4>教育</h4>
+                                <p>帮助客户快速搭建在线课堂平台</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sdk-col service-item service-hover">
+                    <a href="/sdk-medical">
+                        <div class="sdk-row">
+                            <div class="sdk-col item-left">
+                                <img width="14" src="/images/windows_images/header/medical.png" alt="医疗" />
+                            </div>
+                            <div class="sdk-col item-right">
+                                <h4>医疗</h4>
+                                <p>提升医疗卫生数据质量</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sdk-col service-item service-hover">
+                    <a href="/sdk-shopping">
+                        <div class="sdk-row">
+                            <div class="sdk-col item-left">
+                                <img width="14" src="/images/windows_images/header/shopping.png" alt="电商" />
+                            </div>
+                            <div class="sdk-col item-right">
+                                <h4>电商</h4>
+                                <p>从容面对业务高峰，完成转型升级</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="sdk-col service-item"></li>
+            </ul>
+        </div>
+        <div class="popover-menu third-popver hide" id="developer-menu">
+            <div class="third-tag">
+                <img height="16" src="/images/windows_images/header/triangle.png" alt="箭头" />
+            </div>
+            <ul class="third-detail">
+                <li><a href="/sdk-document">文档中心</a></li>
+                
+                <li><a href="/sdk-download">SDK下载</a></li>
+                
+                <li><a target="_blank" href="/document-detail/yq18o8/brbquz">平台常见问题</a></li>
+                
+                <li><a target="_blank" href="https://github.com/253CL">示例代码</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="popover-menu fourth-popver hide" id="console-menu">
+            <div class="fourth-tag">
+                <img height="16" src="/images/windows_images/header/triangle.png" alt="箭头" />
+            </div>
+            <ul class="fourth-detail">
+                <li>
+                    <a href="/developer/account"> <img width="18" src="/images/windows_images/header/account.svg" alt="账户中心" />账号中心 </a>
+                </li>
+                <li>
+                    <a href="/developer/auth"> <img width="18" src="/images/windows_images/header/identify.svg" alt="账户中心" />账号认证</a>
+                </li>
+                <li>
+                    <a href="/sdk-signout" style="color: #ff4d4f"> <img width="18" src="/images/windows_images/header/back.svg" alt="账户中心" />退出</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var baseInfo = {}
+</script>
+            <div class=" banner-block">
+                <div class="main-block sdk-row">
+                    <div class="sdk-col-11">
+                        <h1 >会员验证云</h1>
+                        <p >提供闪验、一键登录、实人认证服务，快速完成用户认证，优化体验，可进行设备指纹查询，提高风控安全性。</p>
+                        <a  href="/developer" > 立即试用 </a>
+                    </div>
+                    <div class="sdk-col-13 swiper01">
+                                <img height="412" src="/images/windows_images/index/swiper01.png" alt="会员验证云" />
+                    </div>
+                </div>
+            </div>
+            <div class="content-block">
+                <div class="first-block main-block">
+                    <div class="content-header">
+                        <h2>性能强大、安全、稳定的云服务</h2>
+                        <span></span>
+                        <p>强大的底层架构 一站式满足企业全链路需求</p>
+                    </div>
+                    <ul  class="sdk-row sdk-row-space-between service-block">
+                        <li class="sdk-col service-item">
+                            <h3>闪验认证</h3>
+                            <p>直连三大运营商网关取号服务<br/>已获得三大运营商特有的数据网关+SIM 卡验证能力<br/>帮助企业优化验证流程，助力运营拉新、留存、促活</p>
+                            <a href="/developer">免费试用</a>
+                            <img height="250" src="/images/windows_images/index/service01.png" alt="闪验认证">
+                        </li>
+                        <li class="sdk-col service-item">
+                            <h3>实人认证</h3>
+                            <p>根据提示做出相应动作，SDK实时采集动态信息，判断用户是否为活体、真人<br/>直连公安数据库，核验姓名和身份证号，判断用户头像是否为身份证本人<br/>利用OCR技术直接识别身份证信息</p>
+                            <a href="/developer">免费试用</a>
+                            <img height="250" src="/images/windows_images/index/service02.png" alt="实人认证">
+                        </li>
+                    </ul>
+                   
+                </div>
+                <div class="content-header second-block">
+                    <div class="main-block">
+                        <div class="content-header">
+                            <h2>平台优势</h2>
+                            <span></span>
+                            <p>安全可靠 承诺高可用的稳定服务</p>
+                        </div>
+                        <ul class="sdk-row sdk-row-space-between advantage-block">
+                            <li class="sdk-col advantage-item">
+                                <img height="165" src="/images/windows_images/index/advantage01.png" alt="稳定高可用" />
+                                <h3>稳定高可用</h3>
+                                <p>高弹性可扩展网络架构，<br />千万企业级用户验证</p>
+                                <a href="/developer">免费试用</a>
+                            </li>
+                            <li class="sdk-col advantage-item">
+                                <img height="165" src="/images/windows_images/index/advantage02.png" alt="超大规模并发" />
+                                <h3>超大规模并发</h3>
+                                <p>网络架构设计能应对10倍以上负荷，轻松<br />应对用户流量突增，稳定可靠</p>
+                                <a href="/developer">免费试用</a>
+                            </li>
+                            <li class="sdk-col advantage-item">
+                                <img height="165" src="/images/windows_images/index/advantage03.png" alt="7*24小时技术服务" />
+                                <h3>7*24小时技术服务</h3>
+                                <p>专业的技术团队支持，及时响应客户<br />的需求和问题</p>
+                                <a href="/developer">免费试用</a>
+                            </li>
+                        </duliv>
+                    </div>
+                </div>
+                <div class="third-block main-block">
+                    <div class="content-header">
+                        <h2>解决方案</h2>
+                        <span></span>
+                    </div>
+                    <ul class="sdk-row sdk-row-space-between solution-block">
+                        <li class="sdk-col solution-item">
+                            <div class="sdk-row sdk-row-no-wrap">
+                                <div class="sdk-col item-left">
+                                    <img width="32" src="/images/windows_images/index/game.png" alt="游戏" />
+                                </div>
+                                <div class="sdk-col item-right">
+                                    <h4>游戏</h4>
+                                    <p>设备、账号、行为、内容全流程布控，净化游戏环境。帮助游戏行业用户同时实现内容风控需求和黑产工作室对抗等业务风控需求。降低风控成本，专注业务增长</p>
+                                    <a href="/sdk-game" class="item-hover">了解详情</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sdk-col solution-item">
+                            <div class="sdk-row sdk-row-no-wrap">
+                                <div class="sdk-col item-left">
+                                    <img width="32" src="/images/windows_images/index/finance.png" alt="金融" />
+                                </div>
+                                <div class="sdk-col item-right">
+                                    <h4>金融</h4>
+                                    <p>深度结合联邦学习和机器学习的能力，精准防御黑产批量登录、骗取营销奖励的风险，亦能识别当前操作是否为本人登录，降低伪冒交易风险</p>
+                                    <a href="/sdk-finance" class="item-hover">了解详情</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sdk-col solution-item">
+                            <div class="sdk-row sdk-row-no-wrap">
+                                <div class="sdk-col item-left">
+                                    <img width="32" src="/images/windows_images/index/education.png" alt="教育" />
+                                </div>
+                                <div class="sdk-col item-right">
+                                    <h4>教育</h4>
+                                    <p style="padding-bottom: 20px;">既提供营销活动所需的反作弊、交易风控等通用业务风控功能，也能快速筛查内容，满足平台中多种场景下的内容风控需求</p>
+                                    <a href="/sdk-education" class="item-hover">了解详情</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sdk-col solution-item">
+                            <div class="sdk-row sdk-row-no-wrap">
+                                <div class="sdk-col item-left">
+                                    <img width="32" src="/images/windows_images/index/medical.png" alt="医疗" />
+                                </div>
+                                <div class="sdk-col item-right">
+                                    <h4>医疗</h4>
+                                    <p>全链路风控，从设备风险到关键业务事件，全方位布控，从流量监控深入应用底层，支持私有化等多种部署方式，对接简单、数据稳定可靠、隐私安全受保护</p>
+                                    <a href="/sdk-medical" class="item-hover">了解详情</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sdk-col solution-item">
+                            <div class="sdk-row sdk-row-no-wrap">
+                                <div class="sdk-col item-left">
+                                    <img width="32" src="/images/windows_images/index/shopping.png" alt="电商" />
+                                </div>
+                                <div class="sdk-col item-right">
+                                    <h4>电商</h4>
+                                    <p>综合设备、账号、行为、内容的全局数据，提供全方面风险画像的账号级识别能力，既拦截内容风险与行为风险，亦可提供风险账号标签、风险设备标签标注能力</p>
+                                    <a href="/sdk-shopping" class="item-hover">了解详情</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sdk-col solution-item last-solution">
+                            <div class="sdk-row sdk-row-no-wrap">
+                                <div class="sdk-col item-left">
+                                    <img width="32" src="/images/windows_images/index/more.png" alt="更多" />
+                                </div>
+                                <div class="sdk-col item-right">
+                                    <h4 style="margin-bottom: 111px;">更多方案</h4>
+                                    <a href="javascript:;" class="last-special">敬请期待</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="customer-block">
+                <ul class="main-block sdk-row">
+                    <li class="sdk-col sdk-col-8 customer-item">
+                        <h2>1500+</h2>
+                        <p>合作伙伴</p>
+                    </li>
+                    <li class="sdk-col sdk-col-8 customer-item">
+                        <h2>5000+</h2>
+                        <p>开发者信任</p>
+                    </li>
+                    <li class="sdk-col sdk-col-8 customer-item">
+                        <h2>400W+</h2>
+                        <p>每日调用</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="website-block">
+                <img width="100%" src="/images/windows_images/index/website.png" alt="合作客户" />
+            </div>
+            <div class="main-block" id="process">
+    <div class="process-block">
+        <h2>接入流程</h2>
+        <span></span>
+        <img height="118" src="/images/windows_images/index/process.png" alt="接入流程" />
+        
+        <p>注册即送2000条短信+10000分钟音视频通话</p>
+        
+        <a href="/developer">立即试用</a>
+    </div>
+</div>
+            <div class="sdk-footer">
+    <div class="sdk-row main-block sdk-footer-naving">
+        <div class="sdk-col sdk-col-8 info-item">
+            <img height="50" src="https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/cllogo.png" alt="十个sdk" />
+            
+            <h3>400-9669-253<span>(7*24h)</span></h3>
+            
+        </div>
+        <dl class="sdk-col sdk-col-4 map-item">
+            <dt>验证云</dt>
+            <dd><a href="/sdk-flash">闪验认证</a></dd>
+            <dd><a href="/sdk-alive">实人认证</a></dd>
+        </dl>
+        <dl class="sdk-col sdk-col-4 map-item">
+            <dt>开发者</dt>
+            <dd><a href="/sdk-document'">开发者中心</a></dd>
+            <dd><a href="/sdk-download">SDK和源码下载</a></dd>
+            <dd><a target="_blank" href="/commit-detail/hkcqxx/qb6bsf">用户服务协议</a></dd>
+            <dd><a target="_blank" href="/commit-detail/rcc5zd/fd21s8">隐私政策</a></dd>
+            <dd><a target="_blank" href="/commit-detail/dzov91/acxpks">信息源安全承诺书</a></dd>
+        </dl>
+        
+        <dl class="sdk-col sdk-col-3 map-item">
+            <dt>公司</dt>
+            <dd><a target="_blank" href="/about-us">关于我们</a></dd>
+        </dl>
+        
+    </div>
+</div>
+
+<div class="sdk-copyright">
+    <div class="main-block copyright-content"><p style="color: #666a77; text-align: center;">上海创蓝云智信息科技有限公司[创蓝(中国)]版权所有Copyright@2012-2021 AII Right Reserved</p><p style="color: #666a77; text-align: center; margin-top:10px;">增值电信业务经营许可证沪ICP备案:15046301号-2&nbsp; &nbsp; &nbsp;&nbsp;<img src="https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/police.png" alt="沪公网安"/>&nbsp;沪公网安备案 31011702001190号</p></div>
+</div>
+
+<!-- <div class="sdk-copyright">
+    <div class="main-block copyright-content">
+        <p>上海创蓝云智股份有限公司[创蓝(中国)]版权所有Copyright@2012-2021 AII Right Reserved</p>
+        <p>
+            <span style="margin-right: 44px">增值电信业务经营许可证：B2-20120076</span>
+            <span style="margin-right: 24px">沪ICP备案：15046301号-2</span>
+            <span>
+                <img height="20" src="/images/windows_images/footer/police.png" alt="沪公网安" />
+                沪公网安备案 31011702001190号</span
+            >
+        </p>
+    </div>
+</div> -->
+
+<div style="display: none">
+    <script type="text/javascript">
+        document.write(unescape("%3Cspan id='cnzz_stat_icon_1280092365'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280092365%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+
+<script type="text/javascript">
+    var configInfo = {"ext_fields":{},"id":null,"company_id":null,"create_time":null,"update_time":null,"company_name":"上海璟梦信息科技有限公司","website_title":"创蓝SDK-开发者平台","domain_address":"sdk.253.com","api_domain_address":null,"console_doc_switch":1,"custom_domain_cname":null,"website_logo":"https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/cllogo.png","navigation_bar_logo":"https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/clfavicon.ico","archival_information":"<p style=\"color: #666a77; text-align: center;\">上海创蓝云智信息科技有限公司[创蓝(中国)]版权所有Copyright@2012-2021 AII Right Reserved</p><p style=\"color: #666a77; text-align: center; margin-top:10px;\">增值电信业务经营许可证沪ICP备案:15046301号-2&nbsp; &nbsp; &nbsp;&nbsp;<img src=\"https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/police.png\" alt=\"沪公网安\"/>&nbsp;沪公网安备案 31011702001190号</p>","console_official_website_switch":1,"login_slogan":"为企业提供一站式SDK服务","domain_type":1,"official_doc_center_logo":"https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/cllogo2.png"}
+    var agentSetting = {"ext_fields":{},"used_sms_sign":null,"audit_sms_sign":null,"privacy_policy":"<p><strong>隐私政策</strong><br>上线日期：2021年3月<br>上海创蓝云智信息科技股份有限公司及关联方（以下称“创蓝”或称“我们”）及其关联公司在创蓝平台（以下简称“本平台”），作为一家专注互联网综合数据服务的公司，一直以来都非常重视数据服务中个人信息的保护和隐私保护。创蓝深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。《创蓝隐私政策》（以下简称“本政策”）适用于我们为您提供产品和/或服务过程中对于您提供的个人信息处理和保护。我们提供的产品和服务包括但不限于8种SDK服务（闪验认证、实人认证、短信认证、追踪短链，即时通讯、实时语音、视频互动、视频直播）、数据服务（如空号检测）等已经存在的以及不时创新研发的其他产品和服务。 <br>鉴于我们与您是直接合同关系（即您已注册了合法有效的创蓝账号且集成了创蓝SDK），这不同于我们与您的终端用户的间接关系。<strong>故创蓝会要求您通过隐私政策或服务协议等适当的方式确保您知悉且同意我们获取和使用您的用户相关信息，以便让创蓝可以获取和使用实现相关服务功能所必要的合理信息。</strong><br>我们希望通过本隐私政策帮助您了解创蓝提供服务过程中是如何收集、使用、共享、转让、公开披露、保护您的用户信息，同时向您披露我们收集和使用用户信息的目的、方式、范围，为您提供访问、更新、删除用户信息的方法。因此，请您仔细阅读并充分理解本隐私政策。<strong>作为我们的客户，若您利用我们的产品或服务，为您的终端用户再行提供服务而收集的信息部分，您应当根据适用的法律法规另行与您的终端用户约定隐私政策，创蓝对此不承担任何责任。</strong><br>本政策帮助您了解以下内容：<br>一、我们如何收集和使用您和/或您的终端用户信息 <br>二、我们如何使用Cookie等同类技术<br>三、终端用户的授权与同意<br>四、我们如何共享、转让、公开披露您和/或您的终端用户信息<br>五、我们如何存储您和/或您的终端用户的个人信息<br>六、我们如何保护您和/或您终端用户信息<br>七、您的权利<br>八、我们如何处理儿童的个人信息<br>九、我们如何更新与修改本政策<br>十、如何联系我们<br>十一、关键词定义<br>&ZeroWidthSpace;</p>\n<p><strong>一、我们如何收集和使用您和/或您的终端用户信息</strong><br>我们会依据引言中所提及的相关法律法规，遵循正当、合法、必要的原则，出于本政策所述的以下目的，收集和使用您在使用本平台过程中主动提供的、因您使用本平台而产生的以及我们从第三方获取的您和/或您的终端用户信息。<br>无论基于上述何种场景收集和使用您和/或您的终端用户信息，我们通常只会在征得您同意的情况下进行，除非在某些情况下，基于法律义务或者可能需要保护您或其他人的重要利益向您和/或您的终端用户收集信息。<br><strong>我们承诺，绝不收集或者要求您提供包括但不限于个人种族、政治倾向、宗教、信仰、个人基因数据或生物特征数据、性取向等个人敏感信息。</strong><br> (一) 您作为创蓝开发者客户（或潜在开发者客户）的个人信息<br>为实现本平台的基本业务功能，我们可能需要收集、使用您的相关个人信息。以下将详细说明我们的基本业务功能以及为实现该功能所需的个人信息类型，若您拒绝提供，则无法使用本平台的相关产品和/或服务。<br>注册、登录<br>当您注册创蓝账户时，您需要向我们提供您的电子邮件地址、手机号码，以便我们与您沟通产品使用与费用支付情况。根据《网络安全法》，在您使用SDK服务时，还需要您提供<strong>身份证信息</strong>用于个人实名认证或<strong>企业营业执照信息</strong>用于企业实名认证。<br>日志信息<br>为保障您的账户安全与系统运行安全，更准确地预防钓鱼网站欺诈，当您在访问和浏览创蓝网站时，我们会自动收集您使用创蓝产品和/或服务的详细情况，并作为网络日志进行保存，包括Internet 协议(IP)地址，浏览器类型，Internet 服务提供商（ISP），参考/退出页面，操作系统，日期/时间戳和点击数据流，以判断您的账户风险，保障创蓝为您正常提供服务，统计流量，排查异常信息以及检测、预防和调查欺诈、滥用或安全事件。<br>(二) 您的终端用户信息<br>1. 为实现本平台的基本业务功能，我们可能需要收集、使用您终端用户的相关个人信息。以下将详细列出我们的基本业务功能及为实现该功能所必需的信息类型，这些个人信息的收集、使用仅会在您确认已获得了终端用户同意的前提下进行： <br>（1）创蓝即时通讯\tSDK提供即时聊天服务过程中收集和使用的信息包括<br>①用户聊天信息：用于将实时聊天信息通过加密通道送达至终端用户；<br>②设备信息：用于识别唯一用户，保证消息推送的精准送达；为开发者提供智能标签以及展示业务统计信息的服务；<br>③网络信息与位置信息：优化SDK与创蓝服务器的网络连接请求，保证服务的稳定性和连续性；实现区域、分群即时通讯功能。<br>（2）创蓝闪验认证SDK整合了三大运营商的号码认证能力，为APP开发者提供了一键登录及快速验证用户输入的手机号码和本机流量卡号一致性的服务,这一过程中收集和使用的信息包括：<br>①SDK认证相关请求结果：用于判断开发者是否违规使用, 以及监控线上一键认证稳定性；<br>②设备信息：用于识别唯一用户，检测和防止欺诈活动，帮助开发者规避不必要的损失；<br>③网络信息与位置信息：优化SDK与创蓝服务器的网络连接请求，保证服务的稳定性和连续性；分析认证请求失败原因；<br>④手机号码：一键登录场景下，由APP开发者主动发起然后通过创蓝和运营商交互返回加密手机号，完成一键登录。本机号认证场景下，由APP开发者提供终端用户手机号经由创蓝服务器和运营商交互，返回运营商对该号码和当前流量卡号是否一致的结果。<br>      （3）创蓝实名认证SDK提供实人认证、活体检测等服务过程中收集和使用的信息包括：<br>①用户的姓名、身份证号、人脸图像信息：用于实人认证服务中检测用户身份的真实性；<br>②用户的面部识别信息（静态及/或动态）、用户的设备摄像头权限：用于活体检测服务中人脸检测、人脸检索、人脸比对；<br>（4）创蓝短信认证SDK提供短信验证码服务过程中收集和使用的信息包括：<br>①设备信息：用于识别唯一用户，检测和防止欺诈活动，帮助开发者规避不必要的损失；<br>②手机号码与短信内容：由开发者主动提供，用于通过电信运营商的渠道为开发者进行短信发送。<br>（5）创蓝追踪短链SDK提供信验证码服务服务过程中收集和使用的信息包括：<br>①跳转链接、参数信息（密文）、应用Team ID（iOS）、以及部分网页必要参数信息：用于保证追踪短链服务的正常提供，实现场景还原功能，<br>（6）创蓝实时语音SDK、视频互动SDK、语音直播SDK提供实时音视频过程中收集和使用的信息包括：<br>①与您设备相关的信息：为实现实时音频或视频通话，我们需要您授权开启您的摄像头功能、麦克风功能；我们还会收集您的设备类型、设备型号、CPU信息、储存信息、电池电量信息、操作系统信息；<br>②与您网络状况相关的信息：您的IP地址、信号强度信息、网络类型、用户代理、蓝牙开启信息；<br>③您与我们产品交互相关的信息：收发端用户ID、用户属性、频道信息、使用时长、频道内设置姓名、日志；<br>④您的音视频信息：我们为企业客户提供实时音视频云服务及相关配套服务，若您作为企业客户的终端用户使用我们的该项功能时或者以个人用户名义使用我们的Demo时，我们将为实现实时音视频互动业务功能收集、传输、录制、储存您在使用服务过程中产生的音频流信息、视频流信息以及文字通讯信息，这些信息可能包括您或者/及与您进行互动的个人向我们提供的您的个人信息（包括您发送的文字、图片、音频、视频、您的图像、声音、肖像以及您交流的内容）。<br><strong>提请您注意并知悉，创蓝SDK为实现上述业务功能，收集您终端用户“设备信息”、“网络信息”和/或“位置信息”的前提是，终端用户授权同意开启“读写SD卡权限”、“网络访问权限”、“设备信息权限”和/或“位置权限”。如果您的终端用户不想被收集上述信息，可以通过关闭“读写SD卡权限”、“网络访问权限”、“设备信息权限”和/或“位置权限”实现。</strong><br>（7）数据服务功能。您需要获得向您终端用户获得合法有效授权后，才可以本平台数据服务功能。<br><strong>需要说明的是，我们基于创蓝用户服务协议，并且经过终端用户明示同意收集的数据，以及通过合法渠道获得的（统计）数据信息（不包含个人信息）建立创蓝数据库（数据库内的个人信息已进行去标识化或匿名化处理），为第三方提供数据服务功能，第三方包括但不限于创蓝及其关联公司、与创蓝签订合同的主体公司等。</strong><br><strong>请您理解，由于商业策略的变化，本平台上的产品和／或服务的功能也可能进行更迭和发展。如果我们要将您和/或您的终端用户信息用于本政策未载明的其它用途，或基于特定目的收集的个人信息将用于其他目的，我们会通过本平台以合理的方式向您告知，并在使用前再次征得您的同意。</strong><br>(三) 我们从第三方获取的您的个人信息<br>1. 我们可能会在您的授权同意范围内从第三方（我们的合作方）处收集并使用您的个人信息。我们保证严格依照与第三方签订的合同以及相关法律规定处理您的个人信息，同时请您详细阅读该第三方的隐私政策及用户协议。如您拒绝第三方在提供服务时收集、使用或者传递您的个人信息，将可能导致您无法使用创蓝相应的服务。 <br>2. 我们可能通过网页等公开途径获得、适当使用有关您的公开信息，或者从第三方提供商处获取有关您企业已经对外公示的经营性信息，以帮助我们更好地了解我们的客户群，例如您的行业、您企业的规模和您企业的网站URL。 <br>(四) 征得授权同意的例外<br>请您理解，在下列情形中，根据法律法规及相关国家标准，我们收集和使用您和/或您终端用户的个人信息无需征得您和/或您的终端用户的授权同意： <br>A.与公共安全、公共卫生、重大公共利益直接相关的； <br>B.出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的； <br>C.所收集的您和/或您的终端用户的个人信息是您自行向社会公众公开的； <br>D.从合法公开披露的信息中收集的您和/或您的终端用户的个人信息的，如合法的新闻报道、政府信息公开等渠道； <br>E.根据您的要求签订或履行合同所必需的； <br>F.用于维护软件及相关服务的安全稳定运行所必需的，例如发现、处置软件及相关服务的故障； <br>G.法律法规规定的其他情形。 <br>特别提示您注意，如信息无法单独或结合其他信息识别到您和/或您终端用户的个人身份，其不属于法律意义上您和/或您终端用户的个人信息；当您和/或您终端用户的相关信息可以单独或结合其他信息识别到您和/或您终端用户的个人身份时，或者我们将无法与任何特定个人信息建立联系的数据与其他您和/或您终端用户的个人信息结合使用时，这些信息在结合使用期间，将作为您和/或您终端用户的个人信息按照本政策处理与保护。<br>&ZeroWidthSpace;</p>\n<p>**二、我们如何使用Cookie等同类技术&nbsp;**<br>为确保网站正常运转，我们会在您的计算机或移动设备上存储名为 Cookie 的小数据文件。Cookie 通常包含标识符、站点名称以及一些号码和字符。借助于Cookie，网站能够存储您的偏好或所选择的商品或者服务等数据。<br>我们不会将Cookie用于本政策所述目的之外的任何用途。您可根据自己的偏好管理或删除Cookie。您可以清除计算机上保存的所有Cookie，大部分网络浏览器都设有阻止Cookie的功能。但如果您这么做，则需要在每一次访问我们的网站时亲自更改用户设置，且您可能因为该等修改，无法登录或使用依赖于Cookie的创蓝提供的服务或功能。<br>&ZeroWidthSpace;</p>\n<p><strong>三、终端用户的授权与同意</strong><br>您作为我们的业务合作伙伴十分清楚，为给您和/或您的终端用户提供您所选择的创蓝服务，我们会以去标识化或匿名化方式收集、存储、加工来自于您的应用程序的终端用户的个人信息。因此，您接受本政策并把我们的SDK、API或其他统计分析工具、开发者工具集成到您的产品中，则表示您确认并保证：<br>1. 您已经告知终端用户并且获得终端用户充分、必要且明确的授权、同意和许可，为提供服务之目的允许我们收集和使用其信息；<br>2. 除非适用法律另有规定，您已经告知终端用户并且获得终端用户充分必要的授权、同意和许可，允许我们对已收集的个人信息进行去标识化处理，允许我们在符合相关法律法规的前提下可将收集、处理的信息用于本政策第一条列明的服务用途；<br>3. 您已经遵守并将持续遵守适用的法律、法规和监管要求，包括但不限于制定和公布有关个人信息保护和隐私保护的相关政策； <br>4. 您已经向终端用户提供易于操作的用户权利实现机制，说明用户如何以及何时可以行使选择权、如何访问、更正其个人信息、行使删除权、更改其授权同意的范围等操作。<br>&ZeroWidthSpace;</p>\n<p><strong>四、我们如何共享、转让、公开披露您的终端用户的个人信息</strong><br>(一) 共享 <br>我们不会与创蓝以外的任何公司、组织和个人共享您的用户信息，但以下情况除外：</p>\n<ol>\n<li>在获得您的明确同意后，我们会与其他方共享。</li>\n<li>我们可能会根据法律法规的规定，或按照政府主管部门的强制性要求，对外共享您的个人信息。</li>\n<li>与我们的关联公司共享。我们只会共享必要的个人信息，且受本隐私政策中所声明目的的约束。关联公司如果要改变信息的处理目的，将再次征求您的授权同意。</li>\n<li>与授权伙伴共享。我们可能聘请受信赖的第三方供应商、顾问或其他服务商（简称“合作伙伴”）为我们提供必要的维护、支持和服务，以提供更好的客户服务和优化用户体验。目前，我们的授权合作伙伴包含广告主、广告联盟、媒体或者其他经营者。我们会将数据平台处理、加工后的去标识数据用于商业化使用。在对数据进行处理、加工过程中，我们会严格遵守法律法规的要求，采取相应的安全保护措施来保护您的用户信息。我们仅会出于合法、正当、必要、特定、明确的目的共享信息，并且只会共享提供服务所必要的信息。</li>\n</ol>\n<p>对获得个人信息主体的授权同意后我们与之共享的个人信息的公司、组织和个人，我们会与其签署严格的保密协定，要求他们按照我们的说明、本隐私政策列明的目的或用途，以及保密和安全措施来处理共享信息。<br> (二) 转让 <br>我们不会将您和/或您的终端用户的信息转让给任何公司、组织和个人，但以下情况除外： <br>1. 获得您的明确同意后； <br>2. 在涉及合并、收购或破产清算时，如涉及到个人信息转让，我们会要求新的持有您个人信息的公司、组织继续受本声明的约束。如果本声明中约定的个人信息的收集、处理方式发生任何改变，该公司、组织将重新向您征求授权同意。<br>(三) 公开披露 <br>我们仅会在以下情况公开披露您的用户信息：<br>1.获得您的明确同意后；<br>2.基于法律法规、法律程序、诉讼或政府主管部门强制性要求的情况下，我们可能会公开披露。<br>（四）共享、转让、公开披露信息时事先征得授权同意的例外<br>请您理解，根据法律法规，以下情形中，我们共享、转让、公开披露您的信息无需征得您的授权同意：<br>1、出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；<br>2、您自行向社会公众公开的信息；<br>3、从合法公开披露的信息中收集的，如合法的新闻报道、政府信息公开等渠道；　4、法律法规规定的其他情形。<br>&ZeroWidthSpace;</p>\n<p><strong>五、我们如何存储您的终端用户信息</strong><br>(一) 存储地点 <br>原则上，我们仅收集在中华人民共和国境内产生的个人信息，并且将收集到的个人信息存储在中华人民共和国境内。本服务在除中国外的任何其他国家/地区不可用。您应自主地选择使用本服务的范围，并且负责遵守任何适用的法律，包括但不限于任何当地法律。 <br>(二) 存储期限 <br>我们仅出于本政策所述目的和法律法规规定的最短期限存储您和/或最终用户的个人信息，在超出存储期限后，我们会对您的个人信息进行删除或匿名化处理。但是为了遵守相应的法律法规，出于诉讼抗辩、维护公共利益、保护个人财产安全或合法权利的目的，我们可能会延长您和/或您的最终用户的个人信息存储期限。 <br>&ZeroWidthSpace;</p>\n<p><strong>六、我们如何保护您的用户信息</strong><br>1. 我们已使用符合业界标准的安全防护措施保护您提供的信息，防止数据遭到未经授权访问、泄露、滥用、篡改、损坏或丢失。我们会采取一切合理可行的措施，保护您和/或您的终端用户数据安全。例如，在您的浏览器与“服务”之间交换数据时受 SSL 加密保护；<a href=\"http://xn--sdk-ot9di8u39m6lk7yh.253.com\">我们同时对sdk.253.com</a> 网站提供 https 安全浏览方式；我们会使用加密技术确保数据的保密性；我们会使用受信赖的保护机制防止数据遭到恶意攻击；我们会部署访问控制机制，确保只有授权人员才可访问个人信息；以及我们会定期举办安全和隐私保护培训课程，加强员工对于保护个人信息重要性的认识。 <br>2. 我们已经取得了以下认证：《信息系统等级保护第三级》、《ISO 27001信息安全管理体系认证》、《ISO9001质量管理体系认证证书》 等<br>3. 我们的数据安全能力：围绕数据生命周期，建设安全防御，涵盖数据采集、传输、存储、使用、流转、归档、删除等各数据处理阶段。<br>4. 我们会采取一切合理可行的措施，确保未收集无关的个人信息。我们只会在达成本隐私政策所述目的所需的期限内保留您和/或您的终端用户的信息，除非需要延长保留期或受到法律的允许。<br>5. 互联网并非绝对安全的环境，而且电子邮件、即时通讯、及与其他用户的交流方式并未加密，我们强烈建议您不要通过此类方式发送个人信息。请使用复杂密码并定期修改密码，协助我们保证您的账号安全。<br>6. 我们将定期更新并公开安全风险、个人信息安全影响评估等报告的有关内容。<br>7. 互联网环境并非百分之百安全，我们将尽力确保或担保您发送给我们的任何信息的安全性。尽管我们已经尽到必要且合理的努力，但仍有可能被盗、被非法拥占有或者滥用而给您和您的用户带来人身、财产和声誉等方面损失的危险。您已了解上述风险并自愿承担。<br>8. 在不幸发生个人信息安全事件后，我们将按照法律法规的要求，及时向您告知：安全事件的基本情况和可能的影响、我们已采取或将要采取的处置措施、您可自主防范和降低风险的建议、对您的补救措施等。我们将及时将事件相关情况以邮件、推送通知等方式告知您，难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。<br>9. 同时，我们还将按照监管部门要求，主动上报个人信息安全事件的处置情况。<br>&ZeroWidthSpace;</p>\n<p><strong>七、您的权利</strong><br>我们非常重视您和/或您的终端用户对个人信息的管理，并尽全力保护您对个人信息的查询、访问、修改、删除、投诉举报以及设置隐私功能的相关权利，以保障您和/或您的终端用户的隐私和信息安全。<br>　<br>(一) 针对创蓝的直接用户 <br>1. 查询、更改您的个人信息 <br>您有权访问您的个人信息，法律法规规定的例外情况除外。如果您想行使数据访问权，譬如您希望访问或编辑您的账户中的企业/个人资料信息和支付信息、更改您的密码、添加安全信息等，您可以通过访问账户设置执行此类操作。<br>如果您无法通过上述链接访问这些个人信息，您可以发送电子邮件至clsdk@253.com.行使数据访问权。在访问相关信息时，我们可能会要求您进行身份验证，以保障账户安全。<br>请您理解，由于技术所限、基于法律法规要求，您的某些请求可能无法进行响应。基于法律法规要求、保障信息安全等正当事由，您的部分信息可能无法访问。<br>2. 删除信息 <br>在以下任一情形中，您可以通过发送电子邮件至clsdk@253.com联系客服，请求删除您提供的个人信息：<br>1) 我们违反法律法规规定，收集、使用个人信息的；<br>2) 我们违反了与您的约定，收集、使用个人信息的；<br>3) 我们违反法律法规规定或违反与您的约定向第三方共享、转让个人信息，我们将立即停止共享、转让的行为，并通知第三方及时删除；<br>4) 我们违反法律法规规定或与您的约定，公开披露个人信息，我们将立即停止公开披露的行为，并发布通知要求相关接收方删除相应的信息。<br>在删除相关信息时，我们可能会要求您进行身份验证，以保障账户安全。以上删除请求一旦被响应，除法律法规另有规定要求保留的信息外，您的个人信息将被删除。<br>3. 改变您授权同意的范围 <br>每个业务功能往往需要收集一些基本的个人信息才能得以运营，对于您个人信息的收集和使用，您可以发送电子邮件至clsdk@253.com.联系我们要求撤回同意。<br>当您撤回同意后，我们后续将不再收集和使用您相应的个人信息，但请您理解，当您撤回同意或授权后，我们无法继续为您提供撤回同意或授权所对应的特定功能和/或服务。您撤回同意的决定，不会影响此前基于您的授权而开展的个人信息处理。<br>4. 注销账户 <br>您随时可以注销此前注册的账户，您可以通过发送电子邮件至clsdk@253.com联系客服。您应该知道，注销您的创蓝账户将导致您永久失去对账户和账户中数据的访问权。我们将在验证您的身份并与您协商处理完您账户中的资产后，为您提供账户注销服务。为了向您提供更加便捷的注销方式，我们后续会不断优化我们的产品，并且通过页面公告向您告知。在注销创蓝账户后，我们将停止为您提供产品或服务，并依据您的要求，尽快删除您的个人信息或将其作匿名化处理，法律法规另有规定的除外。<br>5. 获得个人信息副本 <br>您有权获取您的个人信息副本，您可以随时发送电子邮件至clsdk@253.com联系客服。在技术可行的前提下，例如数据接口匹配，我们还可按您的要求，直接将您的个人信息副本传输给您指定的第三方。<br>6. 拒绝定向推送 <br>您可以按照这些电子邮件中的取消订阅/退出说明选择不接收来自创蓝的促销电子邮件。您也可以通过发送电子邮件至clsdk@253.com联系客服来选择退出。请注意，即使您选择退出促销通信，我们仍可能向您发送与我们的服务条款或隐私通知更新、安全警报以及与您访问或使用我们的产品和服务有关的其他通知等相关的非促销信息。 <br>7. 响应您的上述请求 <br>为保障安全，我们可能会要求先验证您的身份，再处理您的请求。您可能需要提供书面请求，或以其他方式证明您的身份。对于您提出的本节项下的所有请求，我们原则上将于收到您的请求并在验证您用户身份后的15日内进行反馈。 <br>(二) 如果您是使用创蓝产品或服务的应用程序的终端用户，而不是创蓝的直接客户，我们建议您： <br>1. 及时提供您合法途径获得的您独立的权利要求证明文件，我们可能会要求您进行身份验证，在向您的应用程序提供商核实并且需要保障客户账户安全的情况下，我们会响应您的相关请求；或 <br>2. 根据应用程序提供商的隐私政策，请将与您个人信息相关的请求直接发送给相关应用程序提供商处理和寻求帮助。 <br>(三) 对于您和/或您的终端用户的上述的合理请求，我们原则上不收取费用。对于那些无端重复、需要过多技术手段（例如，需要开发新系统或从根本上改变现行惯例）、给他人合法权益带来风险或者非常不切实际（例如，涉及备份磁带上存放的信息）的请求，我们可能会予以拒绝。 <br>在以下情形中，我们将无法响应您和/或您的终端用户的请求：<br>（1）与我们履行法律法规规定的义务相关的； <br>（2）与公共安全、公共卫生、重大公共利益直接相关的； <br>（3）我们有充分证据表明您存在主观恶意或滥用权利的； <br>（4）出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的； <br>（5）响应您的请求将导致您或其他个人、组织的合法权益受到严重损害的； <br>（6）涉及商业秘密的。 <br>(四) 如您和/或您的终端用户对上述权利实现存在疑问，可以根据本政策第十条所述方式中的相关联系方式与我们取得联系。 <br>&ZeroWidthSpace;</p>\n<p>**八、我们如何处理儿童的个人信息&nbsp;**<br>我们已经在服务前提中明确，不接受儿童注册登记成为我们的用户，并且我们原则上也不接受您提供14周岁以下终端用户的个人信息，请您注意并谨慎提供。尽管各地法律和习俗对儿童的定义不同，但我们将不满 14 周岁的任何人均视为儿童。如果我们在不知情的情况下向不满 14 周岁的儿童收集了个人信息，我们将及时删除相关资料，除非法律要求我们保留此类资料。 <br>如果您认为我们错误或意外地向不满14周岁的儿童收集了信息，请及时联系我们。 <br>如果您的应用是针对不满14周岁的儿童而设计和开发的，请务必确保您的终端用户为监护人，已经阅读并同意应用程序的隐私政策，授权同意提供儿童个人信息给我们以实现应用的相关功能。<br> <br><strong>九、我们如何更新与修改本政策</strong><br>为了给您提供更好的服务，本平台及相关服务将不时更新与变化，我们会适时对本政策进行修订，这些修订构成本政策的一部分并具有等同于本政策的效力，未经您明确同意，我们不会削减您和/或您的终端用户按照本隐私政策所应享有的权利。 <br>本政策更新后，我们会在官方网站上发出更新版本，并在更新后的条款生效前通过适当的方式提醒您更新的内容，以便您及时了解本政策的最新版本。 <br>对于重大变更，我们还会提供更为显著的通知（包括对于某些服务，我们会通过电子邮件或站内信形式或公告形式发送通知，说明隐私政策的具体变更内容）。因此，请随时查看和了解您应遵守的隐私政策。如果您不同意接受本隐私政策，请停止访问和使用我们的服务。 <br>本政策所指的重大变更包括但不限于： <br>1. 我们的服务模式发生重大变化。如处理个人信息的目的、处理的个人信息类型、个人信息的使用方式等； <br>2. 我们在所有权结构、组织架构等方面发生重大变化。如业务调整、破产并购等引起的所有者变更等； <br>3. 个人信息共享、转让或公开披露的主要对象发生变化； <br>4. 您参与个人信息处理方面的权利及其行使方式发生重大变化； <br>5. 我们负责处理个人信息安全的责任部门、联络方式及投诉渠道发生变化时； <br>6. 个人信息安全影响评估报告表明存在高风险时。 <br>我们还会将本政策的旧版本存档，供您查阅。<br>本政策是创蓝服务协议的重要组成部分。本隐私政策未明确授予的所有权利均由创蓝保留。<br>&ZeroWidthSpace;</p>\n<p><strong>十、如何联系我们</strong><br>我们希望能够解决与我们之间的数据保护实践有关的任何争议。创蓝设立了专门的隐私保护专职小组，您可以通过发送电子邮件至我们的隐私小组邮件clsdk@253.com ，提出您的疑问或需要寻求帮助的问题。 <br>如果您对您的账户信息、个人信息或其他文档技术有疑问、建议或投诉或者行使您的权利，可以通过发送邮件至clsdk@253.com或其他特别说明的方式联系我们。一般情况下，我们将在15个工作日内回复。 <br>如果您对我们收集和使用您和/或您的终端用户信息的法律依据有疑问或需要进一步的信息，请使用本隐私政策引言部分提供的联系信息与我们联系。 <br>十一、关键词定义<br>本政策中使用的特定词语，具有如下含义：<br>1. 我们或创蓝：指上海创蓝云智信息科技股份有限公司<br>2. 关联公司：是指与上海创蓝云智信息科技股份有限公司合并报表范围内的下属公司或其他关联企业。上述公司中任何一方现在或将来控制、受控制或与其处于共同控制下。 <br>3. 控制：是指直接或间接地拥有影响所提及公司管理的能力，无论是通过所有权、有投票权的股份、合同或其他被依法认定的方式。 <br>4. 您：指使用我们的产品和／或服务的注册用户以及收费服务的购买方。 <br>5. 您的终端用户：指创蓝平台产品或服务的应用程序的终端用户。 <br>6. 创蓝或本平台：指创蓝平台。 <br>7. 个人信息：指以电子或者其他方式记录的能够单独或者与其他信息结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。个人信息包括个人基本信息、个人身份信息、个人生物识别信息、网络身份标识信息、个人健康生理信息、个人教育工作信息、个人财产信息、个人通信信息、联系人信息、个人上网记录、个人常用设备信息、个人位置信息等。为免疑义，个人信息包括但不限于个人敏感信息。 <br>8. 个人信息主体：指个人信息所标识的自然人。 <br>9. 个人敏感信息：指一旦泄露、非法提供或滥用可能危害人身和财产安全，极易导致个人名誉、身心健康受到损害或歧视性待遇等的个人信息。个人敏感信息包括个人财产信息、个人健康生理信息、个人生物识别信息、个人身份信息、网络身份标识信息等。 <br>10. 设备信息：设备标识符（IMEI、Android ID、MAC、OAID等相关信息）、应用信息（应用崩溃信息、通知开关状态、软件列表等相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统及硬件相关信息） <br>11. 网络信息：IP地址，WiFi信息，基站信息等相关信息。 <br>12. 去标识化：指通过对个人信息的技术处理，使其在不借助额外信息的情况下，无法识别个人信息主体的过程。 <br>13. 匿名化：指通过对个人信息的技术处理，使得个人信息主体无法被识别，且处理后的信息不能被复原的过程。 <br>14. 中国或中国境内：指中华人民共和国大陆地区，仅为本政策之目的，不包含香港特别行政区、澳门特别行政区和台湾地区。</p>","service_agreement":"<p><strong>用户服务协议</strong><br>感谢您选择创蓝平台及服务。创蓝用户服务协议（以下简称“本协议”）是<a href=\"https://www.qcc.com/firm/c344e92b3857af6771784c48dff58347.html\">上海创蓝云智信息科技股份有限公司</a>及关联方（以下简称“创蓝”或“我们”）与您签订。<br><strong>一、服务前提</strong><br>**1、请您先仔细阅读本协议内容，尤其是字体加粗部分。如您对本协议内容或页面提示信息有疑问，请勿进行下一步操作。**您通过页面点击或者其他方式确认即表示您已同意本协议，即注册成为创蓝平台用户；终止注册后，您将无法使用我们提供的服务。本协议自您注册成为我们的用户时成立并生效。<br><strong>2、我们有权根据需要不时地修改本协议，并在我们的相关界面发布。请您不时地关注本协议的变更，若您在本协议内容公告变更之后继续使用我们的服务的，表示您已充分阅读、理解并接受修改后的内容并使用我们的服务；若您不同意修改后的协议内容，您应立即停止使用我们的服务。</strong><br>**3、我们的网站面向主体及服务对象仅限于18周岁以上具有完全民事行为能力的自然人及依住所地法律合法登记并有效存续且有能力履行本协议项下义务的企业法人或其他组织。**如您不符合资格，请勿继续使用我们提供的服务，并且，我们有权随时终止向您提供服务。<br>4、您在创蓝平台的账户仅限账户原始注册本人使用，<strong>未经我们书面许可，您不得以借用、赠与、出租、出售或其他任何方式将您的账户有偿或者无偿许可给任何第三方使用。否则，您应当自行承担由此产生的任何责任。</strong><br>5、协议外，创蓝平台还将发布其他规则和政策，如<a href=\"https://sdk.253.com/commit-detail/hkcqxx/qb6bsf\">《用户服务协议》</a>和<a href=\"https://sdk.253.com/commit-detail/rcc5zd/fd21s8\">《隐私政策》</a> 等。<strong>对于创蓝平台发布的其他规则和政策，以相应的规则和政策为准，相应的规则和政策未提及的事项，以本协议为准。</strong><br>&ZeroWidthSpace;</p>\n<p><strong>二、相关术语定义</strong></p>\n<ol>\n<li>创蓝平台：指由我们所拥有、控制、运营的创蓝服务平台(<a href=\"http://sdk.253.com\">sdk.253.com</a>)。</li>\n<li>您：是指经有效注册创蓝账号并集成创蓝SDK的应用软件开发服务者，包含自然人、法人和其他组织。</li>\n<li>创蓝SDK：创蓝提供的具有不同功能的开发工具包，包括但不限于闪验认证SDK、实名认证SDK、短信认证SDK、追踪短链SDK、即时通讯SDK、实时语音SDK、视频互动SDK、视频直播SDK等。</li>\n<li>用户：安装有您所开发或运营的产品或应用的终端用户。</li>\n<li>创蓝服务：由创蓝开发并运营的、以互联网为载体的提供数据分析统计、技术支持等服务的总称。</li>\n<li>帐户：指在通过以您自身名义申请注册的创蓝帐户进行登录后，用以接受创蓝服务的创蓝帐户。</li>\n<li>应用：由您开发或运营的并集成创蓝的应用程序，包括社交类、影音类、资讯类、工具类、商旅类、电商类、金融类、游戏类及其他类别的应用程序。</li>\n</ol>\n<p><br><strong>三、我们为您提供的服务</strong><br>       我们可以向您提供的服务内容包括但不限于（点击相应服务可直接跳转到创蓝平台对应页面）：</p>\n<pre><code>  - 1. [闪验认证SDK](https://sdk.253.com/sdk-flash)\n  - 2. [实名认证SDK](https://sdk.253.com/sdk-identify)\n  - 3.[ 短信认证SDK](https://sdk.253.com/sdk-letter)\n  - 4. [追踪短链SDK](https://sdk.253.com/sdk-link)\n  - 5.[ 即时通讯SDK](https://sdk.253.com/sdk-message)\n  - 6. [实时语音SDK](https://sdk.253.com/sdk-voice)\n  - 7. [视频互动SDK](https://sdk.253.com/sdk-interaction)\n  - 8. [语音直播SDK](https://sdk.253.com/sdk-broadcast)\n</code></pre>\n<p><strong>闪验认证</strong>：包含一键登录和本机认证服务。一键登录功能支持自动获取手机号码，用户一键通过验证，无需号码手动输入和短信验证。本机认证功能在用户输入手机号码后，自动校验与当前本机卡号的一致性，无需发送短信验证码。<br>**实名认证：**直连公安数据库实时核验用户身份信息的一致性。依托海量数据，从申请人的身份证、手机号、头像等全方位匹配，甄别出现过的不良信用记录，筛选出优质目标人群。<br><strong>短信认证</strong>：将传承通信业务与互联网结合，帮助全球开发者在最短时间内实现短信验证码发送的能力。开通短信认证SDK后，前6个月每月1号我们会免费赠送一个短信认证的套餐包，条数为2000条，有效期为1个月。<br><strong>追踪短链</strong>：短信内容集成短链服务，用户点击可唤醒已安装的应用并跳转目标页面。对于接收到短信的手机号，可统计哪些手机号的用户进行了点击、启动、安装应用等操作。<br><strong>即时通讯</strong>：实时通信，允许两人或多人使用网络实时的传递文字消息、语音交流。支持私聊、群聊、聊天室等通讯能力<br><strong>实时语音</strong>：支持20人以下同个房间实时语音交流。针对不同场景进行深度优化，覆盖游戏、社交、娱乐等多种泛互联网行业应用场景。支持文本、图片敏感词检查。<br><strong>视频互动</strong>：支持多人实时视频通话或视频直播的能力。支持 1 对 1 和 多对多视频通话模式，适用于视频直播、视频聊天、视频客服、视频会议等场景。<br><strong>语音直播</strong>：助力多主播跨直播间连麦PK，可对房间进行消息推送，直播间支持用户与主播、用户与用户进行文字聊天互动、送礼物。<br>上述服务可能会变更、升级、暂停或终止，出现前述情形，我们会第一时间通知您。上述功能出现更新时，除非我们另有说明，否则仍然适用本协议。<br>\n<br><strong>四、服务费用</strong><br>我们的服务的收费服务级收费费用详见各个产品页面的介绍，并以双方最终达成的书面协议为准。<strong>创蓝保留随时更改收费方式和收费标准的权利，但对于已签署书面协议确定价格的除外。</strong><br>&ZeroWidthSpace;</p>\n<p><strong>五、双方权利和义务</strong><br>（一）我们的权利和义务</p>\n<ul>\n<li>\n<ol>\n<li>我们与您达成合作关系，为您提供相应的服务，并为您提供必要的技术支持，以进行技术测试和改善用户体验等。</li>\n</ol>\n</li>\n<li>\n<ol start=\"2\">\n<li>如根据法律要求，需要我们删除您接入到我们平台上的模型和数据的，我们有权对您的相关信息进行删除。</li>\n</ol>\n</li>\n<li>\n<ol start=\"3\">\n<li>由于业务发展需求或者法律法规规定，我们有权调整为您提供的服务范围，在调整之前我们会在合理的时间内通知您。</li>\n</ol>\n</li>\n<li>\n<ol start=\"4\">\n<li>我们会采取各种符合业界标准的物理、电子和管理方面的安全措施来保护所收集到的您和您终端用户的个人信息安全，以避免数据泄露的风险。</li>\n</ol>\n</li>\n</ul>\n<p>（二）您的权利和义务 <br>1. 您应确保您的应用或使用创蓝服务的行为，并不违反相关法律法规及国家政策，也未侵犯任何第三方的合法权益或违反本协议之规定，否则，您应当承担由此产生的所有责任。包括但不限于： <br>（1）反对宪法所确定的基本原则的行为；<br>（2）危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的行为；<br>（3）损害国家荣誉和利益的行为；<br>（4）煽动民族仇恨、民族歧视，破坏民族团结的行为；<br>（5）破坏国家宗教政策，宣扬邪教和封建迷信的行为；<br>（6）散布谣言，扰乱社会秩序，破坏社会稳定的行为；<br>（7）散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的行为；<br>（8）侮辱或者诽谤他人，侵害他人合法权益的行为；<br>（9）侵害他人知识产权、商业秘密等合法权利的行为；<br>（10）恶意虚构事实、隐瞒真相以误导、欺骗他人的行为；<br>（11）发布、传送、传播垃圾信息等；<br>（12）删除、隐藏、撤换创蓝（我们）SDK明示的或暗示的任何关于所有权、著作、商标、专利知识产权及其他权利事项的声明；<br>（13）未经帐户持有人的同意使用其他人的帐户，利用网络通讯非法骚扰他人、干扰其他开发者使用和享有服务或将创蓝（我们）服务用于任何非法用途；<br>（14）通过入侵、密码盗取或任何其他手段擅自使用任何服务、其他帐户、计算机系统或连接到任何服务器或任何服务的网络，获取或尝试获取服务未明确提供的任何资料或信息；<br>（15）对创蓝（我们）提供的平台环境进行篡改删除，或以其他任何方式干扰或试图干扰创蓝（我们）任何产品的正常提供、任何部分或功能的正常运行；<br>（16）在未事先获得创蓝（我们）书面许可的前提下，盗用、冒用创蓝（我们）技术接口；<br>（17）应用中含有计算机病毒、木马或其他恶意程序等任何可能危害创蓝（我们）或其用户权益和终端信息安全等的内容，或被发现存在漏洞，可能会导致被植入木马或钓鱼网页；<br>（18）利用创蓝（我们）SDK漏洞进行非法或恶意行为，包括但不限于发布违法违规信息、恶意劫持用户信息、捆绑软件安装、欺诈用户等；<br>（19）出现公网IP裸露情况，或发生安全入侵类故障；<br>（20）其他法律法规禁止的或创蓝认为不应该、不适当的行为、内容。<br>若发现您存在上述的情形，我们有权暂停、限制、终止或撤销我们服务的权利，并有权自行判断采取适当的措施，包括但不限于删除具有违法、侵权性质的内容，保存相关信息向有关部门举报等。 <br>2.我们为您提供服务过程中使用、收集的数据，您同意并授权我们在全球范围内享有永久的、免费的、非专有的、允许转许可的权利，包括不限于我们使用前述数据进行宏观分析，并将分析结果发布或分享给第三方等。<br>3.您承诺在使用创蓝服务前已经通过您的隐私政策或者其他方式获得相关权利人的充分授权，保证您的应用（包括但不限于APP）已获得调集、处理、分析用户个人信息的明确许可且应遵守《中华人民共和国网络安全法》、《中华人民共和国电信条例》、《全国人大常委会关于加强网络信息保护的决定》、《电信和互联网用户个人信息保护规定》、《互联网新闻信息服务管理规定》等在内的关于个人信息保护的规定。<br>4.您不得进行任何会对我们的系统安全造成影响或破坏的行为，也不得进行任何损害我们或其他第三方合法权益的行为。<br>5.您不得采取任何行为让我们的基础设施承担或可能承担不合理或不成比例的巨大负担。<br>6. 您不得干扰或企图干扰创蓝平台或创蓝平台任何部分活动的正常运行。<br>7. 您不得绕过我们可能用来阻止或限制访问或保护创蓝平台的任何措施。<br>8. 您需要充分、完整阅读《隐私政策》。<br>9. 您需制定针对您终端用户的隐私政策，您的隐私政策应当实质包含第三方合作伙伴的收集个人信息范围及使用目的。例如闪验认证SDK供应商的公司名称、链接地址、使用目的、收集哪些个人信息等。<br>10 若您的终端用户撤回上述授权及许可，您应当采取必要的技术手段，停止为终端用户提供我们的服务，并立即书面通知我们。<br>11 您承诺并保证您向我们提供的数据内容有合法来源（包括但不限于已经获得权利人的充分有效授权）、不侵犯他人合法权益（包括但不限于隐私权）、不违反任何法律法规。为进一步保证本款的内容，在必要时您应及时向我们提供相关证明。<br>12. 您应当保证所提供的个人信息的真实性和有效性，不侵犯任何第三方组织或个人的合法权益。若因您提供的信息存在任何错误、不实、过时、不完整情况或侵害第三方合法权益的，我们有权暂停或终止为您提供服务，或限制您使用创蓝所提供服务的部分或者全部功能，您应承担全部的损害赔偿责任。<br>13. 未经我们书面同意，您不得将我们服务过程中产生的模型与算法授权第三方进行使用。<br>14. 未经我们事先许可，您不得对创蓝SDK软件包的任何内容进行破解、编译、反编译、盗用以及其他危害或可能危害创蓝及其他接受创蓝服务开发者的安全与权益的行为。<br>15. 您不得使用任何数据挖掘、机器人或类似的数据收集和提取工具对创蓝平台或用户信息进行收集或挖掘。<br>16. 您不得对创蓝服务任何部分或创蓝服务之使用或获得，进行复制、拷贝、出售、转售或用于任何其他商业目的。<br>17. 您承诺您的终端用户知悉我们依照本协议以及隐私政策对其个人信息的收集、使用、披露的情况，且不会因此而对我们产生任何投诉或诉求。如您的终端用户因我们遵照本协议以及隐私政策对其个人信息正当收集、使用和披露提出投诉或诉求，您对投诉或诉求的处理、争议的解决负有全部的、单独承担的责任，并应为我们或在我们的要求下合作抗辩，维护我们的利益，并赔偿我们因此可能遭受的全部损失。<br>\n<br><strong>六、知识产权</strong><br>1.创蓝SDK软件包(包含但不限于所涉任何数据、模型、算法、技术、软件、代码、界面等以及与之相关的衍生作品) 的所有权及知识产权，均完整无瑕疵地归创蓝所有。<br>2、创蓝平台上的所有内容（包括但不限于图片、文字、网站设计、画面安排以及与其相关的任何衍生作品的所有权及知识产权）未经我们书面同意，您不得擅自使用、修改、复制、公开传播、改变、散布、发行或公开发表我们平台上的任何内容。 <br>3. 创蓝享有提供服务过程中产生的所有分析报告、行业报告、人群标签、人群画像等数据内容的所有权及其知识产权，您仅能基于特定服务的约定进行合理使用，进行合理使用时应当标明数据来源方为创蓝。未经我们书面同意，您不得将前述数据用于商业目的。 <br>4. 我们享有创蓝平台运营数据的所有权利，包括但不限于登录信息、操作记录、服务订购等数据。未经我们书面同意，您不得擅自保存、使用或授权他人使用前述数据。 <br>\n<br><strong>七、保密</strong><br>  在您使用我们服务的过程中，如涉及到保密事项，则以双方另行签署或达成的书面协议、承诺函等文件为准。 <br>\n<br><strong>八、免责声明</strong><br>1.网络服务的特殊性，您同意创蓝经合理通知后，可以中断或终止部分或全部的网络服务，并可能由此造成一定的服务故障、中断、延时或不稳定，您对此应予理解并不予追究； <br>2&nbsp;为维护通道的稳定和提升质量，创蓝会对创蓝SDK、通道或其他设备设施进行检修、维护、升级、调试或采取其他措施。在采取此类措施前，创蓝会对您尽到合理的告知义务，由此造成的服务中断、暂停，创蓝予以等量补偿，您亦须对此予以支持和配合； <br>3&nbsp;您在接受创蓝服务的过程中可能会遭遇不可抗力、紧急避险等使本服务发生中断的意外风险，包括但不限于洪水、地震、瘟疫、飓风、火灾、战争、动乱、政府行为、黑客攻击、病毒入侵、电信技术部门技术调整等。如遇上述情况，创蓝将努力配合相关力量在第一时间内进行修复，尽量将您遭受的损失降至最低； <br>4&nbsp;如遇紧急状态、集会游行、重大国事/外事、大型会议/活动、抢险救灾、执行重要警卫任务等情形，根据《中华人民共和国信息条例》、《互联网信息服务管理办法》、《互联网文化管理暂行规定》等法律法规及其他规范性文件的具体规则及精神，如条件允许，创蓝在尽到合理的通知义务后（通知形式包括但不限于官网公告、邮件告知、微信公众号消息、电话、短讯等）可以采取过滤、筛选、暂停、中止服务等措施，以配合国家净化网络环境、维护网络安全，努力消除推送内容违反国家相关法律法规、相关政策的可能性，您对此须给予支持理解及必要配合。 <br>\n<br><strong>九、违约责任</strong><br>1. 如因您违反本协议约定使用我们平台提供的服务（包括但不限于使用任何方式侵害第三方知识产权，或使用任何包含淫秽、诽谤、中伤、谣言、种族主义或任何侵害他人名称权、名誉权或隐私权的材料或信息）由此引发第三人向我们提出索赔、诉讼或其他程序，您应对我们因此产生的全部损失（包括但不限于诉讼费、律师费、和解费、赔偿费在内的全部费用）进行赔偿，并使我们免受损害。 <br>2. 如因您违反上述承诺导致您的终端用户对我们主张任何形式的索赔或权利要求，或导致我们被卷入到法律或行政程序，您将负责全面解决应诉、并为我们抗辩，或在我们的要求下合作抗辩，以保障我们的利益不受损害，并赔偿我们因此可能遭受的损失包括但不限于诉讼费、律师费、和解费、赔偿费在内的全部费用。 <br>3. 如发现您违约，我们有权不经过事先通知而直接删除相关信息，终止、暂停为您提供服务并要求您立即停止继续使用、复制相关的文档。 <br>4. 如发生下述任一情况，我们有权终止本协议或暂停我们的服务，并要求您立即删除涉及的算法、模型和数据或终止侵犯他人权益的行为：</p>\n<ul>\n<li>您违反法律法规接入我们的平台，上传、发布信息或不正当使用我们的算法、模型和数据；</li>\n<li>您的行为侵犯他人隐私、商业秘密或其他用户权益。</li>\n</ul>\n<p>如发生上述情形，您应以自己的名义独立承担所有责任，并对遭受侵害的其他用户或任何第三方的损失进行赔偿。 <br>5. 我们有权按照专业或非专业标准对您的行为进行违约审查，您同意并不可撤销地认可我们对您的审查结果以及收集的证据。我们根据本协议或相关协议对您的违约行为进行处理后，不免除您应承担的法律责任。 <br>6. 您应对自己在使用创蓝服务过程中的行为承担法律责任。您承担法律责任的形式包括但不限于：对遭受侵害的其他用户或任何第三方进行赔偿，以及在创蓝首先承担了因您的行为导致的行政处罚或侵权损害赔偿责任后，您应给予创蓝等额的赔偿。在任何情况下，创蓝都不对您或任何第三方因本协议产生的任何间接性、后果性、偶然的、特殊或惩罚性的损害赔偿承担责任。 <br>\n<br><strong>十、客户服务</strong><br>如您在阅读本协议过程中有任何疑惑或其他相关事宜的，您可以拨打人工电话400-9669-253与我们取得联系，同时，您也可以发送邮件至clsdk@253.com.进行询问，我们会尽快为您做出解答。 <br><strong>十一、通知</strong><br>本协议条款和规则项下我们对于您所有的通知均可通过网页公告、站内通知、电子邮件等方式进行，该等通知于发送之日视为已送达用户。 <br>\n<br><strong>十二、其他</strong><br>1. 创蓝对本协议条款拥有解释权。 <br>2. 本协议的成立、生效、履行、解释和纠纷解决，适用中华人民共和国大陆地区法律（不包含冲突法）<br>3. 本协议签订地为中华人民共和国上海市松江区。<br>4. 若您与创蓝之间发生任何纠纷或者争议，首先应友好协商解决，协商不成的，各方在此完全同意将纠纷或争议提交本协议签订地有管辖权的人民法院管辖。 <br>5. 本协议可能存在包括中文、英文在内的多种语言版本，如果存在中文版本与其他语言版本相冲突的地方，以中文版本为主<br>6.本协议条款无论何种原因部分无效或不可执行，其余条款仍有效，对双方具有约束力。（正文完）  <br>\n<br>\n<br>上海创蓝云智信息科技股份有限公司</p>","phone":null,"email":null,"customer_service":null}
+</script>
+            <div class="follow">
+    <ul>
+        
+        <a target="_blank" href="/developer/login/register_phone">
+            <div class="f_gift">
+                <img height="197" src="/images/windows_images/follow/gift.png" alt="认证礼" /></div
+        ></a>
+        <li id="f_invest">
+            <a target="_blank" href="https://xssdk.cm253.com/?id=113921890211332111">
+                <img height="40" src="/images/windows_images/follow/investigation.gif" alt="调查问卷" />
+            </a>
+        </li>
+        <li id="f_wechat">
+            <img height="40" src="/images/windows_images/follow/wechat.png" alt="微信" />
+        </li>
+        
+        <li id="f_phone">
+            <img height="40" src="/images/windows_images/follow/phone.png" alt="联系方式" />
+        </li>
+        <li id="f_contact">
+            <img height="40" src="/images/windows_images/follow/contact.png" alt="客服" />
+        </li>
+        
+        <li id="f_email">
+            <img height="40" src="/images/windows_images/follow/email.png" alt="邮箱" />
+        </li>
+        
+        <li id="f_top">
+            <div style="height: 40px">
+                <img height="40" src="/images/windows_images/follow/top.png" alt="置顶" style="display: none" />
+            </div>
+        </li>
+    </ul>
+    <div style="display: none">
+        <div id="f_investigation_menu" style="width: 100%; cursor: pointer">
+            <a target="_blank" href="https://xssdk.cm253.com/?id=113921890211332111">问卷调查</a>
+        </div>
+        
+        <div id="f_phone_menu" style="width: 160px">400-9669-253(7*24h)</div>
+         
+        <div id="f_wechat_menu">
+            <img class="qrcode" height="93" src="/images/windows_images/follow/chuanglan.png" alt="" />
+        </div>
+        
+        <div id="f_contact_menu" class="memu_item" style="width: 90px">在线客服</div>
+        <div id="f_email_menu">liud@253.com</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var configInfo = {"ext_fields":{},"id":null,"company_id":null,"create_time":null,"update_time":null,"company_name":"上海璟梦信息科技有限公司","website_title":"创蓝SDK-开发者平台","domain_address":"sdk.253.com","api_domain_address":null,"console_doc_switch":1,"custom_domain_cname":null,"website_logo":"https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/cllogo.png","navigation_bar_logo":"https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/clfavicon.ico","archival_information":"<p style=\"color: #666a77; text-align: center;\">上海创蓝云智信息科技有限公司[创蓝(中国)]版权所有Copyright@2012-2021 AII Right Reserved</p><p style=\"color: #666a77; text-align: center; margin-top:10px;\">增值电信业务经营许可证沪ICP备案:15046301号-2&nbsp; &nbsp; &nbsp;&nbsp;<img src=\"https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/police.png\" alt=\"沪公网安\"/>&nbsp;沪公网安备案 31011702001190号</p>","console_official_website_switch":1,"login_slogan":"为企业提供一站式SDK服务","domain_type":1,"official_doc_center_logo":"https://chuanglan-test.oss-cn-shanghai.aliyuncs.com/sdk/log/cllogo2.png"}
+    var agentSetting = {"ext_fields":{},"used_sms_sign":null,"audit_sms_sign":null,"privacy_policy":"<p><strong>隐私政策</strong><br>上线日期：2021年3月<br>上海创蓝云智信息科技股份有限公司及关联方（以下称“创蓝”或称“我们”）及其关联公司在创蓝平台（以下简称“本平台”），作为一家专注互联网综合数据服务的公司，一直以来都非常重视数据服务中个人信息的保护和隐私保护。创蓝深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。《创蓝隐私政策》（以下简称“本政策”）适用于我们为您提供产品和/或服务过程中对于您提供的个人信息处理和保护。我们提供的产品和服务包括但不限于8种SDK服务（闪验认证、实人认证、短信认证、追踪短链，即时通讯、实时语音、视频互动、视频直播）、数据服务（如空号检测）等已经存在的以及不时创新研发的其他产品和服务。 <br>鉴于我们与您是直接合同关系（即您已注册了合法有效的创蓝账号且集成了创蓝SDK），这不同于我们与您的终端用户的间接关系。<strong>故创蓝会要求您通过隐私政策或服务协议等适当的方式确保您知悉且同意我们获取和使用您的用户相关信息，以便让创蓝可以获取和使用实现相关服务功能所必要的合理信息。</strong><br>我们希望通过本隐私政策帮助您了解创蓝提供服务过程中是如何收集、使用、共享、转让、公开披露、保护您的用户信息，同时向您披露我们收集和使用用户信息的目的、方式、范围，为您提供访问、更新、删除用户信息的方法。因此，请您仔细阅读并充分理解本隐私政策。<strong>作为我们的客户，若您利用我们的产品或服务，为您的终端用户再行提供服务而收集的信息部分，您应当根据适用的法律法规另行与您的终端用户约定隐私政策，创蓝对此不承担任何责任。</strong><br>本政策帮助您了解以下内容：<br>一、我们如何收集和使用您和/或您的终端用户信息 <br>二、我们如何使用Cookie等同类技术<br>三、终端用户的授权与同意<br>四、我们如何共享、转让、公开披露您和/或您的终端用户信息<br>五、我们如何存储您和/或您的终端用户的个人信息<br>六、我们如何保护您和/或您终端用户信息<br>七、您的权利<br>八、我们如何处理儿童的个人信息<br>九、我们如何更新与修改本政策<br>十、如何联系我们<br>十一、关键词定义<br>&ZeroWidthSpace;</p>\n<p><strong>一、我们如何收集和使用您和/或您的终端用户信息</strong><br>我们会依据引言中所提及的相关法律法规，遵循正当、合法、必要的原则，出于本政策所述的以下目的，收集和使用您在使用本平台过程中主动提供的、因您使用本平台而产生的以及我们从第三方获取的您和/或您的终端用户信息。<br>无论基于上述何种场景收集和使用您和/或您的终端用户信息，我们通常只会在征得您同意的情况下进行，除非在某些情况下，基于法律义务或者可能需要保护您或其他人的重要利益向您和/或您的终端用户收集信息。<br><strong>我们承诺，绝不收集或者要求您提供包括但不限于个人种族、政治倾向、宗教、信仰、个人基因数据或生物特征数据、性取向等个人敏感信息。</strong><br> (一) 您作为创蓝开发者客户（或潜在开发者客户）的个人信息<br>为实现本平台的基本业务功能，我们可能需要收集、使用您的相关个人信息。以下将详细说明我们的基本业务功能以及为实现该功能所需的个人信息类型，若您拒绝提供，则无法使用本平台的相关产品和/或服务。<br>注册、登录<br>当您注册创蓝账户时，您需要向我们提供您的电子邮件地址、手机号码，以便我们与您沟通产品使用与费用支付情况。根据《网络安全法》，在您使用SDK服务时，还需要您提供<strong>身份证信息</strong>用于个人实名认证或<strong>企业营业执照信息</strong>用于企业实名认证。<br>日志信息<br>为保障您的账户安全与系统运行安全，更准确地预防钓鱼网站欺诈，当您在访问和浏览创蓝网站时，我们会自动收集您使用创蓝产品和/或服务的详细情况，并作为网络日志进行保存，包括Internet 协议(IP)地址，浏览器类型，Internet 服务提供商（ISP），参考/退出页面，操作系统，日期/时间戳和点击数据流，以判断您的账户风险，保障创蓝为您正常提供服务，统计流量，排查异常信息以及检测、预防和调查欺诈、滥用或安全事件。<br>(二) 您的终端用户信息<br>1. 为实现本平台的基本业务功能，我们可能需要收集、使用您终端用户的相关个人信息。以下将详细列出我们的基本业务功能及为实现该功能所必需的信息类型，这些个人信息的收集、使用仅会在您确认已获得了终端用户同意的前提下进行： <br>（1）创蓝即时通讯\tSDK提供即时聊天服务过程中收集和使用的信息包括<br>①用户聊天信息：用于将实时聊天信息通过加密通道送达至终端用户；<br>②设备信息：用于识别唯一用户，保证消息推送的精准送达；为开发者提供智能标签以及展示业务统计信息的服务；<br>③网络信息与位置信息：优化SDK与创蓝服务器的网络连接请求，保证服务的稳定性和连续性；实现区域、分群即时通讯功能。<br>（2）创蓝闪验认证SDK整合了三大运营商的号码认证能力，为APP开发者提供了一键登录及快速验证用户输入的手机号码和本机流量卡号一致性的服务,这一过程中收集和使用的信息包括：<br>①SDK认证相关请求结果：用于判断开发者是否违规使用, 以及监控线上一键认证稳定性；<br>②设备信息：用于识别唯一用户，检测和防止欺诈活动，帮助开发者规避不必要的损失；<br>③网络信息与位置信息：优化SDK与创蓝服务器的网络连接请求，保证服务的稳定性和连续性；分析认证请求失败原因；<br>④手机号码：一键登录场景下，由APP开发者主动发起然后通过创蓝和运营商交互返回加密手机号，完成一键登录。本机号认证场景下，由APP开发者提供终端用户手机号经由创蓝服务器和运营商交互，返回运营商对该号码和当前流量卡号是否一致的结果。<br>      （3）创蓝实名认证SDK提供实人认证、活体检测等服务过程中收集和使用的信息包括：<br>①用户的姓名、身份证号、人脸图像信息：用于实人认证服务中检测用户身份的真实性；<br>②用户的面部识别信息（静态及/或动态）、用户的设备摄像头权限：用于活体检测服务中人脸检测、人脸检索、人脸比对；<br>（4）创蓝短信认证SDK提供短信验证码服务过程中收集和使用的信息包括：<br>①设备信息：用于识别唯一用户，检测和防止欺诈活动，帮助开发者规避不必要的损失；<br>②手机号码与短信内容：由开发者主动提供，用于通过电信运营商的渠道为开发者进行短信发送。<br>（5）创蓝追踪短链SDK提供信验证码服务服务过程中收集和使用的信息包括：<br>①跳转链接、参数信息（密文）、应用Team ID（iOS）、以及部分网页必要参数信息：用于保证追踪短链服务的正常提供，实现场景还原功能，<br>（6）创蓝实时语音SDK、视频互动SDK、语音直播SDK提供实时音视频过程中收集和使用的信息包括：<br>①与您设备相关的信息：为实现实时音频或视频通话，我们需要您授权开启您的摄像头功能、麦克风功能；我们还会收集您的设备类型、设备型号、CPU信息、储存信息、电池电量信息、操作系统信息；<br>②与您网络状况相关的信息：您的IP地址、信号强度信息、网络类型、用户代理、蓝牙开启信息；<br>③您与我们产品交互相关的信息：收发端用户ID、用户属性、频道信息、使用时长、频道内设置姓名、日志；<br>④您的音视频信息：我们为企业客户提供实时音视频云服务及相关配套服务，若您作为企业客户的终端用户使用我们的该项功能时或者以个人用户名义使用我们的Demo时，我们将为实现实时音视频互动业务功能收集、传输、录制、储存您在使用服务过程中产生的音频流信息、视频流信息以及文字通讯信息，这些信息可能包括您或者/及与您进行互动的个人向我们提供的您的个人信息（包括您发送的文字、图片、音频、视频、您的图像、声音、肖像以及您交流的内容）。<br><strong>提请您注意并知悉，创蓝SDK为实现上述业务功能，收集您终端用户“设备信息”、“网络信息”和/或“位置信息”的前提是，终端用户授权同意开启“读写SD卡权限”、“网络访问权限”、“设备信息权限”和/或“位置权限”。如果您的终端用户不想被收集上述信息，可以通过关闭“读写SD卡权限”、“网络访问权限”、“设备信息权限”和/或“位置权限”实现。</strong><br>（7）数据服务功能。您需要获得向您终端用户获得合法有效授权后，才可以本平台数据服务功能。<br><strong>需要说明的是，我们基于创蓝用户服务协议，并且经过终端用户明示同意收集的数据，以及通过合法渠道获得的（统计）数据信息（不包含个人信息）建立创蓝数据库（数据库内的个人信息已进行去标识化或匿名化处理），为第三方提供数据服务功能，第三方包括但不限于创蓝及其关联公司、与创蓝签订合同的主体公司等。</strong><br><strong>请您理解，由于商业策略的变化，本平台上的产品和／或服务的功能也可能进行更迭和发展。如果我们要将您和/或您的终端用户信息用于本政策未载明的其它用途，或基于特定目的收集的个人信息将用于其他目的，我们会通过本平台以合理的方式向您告知，并在使用前再次征得您的同意。</strong><br>(三) 我们从第三方获取的您的个人信息<br>1. 我们可能会在您的授权同意范围内从第三方（我们的合作方）处收集并使用您的个人信息。我们保证严格依照与第三方签订的合同以及相关法律规定处理您的个人信息，同时请您详细阅读该第三方的隐私政策及用户协议。如您拒绝第三方在提供服务时收集、使用或者传递您的个人信息，将可能导致您无法使用创蓝相应的服务。 <br>2. 我们可能通过网页等公开途径获得、适当使用有关您的公开信息，或者从第三方提供商处获取有关您企业已经对外公示的经营性信息，以帮助我们更好地了解我们的客户群，例如您的行业、您企业的规模和您企业的网站URL。 <br>(四) 征得授权同意的例外<br>请您理解，在下列情形中，根据法律法规及相关国家标准，我们收集和使用您和/或您终端用户的个人信息无需征得您和/或您的终端用户的授权同意： <br>A.与公共安全、公共卫生、重大公共利益直接相关的； <br>B.出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的； <br>C.所收集的您和/或您的终端用户的个人信息是您自行向社会公众公开的； <br>D.从合法公开披露的信息中收集的您和/或您的终端用户的个人信息的，如合法的新闻报道、政府信息公开等渠道； <br>E.根据您的要求签订或履行合同所必需的； <br>F.用于维护软件及相关服务的安全稳定运行所必需的，例如发现、处置软件及相关服务的故障； <br>G.法律法规规定的其他情形。 <br>特别提示您注意，如信息无法单独或结合其他信息识别到您和/或您终端用户的个人身份，其不属于法律意义上您和/或您终端用户的个人信息；当您和/或您终端用户的相关信息可以单独或结合其他信息识别到您和/或您终端用户的个人身份时，或者我们将无法与任何特定个人信息建立联系的数据与其他您和/或您终端用户的个人信息结合使用时，这些信息在结合使用期间，将作为您和/或您终端用户的个人信息按照本政策处理与保护。<br>&ZeroWidthSpace;</p>\n<p>**二、我们如何使用Cookie等同类技术&nbsp;**<br>为确保网站正常运转，我们会在您的计算机或移动设备上存储名为 Cookie 的小数据文件。Cookie 通常包含标识符、站点名称以及一些号码和字符。借助于Cookie，网站能够存储您的偏好或所选择的商品或者服务等数据。<br>我们不会将Cookie用于本政策所述目的之外的任何用途。您可根据自己的偏好管理或删除Cookie。您可以清除计算机上保存的所有Cookie，大部分网络浏览器都设有阻止Cookie的功能。但如果您这么做，则需要在每一次访问我们的网站时亲自更改用户设置，且您可能因为该等修改，无法登录或使用依赖于Cookie的创蓝提供的服务或功能。<br>&ZeroWidthSpace;</p>\n<p><strong>三、终端用户的授权与同意</strong><br>您作为我们的业务合作伙伴十分清楚，为给您和/或您的终端用户提供您所选择的创蓝服务，我们会以去标识化或匿名化方式收集、存储、加工来自于您的应用程序的终端用户的个人信息。因此，您接受本政策并把我们的SDK、API或其他统计分析工具、开发者工具集成到您的产品中，则表示您确认并保证：<br>1. 您已经告知终端用户并且获得终端用户充分、必要且明确的授权、同意和许可，为提供服务之目的允许我们收集和使用其信息；<br>2. 除非适用法律另有规定，您已经告知终端用户并且获得终端用户充分必要的授权、同意和许可，允许我们对已收集的个人信息进行去标识化处理，允许我们在符合相关法律法规的前提下可将收集、处理的信息用于本政策第一条列明的服务用途；<br>3. 您已经遵守并将持续遵守适用的法律、法规和监管要求，包括但不限于制定和公布有关个人信息保护和隐私保护的相关政策； <br>4. 您已经向终端用户提供易于操作的用户权利实现机制，说明用户如何以及何时可以行使选择权、如何访问、更正其个人信息、行使删除权、更改其授权同意的范围等操作。<br>&ZeroWidthSpace;</p>\n<p><strong>四、我们如何共享、转让、公开披露您的终端用户的个人信息</strong><br>(一) 共享 <br>我们不会与创蓝以外的任何公司、组织和个人共享您的用户信息，但以下情况除外：</p>\n<ol>\n<li>在获得您的明确同意后，我们会与其他方共享。</li>\n<li>我们可能会根据法律法规的规定，或按照政府主管部门的强制性要求，对外共享您的个人信息。</li>\n<li>与我们的关联公司共享。我们只会共享必要的个人信息，且受本隐私政策中所声明目的的约束。关联公司如果要改变信息的处理目的，将再次征求您的授权同意。</li>\n<li>与授权伙伴共享。我们可能聘请受信赖的第三方供应商、顾问或其他服务商（简称“合作伙伴”）为我们提供必要的维护、支持和服务，以提供更好的客户服务和优化用户体验。目前，我们的授权合作伙伴包含广告主、广告联盟、媒体或者其他经营者。我们会将数据平台处理、加工后的去标识数据用于商业化使用。在对数据进行处理、加工过程中，我们会严格遵守法律法规的要求，采取相应的安全保护措施来保护您的用户信息。我们仅会出于合法、正当、必要、特定、明确的目的共享信息，并且只会共享提供服务所必要的信息。</li>\n</ol>\n<p>对获得个人信息主体的授权同意后我们与之共享的个人信息的公司、组织和个人，我们会与其签署严格的保密协定，要求他们按照我们的说明、本隐私政策列明的目的或用途，以及保密和安全措施来处理共享信息。<br> (二) 转让 <br>我们不会将您和/或您的终端用户的信息转让给任何公司、组织和个人，但以下情况除外： <br>1. 获得您的明确同意后； <br>2. 在涉及合并、收购或破产清算时，如涉及到个人信息转让，我们会要求新的持有您个人信息的公司、组织继续受本声明的约束。如果本声明中约定的个人信息的收集、处理方式发生任何改变，该公司、组织将重新向您征求授权同意。<br>(三) 公开披露 <br>我们仅会在以下情况公开披露您的用户信息：<br>1.获得您的明确同意后；<br>2.基于法律法规、法律程序、诉讼或政府主管部门强制性要求的情况下，我们可能会公开披露。<br>（四）共享、转让、公开披露信息时事先征得授权同意的例外<br>请您理解，根据法律法规，以下情形中，我们共享、转让、公开披露您的信息无需征得您的授权同意：<br>1、出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；<br>2、您自行向社会公众公开的信息；<br>3、从合法公开披露的信息中收集的，如合法的新闻报道、政府信息公开等渠道；　4、法律法规规定的其他情形。<br>&ZeroWidthSpace;</p>\n<p><strong>五、我们如何存储您的终端用户信息</strong><br>(一) 存储地点 <br>原则上，我们仅收集在中华人民共和国境内产生的个人信息，并且将收集到的个人信息存储在中华人民共和国境内。本服务在除中国外的任何其他国家/地区不可用。您应自主地选择使用本服务的范围，并且负责遵守任何适用的法律，包括但不限于任何当地法律。 <br>(二) 存储期限 <br>我们仅出于本政策所述目的和法律法规规定的最短期限存储您和/或最终用户的个人信息，在超出存储期限后，我们会对您的个人信息进行删除或匿名化处理。但是为了遵守相应的法律法规，出于诉讼抗辩、维护公共利益、保护个人财产安全或合法权利的目的，我们可能会延长您和/或您的最终用户的个人信息存储期限。 <br>&ZeroWidthSpace;</p>\n<p><strong>六、我们如何保护您的用户信息</strong><br>1. 我们已使用符合业界标准的安全防护措施保护您提供的信息，防止数据遭到未经授权访问、泄露、滥用、篡改、损坏或丢失。我们会采取一切合理可行的措施，保护您和/或您的终端用户数据安全。例如，在您的浏览器与“服务”之间交换数据时受 SSL 加密保护；<a href=\"http://xn--sdk-ot9di8u39m6lk7yh.253.com\">我们同时对sdk.253.com</a> 网站提供 https 安全浏览方式；我们会使用加密技术确保数据的保密性；我们会使用受信赖的保护机制防止数据遭到恶意攻击；我们会部署访问控制机制，确保只有授权人员才可访问个人信息；以及我们会定期举办安全和隐私保护培训课程，加强员工对于保护个人信息重要性的认识。 <br>2. 我们已经取得了以下认证：《信息系统等级保护第三级》、《ISO 27001信息安全管理体系认证》、《ISO9001质量管理体系认证证书》 等<br>3. 我们的数据安全能力：围绕数据生命周期，建设安全防御，涵盖数据采集、传输、存储、使用、流转、归档、删除等各数据处理阶段。<br>4. 我们会采取一切合理可行的措施，确保未收集无关的个人信息。我们只会在达成本隐私政策所述目的所需的期限内保留您和/或您的终端用户的信息，除非需要延长保留期或受到法律的允许。<br>5. 互联网并非绝对安全的环境，而且电子邮件、即时通讯、及与其他用户的交流方式并未加密，我们强烈建议您不要通过此类方式发送个人信息。请使用复杂密码并定期修改密码，协助我们保证您的账号安全。<br>6. 我们将定期更新并公开安全风险、个人信息安全影响评估等报告的有关内容。<br>7. 互联网环境并非百分之百安全，我们将尽力确保或担保您发送给我们的任何信息的安全性。尽管我们已经尽到必要且合理的努力，但仍有可能被盗、被非法拥占有或者滥用而给您和您的用户带来人身、财产和声誉等方面损失的危险。您已了解上述风险并自愿承担。<br>8. 在不幸发生个人信息安全事件后，我们将按照法律法规的要求，及时向您告知：安全事件的基本情况和可能的影响、我们已采取或将要采取的处置措施、您可自主防范和降低风险的建议、对您的补救措施等。我们将及时将事件相关情况以邮件、推送通知等方式告知您，难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。<br>9. 同时，我们还将按照监管部门要求，主动上报个人信息安全事件的处置情况。<br>&ZeroWidthSpace;</p>\n<p><strong>七、您的权利</strong><br>我们非常重视您和/或您的终端用户对个人信息的管理，并尽全力保护您对个人信息的查询、访问、修改、删除、投诉举报以及设置隐私功能的相关权利，以保障您和/或您的终端用户的隐私和信息安全。<br>　<br>(一) 针对创蓝的直接用户 <br>1. 查询、更改您的个人信息 <br>您有权访问您的个人信息，法律法规规定的例外情况除外。如果您想行使数据访问权，譬如您希望访问或编辑您的账户中的企业/个人资料信息和支付信息、更改您的密码、添加安全信息等，您可以通过访问账户设置执行此类操作。<br>如果您无法通过上述链接访问这些个人信息，您可以发送电子邮件至clsdk@253.com.行使数据访问权。在访问相关信息时，我们可能会要求您进行身份验证，以保障账户安全。<br>请您理解，由于技术所限、基于法律法规要求，您的某些请求可能无法进行响应。基于法律法规要求、保障信息安全等正当事由，您的部分信息可能无法访问。<br>2. 删除信息 <br>在以下任一情形中，您可以通过发送电子邮件至clsdk@253.com联系客服，请求删除您提供的个人信息：<br>1) 我们违反法律法规规定，收集、使用个人信息的；<br>2) 我们违反了与您的约定，收集、使用个人信息的；<br>3) 我们违反法律法规规定或违反与您的约定向第三方共享、转让个人信息，我们将立即停止共享、转让的行为，并通知第三方及时删除；<br>4) 我们违反法律法规规定或与您的约定，公开披露个人信息，我们将立即停止公开披露的行为，并发布通知要求相关接收方删除相应的信息。<br>在删除相关信息时，我们可能会要求您进行身份验证，以保障账户安全。以上删除请求一旦被响应，除法律法规另有规定要求保留的信息外，您的个人信息将被删除。<br>3. 改变您授权同意的范围 <br>每个业务功能往往需要收集一些基本的个人信息才能得以运营，对于您个人信息的收集和使用，您可以发送电子邮件至clsdk@253.com.联系我们要求撤回同意。<br>当您撤回同意后，我们后续将不再收集和使用您相应的个人信息，但请您理解，当您撤回同意或授权后，我们无法继续为您提供撤回同意或授权所对应的特定功能和/或服务。您撤回同意的决定，不会影响此前基于您的授权而开展的个人信息处理。<br>4. 注销账户 <br>您随时可以注销此前注册的账户，您可以通过发送电子邮件至clsdk@253.com联系客服。您应该知道，注销您的创蓝账户将导致您永久失去对账户和账户中数据的访问权。我们将在验证您的身份并与您协商处理完您账户中的资产后，为您提供账户注销服务。为了向您提供更加便捷的注销方式，我们后续会不断优化我们的产品，并且通过页面公告向您告知。在注销创蓝账户后，我们将停止为您提供产品或服务，并依据您的要求，尽快删除您的个人信息或将其作匿名化处理，法律法规另有规定的除外。<br>5. 获得个人信息副本 <br>您有权获取您的个人信息副本，您可以随时发送电子邮件至clsdk@253.com联系客服。在技术可行的前提下，例如数据接口匹配，我们还可按您的要求，直接将您的个人信息副本传输给您指定的第三方。<br>6. 拒绝定向推送 <br>您可以按照这些电子邮件中的取消订阅/退出说明选择不接收来自创蓝的促销电子邮件。您也可以通过发送电子邮件至clsdk@253.com联系客服来选择退出。请注意，即使您选择退出促销通信，我们仍可能向您发送与我们的服务条款或隐私通知更新、安全警报以及与您访问或使用我们的产品和服务有关的其他通知等相关的非促销信息。 <br>7. 响应您的上述请求 <br>为保障安全，我们可能会要求先验证您的身份，再处理您的请求。您可能需要提供书面请求，或以其他方式证明您的身份。对于您提出的本节项下的所有请求，我们原则上将于收到您的请求并在验证您用户身份后的15日内进行反馈。 <br>(二) 如果您是使用创蓝产品或服务的应用程序的终端用户，而不是创蓝的直接客户，我们建议您： <br>1. 及时提供您合法途径获得的您独立的权利要求证明文件，我们可能会要求您进行身份验证，在向您的应用程序提供商核实并且需要保障客户账户安全的情况下，我们会响应您的相关请求；或 <br>2. 根据应用程序提供商的隐私政策，请将与您个人信息相关的请求直接发送给相关应用程序提供商处理和寻求帮助。 <br>(三) 对于您和/或您的终端用户的上述的合理请求，我们原则上不收取费用。对于那些无端重复、需要过多技术手段（例如，需要开发新系统或从根本上改变现行惯例）、给他人合法权益带来风险或者非常不切实际（例如，涉及备份磁带上存放的信息）的请求，我们可能会予以拒绝。 <br>在以下情形中，我们将无法响应您和/或您的终端用户的请求：<br>（1）与我们履行法律法规规定的义务相关的； <br>（2）与公共安全、公共卫生、重大公共利益直接相关的； <br>（3）我们有充分证据表明您存在主观恶意或滥用权利的； <br>（4）出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的； <br>（5）响应您的请求将导致您或其他个人、组织的合法权益受到严重损害的； <br>（6）涉及商业秘密的。 <br>(四) 如您和/或您的终端用户对上述权利实现存在疑问，可以根据本政策第十条所述方式中的相关联系方式与我们取得联系。 <br>&ZeroWidthSpace;</p>\n<p>**八、我们如何处理儿童的个人信息&nbsp;**<br>我们已经在服务前提中明确，不接受儿童注册登记成为我们的用户，并且我们原则上也不接受您提供14周岁以下终端用户的个人信息，请您注意并谨慎提供。尽管各地法律和习俗对儿童的定义不同，但我们将不满 14 周岁的任何人均视为儿童。如果我们在不知情的情况下向不满 14 周岁的儿童收集了个人信息，我们将及时删除相关资料，除非法律要求我们保留此类资料。 <br>如果您认为我们错误或意外地向不满14周岁的儿童收集了信息，请及时联系我们。 <br>如果您的应用是针对不满14周岁的儿童而设计和开发的，请务必确保您的终端用户为监护人，已经阅读并同意应用程序的隐私政策，授权同意提供儿童个人信息给我们以实现应用的相关功能。<br> <br><strong>九、我们如何更新与修改本政策</strong><br>为了给您提供更好的服务，本平台及相关服务将不时更新与变化，我们会适时对本政策进行修订，这些修订构成本政策的一部分并具有等同于本政策的效力，未经您明确同意，我们不会削减您和/或您的终端用户按照本隐私政策所应享有的权利。 <br>本政策更新后，我们会在官方网站上发出更新版本，并在更新后的条款生效前通过适当的方式提醒您更新的内容，以便您及时了解本政策的最新版本。 <br>对于重大变更，我们还会提供更为显著的通知（包括对于某些服务，我们会通过电子邮件或站内信形式或公告形式发送通知，说明隐私政策的具体变更内容）。因此，请随时查看和了解您应遵守的隐私政策。如果您不同意接受本隐私政策，请停止访问和使用我们的服务。 <br>本政策所指的重大变更包括但不限于： <br>1. 我们的服务模式发生重大变化。如处理个人信息的目的、处理的个人信息类型、个人信息的使用方式等； <br>2. 我们在所有权结构、组织架构等方面发生重大变化。如业务调整、破产并购等引起的所有者变更等； <br>3. 个人信息共享、转让或公开披露的主要对象发生变化； <br>4. 您参与个人信息处理方面的权利及其行使方式发生重大变化； <br>5. 我们负责处理个人信息安全的责任部门、联络方式及投诉渠道发生变化时； <br>6. 个人信息安全影响评估报告表明存在高风险时。 <br>我们还会将本政策的旧版本存档，供您查阅。<br>本政策是创蓝服务协议的重要组成部分。本隐私政策未明确授予的所有权利均由创蓝保留。<br>&ZeroWidthSpace;</p>\n<p><strong>十、如何联系我们</strong><br>我们希望能够解决与我们之间的数据保护实践有关的任何争议。创蓝设立了专门的隐私保护专职小组，您可以通过发送电子邮件至我们的隐私小组邮件clsdk@253.com ，提出您的疑问或需要寻求帮助的问题。 <br>如果您对您的账户信息、个人信息或其他文档技术有疑问、建议或投诉或者行使您的权利，可以通过发送邮件至clsdk@253.com或其他特别说明的方式联系我们。一般情况下，我们将在15个工作日内回复。 <br>如果您对我们收集和使用您和/或您的终端用户信息的法律依据有疑问或需要进一步的信息，请使用本隐私政策引言部分提供的联系信息与我们联系。 <br>十一、关键词定义<br>本政策中使用的特定词语，具有如下含义：<br>1. 我们或创蓝：指上海创蓝云智信息科技股份有限公司<br>2. 关联公司：是指与上海创蓝云智信息科技股份有限公司合并报表范围内的下属公司或其他关联企业。上述公司中任何一方现在或将来控制、受控制或与其处于共同控制下。 <br>3. 控制：是指直接或间接地拥有影响所提及公司管理的能力，无论是通过所有权、有投票权的股份、合同或其他被依法认定的方式。 <br>4. 您：指使用我们的产品和／或服务的注册用户以及收费服务的购买方。 <br>5. 您的终端用户：指创蓝平台产品或服务的应用程序的终端用户。 <br>6. 创蓝或本平台：指创蓝平台。 <br>7. 个人信息：指以电子或者其他方式记录的能够单独或者与其他信息结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。个人信息包括个人基本信息、个人身份信息、个人生物识别信息、网络身份标识信息、个人健康生理信息、个人教育工作信息、个人财产信息、个人通信信息、联系人信息、个人上网记录、个人常用设备信息、个人位置信息等。为免疑义，个人信息包括但不限于个人敏感信息。 <br>8. 个人信息主体：指个人信息所标识的自然人。 <br>9. 个人敏感信息：指一旦泄露、非法提供或滥用可能危害人身和财产安全，极易导致个人名誉、身心健康受到损害或歧视性待遇等的个人信息。个人敏感信息包括个人财产信息、个人健康生理信息、个人生物识别信息、个人身份信息、网络身份标识信息等。 <br>10. 设备信息：设备标识符（IMEI、Android ID、MAC、OAID等相关信息）、应用信息（应用崩溃信息、通知开关状态、软件列表等相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统及硬件相关信息） <br>11. 网络信息：IP地址，WiFi信息，基站信息等相关信息。 <br>12. 去标识化：指通过对个人信息的技术处理，使其在不借助额外信息的情况下，无法识别个人信息主体的过程。 <br>13. 匿名化：指通过对个人信息的技术处理，使得个人信息主体无法被识别，且处理后的信息不能被复原的过程。 <br>14. 中国或中国境内：指中华人民共和国大陆地区，仅为本政策之目的，不包含香港特别行政区、澳门特别行政区和台湾地区。</p>","service_agreement":"<p><strong>用户服务协议</strong><br>感谢您选择创蓝平台及服务。创蓝用户服务协议（以下简称“本协议”）是<a href=\"https://www.qcc.com/firm/c344e92b3857af6771784c48dff58347.html\">上海创蓝云智信息科技股份有限公司</a>及关联方（以下简称“创蓝”或“我们”）与您签订。<br><strong>一、服务前提</strong><br>**1、请您先仔细阅读本协议内容，尤其是字体加粗部分。如您对本协议内容或页面提示信息有疑问，请勿进行下一步操作。**您通过页面点击或者其他方式确认即表示您已同意本协议，即注册成为创蓝平台用户；终止注册后，您将无法使用我们提供的服务。本协议自您注册成为我们的用户时成立并生效。<br><strong>2、我们有权根据需要不时地修改本协议，并在我们的相关界面发布。请您不时地关注本协议的变更，若您在本协议内容公告变更之后继续使用我们的服务的，表示您已充分阅读、理解并接受修改后的内容并使用我们的服务；若您不同意修改后的协议内容，您应立即停止使用我们的服务。</strong><br>**3、我们的网站面向主体及服务对象仅限于18周岁以上具有完全民事行为能力的自然人及依住所地法律合法登记并有效存续且有能力履行本协议项下义务的企业法人或其他组织。**如您不符合资格，请勿继续使用我们提供的服务，并且，我们有权随时终止向您提供服务。<br>4、您在创蓝平台的账户仅限账户原始注册本人使用，<strong>未经我们书面许可，您不得以借用、赠与、出租、出售或其他任何方式将您的账户有偿或者无偿许可给任何第三方使用。否则，您应当自行承担由此产生的任何责任。</strong><br>5、协议外，创蓝平台还将发布其他规则和政策，如<a href=\"https://sdk.253.com/commit-detail/hkcqxx/qb6bsf\">《用户服务协议》</a>和<a href=\"https://sdk.253.com/commit-detail/rcc5zd/fd21s8\">《隐私政策》</a> 等。<strong>对于创蓝平台发布的其他规则和政策，以相应的规则和政策为准，相应的规则和政策未提及的事项，以本协议为准。</strong><br>&ZeroWidthSpace;</p>\n<p><strong>二、相关术语定义</strong></p>\n<ol>\n<li>创蓝平台：指由我们所拥有、控制、运营的创蓝服务平台(<a href=\"http://sdk.253.com\">sdk.253.com</a>)。</li>\n<li>您：是指经有效注册创蓝账号并集成创蓝SDK的应用软件开发服务者，包含自然人、法人和其他组织。</li>\n<li>创蓝SDK：创蓝提供的具有不同功能的开发工具包，包括但不限于闪验认证SDK、实名认证SDK、短信认证SDK、追踪短链SDK、即时通讯SDK、实时语音SDK、视频互动SDK、视频直播SDK等。</li>\n<li>用户：安装有您所开发或运营的产品或应用的终端用户。</li>\n<li>创蓝服务：由创蓝开发并运营的、以互联网为载体的提供数据分析统计、技术支持等服务的总称。</li>\n<li>帐户：指在通过以您自身名义申请注册的创蓝帐户进行登录后，用以接受创蓝服务的创蓝帐户。</li>\n<li>应用：由您开发或运营的并集成创蓝的应用程序，包括社交类、影音类、资讯类、工具类、商旅类、电商类、金融类、游戏类及其他类别的应用程序。</li>\n</ol>\n<p><br><strong>三、我们为您提供的服务</strong><br>       我们可以向您提供的服务内容包括但不限于（点击相应服务可直接跳转到创蓝平台对应页面）：</p>\n<pre><code>  - 1. [闪验认证SDK](https://sdk.253.com/sdk-flash)\n  - 2. [实名认证SDK](https://sdk.253.com/sdk-identify)\n  - 3.[ 短信认证SDK](https://sdk.253.com/sdk-letter)\n  - 4. [追踪短链SDK](https://sdk.253.com/sdk-link)\n  - 5.[ 即时通讯SDK](https://sdk.253.com/sdk-message)\n  - 6. [实时语音SDK](https://sdk.253.com/sdk-voice)\n  - 7. [视频互动SDK](https://sdk.253.com/sdk-interaction)\n  - 8. [语音直播SDK](https://sdk.253.com/sdk-broadcast)\n</code></pre>\n<p><strong>闪验认证</strong>：包含一键登录和本机认证服务。一键登录功能支持自动获取手机号码，用户一键通过验证，无需号码手动输入和短信验证。本机认证功能在用户输入手机号码后，自动校验与当前本机卡号的一致性，无需发送短信验证码。<br>**实名认证：**直连公安数据库实时核验用户身份信息的一致性。依托海量数据，从申请人的身份证、手机号、头像等全方位匹配，甄别出现过的不良信用记录，筛选出优质目标人群。<br><strong>短信认证</strong>：将传承通信业务与互联网结合，帮助全球开发者在最短时间内实现短信验证码发送的能力。开通短信认证SDK后，前6个月每月1号我们会免费赠送一个短信认证的套餐包，条数为2000条，有效期为1个月。<br><strong>追踪短链</strong>：短信内容集成短链服务，用户点击可唤醒已安装的应用并跳转目标页面。对于接收到短信的手机号，可统计哪些手机号的用户进行了点击、启动、安装应用等操作。<br><strong>即时通讯</strong>：实时通信，允许两人或多人使用网络实时的传递文字消息、语音交流。支持私聊、群聊、聊天室等通讯能力<br><strong>实时语音</strong>：支持20人以下同个房间实时语音交流。针对不同场景进行深度优化，覆盖游戏、社交、娱乐等多种泛互联网行业应用场景。支持文本、图片敏感词检查。<br><strong>视频互动</strong>：支持多人实时视频通话或视频直播的能力。支持 1 对 1 和 多对多视频通话模式，适用于视频直播、视频聊天、视频客服、视频会议等场景。<br><strong>语音直播</strong>：助力多主播跨直播间连麦PK，可对房间进行消息推送，直播间支持用户与主播、用户与用户进行文字聊天互动、送礼物。<br>上述服务可能会变更、升级、暂停或终止，出现前述情形，我们会第一时间通知您。上述功能出现更新时，除非我们另有说明，否则仍然适用本协议。<br>\n<br><strong>四、服务费用</strong><br>我们的服务的收费服务级收费费用详见各个产品页面的介绍，并以双方最终达成的书面协议为准。<strong>创蓝保留随时更改收费方式和收费标准的权利，但对于已签署书面协议确定价格的除外。</strong><br>&ZeroWidthSpace;</p>\n<p><strong>五、双方权利和义务</strong><br>（一）我们的权利和义务</p>\n<ul>\n<li>\n<ol>\n<li>我们与您达成合作关系，为您提供相应的服务，并为您提供必要的技术支持，以进行技术测试和改善用户体验等。</li>\n</ol>\n</li>\n<li>\n<ol start=\"2\">\n<li>如根据法律要求，需要我们删除您接入到我们平台上的模型和数据的，我们有权对您的相关信息进行删除。</li>\n</ol>\n</li>\n<li>\n<ol start=\"3\">\n<li>由于业务发展需求或者法律法规规定，我们有权调整为您提供的服务范围，在调整之前我们会在合理的时间内通知您。</li>\n</ol>\n</li>\n<li>\n<ol start=\"4\">\n<li>我们会采取各种符合业界标准的物理、电子和管理方面的安全措施来保护所收集到的您和您终端用户的个人信息安全，以避免数据泄露的风险。</li>\n</ol>\n</li>\n</ul>\n<p>（二）您的权利和义务 <br>1. 您应确保您的应用或使用创蓝服务的行为，并不违反相关法律法规及国家政策，也未侵犯任何第三方的合法权益或违反本协议之规定，否则，您应当承担由此产生的所有责任。包括但不限于： <br>（1）反对宪法所确定的基本原则的行为；<br>（2）危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的行为；<br>（3）损害国家荣誉和利益的行为；<br>（4）煽动民族仇恨、民族歧视，破坏民族团结的行为；<br>（5）破坏国家宗教政策，宣扬邪教和封建迷信的行为；<br>（6）散布谣言，扰乱社会秩序，破坏社会稳定的行为；<br>（7）散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的行为；<br>（8）侮辱或者诽谤他人，侵害他人合法权益的行为；<br>（9）侵害他人知识产权、商业秘密等合法权利的行为；<br>（10）恶意虚构事实、隐瞒真相以误导、欺骗他人的行为；<br>（11）发布、传送、传播垃圾信息等；<br>（12）删除、隐藏、撤换创蓝（我们）SDK明示的或暗示的任何关于所有权、著作、商标、专利知识产权及其他权利事项的声明；<br>（13）未经帐户持有人的同意使用其他人的帐户，利用网络通讯非法骚扰他人、干扰其他开发者使用和享有服务或将创蓝（我们）服务用于任何非法用途；<br>（14）通过入侵、密码盗取或任何其他手段擅自使用任何服务、其他帐户、计算机系统或连接到任何服务器或任何服务的网络，获取或尝试获取服务未明确提供的任何资料或信息；<br>（15）对创蓝（我们）提供的平台环境进行篡改删除，或以其他任何方式干扰或试图干扰创蓝（我们）任何产品的正常提供、任何部分或功能的正常运行；<br>（16）在未事先获得创蓝（我们）书面许可的前提下，盗用、冒用创蓝（我们）技术接口；<br>（17）应用中含有计算机病毒、木马或其他恶意程序等任何可能危害创蓝（我们）或其用户权益和终端信息安全等的内容，或被发现存在漏洞，可能会导致被植入木马或钓鱼网页；<br>（18）利用创蓝（我们）SDK漏洞进行非法或恶意行为，包括但不限于发布违法违规信息、恶意劫持用户信息、捆绑软件安装、欺诈用户等；<br>（19）出现公网IP裸露情况，或发生安全入侵类故障；<br>（20）其他法律法规禁止的或创蓝认为不应该、不适当的行为、内容。<br>若发现您存在上述的情形，我们有权暂停、限制、终止或撤销我们服务的权利，并有权自行判断采取适当的措施，包括但不限于删除具有违法、侵权性质的内容，保存相关信息向有关部门举报等。 <br>2.我们为您提供服务过程中使用、收集的数据，您同意并授权我们在全球范围内享有永久的、免费的、非专有的、允许转许可的权利，包括不限于我们使用前述数据进行宏观分析，并将分析结果发布或分享给第三方等。<br>3.您承诺在使用创蓝服务前已经通过您的隐私政策或者其他方式获得相关权利人的充分授权，保证您的应用（包括但不限于APP）已获得调集、处理、分析用户个人信息的明确许可且应遵守《中华人民共和国网络安全法》、《中华人民共和国电信条例》、《全国人大常委会关于加强网络信息保护的决定》、《电信和互联网用户个人信息保护规定》、《互联网新闻信息服务管理规定》等在内的关于个人信息保护的规定。<br>4.您不得进行任何会对我们的系统安全造成影响或破坏的行为，也不得进行任何损害我们或其他第三方合法权益的行为。<br>5.您不得采取任何行为让我们的基础设施承担或可能承担不合理或不成比例的巨大负担。<br>6. 您不得干扰或企图干扰创蓝平台或创蓝平台任何部分活动的正常运行。<br>7. 您不得绕过我们可能用来阻止或限制访问或保护创蓝平台的任何措施。<br>8. 您需要充分、完整阅读《隐私政策》。<br>9. 您需制定针对您终端用户的隐私政策，您的隐私政策应当实质包含第三方合作伙伴的收集个人信息范围及使用目的。例如闪验认证SDK供应商的公司名称、链接地址、使用目的、收集哪些个人信息等。<br>10 若您的终端用户撤回上述授权及许可，您应当采取必要的技术手段，停止为终端用户提供我们的服务，并立即书面通知我们。<br>11 您承诺并保证您向我们提供的数据内容有合法来源（包括但不限于已经获得权利人的充分有效授权）、不侵犯他人合法权益（包括但不限于隐私权）、不违反任何法律法规。为进一步保证本款的内容，在必要时您应及时向我们提供相关证明。<br>12. 您应当保证所提供的个人信息的真实性和有效性，不侵犯任何第三方组织或个人的合法权益。若因您提供的信息存在任何错误、不实、过时、不完整情况或侵害第三方合法权益的，我们有权暂停或终止为您提供服务，或限制您使用创蓝所提供服务的部分或者全部功能，您应承担全部的损害赔偿责任。<br>13. 未经我们书面同意，您不得将我们服务过程中产生的模型与算法授权第三方进行使用。<br>14. 未经我们事先许可，您不得对创蓝SDK软件包的任何内容进行破解、编译、反编译、盗用以及其他危害或可能危害创蓝及其他接受创蓝服务开发者的安全与权益的行为。<br>15. 您不得使用任何数据挖掘、机器人或类似的数据收集和提取工具对创蓝平台或用户信息进行收集或挖掘。<br>16. 您不得对创蓝服务任何部分或创蓝服务之使用或获得，进行复制、拷贝、出售、转售或用于任何其他商业目的。<br>17. 您承诺您的终端用户知悉我们依照本协议以及隐私政策对其个人信息的收集、使用、披露的情况，且不会因此而对我们产生任何投诉或诉求。如您的终端用户因我们遵照本协议以及隐私政策对其个人信息正当收集、使用和披露提出投诉或诉求，您对投诉或诉求的处理、争议的解决负有全部的、单独承担的责任，并应为我们或在我们的要求下合作抗辩，维护我们的利益，并赔偿我们因此可能遭受的全部损失。<br>\n<br><strong>六、知识产权</strong><br>1.创蓝SDK软件包(包含但不限于所涉任何数据、模型、算法、技术、软件、代码、界面等以及与之相关的衍生作品) 的所有权及知识产权，均完整无瑕疵地归创蓝所有。<br>2、创蓝平台上的所有内容（包括但不限于图片、文字、网站设计、画面安排以及与其相关的任何衍生作品的所有权及知识产权）未经我们书面同意，您不得擅自使用、修改、复制、公开传播、改变、散布、发行或公开发表我们平台上的任何内容。 <br>3. 创蓝享有提供服务过程中产生的所有分析报告、行业报告、人群标签、人群画像等数据内容的所有权及其知识产权，您仅能基于特定服务的约定进行合理使用，进行合理使用时应当标明数据来源方为创蓝。未经我们书面同意，您不得将前述数据用于商业目的。 <br>4. 我们享有创蓝平台运营数据的所有权利，包括但不限于登录信息、操作记录、服务订购等数据。未经我们书面同意，您不得擅自保存、使用或授权他人使用前述数据。 <br>\n<br><strong>七、保密</strong><br>  在您使用我们服务的过程中，如涉及到保密事项，则以双方另行签署或达成的书面协议、承诺函等文件为准。 <br>\n<br><strong>八、免责声明</strong><br>1.网络服务的特殊性，您同意创蓝经合理通知后，可以中断或终止部分或全部的网络服务，并可能由此造成一定的服务故障、中断、延时或不稳定，您对此应予理解并不予追究； <br>2&nbsp;为维护通道的稳定和提升质量，创蓝会对创蓝SDK、通道或其他设备设施进行检修、维护、升级、调试或采取其他措施。在采取此类措施前，创蓝会对您尽到合理的告知义务，由此造成的服务中断、暂停，创蓝予以等量补偿，您亦须对此予以支持和配合； <br>3&nbsp;您在接受创蓝服务的过程中可能会遭遇不可抗力、紧急避险等使本服务发生中断的意外风险，包括但不限于洪水、地震、瘟疫、飓风、火灾、战争、动乱、政府行为、黑客攻击、病毒入侵、电信技术部门技术调整等。如遇上述情况，创蓝将努力配合相关力量在第一时间内进行修复，尽量将您遭受的损失降至最低； <br>4&nbsp;如遇紧急状态、集会游行、重大国事/外事、大型会议/活动、抢险救灾、执行重要警卫任务等情形，根据《中华人民共和国信息条例》、《互联网信息服务管理办法》、《互联网文化管理暂行规定》等法律法规及其他规范性文件的具体规则及精神，如条件允许，创蓝在尽到合理的通知义务后（通知形式包括但不限于官网公告、邮件告知、微信公众号消息、电话、短讯等）可以采取过滤、筛选、暂停、中止服务等措施，以配合国家净化网络环境、维护网络安全，努力消除推送内容违反国家相关法律法规、相关政策的可能性，您对此须给予支持理解及必要配合。 <br>\n<br><strong>九、违约责任</strong><br>1. 如因您违反本协议约定使用我们平台提供的服务（包括但不限于使用任何方式侵害第三方知识产权，或使用任何包含淫秽、诽谤、中伤、谣言、种族主义或任何侵害他人名称权、名誉权或隐私权的材料或信息）由此引发第三人向我们提出索赔、诉讼或其他程序，您应对我们因此产生的全部损失（包括但不限于诉讼费、律师费、和解费、赔偿费在内的全部费用）进行赔偿，并使我们免受损害。 <br>2. 如因您违反上述承诺导致您的终端用户对我们主张任何形式的索赔或权利要求，或导致我们被卷入到法律或行政程序，您将负责全面解决应诉、并为我们抗辩，或在我们的要求下合作抗辩，以保障我们的利益不受损害，并赔偿我们因此可能遭受的损失包括但不限于诉讼费、律师费、和解费、赔偿费在内的全部费用。 <br>3. 如发现您违约，我们有权不经过事先通知而直接删除相关信息，终止、暂停为您提供服务并要求您立即停止继续使用、复制相关的文档。 <br>4. 如发生下述任一情况，我们有权终止本协议或暂停我们的服务，并要求您立即删除涉及的算法、模型和数据或终止侵犯他人权益的行为：</p>\n<ul>\n<li>您违反法律法规接入我们的平台，上传、发布信息或不正当使用我们的算法、模型和数据；</li>\n<li>您的行为侵犯他人隐私、商业秘密或其他用户权益。</li>\n</ul>\n<p>如发生上述情形，您应以自己的名义独立承担所有责任，并对遭受侵害的其他用户或任何第三方的损失进行赔偿。 <br>5. 我们有权按照专业或非专业标准对您的行为进行违约审查，您同意并不可撤销地认可我们对您的审查结果以及收集的证据。我们根据本协议或相关协议对您的违约行为进行处理后，不免除您应承担的法律责任。 <br>6. 您应对自己在使用创蓝服务过程中的行为承担法律责任。您承担法律责任的形式包括但不限于：对遭受侵害的其他用户或任何第三方进行赔偿，以及在创蓝首先承担了因您的行为导致的行政处罚或侵权损害赔偿责任后，您应给予创蓝等额的赔偿。在任何情况下，创蓝都不对您或任何第三方因本协议产生的任何间接性、后果性、偶然的、特殊或惩罚性的损害赔偿承担责任。 <br>\n<br><strong>十、客户服务</strong><br>如您在阅读本协议过程中有任何疑惑或其他相关事宜的，您可以拨打人工电话400-9669-253与我们取得联系，同时，您也可以发送邮件至clsdk@253.com.进行询问，我们会尽快为您做出解答。 <br><strong>十一、通知</strong><br>本协议条款和规则项下我们对于您所有的通知均可通过网页公告、站内通知、电子邮件等方式进行，该等通知于发送之日视为已送达用户。 <br>\n<br><strong>十二、其他</strong><br>1. 创蓝对本协议条款拥有解释权。 <br>2. 本协议的成立、生效、履行、解释和纠纷解决，适用中华人民共和国大陆地区法律（不包含冲突法）<br>3. 本协议签订地为中华人民共和国上海市松江区。<br>4. 若您与创蓝之间发生任何纠纷或者争议，首先应友好协商解决，协商不成的，各方在此完全同意将纠纷或争议提交本协议签订地有管辖权的人民法院管辖。 <br>5. 本协议可能存在包括中文、英文在内的多种语言版本，如果存在中文版本与其他语言版本相冲突的地方，以中文版本为主<br>6.本协议条款无论何种原因部分无效或不可执行，其余条款仍有效，对双方具有约束力。（正文完）  <br>\n<br>\n<br>上海创蓝云智信息科技股份有限公司</p>","phone":null,"email":null,"customer_service":null}
+</script>
+        </div>
+    </body>
+    <script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement('script');
+        hm.src = 'https://hm.baidu.com/hm.js?bc90a1059f6a226b6a03bf89a5d3cb47';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script src="/javascripts/jquery.min.js"></script>
+<script src="/javascripts/popover.min.js"></script>
+<script src="/javascripts/windows_js/header.js"></script>
+<script src="/javascripts/windows_js/follow.js"></script>
+    <script src="/javascripts/swiper.min.js"></script>
+    <script src="/javascripts/swiper.animate.min.js"></script>
+    <script src="/javascripts/windows_js/index.js"></script>
+</html>

@@ -44,13 +44,16 @@ let getLinks = new Promise((resolve) => {
                   // favicon = 'https://statics.dnspod.cn/proxy_favicon/_/favicon?domain='+domain[2];
 
                   // 方式三: google domain最好带http/https前缀, 有些不带取不到favicon
-                  var newDomain = '';
-                  if(url.startsWith('https')){ // 暂时先这么处理, 有空再调整
-                    newDomain = "https://"+domain[2];
-                  }else{
-                    newDomain = "http://"+domain[2];
-                  }
-                  favicon = 'https://www.google.com/s2/favicons?domain='+newDomain;
+                  //var newDomain = '';
+                  //if(url.startsWith('https')){ // 暂时先这么处理, 有空再调整
+                  //  newDomain = "https://"+domain[2];
+                  //}else{
+                  //  newDomain = "http://"+domain[2];
+                  //}
+                  //favicon = 'https://www.google.com/s2/favicons?domain='+newDomain;
+
+                  // 方式四： 使用本地的favicon
+                  favicon = 'https://fastly.jsdelivr.net/gh/anaer/anaer.github.io@master/favicon/' + domain[2] + '.ico';
                 }
               }
               let item = {

@@ -1,0 +1,1043 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="en">
+    <title>Online http POST, GET interface test request tool online, online POST, online GET, online interface test, api online, generate documentation, generate Mark&#39;Down document,http POST test online-online tool-postjson</title>
+    <meta name="robots" content="all" />
+    <meta name="keywords" content="online http, http, online post, http post, post, get, online http post, api, online http interface, online post, http post tool, http cookie, request tool, generate document, generate markdown document, curl, generate curl request" />
+    <meta name="description" content="online http, http, online post, http post, get, online http post/get/put request test tool, provide request with cookie and header, return header, provide overseas interface test, generate document, generate markdown document, and Can generate curl request" />
+    <link rel="shortcut icon" href="/static/img/favicon3.ico">
+    
+    
+
+    
+    
+<meta name="google-site-verification" content="tW0wHpS5SAbFhl5Nt9o2G1uXV-G4YIHClYuX5lr1-ZE" />
+ 
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <script src="/static/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/static/css/offcanvas.css">
+
+</head>
+<script>
+        var showToast = function (msg,option) {
+        outTime = 3000;
+        if (option&&option.outTime) {
+            outTime = option.outTime;
+        }
+        if (!$(".showtoastresult").html()) {
+            html = "<div class='showtoastresult' style='min-width: 50px;width: auto;padding: 10px 20px;font-size: 14px;font-weight: bold;background: rgba(7, 17, 27, 0.66);border-radius: 6px;color: rgb(255, 255, 255);top: 50%;z-index: 1000001;transform: translate3d(-50%, -50%, 0px);position: fixed;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);'></div>";
+            $(document.body).append(html);
+        }
+        $(".showtoastresult").html(msg);    
+        $(".showtoastresult").fadeIn("slow").fadeOut(3000);
+        return false;
+    }
+</script>
+<style>
+    .navbar-brand,.navbar-nav>li>a{
+        color:#fdfdfd!important;
+    }
+    .navbar-nav>li>a:hover{
+        color:#ff8839!important;
+    }
+	.mydisul li{
+		line-height:30px;
+		margin-top:10px
+	}
+</style>
+<body >
+    
+    <nav class="navbar navbar-fixed-top navbar-inverse" style='background-color:#2f3b53;z-index:9999'>
+        <div class="container" style='width:100%'>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="/">PostJson</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    
+                    <li><a href="http://coolaf.com/article/m">Article</a></li>
+                    <li><a href="JavaScript:void(0);" id='black1'>Night mode</a></li>
+                    
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Testing tools <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                    
+                              <li><a href="/en/tool/gp">online POST and GET</a></li>
+                              
+                              <li><a href="/en/tool/post">New online POST and GET</a></li>
+                              
+                              <li><a href="/en/tool/testing">API interface stress test</a></li>
+                              
+                              <li><a href="/en/tool/port">port scan</a></li>
+                              
+                              <li><a href="/en/tool/chattest">online WebSocket test tool</a></li>
+                              
+                            </ul>
+                    </li>   
+                    
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">JSON related <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                    
+                              <li><a href="/enhttp://postjson.com">JSON format and restore the original string</a></li>
+                              
+                              <li><a href="/en/tool/jurl">JSON to url parameter</a></li>
+                              
+                            </ul>
+                    </li>   
+                    
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Encryption,Decoding,Conversion <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                    
+                              <li><a href="/en/tool/ud">urlencode and urldecode conversion</a></li>
+                              
+                              <li><a href="/en/tool/ff">sql\html\xml beautification</a></li>
+                              
+                              <li><a href="/en/tool/ud">base64_encode and base64_decode conversion</a></li>
+                              
+                              <li><a href="/en/tool/formdatatokv">formdata to url, kv</a></li>
+                              
+                              <li><a href="/en/tool/ud">md5 encryption</a></li>
+                              
+                              <li><a href="/en/tool/unicode">unicode and Chinese interchange</a></li>
+                              
+                              <li><a href="/en/tool/ud">sha1,sha256,sha512</a></li>
+                              
+                            </ul>
+                    </li>   
+                    
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">network <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                    
+                              <li><a href="/en/tool/dns">Public DNS</a></li>
+                              
+                              <li><a href="/en/tool/useragent">useragent</a></li>
+                              
+                            </ul>
+                    </li>   
+                    
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other tools <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                    
+                              <li><a href="/en/tool/duibi">difference between two columns</a></li>
+                              
+                              <li><a href="/en/tool/unix">timestamp conversion</a></li>
+                              
+                              <li><a href="/en/tool/rd">random string or password generation</a></li>
+                              
+                              <li><a href="/en/tool/nslook">online Nslookup</a></li>
+                              
+                              <li><a href="/en/tool/bimg">Image base64 transcode</a></li>
+                              
+                              <li><a href="/en/tool/imgtob">Image base64 transcode</a></li>
+                              
+                              <li><a href="/en/tool/imgtob">base64 into a picture</a></li>
+                              
+                              <li><a href="/en/tool/md">Mark&#39;Down online editing</a></li>
+                              
+                              <li><a href="/en/tool/hzp">Chinese characters to pinyin</a></li>
+                              
+                              <li><a href="/en/tool/fenci">Online Chinese word segmentation</a></li>
+                              
+                              <li><a href="/run">Proxy online code running</a></li>
+                              
+                            </ul>
+                    </li>   
+                    
+                </ul>
+                <div style="float:right;"> 
+				<select class="form-control"  id='changelang' style='margin-top:8px;color:red'>
+        <option value='ja' 
+				
+				 >日本語</option>
+        <option value='ko' 
+				
+				 >한국어</option>
+        <option value='ru' 
+				
+				 >русский</option>
+        <option value='de'
+				
+				 >Deutsch</option>
+        <option value='fr' 
+				
+				 >Le français</option>
+        <option value='en' 
+				 
+				   selected
+				 
+				  >English</option>
+				 <option value='zh' 
+				
+				 >简体中文</option>
+        <option value='th'
+				
+				 >ประเทศไทย</option>
+        <option value='pt' 
+				
+				 >Português</option>
+        <option value='vi' 
+				
+				 >Tiếng việt</option>
+         <option value='ar' 
+				
+				 >العربية</option>
+				</select>
+   </div>
+            </div> 
+        </div>
+    </nav>
+	<script>
+	$("#black1").click(function(){
+		var s = $(this).html();
+		if (s=="Night mode") {
+			$('body').css("background-color","black");
+			$('body').css("opacity","0.7")
+			$('body').css("-moz-opacity","0.7")
+			$('body').css("filter","alpha(opacity=50)")
+			$(this).html("day mode");
+		}else{
+			$('body').css("background-color","");
+			$('body').css("opacity","")
+			$('body').css("-moz-opacity","")
+			$('body').css("filter","")
+			$(this).html("Night mode");
+		}
+	});
+	$("#changelang").change(function(){
+		$lang = $(this).val();
+		var pn = window.location.pathname
+		var search = window.location.search;
+		var hash = window.location.hash;
+		var regex = /(\/\w*)?(\/\w*\/\w*)/;
+		x=pn.match(regex)
+		console.log(x)
+		
+		if (x==null) {
+			url = "/"+$lang+search+hash;
+		}else{
+			url = "/"+$lang+x[2]+search+hash;
+		}
+	    window.location.href = url
+		return
+		$href = window.location.href
+		var mlang="mlang"
+		var pattern = mlang+'=([^&]*)';
+        var replaceText = '';
+		$href = $href.replace(eval('/('+ mlang+'=)([^&]*)/gi'), replaceText)
+		
+		if (window.location.search!=""){
+			window.location.href = $href+"&mlang="+$lang
+		} else{
+			window.location.href = $href+"?mlang="+$lang
+		}
+	});
+	</script>
+    
+    <div class="container" 
+	
+	style='width:1300px'
+	
+	>
+
+        <div class="row row-offcanvas row-offcanvas-right main-contain">
+            
+            <div class="col-xs-12 col-sm-8" style="z-index: 9995">
+                
+                
+              
+<style>
+	#history tr {
+		line-height: 25px
+	}
+
+	#history td {
+		white-space: nowrap;
+		padding-left: 3px;
+	}
+
+	#history td a {
+		color: rgba(172, 197, 181, 0.95);
+	}
+
+	.deltd {
+		width: 20px;
+		color: red;
+		padding-left: 3px;
+		padding-right: 3px
+	}
+
+	.clipbotton {
+		padding: 4px 12px;
+		border-radius: 10px;
+		color: white;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.8);
+		border: 6px solid transparent;
+		border-bottom-color: rgba(0, 0, 0, 0.35);
+		background: hsl(260, 81%, 63%);
+		cursor: pointer;
+		animation: pulse 1s infinite alternate;
+		transition: background 0.4s, border 0.2s, margin 0.2s;
+	}
+	.clipaim{
+		position:absolute;right:33px;z-index:100;margin-top:1px;
+	}
+
+	.resulttab {
+		min-height: 360px;
+		word-break: break-all;
+		background-color: #F5F5F5;
+		border: 1px solid #ccc;
+		word-break: break-all;
+		word-wrap: break-word;
+		white-space: pre-wrap
+	}
+
+	.myhide {
+		display: none
+	}
+
+	.reqbtn {
+		width:11.9%;
+		height: 40px;
+		margin-top: 5px;
+	}
+	.httpstyle{
+		margin-top:5px
+	}
+</style>
+<div style="z-index:9995;left:0px;float: left;position: fixed;top: 100px;">
+	<div style='float:right;width:20px;writing-mode:tb-rl;border:1px solid #000;border-left:0px;background-color: lightgreen;opacity: 0.8 '
+	 id='di1'>history</div>
+	<div style='overflow-y:scroll;overflow-x:hidden;display:none;float:left;color:black;opacity: 0.5;background-color: #230606;border:1px solid #000;width:300px;height:500px'
+	 id='di2'>
+		<div style='border-bottom:1px solid #000;background-color: #CA9191;font-weight: bold'>history is stored in the browser via html5&#39;s indexeddb,
+			<input value='300' id='historywidth' style='width:60px' />
+			<botton onclick='changewidth();'>set width</botton>
+		</div>
+		<table id='history' style='width:98%;table-layout:fixed;'>
+
+		</table>
+
+	</div>
+</div>
+<script src="/static/js/jsonformart.js" type="text/javascript"></script>
+<div style="width:98%;">
+
+
+<div style=''>
+<ins class="adsbygoogle"
+     style="display:block;height:87px"
+     data-ad-client="ca-pub-0889970608150005"
+     data-ad-slot="1767977434"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+<h6>GET and POST tests (support for interface calls that require login: advanced features -&gt; fill in cookies)</h6>
+	<pre><span>yourip:<a target='_blank' id='getip'>112.10.225.56</a><span id="disarea" style='margin-left:10px'></span></span><span style='float:right'><a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=23360755a1a1f34d00f14102f165ac9b857ff303274541aae0c9c4ecd273f8d0"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="在线工具2" title="在线工具2"></a><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=a02ee1e33af7e349dc70dc67750f92b273255447eb6e1d1d6c02b03dac194378"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="在线工具" title="在线工具"></a></span>
+</span></pre> 
+	<textarea rows="2" class="form-control" name='url' id="url" placeholder='Enter the url you tested'></textarea>
+	<span style="color:#ccc;font-size:12px">Example: http://coolaf.com/m?axx&amp;bxx, The GET parameter is added directly to the url. User local web version provides download, users can access local domain name,
+		<a href='/doc/index' target='_blank' style='color:red'>Download link</a>
+	</span>
+	<br/>
+	<div>
+
+		
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation" class="active"><a href="#postparams" aria-controls="postparams" role="tab" data-toggle="tab">post parameter</a></li>
+			<li role="presentation"><a href="#httpcookies" aria-controls="httpcookies" role="tab" data-toggle="tab">cookie</a></li>
+			<li role="presentation"><a href="#httpheader" aria-controls="httpheader" role="tab" data-toggle="tab">header</a></li>
+			<li role="presentation"><a href="#httpproxy" aria-controls="httpproxy" role="tab" data-toggle="tab">proxy</a></li>
+			<li role="presentation"><a href="#httpnote" aria-controls="httpnote" role="tab" data-toggle="tab">note</a></li>
+		</ul>
+
+		
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="postparams">
+				<div class="httpstyle">
+				<textarea rows="3" class="form-control" name='parms' id="parms"></textarea>
+				<span style="color:#ccc;font-size:12px;width:75%;display:inline-block">
+			    </span>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="httpcookies">
+				<div class="httpstyle">
+				<textarea rows="3" class="form-control" name='ck' id="ck"></textarea>
+				<span style="color:#ccc;font-size:12px">cookie format：key=value;key2=value2;key3=value3,as shown：
+				<a href='/doc/cookie' target='_blank'>icon</a>
+			</span>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="httpheader">
+				<div class="httpstyle">
+				<textarea rows="3" class="form-control" name='header' id="header"></textarea>
+				<span style="color:#ccc;font-size:12px">header format：key:value,one line per line。as shown：
+				<a href='/doc/header' target='_blank'>icon</a>
+			</span>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="httpproxy">
+				<div class="httpstyle">
+				<input type='input' class="form-control" name='proxy' id="proxy"></input>
+				<span style="color:#ccc;font-size:12px">proxy format：10.10.10.10:8080,Use a proxy to access the interface you submitted</span>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="httpnote">
+				<div class="httpstyle">
+				<textarea rows="3" class="form-control" name='cookie' id="cookie"></textarea>
+				<span style="color:#ccc;font-size:12px">note is similar to notepad, you can save information for 100 days, save it in cookie, clear cookie information is invalid</span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div>
+		<select name='seltype' id="seltype" class="form-control" style='float:left;width:15%'>
+			<option value='post'>POST</option>
+			<option value='get'>GET</option>
+			<option value='put'>PUT</option>
+			<option value='delete'>DELETE</option>
+			<option value='head'>HEAD</option>
+			<option value='trace'>TRACE</option>
+			<option value='patch'>PATCH</option>
+			<option value='options'>OPTIONS</option>
+		</select>
+		<select name=''   id='httpcontenttype_select_2' class='form-control' style='margin-left:10px;float:left;width:35%' >
+			<option value="application/x-www-form-urlencoded">application/x-www-form-urlencoded</option>
+			<option value="application/json">application/json</option>
+			<option value="application/javascript">application/javascript</option>
+			<option value="application/grpc-web-text">application/grpc-web-text</option>
+			<option value="text/plain">text/plain</option>
+			<option value="application/xml">application/xml</option>
+			<option value="text/javascript">text/javascript</option>
+			<option value="text/html">text/html</option>
+			<option value="custom">custom(custom content-type, fill in the header)</option>
+		</select>
+		<select name='code' id="code" class="form-control" style='margin-left:10px;float:left;width:23%'>
+			<option value='utf8'>UTF-8 --interface output</option>
+			<option value='gbk'>GBk --interface output</option>
+		</select>
+		<select name='jieya' id="jieya" class="form-control" style='margin-left:10px;float:left;width:23%'>
+			<option value='1'>decompression(gzip,deflate,flate)</option>
+			<option value='2'>no decompression</option>
+		</select>
+		<br/>
+	</div>
+	<div style='clear:both'></div>
+	<div >
+		<button type='button'  id='btn' class='reqbtn btn btn-info' style="width:50.1%;">submit</button>
+		<button type='button'  id='newword' class='reqbtn btn btn-danger' >doc</button>
+		<button type='button'  id='httptest' class='reqbtn btn btn-primary'>example</button>
+		<button type='button'  id='' class='reqbtn btn btn-primary' onclick="javascript:window.location.href='/tool/history'" >history</button>
+		<button type='button'  id='clearform' class='reqbtn btn btn-primary'>clear</button>
+	</div>
+</div>
+<div style="width:98%;min-height:200px;margin-right:20px;margin-top:20px;z-index: 9999">
+	<ul class="nav nav-tabs" role="tablist">
+		<li aid='formatresult' class='requestresult active'>
+			<a href="javascript:void(0);">format</a>
+		</li>
+		<li aid='formatresultraw' class='requestresult'>
+			<a href="javascript:void(0);">original Response</a>
+		</li>
+		<li aid='getresultheader' class='requestresult'>
+			<a href="javascript:void(0);">Headers</a>
+		</li>
+		<li aid='getcurl' class='requestresult'>
+			<a href="javascript:void(0);">Curl</a>
+		</li>
+		<li aid='sharerequest' class='requestresult'>
+			<a href="javascript:void(0);">share</a>
+		</li>
+		<li aid='addsite' class='requestresult'>
+			<a href="javascript:void(0);">access</a>
+		</li>
+		<span style='float:right;margin:20px 10px 0px 0px'>1655220612 2022-06-14 23:30:12</span>
+	</ul>
+
+	<div id='formatresult' class='disrequestresult'>
+		<div class="httpstyle">
+		<div class='clipaim' >
+			<span class='clipresultMess  btn btn-success' data-clipboard-target="#getresult">copy</span>
+		</div>
+		<pre id="getresult" class='resulttab'></pre>
+		</div>
+	</div>
+	<div id='formatresultraw' class='disrequestresult  myhide'>
+		<div class="httpstyle">
+		<div  class='clipaim' >
+			<span class='clipresultMess btn btn-success' data-clipboard-target="#getresultraw">copy</span>
+		</div>
+		<pre id="getresultraw" class='resulttab'></pre>
+		</div>
+	</div>
+	<pre id="getresultheader" class='disrequestresult resulttab myhide' style="margin-top:5px">
+	</pre>
+	<div id="getcurl" class='disrequestresult myhide' style='word-break: break-all;
+	word-wrap: break-word;line-height: 30px'>
+		<div class="httpstyle">
+			<div style='margin-top:10px'>
+				<div >
+					<button type="button" class="btn btn-success curlMess" data-clipboard-target="#curlcontent">copy to clipboard</button>
+					<textarea class='form-control' id='curlcontent' style='height:200px;margin-top:10px'></textarea>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sharerequest" class='disrequestresult myhide' style='word-break: break-all;
+	word-wrap: break-word;line-height: 30px'>
+		<div class="httpstyle">
+		<div style='margin-top:10px'>
+			<span>
+				Copy the address below, share it with your friends, you can restore your request, so that you can debug the interface together! The above request is available below
+				<br/> Note: There is a length limit for get requests, so remember! If the length is too long, incomplete information may be sent, please Baidu for details
+			</span>
+			<div >
+				<button type="button" class="btn btn-success clipresultMess" data-clipboard-target="#clipurlcontent">copy to clipboard</button>
+				<textarea class='form-control' id='clipurlcontent' style='height:200px;margin-top:10px'></textarea>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="addsite" class='disrequestresult' style='display:none;min-height:360px'>
+		<div class="httpstyle">
+		<pre style='word-break:break-all;word-wrap:break-word;line-height:30px;white-space: pre-wrap;font-size:13px'>
+In order to facilitate you to quickly test your interface, you can send your request information to this site. As long as you send it in the format of this site, you can directly jump to the request page of this site, saving you the trouble of developing your own request. !
+The address provided by this site: http://coolaf.com/tool/gp, support get request, pass the parameters to this site in your webpage
+The url will automatically fill in the request box of this site, which is convenient for you to test directly. The parameter description is as follows:
+u: The url you requested, required
+m: request method, default post. Others are: get, put, delete, head, trace, patch, options
+p: the post parameters you requested, optional
+c: The cookie you requested, the format is like the filling method of this site page, optional
+h: The header you requested, the format is like the filling method of this site page, optional
+px: Use proxy ip, format 10.10.10.10: 8080, optional
+All the above parameters need to be encodeURIComponent
+
+Example: 
+http://coolaf.com/tool/gp?u=http%3A%2F%2Fcoolaf.com%2Ftool%2Fparams%3Fg%3Dgtest%26g2%3Dgtest2&p=p%3Dptest%26p%3Dtest2&c=c%3Dcookie%3Bc1%3Dcookie1%3Bc2%3Dcookie2&px=&h=Content-Type%3Aapplication%2Fx-www-form-urlencoded%0AAccept-Language%3Azh-CN%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.6%2Czh%3Bq%3D0.4
+		</pre>
+		</div>
+	</div>
+	<div>
+		shortcut:
+		<a href='/exp/help/httpcode' target='_blank'>Http status code</a>&nbsp;&nbsp;
+		<a href='/exp/help/httpheader' target='_blank'>Http Header header information correspondence table</a>&nbsp;&nbsp;
+		<a href='/exp/help/httpcontenttype' target='_blank'>Http Content-Type information correspondence table</a>&nbsp;&nbsp;
+	</div>
+	
+	
+	<div>
+<h3>Q&A time:</h3>
+<div>
+<h4>1.How to send json data in http post request</h4>
+<div class=''>
+Add in the header of the http request: Content-Type: application/json, so that json data can be sent
+</div>
+</div>
+</div>
+
+<div style='margin-top:20px;margin-bottom:20px;font-size:15px;line-height:30px'>
+<h3>Brief description of this tool:</h3>
+1. This online tool supports interface http post, get, put, delete, head, trace, options, patch and other requests, and supports requests with cookie header and ip proxy
+<br/> 2. Can generate api interface documents, this site also provides api interface stress test and websocket test. 2. When accessing the interface to be logged in, you can manually fill in the cookie. Or visit this interface domain name in Google Chrome, press F12, under network,
+<a href='/doc/cookie' target='_blank'>icon</a>, directly copy and fill in the cookie of this tool. You can visit with cookies, no need to fill in manually
+<br/> 3. The header can be entered manually (custom header information). You can also get the header information in the network of the browser and fill it directly into the header input box of this tool.
+<a href='/doc/header' target='_blank'>icon</a>
+<br/>
+<div style='margin-top:10px;text-align:center'>
+<div id="cyReward" role="cylabs" data-use="reward"></div>
+</div>
+<h3>In the vernacular about http request:</h3>
+<span style='line-height:26px;font-size:16px;padding:0px'>
+To test and use the http interface, we must first understand what an http request is:
+<br/> Generally speaking, http request is to send the client's things to the server through the http protocol, and the server parses the client's sent according to the definition of the http protocol.
+<br/> Something here!
+<br/> The get and post request parameters are commonly used in http requests. The get parameters are spliced ​​at the back of the url, and the domain name and parameters are connected with "?" to form a get request.
+<br/> For example: http://coolaf.com?a=b&c=d, after the question mark is the get request parameter, the post request will not be seen in the url, it will be placed in http
+<br/> In the body of the request, functions are encapsulated in all major languages, and the post request parameters are parsed in the body. What does the post parameter look like? it can be
+<br/> Any form, the common key=value form is the same as the get request form "a=b&c=d". In addition, json and xml formats are also common. this
+<br/> Some formats will be affected by Content-Type when they are delivered. Different Content-Type delivery formats are different, and the server will be based on
+<br/> Content-Type analyzes the corresponding format. The client and server use these protocols to distinguish what format is being delivered. Must understand
+<br/> Common Content-Type, please refer to the above Content-Type link description for more.
+<br/> Content-Type: application/x-www-form-urlencoded, similar to form forms and get and post requests.
+<br/> format such as "a=b&c=d", the server will automatically parse
+<br/> Content-Type: application/json If you want to send json format, you need to add this Content-Type in the request header
+<br/> type, the acceptance of this form of server is not the same, generally it will not be parsed into the post request, generally it needs to be obtained by reading the body stream.
+<br/> The above are two common transmission formats. Sometimes when we write the code ourselves, we don’t need to write it. That’s because some of the libraries have been added automatically, so
+<br/> You don’t need to add it yourself. Content-Type is very important. It affects the format you deliver.
+<br/>
+Also pay attention to in the http request is the header, which is divided into request header and response header, request header
+<br/> It is sent when the client requests it, telling the server you the situation of the client, how the server needs to return to you, for example, whether to compress
+<br/> (Accept-Encoding: gzip, deflate, sdch) This is to tell the server that I support these kinds of compression. When you return
+<br/> Later, you can choose a kind of data compression, I can unlock it. There are also whether to cache, accepted languages, User-Agent, referer, etc.,
+<br/>The cookie is also placed in the request header and passed to the server to enable login. So the request header tells
+<br/> What do you have on the server side or the parameters to pass, the above are all defined by the http protocol, and everyone can parse it according to this rule. In addition,
+<br/> The header can be customized, you can add any variable to it. So the information in the header can be modified arbitrarily and sent to
+<br/> On the server side.
+<br/> The response header is relative to the request header, which is the information that the server gives to the client. Some are based on the client
+<br/> response to the demand, some server tells the client some other information, for example, request protocol, request status code, whether to cache,
+<br/> Setting the cookie is also returned in the response header, and the browser will set it in the browser when it receives it.
+<br/> There are so many vernaculars. Any mistakes or problems can be discussed in the group. Learning is endless. http is not magical. Make more use of the browser's f12,
+<br/> Look at the network, over time, there will be unexpected effects! ! !
+<br/>
+</span>
+</div>
+</div>
+<script src="/static/js/tool.js"></script>
+<script src="/static/js/vkbeautify.min.js"></script>
+<script src="/static/js/md5.min.js"></script>
+<script src="/static/js/gp.min.new.js?v=9"></script>
+<script src="/static/js/clipboard.min.js"></script>
+
+<script>
+	var copy = function(nc) {
+		var clipborad = new ClipboardJS(nc);
+		clipborad.on('success', function (e) {
+			showToast('Copy successfully');
+			e.clearSelection();
+		});
+		clipborad.on('error', function (e) {
+			showToast('Copy failed');
+			e.clearSelection();
+		});
+	}
+	copy(".clipresultMess")
+	copy(".curlMess")
+
+	var _hmt = _hmt || [];
+	(function () {
+		var hm = document.createElement("script");
+		hm.src = "//hm.baidu.com/hm.js?18f18be6e58f13d87192835c8c15fdca";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+	
+$("#highbtn").click(function () {
+    $func = $("#highfunc").attr("aid");
+    if ($func == 1) {
+        $("#highbtn").html("hide advanced");
+        $("#highfunc").show();
+        $("#highfunc").attr("aid", 2);
+        addCookie("func_dis", 2, 86400 * 100);
+    }
+    if ($func == 2) {
+        $("#highbtn").html("display advanced");
+        $("#highfunc").hide();
+        $("#highfunc").attr("aid", 1);
+        addCookie("func_dis", 1, 86400 * 100);
+    }
+});
+</script>
+<script language=javascript>
+	var historywidth = getCookie("historywidth");
+	if (parseInt(historywidth) > 300) {
+		$("#di2").width(historywidth + "px");
+		$("#historywidth").val(historywidth);
+	}
+	function changewidth() {
+		var width = $("#historywidth").val();
+		if (parseInt(width) < 300) {
+			width = 300;
+		}
+		$("#di2").width(width + "px");
+		addCookie("historywidth", width, 100000);
+	}
+	function geshijson() {
+		$html = $("#getresult").html();
+		$newjson = jsl.format.formatJson($html);
+		$("#getresult").html($newjson.toString());
+		alert(decodeURIComponent($newjson.toString()));
+	}
+	
+	$("#cookie").val(getCookie("urladd"));
+	window.setInterval(showalert, 3000);
+	function showalert() {
+		var cook = $("#cookie").val();
+		addCookie("urladd", cook, 100);
+	}
+
+	$("#httptest").click(function () {
+		var url = $("#url").val("http://coolaf.com/" + "tool/params?g=gtest&g2=gtest2");
+	var ck = $("#ck").val("c=cookie;c1=cookie1;c2=cookie2");
+	var header = $("#header").val("Content-Type:application/x-www-form-urlencoded\nAccept-Language:zh-CN,en-US;q=0.8,en;q=0.6,zh;q=0.4");
+	var parms = $("#parms").val("p=ptest&p=test2");
+	$("#seltype").val("post");
+});
+	
+</script> 
+<style>
+	.leftul {}
+
+	.leftulli {
+		list-style: none;
+		margin-top: 5px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.siteleadul li {
+		list-style: none;
+		width: 200px;
+		float: left;
+		line-height: 25px
+	}
+</style>
+
+
+
+</div>
+
+<div class="col-xs-6 col-sm-4 sidebar-offcanvas" id="sidebar">
+
+	<ul class='leftul'>
+		<ins class="adsbygoogle" style="display:block;height:91px" data-ad-client="ca-pub-0889970608150005"
+			data-ad-slot="6786842653" data-full-width-responsive="true"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		
+		<li class='leftulli'>
+			<span style='font-weight:bold'>Testing tools </span>
+			<ul class='siteleadul'>
+				
+
+				<li><a   href="/en/tool/gp" >
+						online POST and GET</a></li>
+				
+
+				<li><a   href="/en/tool/post" >
+						New online POST and GET</a></li>
+				
+
+				<li><a   href="/en/tool/testing" >
+						API interface stress test</a></li>
+				
+
+				<li><a   href="/en/tool/port" >
+						port scan</a></li>
+				
+
+				<li><a   href="/en/tool/chattest" >
+						online WebSocket test tool</a></li>
+				
+			</ul>
+
+		</li>
+		<div style='clear:both'></div>
+		
+		<li class='leftulli'>
+			<span style='font-weight:bold'>JSON related </span>
+			<ul class='siteleadul'>
+				
+
+				<li><a  style='color:red'   target='_blank'
+						href="http://postjson.com" >
+						JSON format and restore the original string</a></li>
+				
+
+				<li><a   href="/en/tool/jurl" >
+						JSON to url parameter</a></li>
+				
+			</ul>
+
+		</li>
+		<div style='clear:both'></div>
+		
+		<li class='leftulli'>
+			<span style='font-weight:bold'>Encryption,Decoding,Conversion </span>
+			<ul class='siteleadul'>
+				
+
+				<li><a   href="/en/tool/ud" >
+						urlencode and urldecode conversion</a></li>
+				
+
+				<li><a   href="/en/tool/ff" >
+						sql\html\xml beautification</a></li>
+				
+
+				<li><a   href="/en/tool/ud" >
+						base64_encode and base64_decode conversion</a></li>
+				
+
+				<li><a   href="/en/tool/formdatatokv" >
+						formdata to url, kv</a></li>
+				
+
+				<li><a   href="/en/tool/ud" >
+						md5 encryption</a></li>
+				
+
+				<li><a   href="/en/tool/unicode" >
+						unicode and Chinese interchange</a></li>
+				
+
+				<li><a   href="/en/tool/ud" >
+						sha1,sha256,sha512</a></li>
+				
+			</ul>
+
+		</li>
+		<div style='clear:both'></div>
+		
+		<li class='leftulli'>
+			<span style='font-weight:bold'>network </span>
+			<ul class='siteleadul'>
+				
+
+				<li><a   href="/en/tool/dns" >
+						Public DNS</a></li>
+				
+
+				<li><a   href="/en/tool/useragent" >
+						useragent</a></li>
+				
+			</ul>
+
+		</li>
+		<div style='clear:both'></div>
+		
+		<li class='leftulli'>
+			<span style='font-weight:bold'>Other tools </span>
+			<ul class='siteleadul'>
+				
+
+				<li><a  style='color:red'   href="/en/tool/duibi" >
+						difference between two columns</a></li>
+				
+
+				<li><a   href="/en/tool/unix" >
+						timestamp conversion</a></li>
+				
+
+				<li><a   href="/en/tool/rd" >
+						random string or password generation</a></li>
+				
+
+				<li><a   href="/en/tool/nslook" >
+						online Nslookup</a></li>
+				
+
+				<li><a   href="/en/tool/bimg" >
+						Image base64 transcode</a></li>
+				
+
+				<li><a   href="/en/tool/imgtob" >
+						Image base64 transcode</a></li>
+				
+
+				<li><a   href="/en/tool/imgtob" >
+						base64 into a picture</a></li>
+				
+
+				<li><a   href="/en/tool/md" >
+						Mark&#39;Down online editing</a></li>
+				
+
+				<li><a   href="/en/tool/hzp" >
+						Chinese characters to pinyin</a></li>
+				
+
+				<li><a   href="/en/tool/fenci" >
+						Online Chinese word segmentation</a></li>
+				
+
+				<li><a   href="/run" >
+						Proxy online code running</a></li>
+				
+			</ul>
+
+		</li>
+		<div style='clear:both'></div>
+		
+		<li class='leftulli' style='height:auto;width:270px;border:none'>
+			
+
+			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0889970608150005"
+				data-ad-slot="5090916759" data-ad-format="auto" data-full-width-responsive="true"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+			
+		</li>
+	</ul>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/js/offcanvas.js"></script>
+
+<script>
+	try {
+		top.location.hostname;
+		if (top.location.hostname != window.location.hostname) {
+			top.location.href = window.location.href;
+		}
+	}
+	catch (e) {
+		top.location.href = window.location.href;
+	}
+</script>
+<script>
+	$.ajax({
+		url: "/side",
+		type: "GET",
+		dataType: "jsonp",
+		success: function (data) {
+			
+			$(".sideclass").each(function () {
+				
+			});
+		}
+	});
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0889970608150005"
+	crossorigin="anonymous"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75491253-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'UA-75491253-1');
+</script>
+
+
+<script>
+	(function () {
+		var bp = document.createElement('script');
+		var curProtocol = window.location.protocol.split(':')[0];
+		if (curProtocol === 'https') {
+			bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+		}
+		else {
+			bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+		}
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(bp, s);
+	})();
+</script>
+<script>
+	$(document).ready(function () {
+		$("#newpayup").click(function () {
+			$("#payup").show();
+		});
+		$("#payup").click(function () {
+			$(this).hide();
+		});
+	});
+</script>
+<style>
+	.payup {
+		display: none;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.6);
+		z-index: 6666
+	}
+
+	.postpay {
+		position: relative;
+		float: right;
+	}
+
+	.postpay button {
+		color: yellow;
+		width: 68px;
+		height: 50px;
+		word-wrap: break-word;
+		background-color: hsl(340, 100%, 75%);
+		box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em .3em, inset rgba(0, 0, 0, 0.15) 0 -0.1em .3em, hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px, rgba(0, 0, 0, 0.2) 0 .5em 5px;
+		border: none;
+		padding-right: 1.2em;
+		padding-left: 0.8em;
+		border-radius: 3em 1em / 5em 1em;
+	}
+
+	.payupimg {
+		width: 680px;
+		height: 390px;
+		margin: 0 auto;
+		position: relative;
+		top: 256px;
+		z-index: 9999;
+		background: white;
+	}
+
+	.payup img {
+		float: left;
+		width: 280px;
+		height: 280px;
+		margin: 30px 30px 30px 30px;
+	}
+
+	.imgtext {
+		width: 330px;
+		display: inline-block;
+		text-align: center;
+		font-size: 20px;
+		font-weight: blod;
+	}
+</style>
+<div class='payup' id='payup'>
+	<span></span>
+</div>
+<div style='height:60px;border-top: 1px solid #ccc;margin-top:20px;box-shadow:0px 0px  10px 5px #aaa;'>
+	<div style='text-align:center;margin-top:10px'>
+		<div>
+			
+			<a href='http://beian.miit.gov.cn' target='_blank'>京ICP备16061460号-3</a>
+			
+		</div>
+		<div><a href='/map'>网站地图</a>
+		</div>
+
+	</div>
+</div>
+<script>
+	var _hmt = _hmt || [];
+	(function () {
+		var hm = document.createElement("script");
+		hm.src = "//hm.baidu.com/hm.js?18f18be6e58f13d87192835c8c15fdca";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+</body>
+
+</html>

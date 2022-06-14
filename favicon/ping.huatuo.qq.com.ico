@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>腾讯云</title>
+<link rel="shortcut icon" href="/lblogo.png"><link href="/index.f3f09072.css" rel="stylesheet"></head>
+<body>
+<script type="text/javascript">
+  function getFunctionConfig(data) {
+    if (data.variableConfig) {
+      window.variableConfig = data.variableConfig;
+    }
+    if (data.enableConfig && Array.isArray(data.enableConfig)) {
+      window.enableConfig = data.enableConfig;
+    }
+  }
+
+  (function (window) {
+    var array = window.location.hostname.split('.');
+    window.document.domain = array[array.length - 2] + '.' + array[array.length - 1];
+  })(window)
+</script>
+<script type="text/javascript" src="/data/config.js"></script>
+<script type="text/javascript" src="/data/functionConfig.js?callback=getFunctionConfig"></script>
+<div id="root"></div>
+<script type="text/javascript" src="/ubuild.dll.9819c60e82f11c6cfffe.js"></script><script type="text/javascript" src="/index.44b6bd48.js"></script></body>
+</html>
