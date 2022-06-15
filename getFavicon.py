@@ -30,8 +30,8 @@ for json_obj in json_array:
         group = re.search(regex, item)
         httpUrl = group[0]
         domain = group[2]
-        # if os.path.isfile('favicon/'+domain+'.ico'):
-            # continue
+        if os.path.isfile('favicon/'+domain+'.ico'):
+            continue
         # savePoint(httpUrl+'/favicon.ico', domain+'.ico')
         savePoint('https://www.google.com/s2/favicons?domain='+httpUrl, domain+'.ico')
         # savePoint('https://statics.dnspod.cn/proxy_favicon/_/favicon?domain='+domain, domain+'.ico')
