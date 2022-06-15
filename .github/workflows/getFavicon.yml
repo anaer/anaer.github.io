@@ -1,0 +1,54 @@
+name: get favicon
+
+# 触发条件
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 迁出代码
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: 安装Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - name: 加载缓存
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: 设置时区
+        run: sudo timedatectl set-timezone 'Asia/Shanghai'
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt
+      - name: 执行任务
+        run: |
+          python getFavicon.py
+
+      - name: 提交更改
+        run: |
+          git config --local user.email "a._-0@139.com"
+          git config --local user.name "anaer[bot]"
+          git add favicon
+          if [ -z "$(git status --porcelain)" ]
+          then
+             echo "nothing to update."
+          else
+             git commit -m "update clash"
+          fi
+      - name: 推送更改
+        uses: ad-m/github-push-action@master
+        with:
+          # github_token: ${{ secrets.TOKEN }}
+          branch: master
+
+      - name: 推送通知
+        run: |
+          curl 'https://api2.pushdeer.com/message/push?pushkey=PDU3423TORUEz2NZHKZVIpSlb2ErGJcERTunXneI&text=Favicon更新通知'
