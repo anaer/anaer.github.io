@@ -45,7 +45,7 @@ jobs:
           then
              echo "nothing to update."
           else
-             git commit -m "update clash"
+             git commit -m "update favicon"
           fi
       - name: 推送更改
         uses: ad-m/github-push-action@master
