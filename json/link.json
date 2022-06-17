@@ -156,18 +156,12 @@
         "limit": 6,
         "rows": [
             "小众软件 | https://www.appinn.com/",
-            "Mac软件 | https://macwk.com/"
-        ]
-    },
-    {
-        "title": "下载地址",
-        "groupid": 10,
-        "limit": 10,
-        "rows": [
+            "Mac软件 | https://macwk.com/",
             "IINA播放器 | https://github.com/iina/iina/releases",
             "Dbeaver数据库工具 | https://dbeaver.io/",
             "clash_for_windows | https://github.com/Fndroid/clash_for_windows_pkg/releases",
-            "NetNewsWire | https://github.com/Ranchero-Software/NetNewsWire/releases"
+            "NetNewsWire | https://github.com/Ranchero-Software/NetNewsWire/releases",
+            "微软电脑管家 | https://cn.bing.com/guanjia"
         ]
     }
 ]
