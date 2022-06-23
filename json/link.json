@@ -2,7 +2,6 @@
     {
         "title": "常用项目",
         "groupid": 1,
-        "limit": 10,
         "rows": [
             "编辑此页 | https://github.com/anaer/anaer.github.io/edit/master/json/link.json",
             "Github | https://github.com",
@@ -22,7 +21,6 @@
     {
         "title": "电子书",
         "groupid": 2,
-        "limit": 6,
         "rows": [
             "Java全栈知识体系 | https://pdai.tech/",
             "书栈网 | https://www.bookstack.cn/",
@@ -36,7 +34,6 @@
     {
         "title": "开发社区",
         "groupid": 5,
-        "limit": 9,
         "rows": [
             "开发者头条 | https://toutiao.io/",
             "掘金 | https://juejin.im/",
@@ -46,7 +43,6 @@
     {
         "title": "搜索引擎",
         "groupid": 3,
-        "limit": 8,
         "rows": [
             "奈斯搜索 | https://www.niceso.fun",
             "电报中文搜索 | https://telsearch.long2ice.io/",
@@ -63,7 +59,6 @@
     {
         "title": "娱乐资源",
         "groupid": 4,
-        "limit": 7,
         "rows": [
             "雀魂麻将 | https://game.maj-soul.com/1/",
             "暗黑破坏神:不朽 | https://bbs.nga.cn/thread.php?fid=631&rand=947",
@@ -82,7 +77,6 @@
     {
         "title": "开发文档",
         "groupid": 6,
-        "limit": 10,
         "rows": [
             "诺依后台管理系统文档 | http://doc.ruoyi.vip/ruoyi/",
             "Redis命令参考 | http://redisdoc.com/index.html",
@@ -110,7 +104,6 @@
     {
         "title": "工具",
         "groupid": 8,
-        "limit": 10,
         "rows": [
             "正则可视化 | https://devtoolcafe.com/tools/regex#!flags=img&re=",
             "爱达杂货铺 | https://adzhp.cn/",
@@ -156,7 +149,6 @@
     {
         "title": "软件应用",
         "groupid": 9,
-        "limit": 6,
         "rows": [
             "小众软件 | https://www.appinn.com/",
             "Mac软件 | https://macwk.com/",
