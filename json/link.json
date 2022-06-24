@@ -70,8 +70,7 @@
             "瓜皮TV | https://guapitv.xyz/",
             "libvio | https://www.libvio.me/",
             "大师兄影视 | https://dsxys.com/",
-            "大米星球 | https://dmys1.com/",
-            "猫影视 | https://tieba.baidu.com/f?kw=%E7%8C%AB%E5%BD%B1%E8%A7%86&ie=utf-8"
+            "大米星球 | https://dmys1.com/"
         ]
     },
     {
@@ -158,6 +157,15 @@
             "NetNewsWire | https://github.com/Ranchero-Software/NetNewsWire/releases",
             "微软电脑管家 | https://cn.bing.com/guanjia",
             "Steam++ | https://steampp.net/",
+            "蚂蚁市场 | https://bbs.mayiapk.com/f-43-1.html",
+            "TV软件 | http://lhzyk.lanzoui.com/b00n7vyub"
+        ]
+    },
+    {
+        "title": "TV应用",
+        "groupid": 10,
+        "rows": [
+            "猫影视 | https://tieba.baidu.com/f?kw=%E7%8C%AB%E5%BD%B1%E8%A7%86&ie=utf-8",
             "蚂蚁市场 | https://bbs.mayiapk.com/f-43-1.html",
             "TV软件 | http://lhzyk.lanzoui.com/b00n7vyub"
         ]
