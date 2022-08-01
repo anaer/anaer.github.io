@@ -29,7 +29,7 @@
             "菜鸟教程 | https://www.runoob.com/",
             "开发文档 | https://devdocs.io/",
             "微信官方文档 | https://developers.weixin.qq.com/doc/",
-            "Android 教程 https://guides.codepath.com/android"
+            "Android 教程 | https://guides.codepath.com/android"
         ]
     },
     {
@@ -52,7 +52,6 @@
             "SearchCode | https://searchcode.com/",
             "SourceGraph | https://sourcegraph.com/search",
             "Java API实例 | https://www.programcreek.com/java-api-examples/",
-            "文档搜索 | https://readthedocs.org/",
             "Maven | https://search.maven.org/search?q=hutool-all",
             "Tbox导航 | https://www.tboxn.com/"
         ]
@@ -154,15 +153,7 @@
             "小众软件 | https://www.appinn.com/",
             "Mac软件 | https://macwk.com/",
             "IINA播放器 | https://github.com/iina/iina/releases",
-            "clash_for_windows | https://github.com/Fndroid/clash_for_windows_pkg/releases",
-            "微软电脑管家 | https://cn.bing.com/guanjia"
-        ]
-    },
-    {
-        "title": "TV应用",
-        "groupid": 10,
-        "rows": [
-            "TV软件 | http://lhzyk.lanzoui.com/b00n7vyub"
+            "clash_for_windows | https://github.com/Fndroid/clash_for_windows_pkg/releases"
         ]
     }
 ]
