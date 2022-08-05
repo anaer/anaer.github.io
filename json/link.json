@@ -155,5 +155,12 @@
             "IINA播放器 | https://github.com/iina/iina/releases",
             "clash_for_windows | https://github.com/Fndroid/clash_for_windows_pkg/releases"
         ]
+    },
+    {
+        "title": "api doc",
+        "groupid": 10,
+        "rows": [
+            "hutool | https://apidoc.gitee.com/dromara/hutool/"
+        ]
     }
 ]
