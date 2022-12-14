@@ -147,7 +147,8 @@
             "SSL证书验证工具 | https://www.dute.org/ssl-validate",
             "在线生成公钥私钥对 | http://www.metools.info/code/c80.html",
             "在线RSA加密解密 | https://the-x.cn/cryptography/Rsa.aspx",
-            "httpbin | http://www.httpbin.org/"
+            "httpbin | http://www.httpbin.org/",
+            "DNS查询 | https://ipw.cn/dns/"
         ]
     },
     {
