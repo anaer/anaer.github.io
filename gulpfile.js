@@ -9,10 +9,10 @@ const browser =
   os.platform() === "linux"
     ? "google-chrome"
     : os.platform() === "darwin"
-    ? "google chrome"
-    : os.platform() === "win32"
-    ? "chrome"
-    : "firefox";
+      ? "google chrome"
+      : os.platform() === "win32"
+        ? "msedge"
+        : "chrome";
 
 //本地服务
 gulp.task("server", function () {
