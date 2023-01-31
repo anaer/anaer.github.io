@@ -23,7 +23,7 @@ json_file = open("json/link.json", 'r', encoding='utf-8', errors='ignore')
 
 json_array = json.loads(json_file.read())
 
-regex = r'(http|https)://([a-zA-Z0-9\.]+)'
+regex = r'(http|https)://([a-zA-Z0-9\.\-]+)'
 
 for json_obj in json_array:
     for item in json_obj['rows']:

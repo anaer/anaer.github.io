@@ -17,7 +17,7 @@ let getLinks = new Promise((resolve) => {
         data.forEach(o => {
           let start = links.length;
           // 如果count[o.groupid]不存在，则初始化为0
-          if(!count[o.groupid]){
+          if (!count[o.groupid]) {
             count[o.groupid] = 0;
           }
           (o.rows || []).forEach(str => {
@@ -31,29 +31,10 @@ let getLinks = new Promise((resolve) => {
               var url = arr[1];
               if (url) {
                 var domain = url.split('/');
-                if(domain[2]){
-                  // 方式一: 有些网站没有favicon
-                  //if(url.startsWith('https')){
-                  //  favicon = "https://"+domain[2]+"/favicon.ico";
-                  //}else{
-                  //  favicon = "http://"+domain[2]+"/favicon.ico";
-                  //}
-
-                  // 调整使用获取favicon的公共API
-                  // 方式二: dnspod domain不带http前缀
-                  // favicon = 'https://statics.dnspod.cn/proxy_favicon/_/favicon?domain='+domain[2];
-
-                  // 方式三: google domain最好带http/https前缀, 有些不带取不到favicon
-                  //var newDomain = '';
-                  //if(url.startsWith('https')){ // 暂时先这么处理, 有空再调整
-                  //  newDomain = "https://"+domain[2];
-                  //}else{
-                  //  newDomain = "http://"+domain[2];
-                  //}
-                  //favicon = 'https://www.google.com/s2/favicons?domain='+newDomain;
-
-                  // 方式四： 使用本地的favicon
-                  favicon = 'https://fastly.jsdelivr.net/gh/anaer/anaer.github.io@master/favicon/' + domain[2] + '.ico';
+                if (domain[2]) {
+                  // 使用本地的favicon
+                  // favicon = 'https://fastly.jsdelivr.net/gh/anaer/anaer.github.io@master/favicon/' + domain[2] + '.ico';
+                  favicon = 'https://jsd.cdn.zzko.cn/gh/anaer/anaer.github.io@master/favicon/' + domain[2] + '.ico';
                 }
               }
               let item = {
@@ -84,7 +65,7 @@ let getLinks = new Promise((resolve) => {
         });
         resolve(data);
       });
-    }else{
+    } else {
       resolve(data);
     }
     return data.length ? 1 : 0;
@@ -100,12 +81,12 @@ let getLinks = new Promise((resolve) => {
  */
 function truncate(str, limit) {
   var chinese = RegExp('[\u4e00-\u9fa5]{0,}');
-  if(str.length > limit){
-    if(chinese.test(str) && (limit-4>0)){
-        limit = limit -4;
+  if (str.length > limit) {
+    if (chinese.test(str) && (limit - 4 > 0)) {
+      limit = limit - 4;
     }
     return str.slice(0, limit) + '...';
-  }else{
+  } else {
     return str;
   }
 }

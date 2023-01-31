@@ -11,44 +11,13 @@ var m_util = require('common/util');
 
 //入口
 BCD.app({
-    initPage: function(key, next) {
+    initPage: function (key, next) {
         m_loading.show();
         var page = this;
         switch (key) {
-            /**书城*/
-            case 'qrcode':
-                require.ensure(['page/tool/qrcode'], function(require) {
-                    next(require('page/tool/qrcode')(page, key));
-                });
-                break;
-            case 'edit':
-                require.ensure(['page/tool/edit'], function(require) {
-                    next(require('page/tool/edit')(page, key));
-                });
-                break;
             case 'link':
-                require.ensure(['page/tool/link'], function(require) {
+                require.ensure(['page/tool/link'], function (require) {
                     next(require('page/tool/link')(page, key));
-                });
-                break;
-            case 'benchmark':
-                require.ensure(['page/tool/benchmark_link'], function(require) {
-                    next(require('page/tool/benchmark_link')(page, key));
-                });
-                // require.ensure(['page/tool/benchmark'], function(require) {
-                //     next(require('page/tool/benchmark')(page, key));
-                // });
-                break;
-            case 'console':
-                page.setView(o_navigator({
-                  title: '命令行'
-                }));
-                next();
-                m_util.load('./source/lib/eruda.min.js', function(){
-                  // setTimeout(function(){
-                  //   vConsole.show();
-                  // }, 100);
-                  eruda.init();
                 });
                 break;
             default:

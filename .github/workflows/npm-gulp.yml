@@ -14,39 +14,39 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-    
+
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: Build
-      run: |
-        npm install
-        gulp dev
+      - name: Build
+        run: |
+          npm install
+          gulp dev
 
-    - name: 提交更改
-      run: |
-         git config --local user.email "a._-0@139.com"
-         git config --local user.name "[bot]"
-         git add -A
-         if [ -z "$(git status --porcelain)" ]
-         then
-            echo "nothing to update."
-         else
-            git commit -m "Update gulp output files"
-         fi
-    - name: 推送更改
-      uses:  ad-m/github-push-action@master
-      with:
-         # github_token: ${{ secrets.TOKEN }}
-         branch: master
+      - name: 提交更改
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add -A
+          if [ -z "$(git status --porcelain)" ]
+          then
+             echo "nothing to update."
+          else
+             git commit -m "Update gulp output files"
+          fi
+      - name: 推送更改
+        uses: ad-m/github-push-action@master
+        with:
+          # github_token: ${{ secrets.TOKEN }}
+          branch: master
 
-    - name: 删除无用 workflow runs
-      uses: GitRML/delete-workflow-runs@main
-      with:
-        retain_days: 0.1
-        keep_minimum_runs: 3
+      - name: 删除无用 workflow runs
+        uses: GitRML/delete-workflow-runs@main
+        with:
+          retain_days: 0.1
+          keep_minimum_runs: 3

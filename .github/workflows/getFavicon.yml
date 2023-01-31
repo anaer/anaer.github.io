@@ -38,8 +38,8 @@ jobs:
 
       - name: 提交更改
         run: |
-          git config --local user.email "a._-0@139.com"
-          git config --local user.name "anaer[bot]"
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add favicon
           if [ -z "$(git status --porcelain)" ]
           then

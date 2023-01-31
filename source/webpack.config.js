@@ -5,8 +5,7 @@ var webpack = require("webpack");
 module.exports = function (method) {
   var config = {
     entry: {
-      index: __dirname + '/src/tool.js',
-      benchmark: __dirname + '/src/benchmark.js'
+      index: __dirname + '/src/tool.js'
     },
     resolve: {
       root: __dirname, //当前文件目录的绝对路径
