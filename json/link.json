@@ -12,9 +12,6 @@
             "维基百科👍 | https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5",
             "RssHub👍 | https://docs.rsshub.app",
             "Wayback Machine | https://web.archive.org/",
-            "猫不在 | https://thiscatdoesnotexist.com/",
-            "免费字体 | https://www.100font.com/",
-            "Gallerix 名画博物馆 | https://gallerix.asia/",
             "HelloGitHub | https://hellogithub.com/"
         ]
     },
@@ -25,11 +22,9 @@
             "Java全栈知识体系 | https://pdai.tech/",
             "书栈网 | https://www.bookstack.cn/",
             "技术文章摘抄 | http://learn.lianglianglee.com/",
-            "go+python混合开发配套电子书 - 体验版 | https://www.yuque.com/bobby-zpcyu/fgg66n",
             "菜鸟教程 | https://www.runoob.com/",
             "开发文档 | https://devdocs.io/",
             "微信官方文档 | https://developers.weixin.qq.com/doc/",
-            "Android 教程 | https://guides.codepath.com/android",
             "知搜 | http://zhiso.top/",
             "Z-Library 镜像 | https://www.ooopn.com/tool/zlibrary/",
             "Zhelper搜书 | https://v5.zhelper.net/"
@@ -74,7 +69,6 @@
         "title": "开发文档",
         "groupid": 6,
         "rows": [
-            "诺依后台管理系统文档 | http://doc.ruoyi.vip/ruoyi/",
             "Redis命令参考 | http://redisdoc.com/index.html",
             "域名ip查询 | https://ip-api.com/docs/api:json",
             "Mybatis文档 | https://mybatis.org/mybatis-3/zh/index.html",
@@ -89,8 +83,6 @@
             "讯飞开放平台 | https://www.xfyun.cn/service/wordRecg",
             "RabbitMQ文档 | https://www.rabbitmq.com/documentation.html",
             "腾讯云文档中心 | https://cloud.tencent.com/document/product",
-            "python requests | https://docs.python-requests.org/en/latest/user/quickstart/",
-            "rest-assured使用指南 | https://testerhome.com/topics/7060#Multi-part%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE",
             "spring data redis 教程 | https://www.baeldung.com/spring-data-redis-tutorial",
             "豆瓣接口文档 | https://api.doubans.com/",
             "OkHttp官方文档 | https://square.github.io/okhttp/",
@@ -133,10 +125,7 @@
             "codebeautify | https://codebeautify.org/",
             "在线PDF工具 | https://tools.pdf24.org/zh/",
             "查错工具网 | http://24log.chacuo.net/",
-            "Amaze UI | https://amazeui.shopxo.net/",
-            "lodash | https://lodash.com/docs/4.17.15",
             "短链接 | https://sina.lt/index.html",
-            "dependency check maven | https://jeremylong.github.io/DependencyCheck/dependency-check-maven/index.html",
             "Chrome 插件下载 | https://crxdl.com/",
             "编程字体 在线选择 | https://www.codingfont.com/",
             "v2ray文档 | https://www.v2ray.com/",
@@ -153,8 +142,7 @@
             "DNS查询 | https://ipw.cn/dns/",
             "TXT文本处理工具 | http://www.txttool.com/",
             "通用user agent列表 | https://www.useragents.me/",
-            "查看我的IP地址 | https://ip.skk.moe",
-            "EPG频道列表 | http://epg.51zmt.top:8000"
+            "查看我的IP地址 | https://ip.skk.moe"
         ]
     },
     {
@@ -163,14 +151,14 @@
         "rows": [
             "小众软件 | https://www.appinn.com/",
             "Mac软件 | https://macwk.com/",
-            "IINA播放器 | https://github.com/iina/iina/releases",
-            "clash_for_windows | https://github.com/Fndroid/clash_for_windows_pkg/releases"
+            "IINA播放器 | https://github.com/iina/iina/releases"
         ]
     },
     {
         "title": "api doc",
         "groupid": 10,
         "rows": [
+            "python requests | https://docs.python-requests.org/en/latest/user/quickstart/",
             "hutool | https://apidoc.gitee.com/dromara/hutool/",
             "gson | https://javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/module-summary.html"
         ]
