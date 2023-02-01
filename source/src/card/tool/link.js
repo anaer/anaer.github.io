@@ -135,8 +135,7 @@ BCD.addEvent('fast_input', function (ele) {
 
   ele.on('input', function (e) { //keypress要慢一拍 keypress input keyup
     let word = getWord();
-    if (word) {
-
+    if (word && word.length < 25) { // 限制长度<25 才进行展示, 存在直接贴链接的情况
       if (word == oldWord) {
         return viewDrop.show();
       }
