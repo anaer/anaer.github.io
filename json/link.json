@@ -89,7 +89,9 @@
             "spring data redis 教程 | https://www.baeldung.com/spring-data-redis-tutorial",
             "豆瓣接口文档 | https://api.doubans.com/",
             "OkHttp官方文档 | https://square.github.io/okhttp/",
-            "EventBus官方文档 | https://greenrobot.org/eventbus/"
+            "EventBus官方文档 | https://greenrobot.org/eventbus/",
+            "华泰证券INSIGHT金融数据服务文档中心 | https://findata-insight.htsc.com:9151/help/dataDictionary/financialDM/stockHS/IncomeDistribution/",
+            "恒生文档中心 | https://www.hs.net/openplat-doc/apiDoc?apiId=c059675d3cfa488e8709098963b43c0d"
           
         ]
     },
