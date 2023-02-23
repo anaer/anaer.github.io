@@ -34,7 +34,8 @@ let getLinks = new Promise((resolve) => {
                 if (domain[2]) {
                   // 使用本地的favicon
                   // favicon = 'https://fastly.jsdelivr.net/gh/anaer/anaer.github.io@master/favicon/' + domain[2] + '.ico';
-                  favicon = 'https://jsd.cdn.zzko.cn/gh/anaer/anaer.github.io@master/favicon/' + domain[2].split(':')[0] + '.ico';
+                  // favicon = 'https://jsd.cdn.zzko.cn/gh/anaer/anaer.github.io@master/favicon/' + domain[2].split(':')[0] + '.ico';
+                  favicon = './favicon/' + domain[2].split(':')[0] + '.ico';
                 }
               }
               let item = {
