@@ -14,7 +14,7 @@
       window.global_isDebug = 1;
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker
-          .register("./source/lib/sw.js", { scope: "./" })
+          .register("./sw.js", { scope: "./" })
           .then(function (registration) {
             // Registration was successful
             console.log(
