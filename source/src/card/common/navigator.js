@@ -39,6 +39,7 @@ module.exports = function (option, base) {
             '      <li <%if(tab.type==config.current){%>class="am-active"<%}else{%>data-on="?m=replace" data-url="#!/<%=tab.type%>"<%}%>>' +
             '      <a style="height: 100%;padding-top: 5px;"><%=tab.name%></a></li>' +
             '    <%}%>' +
+            '      <li><a style="height: 100%;padding-top: 5px;" href="https://anaer.github.io/blog">博客</a></li>' +
             '      <li style="position: absolute; right: 0px;"> <img src="https://profile-counter.glitch.me/anaer/count.svg" style="height: 100%;padding-top: 15px;" /> </li>' +
             '    </ul>' +
             '  </div>' +
