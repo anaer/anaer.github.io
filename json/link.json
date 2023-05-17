@@ -8,10 +8,8 @@
             "Gmail | https://mail.google.com/mail/u/0/#inbox",
             "杭州天气 | http://www.nmc.cn/publish/forecast/AZJ/hangzhou.html",
             "万年历 | https://wannianli.tianqi.com/",
-            "arthas user case | https://github.com/alibaba/arthas/labels/user-case",
             "维基百科👍 | https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5",
-            "RssHub👍 | https://docs.rsshub.app",
-            "Wayback Machine | https://web.archive.org/"
+            "RssHub👍 | https://docs.rsshub.app"
         ]
     },
     {
@@ -29,19 +27,9 @@
         ]
     },
     {
-        "title": "开发社区",
-        "groupid": 5,
-        "rows": [
-            "开发者头条 | https://toutiao.io/",
-            "掘金 | https://juejin.im/",
-            "segmentfault | https://segmentfault.com"
-        ]
-    },
-    {
         "title": "搜索引擎",
         "groupid": 3,
         "rows": [
-            "Tabnine | https://www.tabnine.com/code/java/class-index",
             "奈斯搜索 | https://www.niceso.fun",
             "F搜 | https://fsoufsou.com/",
             "grep app | https://grep.app/",
@@ -49,7 +37,6 @@
             "SourceGraph | https://sourcegraph.com/search",
             "Java API实例 | https://www.programcreek.com/java-api-examples/",
             "Maven | https://search.maven.org/search?q=hutool-all",
-            "Tbox导航 | https://www.tboxn.com/",
             "mavencenter | https://www.mvncenter.com/index",
             "SearX | https://searx.space/#",
             "Mirrors help | https://mirrors.help/",
@@ -78,11 +65,8 @@
             "微信开放平台 | https://open.weixin.qq.com/",
             "微信公众平台 | https://mp.weixin.qq.com/",
             "微信拉取用户信息 | https://wohugb.gitbooks.io/wechat/content/authorize/step_four.html",
-            "网易互客开发文档 | https://thoughts.teambition.com/sharespace/5f7402aa5b936900168be494/docs/6101295eb17afd00462ba62c",
-            "Seata开发文档 | http://seata.io/zh-cn/docs/overview/what-is-seata.html",
             "Logback文档 | http://logback.qos.ch/documentation.html",
             "Nacos文档 | https://nacos.io/zh-cn/docs/quick-start.html",
-            "创蓝闪验对接文档 | https://sdk.253.com/document-detail/shanyan/uhxvtw",
             "讯飞开放平台 | https://www.xfyun.cn/service/wordRecg",
             "RabbitMQ文档 | https://www.rabbitmq.com/documentation.html",
             "腾讯云文档中心 | https://cloud.tencent.com/document/product",
@@ -90,8 +74,6 @@
             "豆瓣接口文档 | https://api.doubans.com/",
             "OkHttp官方文档 | https://square.github.io/okhttp/",
             "EventBus官方文档 | https://greenrobot.org/eventbus/",
-            "华泰证券INSIGHT金融数据服务文档中心 | https://findata-insight.htsc.com:9151/help/dataDictionary/financialDM/stockHS/IncomeDistribution/",
-            "恒生文档中心 | https://www.hs.net/openplat-doc/apiDoc?apiId=c059675d3cfa488e8709098963b43c0d",
             "Clash Wiki | https://github.com/Dreamacro/clash/wiki"
           
         ]
@@ -156,26 +138,6 @@
             "阿里云漏洞库 | https://avd.aliyun.com/",
             "ip反查域名 | https://www.dnsgrep.cn/ip",
             "ChatGPT指令大全 | https://www.explainthis.io/zh-hans/chatgpt"
-        ]
-    },
-    {
-        "title": "软件应用",
-        "groupid": 9,
-        "rows": [
-            "小众软件 | https://www.appinn.com/",
-            "Mac软件 | https://macwk.com/",
-            "IINA播放器 | https://github.com/iina/iina/releases",
-            "Clash For Windows 发布站 | https://release.dreamacro.workers.dev/",
-            "LocalSend | https://localsend.org/"
-        ]
-    },
-    {
-        "title": "api doc",
-        "groupid": 10,
-        "rows": [
-            "python requests | https://docs.python-requests.org/en/latest/user/quickstart/",
-            "hutool | https://apidoc.gitee.com/dromara/hutool/",
-            "gson | https://javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/module-summary.html"
         ]
     }
 ]
