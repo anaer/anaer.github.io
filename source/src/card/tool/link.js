@@ -160,7 +160,7 @@ var view = $(
   '  <div class="am-margin-lg am-u-sm-11" style="padding:0" data-on="?m=fast_input">' +
   '   <input id="content" type="text" class="am-form-field" style="ime-mode:active" autofocus="autofocus" placeholder="地址直达（支持拼音首字母）">' +
   '   <div class="autocomplete-dropdown" data-selector="dropdown" style="display:none"></div>' +
-  '   <input id="notify" type="button" class="" style="" value="通知一下", title="在文本框中输入内容, 然后点击按钮可以通知作者." />' +
+  '   <input id="notify" type="button" class="" style="display:none" value="通知一下", title="在文本框中输入内容, 然后点击按钮可以通知作者." />' +
   '   <input id="videoPlay" type="button" class="" style="" value="播放视频", title="在文本框中输入链接(flv/m3u8), 点击按钮播放." />' +
   '  </div>' +
   '</div>').setView({
