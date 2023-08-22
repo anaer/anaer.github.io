@@ -24,14 +24,14 @@
             "菜鸟教程 | https://www.runoob.com/",
             "开发文档 | https://devdocs.io/",
             "微信官方文档 | https://developers.weixin.qq.com/doc/",
-            "知搜 | http://zhiso.top/",
-            "Z-Library 镜像 | https://www.ooopn.com/tool/zlibrary/"
+            "知搜 | http://zhiso.top/"
         ]
     },
     {
         "title": "搜索引擎",
         "groupid": 3,
         "rows": [
+            "最优网址 | https://c.aalib.net/",
             "奈斯搜索 | https://www.niceso.fun",
             "F搜 | https://fsoufsou.com/",
             "grep app | https://grep.app/",
