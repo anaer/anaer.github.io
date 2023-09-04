@@ -228,6 +228,11 @@ self.addEventListener('fetch', function (event) {
       return event.respondWith(fetch(req));
   }
 
+  // 过虑github上 发布的其他项目
+  if(/active-forks/.test(url)){
+      return event.respondWith(fetch(req));
+  }
+
   if (requestURL.protocol != 'https:') {
     return;
   }
