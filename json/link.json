@@ -89,6 +89,7 @@
         "title": "工具",
         "groupid": 8,
         "rows": [
+            "临时邮箱 | https://www.emailnator.com/",
             "Software Heritage 软件遗产 | https://archive.softwareheritage.org/browse/search/",
             "Online Wget | https://wget.alanreed.org/",
             "FQ工具库 | https://repo.trojan-cdn.com/",
