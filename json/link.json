@@ -92,6 +92,7 @@
         "title": "工具",
         "groupid": 8,
         "rows": [
+            "IP查询 | https://ip.ainou.moe/",
             "开源中国在线工具 | https://tool.oschina.net/",
             "临时邮箱 | https://www.emailnator.com/",
             "Software Heritage 软件遗产 | https://archive.softwareheritage.org/browse/search/",
