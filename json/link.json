@@ -8,24 +8,18 @@
             "ChatGPT | https://chat.openai.com/",
             "V2EX | https://www.v2ex.com/",
             "值得一读 | https://daily-blog.chlinlearn.top/",
-            "通信人家园 | https://www.txrjy.com/forum-45-1.html",
-            "Free For Dev | https://free-for.dev/#/",
             "抽屉新热榜 | https://dig.chouti.com/",
             "杭州天气 | http://www.nmc.cn/publish/forecast/AZJ/hangzhou.html",
             "万年历 | https://wannianli.tianqi.com/",
             "维基百科👍 | https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5",
-            "Gmail | https://mail.google.com/mail/u/0/#inbox",
-            "全球主机交流 | https://hostloc.com/"
-
+            "Gmail | https://mail.google.com/mail/u/0/#inbox"
         ]
     },
     {
         "title": "电子书",
         "groupid": 2,
         "rows": [
-            "安娜的档案 | https://zh.annas-archive.org/",
             "Java全栈知识体系 | https://pdai.tech/",
-            "书栈网 | https://www.bookstack.cn/",
             "技术文章摘抄 | http://learn.lianglianglee.com/",
             "菜鸟教程 | https://www.runoob.com/",
             "开发文档 | https://devdocs.io/",
@@ -38,7 +32,6 @@
         "rows": [
             "AI图片分享 | https://aiuphouse.com/",
             "书籍搜索 | https://tool.ssdown.org/",
-            "共享ChatGPT | https://chat-shared3.zhile.io/shared.html",
             "电报搜索 | https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
             "音乐搜索播放 | https://slider.kz",
             "最优网址 | https://c.aalib.net/",
@@ -47,7 +40,6 @@
             "SourceGraph | https://sourcegraph.com/search",
             "Java API实例 | https://www.programcreek.com/java-api-examples/",
             "Maven | https://search.maven.org/search?q=hutool-all",
-            "mavencenter | https://www.mvncenter.com/index",
             "Mirrors help | https://mirrors.help/",
             "Android 源码搜索 | https://cs.android.com/?hl=zh-cn"
         ]
@@ -56,7 +48,6 @@
         "title": "娱乐资源",
         "groupid": 4,
         "rows": [
-            "超级马里奥 | https://www.yikm.net/play?id=3501",
             "雀魂麻将👍 | https://game.maj-soul.com/1/",
             "星火资源 | https://docs.qq.com/sheet/DSndLS0xUaG9WS1Fm?tab=BB08J2",
             "小纸条 | https://ali.gitcafe.ink/"
