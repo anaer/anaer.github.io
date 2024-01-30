@@ -232,6 +232,14 @@ self.addEventListener('fetch', function (event) {
   if(/active-forks/.test(url)){
       return event.respondWith(fetch(req));
   }
+  
+  if(/Sub/.test(url)){
+      return event.respondWith(fetch(req));
+  }
+  
+  if(/Meow/.test(url)){
+      return event.respondWith(fetch(req));
+  }
 
   if (requestURL.protocol != 'https:') {
     return;
