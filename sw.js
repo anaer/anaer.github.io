@@ -224,27 +224,10 @@ self.addEventListener('fetch', function (event) {
     }
   }
 
-  if(/\.json$/.test(url)){
-      return event.respondWith(fetch(req));
-  }
-
-  // 过虑github上 发布的其他项目
-  if(/active-forks/.test(url)){
-      return event.respondWith(fetch(req));
-  }
-  
-  if(/Sub/.test(url)){
-      return event.respondWith(fetch(req));
-  }
-  
-  if(/Meow/.test(url)){
-      return event.respondWith(fetch(req));
-  }
-
   if (requestURL.protocol != 'https:') {
     return;
   }
 
-  return event.respondWith(fetchCache(imageCacheName, req));
+  return event.respondWith(fetch(req));
 
 });
