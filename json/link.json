@@ -15,6 +15,7 @@
             "Gmail | https://mail.google.com/mail/u/0/#inbox"
         ]
     },
+
     {
         "title": "电子书",
         "groupid": 2,
@@ -34,7 +35,6 @@
             "书籍搜索 | https://tool.ssdown.org/",
             "电报搜索 | https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
             "音乐搜索播放 | https://slider.kz",
-            "最优网址 | https://c.aalib.net/",
             "grep app | https://grep.app/",
             "SearchCode | https://searchcode.com/",
             "SourceGraph | https://sourcegraph.com/search",
