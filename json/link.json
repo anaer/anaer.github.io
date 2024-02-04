@@ -84,6 +84,7 @@
         "title": "工具",
         "groupid": 8,
         "rows": [
+            "正则校验101 | https://regex101.com/",
             "IP查询 | https://ip.ainou.moe/",
             "开源中国在线工具 | https://tool.oschina.net/",
             "临时邮箱 | https://www.emailnator.com/",
@@ -122,7 +123,6 @@
             "端口联通检测 | http://port.ping.pe/",
             "在线工具jsons.cn | http://www.jsons.cn/",
             "Linux命令搜索 | https://wangchujiang.com/linux-command/",
-            "正则表达式 | https://tools.fun/regexp.html",
             "在线工具tool.lu | https://tool.lu/",
             "codebeautify | https://codebeautify.org/",
             "在线PDF工具 | https://tools.pdf24.org/zh/",
