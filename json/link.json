@@ -84,6 +84,7 @@
         "title": "工具",
         "groupid": 8,
         "rows": [
+            "临时邮箱发邮件 | https://anonymousemail.me/",
             "正则校验101 | https://regex101.com/",
             "IP查询 | https://ip.ainou.moe/",
             "开源中国在线工具 | https://tool.oschina.net/",
