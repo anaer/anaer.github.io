@@ -1,164 +1,109 @@
 [
-    {
-        "title": "常用项目",
-        "groupid": 1,
-        "rows": [
-            "编辑此页 | https://github.com/anaer/anaer.github.io/edit/master/json/link.json",
-            "Github | https://github.com/dashboard-feed",
-            "ChatGPT | https://chat.openai.com/",
-            "V2EX | https://www.v2ex.com/",
-            "抽屉新热榜 | https://dig.chouti.com/",
-            "杭州天气 | http://www.nmc.cn/publish/forecast/AZJ/hangzhou.html",
-            "万年历 | https://wannianli.tianqi.com/",
-            "维基百科👍 | https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5",
-            "Gmail | https://mail.google.com/mail/u/0/#inbox"
-        ]
-    },
+  {
+    "title": "常用项目",
+    "groupid": 1,
+    "rows": [
+      "编辑此页 | https://github.com/anaer/anaer.github.io/edit/master/json/link.json",
+      "Kimi.ai | https://kimi.moonshot.cn/",
+      "Github | https://github.com/dashboard-feed",
+      "ChatGPT | https://chat.openai.com/",
+      "V2EX | https://www.v2ex.com/",
+      "万年历 | https://wannianli.tianqi.com/",
+      "维基百科 | https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5",
+      "Gmail | https://mail.google.com/mail/u/0/#inbox"
+    ]
+  },
 
-    {
-        "title": "电子书",
-        "groupid": 2,
-        "rows": [
-            "Java全栈知识体系 | https://pdai.tech/",
-            "技术文章摘抄 | http://learn.lianglianglee.com/",
-            "菜鸟教程 | https://www.runoob.com/",
-            "开发文档 | https://devdocs.io/",
-            "微信官方文档 | https://developers.weixin.qq.com/doc/"
-        ]
-    },
-    {
-        "title": "搜索引擎",
-        "groupid": 3,
-        "rows": [
-            "TelegramFind | https://telegramfind.com/",
-            "资源收藏夹 | https://zyscj.com/",
-            "AI图片分享 | https://aiuphouse.com/",
-            "书籍搜索 | https://tool.ssdown.org/",
-            "电报搜索 | https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
-            "grep app | https://grep.app/",
-            "SearchCode | https://searchcode.com/",
-            "SourceGraph | https://sourcegraph.com/search",
-            "Java API实例 | https://www.programcreek.com/java-api-examples/",
-            "Android 源码搜索 | https://cs.android.com/?hl=zh-cn"
-        ]
-    },
-    {
-        "title": "娱乐资源",
-        "groupid": 4,
-        "rows": [
-            "雀魂麻将👍 | https://game.maj-soul.com/1/",
-            "星火资源 | https://docs.qq.com/sheet/DSndLS0xUaG9WS1Fm?tab=BB08J2",
-            "小纸条 | https://ali.gitcafe.ink/"
-        ]
-    },
-    {
-        "title": "开发文档",
-        "groupid": 6,
-        "rows": [
-            "Redis命令参考 | http://redisdoc.com/index.html",
-            "域名ip查询 | https://ip-api.com/docs/api:json",
-            "Mybatis文档 | https://mybatis.org/mybatis-3/zh/index.html",
-            "MapStruct文档 | https://mapstruct.org/documentation/stable/reference/html/",
-            "支付宝文档中心 | https://opendocs.alipay.com/open/common/abilitymap",
-            "微信支付开发文档 | https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=1_1",
-            "微信开放平台 | https://open.weixin.qq.com/",
-            "微信公众平台 | https://mp.weixin.qq.com/",
-            "微信拉取用户信息 | https://wohugb.gitbooks.io/wechat/content/authorize/step_four.html",
-            "Logback文档 | http://logback.qos.ch/documentation.html",
-            "Nacos文档 | https://nacos.io/zh-cn/docs/quick-start.html",
-            "讯飞开放平台 | https://www.xfyun.cn/service/wordRecg",
-            "RabbitMQ文档 | https://www.rabbitmq.com/documentation.html",
-            "腾讯云文档中心 | https://cloud.tencent.com/document/product",
-            "spring data redis 教程 | https://www.baeldung.com/spring-data-redis-tutorial",
-            "豆瓣接口文档 | https://api.doubans.com/",
-            "OkHttp官方文档 | https://square.github.io/okhttp/",
-            "EventBus官方文档 | https://greenrobot.org/eventbus/",
-            "x-stream | http://x-stream.github.io/tutorial.html",
-            "PyGitHub | https://pygithub.readthedocs.io/en/stable/index.html"
-          
-        ]
-    },
-    {
-        "title": "工具",
-        "groupid": 8,
-        "rows": [
-            "查号吧 | https://www.chahaoba.com/",
-            "IP查询 | https://zh-hans.ipshu.com/",
-            "IT TOOLS | https://it-tools.tech/",
-            "JSON在线编辑 | https://jsoneditoronline.org/#",
-            "命令帮助 | https://commandnotfound.cn/",
-            "IPv6连接测试 | https://test-ipv6.com/index.html.zh_CN",
-            "IP在线工具箱 | https://tool.whatshub.top/",
-            "临时邮箱发邮件 | https://anonymousemail.me/",
-            "正则校验101 | https://regex101.com/",
-            "IP查询 | https://ip.ainou.moe/",
-            "开源中国在线工具 | https://tool.oschina.net/",
-            "临时邮箱 | https://www.emailnator.com/",
-            "Software Heritage 软件遗产 | https://archive.softwareheritage.org/browse/search/",
-            "Online Wget | https://wget.alanreed.org/",
-            "FQ工具库 | https://repo.trojan-cdn.com/",
-            "XMac.App | https://xmac.app",
-            "在问 | https://zaiwen.top/#/chat/working-edition",
-            "网页存档 | https://archive.md/",
-            "tinywow工具箱 | https://tinywow.com/",
-            "帮小忙 | https://tool.browser.qq.com/",
-            "LZL在线工具 | http://www.lzltool.com/",
-            "在线工具箱tools.fun | https://tools.fun/index.html",
-            "下载工具 | https://d.serctl.com/",
-            "iconfont | https://www.iconfont.cn/",
-            "iconhunt | https://www.iconhunt.site/",
-            "中文在线分词 | http://www.pullword.com/",
-            "开发工具集 | https://devtoolcafe.com/",
-            "爱达杂货铺 | https://adzhp.cn/",
-            "度度网(修改图片尺寸) | https://www.topdodo.com/size",
-            "MD5加密解密 | https://www.md5online.org/md5-encrypt.html",
-
-            "base64图片转换 | http://tool.css-js.com/base64.html",
-            "png压缩 | https://tinypng.com/",
-            "processon | https://www.processon.com/diagrams",
-            "iconfinder图标 | https://www.iconfinder.com/",
-            "在线格式转换 | https://www.alltoall.net/",
-            "properties To yaml | https://www.toyaml.com/index.html",
-
-            "cheatsheets | https://devhints.io/",
-            "PPT图片素材 | https://undraw.co/illustrations",
-            "表格格式转换 | https://tableconvert.com/",
-
-            "华佗诊断分析系统 | https://ping.huatuo.qq.com/",
-            "ip反查 | https://dns.aizhan.com/",
-            "端口联通检测 | http://port.ping.pe/",
-            "在线工具jsons.cn | http://www.jsons.cn/",
-            "Linux命令搜索 | https://wangchujiang.com/linux-command/",
-            "在线工具tool.lu | https://tool.lu/",
-            "codebeautify | https://codebeautify.org/",
-            "在线PDF工具 | https://tools.pdf24.org/zh/",
-            "查错工具网 | http://24log.chacuo.net/",
-            "短链接 | https://sina.lt/index.html",
-            "Chrome 插件下载 | https://crxdl.com/",
-            "编程字体 在线选择 | https://www.codingfont.com/",
-            "v2ray文档 | https://www.v2ray.com/",
-            "国家区域代码缩写 | http://www.sol.com.cn/tool/guojia.html",
-            "Extract Pics | https://extract.pics/",
-            "微信公众平台接口调试 | https://mp.weixin.qq.com/debug/",
-            "企业微信接口签名校验 | https://work.weixin.qq.com/api/jsapisign",
-            "websocket 在线测试 | http://coolaf.com/tool/chattest",
-            "SSL证书验证工具 | https://www.dute.org/ssl-validate",
-            "SSL证书在线检测工具 | https://csr.chinassl.net/ssl-checker.html",
-            "在线生成公钥私钥对 | http://www.metools.info/code/c80.html",
-            "在线RSA加密解密 | https://the-x.cn/cryptography/Rsa.aspx",
-            "httpbin | http://www.httpbin.org/",
-            "DNS查询 | https://ipw.cn/dns/",
-            "TXT文本处理工具 | http://www.txttool.com/",
-            "通用user agent列表 | https://www.useragents.me/",
-            "查看我的IP地址 | https://ip.skk.moe",
-            "阿里云漏洞库 | https://avd.aliyun.com/",
-            "ip反查域名 | https://www.dnsgrep.cn/ip",
-            "ChatGPT指令大全 | https://www.explainthis.io/zh-hans/chatgpt",
-            "Wappalyzer 查询网站的技术栈 | https://www.wappalyzer.com/",
-            "IP查询 | https://ip.im/",
-            "设备分辨率 | https://yesviz.com/viewport/",
-            "手机屏幕尺寸大全 | https://uiiiuiii.com/screen/index.htm",
-            "m3u8在线播放器 | http://m3u8player.org/"
-        ]
-    }
+  {
+    "title": "在线文档",
+    "groupid": 2,
+    "rows": [
+      "cheatsheets | https://devhints.io/",
+      "Java全栈知识体系 | https://pdai.tech/",
+      "开发文档 | https://devdocs.io/",
+      "微信公众平台 | https://mp.weixin.qq.com/",
+      "微信官方文档 | https://developers.weixin.qq.com/doc/",
+      "微信开放平台 | https://open.weixin.qq.com/",
+      "微信拉取用户信息 | https://wohugb.gitbooks.io/wechat/content/authorize/step_four.html",
+      "微信支付开发文档 | https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=1_1",
+      "企业微信接口签名校验 | https://work.weixin.qq.com/api/jsapisign",
+      "微信公众平台接口调试 | https://mp.weixin.qq.com/debug/",
+      "技术文章摘抄 | http://learn.lianglianglee.com/",
+      "支付宝文档中心 | https://opendocs.alipay.com/open/common/abilitymap",
+      "腾讯云文档中心 | https://cloud.tencent.com/document/product"
+    ]
+  },
+  {
+    "title": "搜索引擎",
+    "groupid": 3,
+    "rows": [
+      "TelegramFind | https://telegramfind.com/",
+      "聚合:资源收藏夹 | https://zyscj.com/",
+      "AI图片分享 | https://aiuphouse.com/",
+      "书籍搜索 | https://tool.ssdown.org/",
+      "电报搜索 | https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
+      "Android 源码搜索 | https://cs.android.com/?hl=zh-cn"
+    ]
+  },
+  {
+    "title": "娱乐资源",
+    "groupid": 4,
+    "rows": [
+      "雀魂麻将👍 | https://game.maj-soul.com/1/",
+      "星火资源 | https://docs.qq.com/sheet/DSndLS0xUaG9WS1Fm?tab=BB08J2",
+      "小纸条 | https://ali.gitcafe.ink/"
+    ]
+  },
+  {
+    "title": "软件服务",
+    "groupid": 6,
+    "rows": [
+      "XMac.App | https://xmac.app",
+      "Light Tools 软件服务推荐 | https://app.lighttools.net/",
+      "爬墙工具库 | https://repo.trojan-cdn.com/"
+    ]
+  },
+  {
+    "title": "工具",
+    "groupid": 8,
+    "rows": [
+      "墙不墙 | https://downforeveryoneorjustme.com/",
+      "网络剪贴板 | https://netcut.cn/",
+      "ChatGPT指令大全 | https://www.explainthis.io/zh-hans/chatgpt",
+      "Chrome 插件下载 | https://crxdl.com/",
+      "IP:DNS查询 | https://ipw.cn/dns/",
+      "IP查询 | https://zh-hans.ipshu.com/",
+      "IP反查域名 | https://www.dnsgrep.cn/ip",
+      "IPv6连接测试 | https://test-ipv6.com/index.html.zh_CN",
+      "IP在线工具箱 | https://tool.whatshub.top/",
+      "IP查询 | https://ip.ainou.moe/",
+      "聚合:IT TOOLS | https://it-tools.tech/",
+      "Linux命令搜索 | https://wangchujiang.com/linux-command/",
+      "MD5加密解密 | https://www.md5online.org/md5-encrypt.html",
+      "Online Wget | https://wget.alanreed.org/",
+      "SSL证书在线检测工具 | https://csr.chinassl.net/ssl-checker.html",
+      "SSL证书验证工具 | https://www.dute.org/ssl-validate",
+      "httpbin | http://www.httpbin.org/",
+      "图标:iconfinder | https://www.iconfinder.com/",
+      "图标:iconfont | https://www.iconfont.cn/",
+      "图标:iconhunt | https://www.iconhunt.site/",
+      "IP反查 | https://dns.aizhan.com/",
+      "m3u8在线播放器 | http://m3u8player.org/",
+      "下载工具 | https://d.serctl.com/",
+      "临时邮箱 | https://www.emailnator.com/",
+      "command命令帮助 | https://commandnotfound.cn/",
+      "在线RSA加密解密 | https://the-x.cn/cryptography/Rsa.aspx",
+      "在线生成公钥私钥对 | http://www.metools.info/code/c80.html",
+      "开发工具集 | https://devtoolcafe.com/",
+      "查号吧 | https://www.chahaoba.com/",
+      "查看我的IP地址 | https://ip.skk.moe",
+      "查错工具网 | http://24log.chacuo.net/",
+      "正则校验101 | https://regex101.com/",
+      "聚合|爱达杂货铺 | https://adzhp.cn/",
+      "短链接 | https://sina.lt/index.html",
+      "IP:端口连通检测 | http://port.ping.pe/",
+      "网页存档 | https://archive.md/",
+      "阿里云漏洞库 | https://avd.aliyun.com/"
+    ]
+  }
 ]
