@@ -20,7 +20,7 @@ module.exports = function(option) {
             '                <%if(i < obj.limit){ %>'+
             '                <li style="padding:8px">'+
             '                  <span >'+
-            '                    <a data-on="?m=<%=config.isEnv ? "goEnv" : "go"%>&target=_blank" data-url="<%=list[i].href%>" title="<%=list[i].title%>">'+
+            '                    <a data-on="?m=<%=config.isEnv ? "goEnv" : "go"%>&target=_blank" data-url="<%=list[i].href%>" title="<%=list[i].title%> <%=list[i].href%>">'+
             '                      <img style="height:16px; width:16px" src="<%=list[i].favicon%>" onerror="this.src=&apos;favicon/favicon.ico&apos;">  </img><%=list[i].name%>'+
             '                    </a>'+
             '                  </span>' +
@@ -29,7 +29,7 @@ module.exports = function(option) {
             '                <%} else {%>'+
             '                <li style="padding:8px" class="expand am-hide" >'+
             '                  <span >'+
-            '                    <a data-on="?m=<%=config.isEnv ? "goEnv" : "go"%>&target=_blank" data-url="<%=list[i].href%>" title="<%=list[i].title%>">'+
+            '                    <a data-on="?m=<%=config.isEnv ? "goEnv" : "go"%>&target=_blank" data-url="<%=list[i].href%>" title="<%=list[i].title%> <%=list[i].href%>">'+
             '                      <img style="height:16px; width:16px" src="<%=list[i].favicon%>" onerror="this.src=&apos;favicon/favicon.ico&apos;">  </img><%=list[i].name%>'+
             '                    </a>'+
             '                  </span>' +
