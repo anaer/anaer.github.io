@@ -19,8 +19,10 @@
     "groupid": 2,
     "rows": [
       "cheatsheets | https://devhints.io/",
-      "Java全栈知识体系 | https://pdai.tech/",
+
       "开发文档 | https://devdocs.io/",
+      "技术文章摘抄 | http://learn.lianglianglee.com/",
+      "Java全栈知识体系 | https://pdai.tech/",
       "微信公众平台 | https://mp.weixin.qq.com/",
       "微信官方文档 | https://developers.weixin.qq.com/doc/",
       "微信开放平台 | https://open.weixin.qq.com/",
@@ -28,7 +30,7 @@
       "微信支付开发文档 | https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=1_1",
       "企业微信接口签名校验 | https://work.weixin.qq.com/api/jsapisign",
       "微信公众平台接口调试 | https://mp.weixin.qq.com/debug/",
-      "技术文章摘抄 | http://learn.lianglianglee.com/",
+
       "支付宝文档中心 | https://opendocs.alipay.com/open/common/abilitymap",
       "腾讯云文档中心 | https://cloud.tencent.com/document/product",
       "正则表达式文档 | https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md"
@@ -38,6 +40,7 @@
     "title": "搜索引擎",
     "groupid": 3,
     "rows": [
+      "秘塔AI搜索 | https://metaso.cn/",
       "TelegramFind | https://telegramfind.com/",
       "聚合:资源收藏夹 | https://zyscj.com/",
       "AI图片分享 | https://aiuphouse.com/",
