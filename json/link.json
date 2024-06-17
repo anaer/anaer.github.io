@@ -4,13 +4,10 @@
     "groupid": 1,
     "rows": [
       "编辑此页 | https://github.com/anaer/anaer.github.io/edit/master/json/link.json",
-      "Kimi.ai | https://kimi.moonshot.cn/",
       "Github | https://github.com/dashboard-feed",
-      "ChatGPT | https://chat.openai.com/",
       "V2EX | https://www.v2ex.com/",
       "万年历 | https://wannianli.tianqi.com/",
-      "维基百科 | https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5",
-      "Gmail | https://mail.google.com/mail/u/0/#inbox"
+      "维基百科 | https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
     ]
   },
 
@@ -40,12 +37,8 @@
     "title": "搜索引擎",
     "groupid": 3,
     "rows": [
-      "秘塔AI搜索 | https://metaso.cn/",
-      "TelegramFind | https://telegramfind.com/",
       "聚合:资源收藏夹 | https://zyscj.com/",
-      "AI图片分享 | https://aiuphouse.com/",
       "书籍搜索 | https://tool.ssdown.org/",
-      "电报搜索 | https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
       "Android 源码搜索 | https://cs.android.com/?hl=zh-cn"
     ]
   },
@@ -62,7 +55,6 @@
     "title": "软件服务",
     "groupid": 6,
     "rows": [
-      "XMac.App | https://xmac.app",
       "Light Tools 软件服务推荐 | https://app.lighttools.net/",
       "爬墙工具库 | https://repo.trojan-cdn.com/"
     ]
@@ -106,7 +98,6 @@
       "聚合|爱达杂货铺 | https://adzhp.cn/",
       "短链接 | https://sina.lt/index.html",
       "IP:端口连通检测 | http://port.ping.pe/",
-      "网页存档 | https://archive.md/",
       "阿里云漏洞库 | https://avd.aliyun.com/"
     ]
   }
