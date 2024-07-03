@@ -3,10 +3,12 @@ name: get favicon
 # 触发条件
 on:
   workflow_dispatch:
-  push:
-    branches: [master]
-    paths:
-      - "json/link.json"
+#  push:
+#    branches: [master]
+#    paths:
+#      - "json/link.json"
+  schedule:
+    - cron: '0 0 1 * *'
 
 jobs:
   deploy:
