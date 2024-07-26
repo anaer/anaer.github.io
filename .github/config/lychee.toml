@@ -79,6 +79,7 @@ headers = []
 exclude = [
     "developer.aliyun.com/*",
     "mirrors.ustc.edu.cn/*",
+    "site.ip138.com",
 ]
 
 # Exclude URLs contained in a file from checking
