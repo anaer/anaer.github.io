@@ -78,6 +78,7 @@
     "title": "工具",
     "groupid": 8,
     "rows": [
+      "正则可视化 | https://regex-vis.com/",
       "免费公共API | https://www.freepublicapis.com/",
       "JS混淆还原工具 | https://tool.lu/js",
       "JS混淆解码 | https://lelinhtinh.github.io/de4js/",
