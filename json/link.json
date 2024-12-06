@@ -22,7 +22,6 @@
       "Awesome-Redteam | https://github.com/Threekiii/Awesome-Redteam/blob/master/README.md",
 
       "开发文档 | https://devdocs.io/",
-      "技术文章摘抄 | http://learn.lianglianglee.com/",
       "Java全栈知识体系 | https://pdai.tech/",
       "微信公众平台 | https://mp.weixin.qq.com/",
       "微信官方文档 | https://developers.weixin.qq.com/doc/",
@@ -41,13 +40,10 @@
     "title": "搜索引擎",
     "groupid": 3,
     "rows": [
-      "千帆搜索 | https://pan.qianfan.app/",
+      "千帆网盘搜索 | https://pan.qianfan.app/",
       "SourceGraph | https://sourcegraph.com/search",
       "grep.app搜索 | https://grep.app/",
-      "电子书搜索 | https://book.tstrs.me/",
-      "播客搜索 | https://pod.link/",
-      "中文播客榜 | https://xyzrank.com/#/",
-      "TVBox源 | https://tvbox.wpcoder.cn/"
+      "电子书搜索 | https://book.tstrs.me/"
     ]
   },
   {
