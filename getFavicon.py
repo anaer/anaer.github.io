@@ -33,5 +33,6 @@ for json_obj in json_array:
         if os.path.isfile('favicon/'+domain+'.ico'):
             continue
         # savePoint(httpUrl+'/favicon.ico', domain+'.ico')
-        savePoint('https://www.google.com/s2/favicons?domain='+httpUrl, domain+'.ico')
+        # savePoint('https://www.google.com/s2/favicons?domain='+httpUrl, domain+'.ico')
         # savePoint('https://statics.dnspod.cn/proxy_favicon/_/favicon?domain='+domain, domain+'.ico')
+        savePoint('https://favicon.im/'+httpUrl, domain+'.ico')
